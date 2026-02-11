@@ -19,6 +19,9 @@ website/.next/
 website/out/
 website/.env*.local
 
+# Claude Code
+.claude/
+
 # IDE
 .vscode/
 .idea/
