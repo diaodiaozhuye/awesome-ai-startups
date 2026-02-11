@@ -1,7 +1,6 @@
 # AI 公司目录
 
 [![Daily Scrape](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml/badge.svg)](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml)
-[![Deploy Pages](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/deploy-pages.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 [English](README.md) | 中文
@@ -10,14 +9,20 @@
 
 - **数据即代码**：每个公司是 `data/companies/` 中的一个 JSON 文件，Git 版本控制，完整历史记录
 - **自动更新**：Python 爬虫通过 GitHub Actions 每日运行，发现新公司并丰富已有数据
-- **静态网站**：Next.js 静态站点部署到 GitHub Pages，支持搜索、筛选、对比和数据分析
+- **静态网站**：Next.js 静态站点用于本地或自定义部署，支持搜索、筛选、对比和数据分析
 - **社区驱动**：通过 Pull Request 添加公司或数据源
 
 ## 快速开始
 
 ### 浏览数据
 
-访问网站：**[ai-company-directory.github.io/ai-company-directory](https://ai-company-directory.github.io/ai-company-directory)**
+本地运行网站：
+
+```bash
+cd website
+npm install
+npm run dev
+```
 
 或直接浏览 [`data/companies/`](data/companies/) 中的 JSON 文件。
 

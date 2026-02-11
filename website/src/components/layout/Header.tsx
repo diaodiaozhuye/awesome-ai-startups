@@ -17,8 +17,7 @@ interface HeaderProps {
 }
 
 export function Header({ locale, dict }: HeaderProps) {
-  const basePath = "/ai-company-directory";
-  const prefix = `${basePath}/${locale}`;
+  const prefix = `/${locale}`;
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">

@@ -9,10 +9,9 @@ interface LanguageSwitcherProps {
 
 export function LanguageSwitcher({ locale }: LanguageSwitcherProps) {
   const pathname = usePathname();
-  const basePath = "/ai-company-directory";
 
   const switchTo = locale === "en" ? "zh" : "en";
-  const newPath = pathname.replace(`${basePath}/${locale}`, `${basePath}/${switchTo}`);
+  const newPath = pathname.replace(/^\/(en|zh)(?=\/|$)/, `/${switchTo}`);
 
   return (
     <a

@@ -11,14 +11,13 @@ interface CompanyCardProps {
 }
 
 export function CompanyCard({ company, locale }: CompanyCardProps) {
-  const basePath = "/ai-company-directory";
   const name = locale === "zh" && company.name_zh ? company.name_zh : company.name;
   const description = locale === "zh" && company.description_zh
     ? company.description_zh
     : company.description;
 
   return (
-    <Link href={`${basePath}/${locale}/companies/${company.slug}`}>
+    <Link href={`/${locale}/companies/${company.slug}`}>
       <Card hover className="h-full flex flex-col">
         <div className="flex items-start justify-between gap-2">
           <h3 className="font-semibold text-lg">{name}</h3>

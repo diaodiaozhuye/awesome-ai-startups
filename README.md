@@ -1,21 +1,26 @@
 # AI Company Directory
 
 [![Daily Scrape](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml/badge.svg)](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml)
-[![Deploy Pages](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/deploy-pages.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 An **open-source, Git-native data repository** tracking AI startups and companies worldwide.
 
 - **Data as Code**: Each company is a JSON file in `data/companies/`, version-controlled with full Git history
 - **Automated Updates**: Python scrapers run daily via GitHub Actions, discovering new companies and enriching existing data
-- **Static Website**: Next.js static site deployed to GitHub Pages with search, filtering, comparison, and analytics
+- **Static Website**: Next.js static site for local or custom-hosted use with search, filtering, comparison, and analytics
 - **Community-Driven**: Add companies or data sources via Pull Requests
 
 ## Quick Start
 
 ### Browse the Data
 
-Visit the website: **[ai-company-directory.github.io/ai-company-directory](https://ai-company-directory.github.io/ai-company-directory)**
+Run the website locally:
+
+```bash
+cd website
+npm install
+npm run dev
+```
 
 Or browse the raw JSON files in [`data/companies/`](data/companies/).
 
@@ -123,7 +128,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
 | Search | Fuse.js (client-side) |
 | Charts | Recharts |
 | CI/CD | GitHub Actions |
-| Hosting | GitHub Pages |
+| Hosting | Local / Custom Hosting |
 
 ## License
 

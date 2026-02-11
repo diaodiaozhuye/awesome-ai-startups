@@ -13,7 +13,6 @@ interface CompanyDetailProps {
 
 export function CompanyDetail({ company, locale, dict }: CompanyDetailProps) {
   const t = dict.company;
-  const basePath = "/ai-company-directory";
   const name = locale === "zh" && company.name_zh ? company.name_zh : company.name;
   const description = locale === "zh" && company.description_zh
     ? company.description_zh
@@ -22,7 +21,7 @@ export function CompanyDetail({ company, locale, dict }: CompanyDetailProps) {
   return (
     <div className="max-w-4xl mx-auto">
       <Link
-        href={`${basePath}/${locale}`}
+        href={`/${locale}`}
         className="text-sm text-primary hover:underline mb-6 inline-block"
       >
         &larr; {t.back_to_list}
