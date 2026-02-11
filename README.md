@@ -16,7 +16,9 @@ An **open-source, Git-native data repository** tracking AI startups and companie
 
 ### Browse the Data
 
-Run the website locally:
+**Live Demo**: [awesome-ai-startups.vercel.app](https://awesome-ai-startups.vercel.app/en)
+
+Or run the website locally:
 
 ```bash
 cd website

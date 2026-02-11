@@ -16,7 +16,9 @@
 
 ### 浏览数据
 
-本地运行网站：
+**在线访问**：[awesome-ai-startups.vercel.app](https://awesome-ai-startups.vercel.app/zh)
+
+或本地运行网站：
 
 ```bash
 cd website
