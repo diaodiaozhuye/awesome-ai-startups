@@ -111,9 +111,13 @@ export function CompanyGrid({ companies, categories, locale, dict }: CompanyGrid
         <p className="text-center text-muted-foreground py-12">{dict.home.no_results}</p>
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {paged.map((company) => (
-            <CompanyCard key={company.slug} company={company} locale={locale} />
-          ))}
+          {paged.map((company) => {
+            const cat = categories.find((c) => c.id === company.category);
+            const catLabel = cat ? (locale === "zh" ? cat.name_zh : cat.name) : undefined;
+            return (
+              <CompanyCard key={company.slug} company={company} locale={locale} categoryLabel={catLabel} />
+            );
+          })}
         </div>
       )}
 

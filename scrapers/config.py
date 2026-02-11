@@ -31,6 +31,6 @@ JOB_SCRAPER_MAX_JOBS_PER_KEYWORD = 20
 
 # User agent for HTTP requests
 USER_AGENT = (
-    "AICompanyDirectory/0.1 "
-    "(https://github.com/ai-company-directory; open-source project)"
+    "AIProductData/0.1 "
+    "(https://github.com/diaodiaozhuye/awesome-ai-startups; open-source project)"
 )

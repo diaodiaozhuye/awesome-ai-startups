@@ -1,6 +1,6 @@
-# AI Company Directory
+# AI Product Data
 
-[![Daily Scrape](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml/badge.svg)](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml)
+[![Daily Scrape](https://github.com/diaodiaozhuye/awesome-ai-startups/actions/workflows/daily-scrape.yml/badge.svg)](https://github.com/diaodiaozhuye/awesome-ai-startups/actions/workflows/daily-scrape.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 English | [中文](README_ZH.md)
@@ -62,7 +62,7 @@ npx serve out    # Preview locally
 ## Project Structure
 
 ```
-ai-company-directory/
+awesome-ai-startups/
 ├── data/
 │   ├── companies/          # One JSON file per company (28 seed companies)
 │   ├── schema/             # JSON Schema definition

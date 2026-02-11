@@ -44,7 +44,9 @@
   "products": [
     {
       "name": "Baichuan-2",
+      "name_zh": "百川-2",
       "description": "Open-source large language model",
+      "description_zh": "开源大语言模型",
       "url": "https://github.com/baichuan-inc/Baichuan2"
     }
   ],

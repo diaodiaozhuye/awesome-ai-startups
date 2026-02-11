@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-AI Company Directory — an open-source, Git-native data repository tracking AI startups worldwide. Three layers: JSON data files, Python scraper/CLI tooling, and a Next.js static website.
+AI Product Data — an open-source, Git-native data repository tracking AI startups worldwide. Three layers: JSON data files, Python scraper/CLI tooling, and a Next.js static website.
 
 ## Commands
 

@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "AI 公司目录",
-    "description": "全球 AI 创业公司和企业的开源目录"
+    "title": "AI 产品数据",
+    "description": "全球 AI 产品和企业的开源数据库"
   },
   "nav": {
     "home": "首页",
@@ -11,8 +11,8 @@
     "github": "GitHub"
   },
   "home": {
-    "hero_title": "AI 公司目录",
-    "hero_subtitle": "收录全球 {count} 家 AI 创业公司和企业的开源目录",
+    "hero_title": "AI 产品数据",
+    "hero_subtitle": "收录全球 {count} 个 AI 产品和企业的开源数据库",
     "filter_all": "全部",
     "sort_by": "排序",
     "sort_funding": "融资额",
@@ -34,6 +34,8 @@
     "social": "社交链接",
     "open_source": "开源",
     "tags": "标签",
+    "overview": "概览",
+    "visit": "访问",
     "visit_website": "访问官网",
     "status": "状态",
     "data_sources": "数据来源",

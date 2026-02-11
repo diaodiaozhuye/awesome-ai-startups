@@ -1,6 +1,6 @@
 # Contributing Guide
 
-Thank you for your interest in contributing to the AI Company Directory!
+Thank you for your interest in contributing to AI Product Data!
 
 ## Ways to Contribute
 
@@ -69,8 +69,8 @@ Use the issue templates to report:
 
 ```bash
 # Clone
-git clone https://github.com/ai-company-directory/ai-company-directory.git
-cd ai-company-directory
+git clone https://github.com/diaodiaozhuye/awesome-ai-startups.git
+cd awesome-ai-startups
 
 # Python setup
 pip install -e ".[dev]"
@@ -98,4 +98,4 @@ cd website && npm install && npm run dev
 2. Data PRs are reviewed for accuracy
 3. Code PRs are reviewed for quality
 
-Thank you for helping build the most comprehensive open-source AI company directory!
+Thank you for helping build the most comprehensive open-source AI product dataset!

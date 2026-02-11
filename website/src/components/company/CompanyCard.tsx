@@ -8,9 +8,10 @@ import type { CompanyIndexEntry, Locale } from "@/lib/types";
 interface CompanyCardProps {
   company: CompanyIndexEntry;
   locale: Locale;
+  categoryLabel?: string;
 }
 
-export function CompanyCard({ company, locale }: CompanyCardProps) {
+export function CompanyCard({ company, locale, categoryLabel }: CompanyCardProps) {
   const name = locale === "zh" && company.name_zh ? company.name_zh : company.name;
   const description = locale === "zh" && company.description_zh
     ? company.description_zh
@@ -31,7 +32,7 @@ export function CompanyCard({ company, locale }: CompanyCardProps) {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2">
-          <Badge variant="primary">{company.category.replace(/-/g, " ")}</Badge>
+          <Badge variant="primary">{categoryLabel || company.category.replace(/-/g, " ")}</Badge>
           {company.last_round && <FundingBadge round={company.last_round} />}
         </div>
 

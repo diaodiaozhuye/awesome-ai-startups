@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ai-company-directory"
+name = "ai-product-data"
 version = "0.1.0"
 description = "Open-source AI startup data repository with automated scrapers"
 readme = "README.md"
@@ -19,11 +19,15 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+browser = [
+    "playwright>=1.40",
+]
 dev = [
     "pytest>=8.0",
     "pytest-cov>=5.0",
     "ruff>=0.4",
     "mypy>=1.10",
+    "playwright>=1.40",
 ]
 
 [project.scripts]

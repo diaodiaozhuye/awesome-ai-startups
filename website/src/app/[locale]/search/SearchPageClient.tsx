@@ -78,6 +78,7 @@ export function SearchPageClient({
       <SearchResults
         results={results}
         locale={locale}
+        categories={categories}
         noResultsText={dict.search.no_results}
         resultsText={dict.search.results}
       />

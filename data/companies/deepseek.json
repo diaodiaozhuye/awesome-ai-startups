@@ -39,12 +39,16 @@
   "products": [
     {
       "name": "DeepSeek-V3",
+      "name_zh": "DeepSeek-V3",
       "description": "Open-source large language model",
+      "description_zh": "开源大语言模型",
       "url": "https://www.deepseek.com"
     },
     {
       "name": "DeepSeek Coder",
+      "name_zh": "DeepSeek Coder",
       "description": "Code generation model",
+      "description_zh": "代码生成模型",
       "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
     }
   ],

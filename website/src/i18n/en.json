@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "AI Company Directory",
-    "description": "Open-source directory of AI startups and companies worldwide"
+    "title": "AI Product Data",
+    "description": "Open-source data repository of AI products and companies worldwide"
   },
   "nav": {
     "home": "Home",
@@ -11,8 +11,8 @@
     "github": "GitHub"
   },
   "home": {
-    "hero_title": "AI Company Directory",
-    "hero_subtitle": "Open-source directory of {count} AI startups and companies worldwide",
+    "hero_title": "AI Product Data",
+    "hero_subtitle": "Open-source data repository of {count} AI products and companies worldwide",
     "filter_all": "All",
     "sort_by": "Sort by",
     "sort_funding": "Funding",
@@ -34,6 +34,8 @@
     "social": "Social Links",
     "open_source": "Open Source",
     "tags": "Tags",
+    "overview": "Overview",
+    "visit": "Visit",
     "visit_website": "Visit Website",
     "status": "Status",
     "data_sources": "Data Sources",

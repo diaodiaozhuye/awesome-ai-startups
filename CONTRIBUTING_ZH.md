@@ -1,6 +1,6 @@
 # 贡献指南
 
-感谢你对 AI 公司目录项目的关注！
+感谢你对 AI 产品数据项目的关注！
 
 ## 贡献方式
 
@@ -69,8 +69,8 @@ npm run build  # 生产构建
 
 ```bash
 # 克隆
-git clone https://github.com/ai-company-directory/ai-company-directory.git
-cd ai-company-directory
+git clone https://github.com/diaodiaozhuye/awesome-ai-startups.git
+cd awesome-ai-startups
 
 # Python 环境
 pip install -e ".[dev]"
@@ -92,4 +92,4 @@ cd website && npm install && npm run dev
 - **数据**：必须通过 JSON Schema 校验
 - **提交**：约定式提交（feat:, fix:, chore:, docs:）
 
-感谢你帮助构建最全面的开源 AI 公司目录！
+感谢你帮助构建最全面的开源 AI 产品数据集！

@@ -43,7 +43,9 @@
   "products": [
     {
       "name": "Kimi",
+      "name_zh": "Kimi",
       "description": "Long-context AI assistant",
+      "description_zh": "长上下文 AI 助手",
       "url": "https://kimi.moonshot.cn"
     }
   ],

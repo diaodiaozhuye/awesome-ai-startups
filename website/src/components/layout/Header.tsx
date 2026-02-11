@@ -45,7 +45,7 @@ export function Header({ locale, dict }: HeaderProps) {
           <div className="flex items-center gap-4">
             <LanguageSwitcher locale={locale} />
             <a
-              href="https://github.com/ai-company-directory"
+              href="https://github.com/diaodiaozhuye/awesome-ai-startups"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"

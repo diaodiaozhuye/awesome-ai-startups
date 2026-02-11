@@ -1,4 +1,4 @@
-"""CLI entry point for the AI Company Directory scraper tools."""
+"""CLI entry point for the AI Product Data scraper tools."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from scrapers.config import COMPANIES_DIR
 
 @click.group()
 def cli() -> None:
-    """AI Company Directory - Scraper & Data Management CLI."""
+    """AI Product Data - Scraper & Data Management CLI."""
 
 
 @cli.command()

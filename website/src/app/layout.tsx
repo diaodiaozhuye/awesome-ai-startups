@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Company Directory",
-  description: "Open-source directory of AI startups and companies worldwide",
+  title: "AI Product Data",
+  description: "Open-source data repository of AI startups and companies worldwide",
 };
 
 export default function RootLayout({

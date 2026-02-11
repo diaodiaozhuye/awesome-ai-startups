@@ -33,7 +33,9 @@ export interface Social {
 
 export interface Product {
   name: string;
+  name_zh?: string;
   description?: string;
+  description_zh?: string;
   url?: string;
 }
 

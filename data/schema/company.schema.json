@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/ai-company-directory/data/schema/company.schema.json",
+  "$id": "https://github.com/diaodiaozhuye/awesome-ai-startups/data/schema/company.schema.json",
   "title": "AI Company",
   "description": "Schema for an AI company entry in the directory",
   "type": "object",
@@ -142,7 +142,9 @@
         "additionalProperties": false,
         "properties": {
           "name": { "type": "string" },
+          "name_zh": { "type": "string" },
           "description": { "type": "string" },
+          "description_zh": { "type": "string" },
           "url": { "type": "string", "format": "uri" }
         }
       }

@@ -9,9 +9,10 @@ interface CompanyDetailProps {
   company: Company;
   locale: Locale;
   dict: any;
+  categoryLabel?: string;
 }
 
-export function CompanyDetail({ company, locale, dict }: CompanyDetailProps) {
+export function CompanyDetail({ company, locale, dict, categoryLabel }: CompanyDetailProps) {
   const t = dict.company;
   const name = locale === "zh" && company.name_zh ? company.name_zh : company.name;
   const description = locale === "zh" && company.description_zh
@@ -46,7 +47,7 @@ export function CompanyDetail({ company, locale, dict }: CompanyDetailProps) {
       {/* Tags */}
       {company.tags && company.tags.length > 0 && (
         <div className="flex flex-wrap gap-2 mb-8">
-          <Badge variant="primary">{company.category.replace(/-/g, " ")}</Badge>
+          <Badge variant="primary">{categoryLabel || company.category.replace(/-/g, " ")}</Badge>
           {company.tags.map((tag) => (
             <Badge key={tag}>{tag}</Badge>
           ))}
@@ -60,7 +61,7 @@ export function CompanyDetail({ company, locale, dict }: CompanyDetailProps) {
       <div className="grid gap-6 md:grid-cols-2">
         {/* Overview */}
         <Card>
-          <h2 className="font-semibold text-lg mb-4">Overview</h2>
+          <h2 className="font-semibold text-lg mb-4">{t.overview}</h2>
           <dl className="space-y-3 text-sm">
             <div className="flex justify-between">
               <dt className="text-muted-foreground">{t.founded}</dt>
@@ -148,26 +149,30 @@ export function CompanyDetail({ company, locale, dict }: CompanyDetailProps) {
           <Card>
             <h2 className="font-semibold text-lg mb-4">{t.products}</h2>
             <ul className="space-y-3">
-              {company.products.map((p) => (
-                <li key={p.name} className="text-sm">
-                  <div className="flex items-center justify-between">
-                    <span className="font-medium">{p.name}</span>
-                    {p.url && (
-                      <a
-                        href={p.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-primary hover:underline text-xs"
-                      >
-                        Visit
-                      </a>
+              {company.products.map((p) => {
+                const productName = locale === "zh" && p.name_zh ? p.name_zh : p.name;
+                const productDesc = locale === "zh" && p.description_zh ? p.description_zh : p.description;
+                return (
+                  <li key={p.name} className="text-sm">
+                    <div className="flex items-center justify-between">
+                      <span className="font-medium">{productName}</span>
+                      {p.url && (
+                        <a
+                          href={p.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-primary hover:underline text-xs"
+                        >
+                          {t.visit}
+                        </a>
+                      )}
+                    </div>
+                    {productDesc && (
+                      <p className="text-muted-foreground mt-0.5">{productDesc}</p>
                     )}
-                  </div>
-                  {p.description && (
-                    <p className="text-muted-foreground mt-0.5">{p.description}</p>
-                  )}
-                </li>
-              ))}
+                  </li>
+                );
+              })}
             </ul>
           </Card>
         )}

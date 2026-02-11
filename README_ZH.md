@@ -1,6 +1,6 @@
-# AI 公司目录
+# AI 产品数据
 
-[![Daily Scrape](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml/badge.svg)](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml)
+[![Daily Scrape](https://github.com/diaodiaozhuye/awesome-ai-startups/actions/workflows/daily-scrape.yml/badge.svg)](https://github.com/diaodiaozhuye/awesome-ai-startups/actions/workflows/daily-scrape.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 [English](README.md) | 中文

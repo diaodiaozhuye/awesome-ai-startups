@@ -1,4 +1,4 @@
-"""AI Company Directory - Scrapers package."""
+"""AI Product Data - Scrapers package."""
 
 from scrapers.base import BaseScraper, ScrapedCompany
 

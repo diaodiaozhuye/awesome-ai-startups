@@ -43,12 +43,16 @@
   "products": [
     {
       "name": "GLM-4",
+      "name_zh": "GLM-4",
       "description": "Large language model",
+      "description_zh": "大语言模型",
       "url": "https://open.bigmodel.cn"
     },
     {
       "name": "ChatGLM",
+      "name_zh": "ChatGLM",
       "description": "Open-source conversational model",
+      "description_zh": "开源对话模型",
       "url": "https://github.com/THUDM/ChatGLM-6B"
     }
   ],
