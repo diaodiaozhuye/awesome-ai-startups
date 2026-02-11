@@ -36,8 +36,6 @@ export function CompanyDetail({ company, locale, dict, categoryLabel }: CompanyD
         </div>
         <a
           href={company.website}
-          target="_blank"
-          rel="noopener noreferrer"
           className="shrink-0 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
         >
           {t.visit_website}
