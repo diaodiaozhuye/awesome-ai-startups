@@ -1,0 +1,28 @@
+{
+  "slug": "pytorch",
+  "name": "pytorch",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "website": "https://pytorch.org",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "where the eigens are valued",
+    "country": "Unknown"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://github.com/pytorch"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "open-source"
+  ],
+  "social": {
+    "github": "https://github.com/pytorch"
+  },
+  "open_source": true,
+  "status": "active"
+}

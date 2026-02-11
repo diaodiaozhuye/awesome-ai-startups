@@ -1,14 +1,22 @@
 {
-  "generated_at": "2026-02-11",
-  "total_companies": 28,
+  "generated_at": "2026-02-12",
+  "total_companies": 106,
   "by_category": [
     {
+      "label": "ai-other",
+      "count": 68
+    },
+    {
       "label": "llm-foundation-model",
-      "count": 7
+      "count": 9
     },
     {
       "label": "ai-image-video",
-      "count": 4
+      "count": 8
+    },
+    {
+      "label": "ai-infrastructure",
+      "count": 5
     },
     {
       "label": "ai-assistant",
@@ -28,10 +36,6 @@
     },
     {
       "label": "ai-audio-speech",
-      "count": 1
-    },
-    {
-      "label": "ai-infrastructure",
       "count": 1
     },
     {
@@ -57,6 +61,10 @@
   ],
   "by_country": [
     {
+      "label": "Unknown",
+      "count": 35
+    },
+    {
       "label": "United States",
       "count": 20
     },
@@ -65,7 +73,55 @@
       "count": 4
     },
     {
+      "label": "CAActively Hiring1 week ago",
+      "count": 2
+    },
+    {
       "label": "Norway",
+      "count": 1
+    },
+    {
+      "label": "DCBe an early applicant3 weeks ago",
+      "count": 1
+    },
+    {
+      "label": "WA2 weeks ago",
+      "count": 1
+    },
+    {
+      "label": "CA2 weeks ago",
+      "count": 1
+    },
+    {
+      "label": "CA2 months ago",
+      "count": 1
+    },
+    {
+      "label": "CAActively Hiring19 hours ago",
+      "count": 1
+    },
+    {
+      "label": "CA1 month ago",
+      "count": 1
+    },
+    {
+      "label": "CA4 months ago",
+      "count": 1
+    },
+    {
+      "label": "PABe an early applicant2 days ago",
+      "count": 1
+    },
+    {
+      "label": "MIBe an early applicant1 week ago",
+      "count": 1
+    },
+    {
+      "label": "WA1 year ago",
+      "count": 1
+    },
+    {
+      "label": "CAActively Hiring4 days ago",
       "count": 1
     },
     {
@@ -73,15 +129,139 @@
       "count": 1
     },
     {
+      "label": "HI7 months ago",
+      "count": 1
+    },
+    {
+      "label": "MDBe an early applicant4 days ago",
+      "count": 1
+    },
+    {
+      "label": "PAActively Hiring\n             +8 benefits2 weeks ago",
+      "count": 1
+    },
+    {
+      "label": "United StatesActively Hiring\n             +2 benefits1 week ago",
+      "count": 1
+    },
+    {
+      "label": "NCBe an early applicant1 day ago",
+      "count": 1
+    },
+    {
+      "label": "CA3 days ago",
+      "count": 1
+    },
+    {
+      "label": "TXBe an early applicant1 month ago",
+      "count": 1
+    },
+    {
+      "label": "NYActively Hiring1 week ago",
+      "count": 1
+    },
+    {
+      "label": "MA2 months ago",
+      "count": 1
+    },
+    {
+      "label": "NCActively Hiring1 week ago",
+      "count": 1
+    },
+    {
+      "label": "CA7 months ago",
+      "count": 1
+    },
+    {
+      "label": "MABe an early applicant1 week ago",
+      "count": 1
+    },
+    {
+      "label": "United States4 months ago",
+      "count": 1
+    },
+    {
       "label": "France",
+      "count": 1
+    },
+    {
+      "label": "CA3 weeks ago",
+      "count": 1
+    },
+    {
+      "label": "NY1 month ago",
+      "count": 1
+    },
+    {
+      "label": "United StatesActively Hiring2 weeks ago",
+      "count": 1
+    },
+    {
+      "label": "United StatesActively Hiring8 months ago",
+      "count": 1
+    },
+    {
+      "label": "CABe an early applicant1 month ago",
+      "count": 1
+    },
+    {
+      "label": "PA3 hours ago",
+      "count": 1
+    },
+    {
+      "label": "TXActively Hiring1 day ago",
+      "count": 1
+    },
+    {
+      "label": "NY8 months ago",
+      "count": 1
+    },
+    {
+      "label": "CABe an early applicant2 weeks ago",
+      "count": 1
+    },
+    {
+      "label": "CA1 week ago",
       "count": 1
     },
     {
       "label": "United Kingdom",
       "count": 1
+    },
+    {
+      "label": "CA2 days ago",
+      "count": 1
+    },
+    {
+      "label": "United States2 days ago",
+      "count": 1
+    },
+    {
+      "label": "CABe an early applicant6 months ago",
+      "count": 1
+    },
+    {
+      "label": "MIActively Hiring\n             +4 benefits5 days ago",
+      "count": 1
+    },
+    {
+      "label": "United StatesBe an early applicant3 weeks ago",
+      "count": 1
+    },
+    {
+      "label": "CAActively Hiring6 days ago",
+      "count": 1
+    },
+    {
+      "label": "TXActively Hiring1 year ago",
+      "count": 1
     }
   ],
   "by_founded_year": [
+    {
+      "label": "2026",
+      "count": 78
+    },
     {
       "label": "2021",
       "count": 5
@@ -126,7 +306,7 @@
   "by_status": [
     {
       "label": "active",
-      "count": 27
+      "count": 105
     },
     {
       "label": "ipo",
@@ -196,32 +376,32 @@
     }
   ],
   "total_funding_usd": 40226000000,
-  "open_source_count": 7,
+  "open_source_count": 36,
   "recently_added": [
     {
-      "slug": "1x-technologies",
-      "name": "1X Technologies",
-      "added_date": "2026-02-11"
+      "slug": "amai-gmbh",
+      "name": "AMAI GmbH",
+      "added_date": "2026-02-12"
     },
     {
-      "slug": "anthropic",
-      "name": "Anthropic",
-      "added_date": "2026-02-11"
+      "slug": "analytica",
+      "name": "Analytica",
+      "added_date": "2026-02-12"
     },
     {
-      "slug": "baichuan-ai",
-      "name": "Baichuan AI",
-      "added_date": "2026-02-11"
+      "slug": "andiamo",
+      "name": "Andiamo",
+      "added_date": "2026-02-12"
     },
     {
-      "slug": "character-ai",
-      "name": "Character.AI",
-      "added_date": "2026-02-11"
+      "slug": "apple",
+      "name": "Apple",
+      "added_date": "2026-02-12"
     },
     {
-      "slug": "cohere",
-      "name": "Cohere",
-      "added_date": "2026-02-11"
+      "slug": "arcade",
+      "name": "Arcade",
+      "added_date": "2026-02-12"
     }
   ]
 }

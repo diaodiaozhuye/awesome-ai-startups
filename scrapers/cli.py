@@ -19,7 +19,11 @@ def cli() -> None:
 @click.option(
     "--source",
     default="all",
-    help="Source to scrape: github, ycombinator, producthunt, crunchbase, techcrunch, or all",
+    help=(
+        "Source to scrape (comma-separated or 'all'): "
+        "github, ycombinator, producthunt, crunchbase, techcrunch, "
+        "indeed, aijobs, linkedin-jobs, glassdoor, zhipin, lagou, liepin"
+    ),
 )
 @click.option("--limit", default=50, help="Maximum companies to fetch per source")
 @click.option("--dry-run", is_flag=True, help="Print results without writing files")
@@ -30,11 +34,16 @@ def scrape(source: str, limit: int, dry_run: bool) -> None:
 
     if source == "all":
         scrapers_to_run = list(ALL_SCRAPERS.values())
-    elif source in ALL_SCRAPERS:
-        scrapers_to_run = [ALL_SCRAPERS[source]]
     else:
-        click.echo(f"Unknown source: {source}. Available: {', '.join(ALL_SCRAPERS)}")
-        sys.exit(1)
+        names = [s.strip() for s in source.split(",")]
+        unknown = [n for n in names if n not in ALL_SCRAPERS]
+        if unknown:
+            click.echo(
+                f"Unknown source(s): {', '.join(unknown)}. "
+                f"Available: {', '.join(ALL_SCRAPERS)}"
+            )
+            sys.exit(1)
+        scrapers_to_run = [ALL_SCRAPERS[n] for n in names]
 
     normalizer = Normalizer()
     deduplicator = Deduplicator()
@@ -77,7 +86,8 @@ def scrape(source: str, limit: int, dry_run: bool) -> None:
     # Merge
     for company in result.new_companies:
         merger.create_new(company)
-        click.echo(f"  Created: {company.name}")
+        safe_name = company.name.encode("ascii", "replace").decode("ascii")
+        click.echo(f"  Created: {safe_name}")
 
     for slug, company in result.updates_for_existing:
         merger.merge_update(slug, company)

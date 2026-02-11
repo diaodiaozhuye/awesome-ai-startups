@@ -73,9 +73,10 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-11",
-    "last_updated": "2026-02-11",
+    "last_updated": "2026-02-12",
     "sources": [
-      "https://huggingface.co"
+      "https://huggingface.co",
+      "https://github.com/huggingface"
     ],
     "data_quality_score": 0.8
   }

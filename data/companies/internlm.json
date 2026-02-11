@@ -1,0 +1,29 @@
+{
+  "slug": "internlm",
+  "name": "InternLM",
+  "description": "Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3).",
+  "website": "https://internlm.intern-ai.org.cn",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "China",
+    "country": "Unknown"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://github.com/InternLM"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "open-source"
+  ],
+  "social": {
+    "github": "https://github.com/InternLM",
+    "twitter": "intern_lm"
+  },
+  "open_source": true,
+  "status": "active"
+}

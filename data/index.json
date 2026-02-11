@@ -1,5 +1,5 @@
 {
-  "total": 28,
+  "total": 106,
   "companies": [
     {
       "slug": "openai",
@@ -636,6 +636,351 @@
       "employee_count_range": "51-200"
     },
     {
+      "slug": "amai-gmbh",
+      "name": "AMAI GmbH",
+      "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
+      "website": "https://am.ai",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Karlsruhe, Germany",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "analytica",
+      "name": "Analytica",
+      "description": "Analytica is an AI company.",
+      "website": "",
+      "category": "ai-infrastructure",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "DCBe an early applicant3 weeks ago",
+      "country_code": "",
+      "city": "Washington",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "andiamo",
+      "name": "Andiamo",
+      "description": "Andiamo is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "WA2 weeks ago",
+      "country_code": "",
+      "city": "Seattle",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "description": "Apple is an AI company.",
+      "website": "",
+      "category": "ai-image-video",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CA2 weeks ago",
+      "country_code": "",
+      "city": "Cupertino",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "arcade",
+      "name": "Arcade",
+      "description": "Arcade is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CA2 months ago",
+      "country_code": "",
+      "city": "San Francisco",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "art-of-hacking",
+      "name": "Art of Hacking",
+      "description": "Primarily maintained by Omar Santos - resources related to ethical hacking  / penetration testing, digital forensics and incident response (DFIR), etc.",
+      "website": "http://theartofhacking.org",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "atomic-machines",
+      "name": "Atomic Machines",
+      "description": "Atomic Machines is an AI company.",
+      "website": "",
+      "category": "ai-image-video",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CAActively Hiring19 hours ago",
+      "country_code": "",
+      "city": "Emeryville",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "autogpt",
+      "name": "AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "website": "agpt.co",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "avance-consulting",
+      "name": "Avance Consulting",
+      "description": "Avance Consulting is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United StatesActively Hiring23 hours ago",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "avoma",
+      "name": "Avoma",
+      "description": "Avoma is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CA1 month ago",
+      "country_code": "",
+      "city": "Palo Alto",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "azumo",
+      "name": "Azumo",
+      "description": "Azumo is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United StatesBe an early applicant4 months ago",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "blank-bio-yc-s25",
+      "name": "Blank Bio (YC S25)",
+      "description": "Blank Bio (YC S25) is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CA4 months ago",
+      "country_code": "",
+      "city": "San Francisco",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "bright-vision-technologies",
+      "name": "Bright Vision Technologies",
+      "description": "Bright Vision Technologies is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "PABe an early applicant2 days ago",
+      "country_code": "",
+      "city": "Philadelphia",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "canopy",
+      "name": "Canopy",
+      "description": "Canopy is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "MIBe an early applicant1 week ago",
+      "country_code": "",
+      "city": "Detroit",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "centerline-logistics-corporation",
+      "name": "Centerline Logistics Corporation",
+      "description": "Centerline Logistics Corporation is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "WA1 year ago",
+      "country_code": "",
+      "city": "Seattle",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "cis",
+      "name": "Cis",
+      "description": "Cis is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CAActively Hiring4 days ago",
+      "country_code": "",
+      "city": "San Jose",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "crossing-hurdles",
+      "name": "Crossing Hurdles",
+      "description": "Crossing Hurdles is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United StatesBe an early applicant1 week ago",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "cymertek-corporation",
+      "name": "Cymertek Corporation",
+      "description": "Cymertek Corporation is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "HI7 months ago",
+      "country_code": "",
+      "city": "Honolulu",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "deepseek",
       "name": "DeepSeek",
       "name_zh": "深度求索",
@@ -662,6 +1007,200 @@
       "employee_count_range": "51-200"
     },
     {
+      "slug": "dive-into-deep-learning-d2lai",
+      "name": "Dive into Deep Learning (D2L.ai)",
+      "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
+      "website": "https://D2L.ai",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "dixon-group-europe-ltd-middle-east",
+      "name": "Dixon Group Europe Ltd. Middle East",
+      "description": "Dixon Group Europe Ltd. Middle East is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "MDBe an early applicant4 days ago",
+      "country_code": "",
+      "city": "Chestertown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "e2b-cloud-for-ai-agents",
+      "name": "E2B | Cloud for AI Agents",
+      "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
+      "website": "https://e2b.dev/docs",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United States of America",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "erg",
+      "name": "ERG",
+      "description": "ERG is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "NCBe an early applicant1 day ago",
+      "country_code": "",
+      "city": "Raleigh",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "ecosave",
+      "name": "Ecosave",
+      "description": "Ecosave is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "PAActively Hiring\n             +8 benefits2 weeks ago",
+      "country_code": "",
+      "city": "Philadelphia",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "energize-group",
+      "name": "Energize Group",
+      "description": "Energize Group is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "United StatesActively Hiring\n             +2 benefits1 week ago",
+      "country_code": "",
+      "city": "Texas",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "explosion",
+      "name": "Explosion",
+      "description": "Software company specializing in developer tools and tailored solutions for AI and Natural Language Processing",
+      "website": "https://explosion.ai",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Berlin, Germany",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "fionics",
+      "name": "Fionics",
+      "description": "Fionics is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United States6 days ago",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "flowiseai",
+      "name": "FlowiseAI",
+      "description": "Build AI Agents, Visually",
+      "website": "https://flowiseai.com",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "giga",
+      "name": "Giga",
+      "description": "Giga is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CA3 days ago",
+      "country_code": "",
+      "city": "San Francisco",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "github-copilot",
       "name": "GitHub Copilot",
       "name_zh": "GitHub Copilot",
@@ -670,12 +1209,13 @@
       "website": "https://github.com/features/copilot",
       "category": "ai-coding",
       "tags": [
-        "code-generation",
         "copilot",
-        "developer-tools"
+        "developer-tools",
+        "open-source",
+        "code-generation"
       ],
       "founded_year": 2021,
-      "open_source": false,
+      "open_source": true,
       "status": "active",
       "country": "United States",
       "country_code": "US",
@@ -684,6 +1224,316 @@
       "last_round": "",
       "valuation_usd": 0,
       "employee_count_range": "51-200"
+    },
+    {
+      "slug": "grassroots-carbon",
+      "name": "Grassroots Carbon",
+      "description": "Grassroots Carbon is an AI company.",
+      "website": "",
+      "category": "ai-infrastructure",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "TXBe an early applicant1 month ago",
+      "country_code": "",
+      "city": "San Antonio",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "handshake",
+      "name": "Handshake",
+      "description": "Handshake is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "NYActively Hiring1 week ago",
+      "country_code": "",
+      "city": "New York",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "honeywell",
+      "name": "Honeywell",
+      "description": "Honeywell is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United StatesActively Hiring2 weeks ago",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "ikigai",
+      "name": "Ikigai",
+      "description": "Ikigai is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "MA2 months ago",
+      "country_code": "",
+      "city": "Cambridge",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "infosys",
+      "name": "Infosys",
+      "description": "Infosys is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "NCActively Hiring1 week ago",
+      "country_code": "",
+      "city": "Charlotte",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "internlm",
+      "name": "InternLM",
+      "description": "Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3).",
+      "website": "https://internlm.intern-ai.org.cn",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "China",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "invoke",
+      "name": "Invoke",
+      "description": "Invoke AI is building the next generation of tools for artists and creative teams.",
+      "website": "http://invoke.ai",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "kodiak",
+      "name": "Kodiak",
+      "description": "Kodiak is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CA7 months ago",
+      "country_code": "",
+      "city": "San Francisco",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "kong",
+      "name": "Kong",
+      "description": "Powering the API world. No AI without APIs.",
+      "website": "https://konghq.com",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "San Francisco",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "langflow",
+      "name": "Langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "website": "https://www.langflow.org",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "leotech",
+      "name": "LeoTech",
+      "description": "LeoTech is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United States1 week ago",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "lila-sciences",
+      "name": "Lila Sciences",
+      "description": "Lila Sciences is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "MABe an early applicant1 week ago",
+      "country_code": "",
+      "city": "Cambridge",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "linkedin",
+      "name": "LinkedIn",
+      "description": "LinkedIn is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CAActively Hiring1 week ago",
+      "country_code": "",
+      "city": "Mountain View",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "meta-research",
+      "name": "Meta Research",
+      "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+      "website": "https://opensource.fb.com",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Menlo Park, California",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "description": "Open source projects and samples from Microsoft",
+      "website": "https://opensource.microsoft.com",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Redmond, WA",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "middesk",
+      "name": "Middesk",
+      "description": "Middesk is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "United States4 months ago",
+      "country_code": "",
+      "city": "New York",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
     },
     {
       "slug": "midjourney",
@@ -709,6 +1559,667 @@
       "last_round": "",
       "valuation_usd": 0,
       "employee_count_range": "11-50"
+    },
+    {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "description": "NVIDIA is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "United StatesActively Hiring2 weeks ago",
+      "country_code": "",
+      "city": "California",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "netflix",
+      "name": "Netflix",
+      "description": "Netflix is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United StatesActively Hiring2 weeks ago",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "netic",
+      "name": "Netic",
+      "description": "Netic is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CA3 weeks ago",
+      "country_code": "",
+      "city": "San Francisco",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "norbert-health",
+      "name": "Norbert Health",
+      "description": "Norbert Health is an AI company.",
+      "website": "",
+      "category": "ai-image-video",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "NY1 month ago",
+      "country_code": "",
+      "city": "Brooklyn",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "opencompass",
+      "name": "OpenCompass",
+      "description": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.",
+      "website": "opencompass.org.cn",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "China",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "openhands",
+      "name": "OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "website": "https://openhands.dev",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "openspg",
+      "name": "OpenSPG",
+      "description": "This project encompasses a series of continuous explorations by Ant Group in the field of bidirectional enhancement between symbolic knowledge and LLMs",
+      "website": "https://openspg.github.io",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "point72",
+      "name": "Point72",
+      "description": "Point72 is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "United StatesActively Hiring8 months ago",
+      "country_code": "",
+      "city": "New York",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "ponyai",
+      "name": "Pony.ai",
+      "description": "Pony.ai is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CABe an early applicant1 month ago",
+      "country_code": "",
+      "city": "Fremont",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "prana-tree",
+      "name": "Prana Tree",
+      "description": "Prana Tree is an AI company.",
+      "website": "",
+      "category": "ai-infrastructure",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "PA3 hours ago",
+      "country_code": "",
+      "city": "Pittsburgh",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "praxent",
+      "name": "Praxent",
+      "description": "Praxent is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "TXActively Hiring1 day ago",
+      "country_code": "",
+      "city": "Austin",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "radical-ai",
+      "name": "Radical AI",
+      "description": "Radical AI is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "NY8 months ago",
+      "country_code": "",
+      "city": "New York",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "recommenders-team",
+      "name": "Recommenders team",
+      "description": "Recommenders offers examples & best practices for building recommendation systems, provided as Jupyter notebooks. An LF AI & Data Sandbox project.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United States of America",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "reveal-healthtech",
+      "name": "Reveal HealthTech",
+      "description": "Reveal HealthTech is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CABe an early applicant2 weeks ago",
+      "country_code": "",
+      "city": "San Francisco",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "scrapegraphai",
+      "name": "ScrapeGraphAI",
+      "description": "Python scraper based on AI",
+      "website": "https://scrapegraphai.com",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United States of America",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "sim",
+      "name": "Sim",
+      "description": "Sim is a powerful, user-friendly platform that allows developers and agents to build, test, and optimize agentic workflows.",
+      "website": "https://sim.ai",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "skild-ai",
+      "name": "Skild AI",
+      "description": "Skild AI is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CA1 week ago",
+      "country_code": "",
+      "city": "San Francisco",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "stealth-ai-startup",
+      "name": "Stealth AI Startup",
+      "description": "Stealth AI Startup is an AI company.",
+      "website": "",
+      "category": "llm-foundation-model",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CA2 days ago",
+      "country_code": "",
+      "city": "United States1 week ago",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "stealth-startup",
+      "name": "Stealth Startup",
+      "description": "Stealth Startup is an AI company.",
+      "website": "",
+      "category": "llm-foundation-model",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "United States2 days ago",
+      "country_code": "",
+      "city": "California",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "t45-labs",
+      "name": "T45 Labs",
+      "description": "T45 Labs is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CABe an early applicant6 months ago",
+      "country_code": "",
+      "city": "Santa Clara",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "tata-technologies",
+      "name": "Tata Technologies",
+      "description": "Tata Technologies is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "MIActively Hiring\n             +4 benefits5 days ago",
+      "country_code": "",
+      "city": "Ann Arbor",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "tencent",
+      "name": "Tencent",
+      "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
+      "website": "https://opensource.tencent.com",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Shenzhen, China",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "the-pocket",
+      "name": "The Pocket",
+      "description": "100 Lines Let Agents build Agent",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "tiger-analytics",
+      "name": "Tiger Analytics",
+      "description": "Tiger Analytics is an AI company.",
+      "website": "",
+      "category": "ai-infrastructure",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "United StatesBe an early applicant3 weeks ago",
+      "country_code": "",
+      "city": "New Jersey",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "tinder",
+      "name": "Tinder",
+      "description": "Tinder is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CAActively Hiring6 days ago",
+      "country_code": "",
+      "city": "Palo Alto",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "topaz-labs",
+      "name": "Topaz Labs",
+      "description": "Topaz Labs is an AI company.",
+      "website": "",
+      "category": "ai-image-video",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "TXActively Hiring1 year ago",
+      "country_code": "",
+      "city": "Dallas",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "vercel",
+      "name": "Vercel",
+      "description": "Develop. Preview. Ship. Creators of Next.js.",
+      "website": "https://vercel.com",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United States of America",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "enableit",
+      "name": "enableIT",
+      "description": "enableIT is an AI company.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "linkedin"
+      ],
+      "founded_year": 2026,
+      "status": "active",
+      "country": "CAActively Hiring1 week ago",
+      "country_code": "",
+      "city": "Burbank",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "labmlai",
+      "name": "labml.ai",
+      "description": "Tools to help deep learning researchers",
+      "website": "https://labml.ai",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "langchain-ai",
+      "name": "langchain-ai",
+      "description": "🦜🔗 The platform for reliable agents.",
+      "website": "",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "netdata",
+      "name": "netdata",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "website": "https://www.netdata.cloud",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "USA",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "pytorch",
+      "name": "pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "website": "https://pytorch.org",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "where the eigens are valued",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "tensorflow",
+      "name": "tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "website": "http://www.tensorflow.org",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "Unknown",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "lightning-ai",
+      "name": "⚡️ Lightning AI",
+      "description": "Turn ideas into AI, Lightning fast. Creators of PyTorch Lightning, Lightning AI Studio, TorchMetrics, Fabric, Lit-GPT, Lit-LLaMA",
+      "website": "https://lightning.ai",
+      "category": "ai-other",
+      "tags": [
+        "open-source"
+      ],
+      "founded_year": 2026,
+      "open_source": true,
+      "status": "active",
+      "country": "Unknown",
+      "country_code": "",
+      "city": "United States of America",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
     }
   ]
 }

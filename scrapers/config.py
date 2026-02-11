@@ -25,6 +25,10 @@ HTTP_TIMEOUT = 30  # seconds
 MAX_RETRIES = 3
 RETRY_DELAY = 1.0  # seconds
 
+# Job scraper settings
+JOB_SCRAPER_RATE_LIMIT = 3.0  # seconds between requests
+JOB_SCRAPER_MAX_JOBS_PER_KEYWORD = 20
+
 # User agent for HTTP requests
 USER_AGENT = (
     "AICompanyDirectory/0.1 "

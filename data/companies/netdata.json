@@ -1,0 +1,28 @@
+{
+  "slug": "netdata",
+  "name": "netdata",
+  "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+  "website": "https://www.netdata.cloud",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "USA",
+    "country": "Unknown"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://github.com/netdata"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "open-source"
+  ],
+  "social": {
+    "github": "https://github.com/netdata"
+  },
+  "open_source": true,
+  "status": "active"
+}

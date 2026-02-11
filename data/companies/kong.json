@@ -1,0 +1,28 @@
+{
+  "slug": "kong",
+  "name": "Kong",
+  "description": "Powering the API world. No AI without APIs.",
+  "website": "https://konghq.com",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "San Francisco",
+    "country": "Unknown"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://github.com/Kong"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "open-source"
+  ],
+  "social": {
+    "github": "https://github.com/Kong"
+  },
+  "open_source": true,
+  "status": "active"
+}

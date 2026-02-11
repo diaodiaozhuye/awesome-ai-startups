@@ -48,14 +48,6 @@ aiscrape scrape --source github --dry-run
 aiscrape scrape --source all --limit 50
 ```
 
-### 构建网站
-
-```bash
-cd website
-npm install
-npm run build    # 静态导出到 out/
-npx serve out    # 本地预览
-```
 
 ## 数据模式
 

@@ -1,0 +1,28 @@
+{
+  "slug": "recommenders-team",
+  "name": "Recommenders team",
+  "description": "Recommenders offers examples & best practices for building recommendation systems, provided as Jupyter notebooks. An LF AI & Data Sandbox project.",
+  "website": "",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "United States of America",
+    "country": "Unknown"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://github.com/recommenders-team"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "open-source"
+  ],
+  "social": {
+    "github": "https://github.com/recommenders-team"
+  },
+  "open_source": true,
+  "status": "active"
+}

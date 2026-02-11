@@ -1,0 +1,28 @@
+{
+  "slug": "dive-into-deep-learning-d2lai",
+  "name": "Dive into Deep Learning (D2L.ai)",
+  "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
+  "website": "https://D2L.ai",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "Unknown",
+    "country": "Unknown"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://github.com/d2l-ai"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "open-source"
+  ],
+  "social": {
+    "github": "https://github.com/d2l-ai"
+  },
+  "open_source": true,
+  "status": "active"
+}

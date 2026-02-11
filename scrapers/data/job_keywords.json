@@ -1,0 +1,98 @@
+{
+  "en": {
+    "search": [
+      "Machine Learning Engineer",
+      "AI Researcher",
+      "Deep Learning Engineer",
+      "NLP Engineer",
+      "LLM Engineer",
+      "Computer Vision Engineer",
+      "Generative AI Engineer",
+      "MLOps Engineer",
+      "Robotics Engineer",
+      "AI Research Scientist",
+      "Prompt Engineer",
+      "Autonomous Systems Engineer",
+      "AI Software Engineer",
+      "Data Scientist Machine Learning"
+    ],
+    "match": [
+      "machine learning",
+      "artificial intelligence",
+      "deep learning",
+      "natural language processing",
+      "nlp",
+      "llm",
+      "large language model",
+      "computer vision",
+      "neural network",
+      "generative ai",
+      "autonomous",
+      "robotics",
+      "mlops",
+      "reinforcement learning",
+      "transformer",
+      "diffusion model",
+      "speech recognition",
+      "text to speech",
+      "ai research",
+      "prompt engineer"
+    ],
+    "categories": {
+      "llm-foundation-model": ["llm", "large language model", "gpt", "transformer", "foundation model", "language model"],
+      "ai-coding": ["ai coding", "code generation", "copilot", "code assistant"],
+      "ai-image-video": ["computer vision", "image generation", "video generation", "diffusion model", "stable diffusion", "image recognition"],
+      "ai-audio-speech": ["speech recognition", "text to speech", "voice ai", "audio", "asr", "tts"],
+      "ai-search": ["semantic search", "information retrieval", "search ai", "vector search"],
+      "ai-robotics": ["robotics", "autonomous vehicle", "self-driving", "robot", "drone"],
+      "ai-infrastructure": ["mlops", "ml platform", "ai infrastructure", "model serving", "feature store"],
+      "ai-data-analytics": ["data science", "analytics", "data engineering", "data pipeline"],
+      "ai-assistant": ["ai assistant", "chatbot", "conversational ai", "virtual assistant"],
+      "ai-healthcare": ["medical ai", "healthcare ai", "biomedical", "drug discovery"],
+      "ai-security-defense": ["ai security", "threat detection", "cybersecurity ai"],
+      "ai-finance": ["fintech ai", "trading ai", "financial ai", "risk model"]
+    }
+  },
+  "zh": {
+    "search": [
+      "机器学习工程师",
+      "人工智能研究员",
+      "深度学习工程师",
+      "算法工程师",
+      "大模型工程师",
+      "自然语言处理",
+      "计算机视觉工程师",
+      "自动驾驶工程师",
+      "AI研究员",
+      "AIGC工程师",
+      "强化学习",
+      "语音识别工程师"
+    ],
+    "match": [
+      "机器学习",
+      "人工智能",
+      "深度学习",
+      "算法",
+      "大模型",
+      "自然语言处理",
+      "计算机视觉",
+      "自动驾驶",
+      "神经网络",
+      "强化学习",
+      "语音识别",
+      "图像识别",
+      "生成式ai",
+      "aigc",
+      "智能驾驶",
+      "机器人"
+    ],
+    "categories": {
+      "llm-foundation-model": ["大模型", "语言模型", "gpt", "大语言模型"],
+      "ai-image-video": ["计算机视觉", "图像", "视频", "图像识别"],
+      "ai-audio-speech": ["语音识别", "语音合成", "语音"],
+      "ai-robotics": ["机器人", "自动驾驶", "智能驾驶", "无人机"],
+      "autonomous-vehicles": ["自动驾驶", "智能驾驶", "无人驾驶"],
+      "ai-infrastructure": ["算法平台", "模型部署", "训练平台"]
+    }
+  }
+}

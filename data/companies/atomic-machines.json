@@ -1,0 +1,24 @@
+{
+  "slug": "atomic-machines",
+  "name": "Atomic Machines",
+  "description": "Atomic Machines is an AI company.",
+  "website": "",
+  "category": "ai-image-video",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "Emeryville",
+    "country": "CAActively Hiring19 hours ago"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://www.linkedin.com/jobs"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "linkedin"
+  ],
+  "status": "active"
+}

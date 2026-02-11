@@ -1,0 +1,29 @@
+{
+  "slug": "the-pocket",
+  "name": "The Pocket",
+  "description": "100 Lines Let Agents build Agent",
+  "website": "",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "Unknown",
+    "country": "Unknown"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://github.com/The-Pocket"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "open-source"
+  ],
+  "social": {
+    "github": "https://github.com/The-Pocket",
+    "twitter": "ZacharyHuang12"
+  },
+  "open_source": true,
+  "status": "active"
+}

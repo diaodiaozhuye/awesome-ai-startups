@@ -1,0 +1,28 @@
+{
+  "slug": "tencent",
+  "name": "Tencent",
+  "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
+  "website": "https://opensource.tencent.com",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "Shenzhen, China",
+    "country": "Unknown"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://github.com/Tencent"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "open-source"
+  ],
+  "social": {
+    "github": "https://github.com/Tencent"
+  },
+  "open_source": true,
+  "status": "active"
+}

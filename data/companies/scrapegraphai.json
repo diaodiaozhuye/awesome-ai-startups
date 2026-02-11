@@ -1,0 +1,29 @@
+{
+  "slug": "scrapegraphai",
+  "name": "ScrapeGraphAI",
+  "description": "Python scraper based on AI",
+  "website": "https://scrapegraphai.com",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "United States of America",
+    "country": "Unknown"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://github.com/ScrapeGraphAI"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "open-source"
+  ],
+  "social": {
+    "github": "https://github.com/ScrapeGraphAI",
+    "twitter": "scrapegraphai"
+  },
+  "open_source": true,
+  "status": "active"
+}
