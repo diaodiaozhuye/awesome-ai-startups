@@ -1,0 +1,80 @@
+{
+  "slug": "cohere",
+  "name": "Cohere",
+  "name_zh": "Cohere",
+  "description": "Cohere builds enterprise-grade large language models and RAG solutions. Focused on making NLP accessible for business applications.",
+  "description_zh": "Cohere 构建企业级大语言模型和 RAG 解决方案。专注于让 NLP 服务于商业应用。",
+  "website": "https://cohere.com",
+  "category": "llm-foundation-model",
+  "tags": [
+    "generative-ai",
+    "nlp",
+    "transformer",
+    "api-platform",
+    "b2b",
+    "rag"
+  ],
+  "founded_year": 2019,
+  "headquarters": {
+    "city": "Toronto",
+    "country": "Canada",
+    "country_code": "CA"
+  },
+  "funding": {
+    "total_raised_usd": 970000000,
+    "last_round": "series-d",
+    "last_round_date": "2024-07-22",
+    "valuation_usd": 5500000000,
+    "investors": [
+      "PSP Investments",
+      "Nvidia",
+      "Salesforce Ventures",
+      "Cisco Investments"
+    ]
+  },
+  "team": {
+    "employee_count_range": "201-500",
+    "founders": [
+      {
+        "name": "Aidan Gomez",
+        "title": "CEO"
+      },
+      {
+        "name": "Ivan Zhang",
+        "title": "Co-founder"
+      },
+      {
+        "name": "Nick Frosst",
+        "title": "Co-founder"
+      }
+    ]
+  },
+  "social": {
+    "github": "https://github.com/cohere-ai",
+    "twitter": "@CohereAI",
+    "linkedin": "https://linkedin.com/company/cohere-ai",
+    "crunchbase": "https://www.crunchbase.com/organization/cohere-2"
+  },
+  "products": [
+    {
+      "name": "Command",
+      "description": "Enterprise LLM for business",
+      "url": "https://cohere.com/command"
+    },
+    {
+      "name": "Embed",
+      "description": "Text embedding model",
+      "url": "https://cohere.com/embed"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://cohere.com"
+    ],
+    "data_quality_score": 0.8
+  }
+}

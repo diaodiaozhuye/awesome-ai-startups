@@ -1,0 +1,60 @@
+{
+  "slug": "moonshot-ai",
+  "name": "Moonshot AI",
+  "name_zh": "月之暗面",
+  "description": "Moonshot AI is a Chinese AI startup building large language models with extremely long context windows.",
+  "description_zh": "月之暗面是一家中国 AI 创业公司，构建具有超长上下文窗口的大语言模型。",
+  "website": "https://www.moonshot.cn",
+  "category": "ai-assistant",
+  "tags": [
+    "generative-ai",
+    "nlp",
+    "chatbot",
+    "china"
+  ],
+  "founded_year": 2023,
+  "headquarters": {
+    "city": "Beijing",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "funding": {
+    "total_raised_usd": 1000000000,
+    "last_round": "series-b",
+    "valuation_usd": 3000000000,
+    "investors": [
+      "Sequoia Capital China",
+      "Hillhouse Capital",
+      "Alibaba"
+    ]
+  },
+  "team": {
+    "employee_count_range": "51-200",
+    "founders": [
+      {
+        "name": "Yang Zhilin",
+        "title": "CEO"
+      }
+    ]
+  },
+  "social": {
+    "twitter": "@MoonshotAI"
+  },
+  "products": [
+    {
+      "name": "Kimi",
+      "description": "Long-context AI assistant",
+      "url": "https://kimi.moonshot.cn"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://www.moonshot.cn"
+    ],
+    "data_quality_score": 0.8
+  }
+}

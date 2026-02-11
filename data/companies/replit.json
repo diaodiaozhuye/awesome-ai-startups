@@ -1,0 +1,69 @@
+{
+  "slug": "replit",
+  "name": "Replit",
+  "name_zh": "Replit",
+  "description": "Replit is a collaborative coding platform with AI-powered features that enables anyone to build software directly in the browser.",
+  "description_zh": "Replit 是一个协作编程平台，具有 AI 驱动的功能，让任何人都能直接在浏览器中构建软件。",
+  "website": "https://replit.com",
+  "category": "ai-coding",
+  "tags": [
+    "code-generation",
+    "developer-tools",
+    "b2c",
+    "saas"
+  ],
+  "founded_year": 2016,
+  "headquarters": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "funding": {
+    "total_raised_usd": 222000000,
+    "last_round": "series-b",
+    "valuation_usd": 1160000000,
+    "investors": [
+      "Andreessen Horowitz",
+      "Khosla Ventures",
+      "Coatue"
+    ]
+  },
+  "team": {
+    "employee_count_range": "51-200",
+    "founders": [
+      {
+        "name": "Amjad Masad",
+        "title": "CEO"
+      }
+    ]
+  },
+  "social": {
+    "github": "https://github.com/replit",
+    "twitter": "@Replit",
+    "linkedin": "https://linkedin.com/company/replit",
+    "crunchbase": "https://www.crunchbase.com/organization/replit"
+  },
+  "products": [
+    {
+      "name": "Replit Agent",
+      "description": "AI-powered software builder",
+      "url": "https://replit.com"
+    },
+    {
+      "name": "Ghostwriter",
+      "description": "AI code assistant",
+      "url": "https://replit.com/ai"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://replit.com"
+    ],
+    "data_quality_score": 0.8
+  }
+}

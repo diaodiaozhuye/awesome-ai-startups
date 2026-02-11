@@ -1,0 +1,81 @@
+name: Add New Company
+description: Submit a new AI company to the directory
+title: "[Add] "
+labels: ["new-company"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Company Name
+      placeholder: e.g. Anthropic
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Website URL
+      placeholder: https://www.anthropic.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: What does this company do? What AI products/services do they offer?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - LLM / Foundation Model
+        - AI Coding
+        - AI Image & Video
+        - AI Audio & Speech
+        - AI Search
+        - AI Robotics
+        - AI Infrastructure
+        - AI Data & Analytics
+        - AI Assistant
+        - AI Enterprise
+        - Autonomous Vehicles
+        - AI Security & Defense
+        - AI Healthcare
+        - AI Education
+        - AI Finance
+        - AI Gaming
+        - AI Other
+    validations:
+      required: true
+
+  - type: input
+    id: founded_year
+    attributes:
+      label: Founded Year
+      placeholder: "2023"
+    validations:
+      required: true
+
+  - type: input
+    id: headquarters
+    attributes:
+      label: Headquarters (City, Country)
+      placeholder: San Francisco, United States
+    validations:
+      required: true
+
+  - type: input
+    id: funding
+    attributes:
+      label: Total Funding (USD, approximate)
+      placeholder: "$100M"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      placeholder: Any other relevant details (social links, notable products, founders, etc.)

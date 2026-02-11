@@ -1,0 +1,75 @@
+{
+  "site": {
+    "title": "AI 公司目录",
+    "description": "全球 AI 创业公司和企业的开源目录"
+  },
+  "nav": {
+    "home": "首页",
+    "search": "搜索",
+    "compare": "对比",
+    "analytics": "数据分析",
+    "github": "GitHub"
+  },
+  "home": {
+    "hero_title": "AI 公司目录",
+    "hero_subtitle": "收录全球 {count} 家 AI 创业公司和企业的开源目录",
+    "filter_all": "全部",
+    "sort_by": "排序",
+    "sort_funding": "融资额",
+    "sort_name": "名称",
+    "sort_year": "成立年份",
+    "no_results": "未找到符合筛选条件的公司。"
+  },
+  "company": {
+    "founded": "成立于",
+    "headquarters": "总部",
+    "employees": "员工数",
+    "funding": "融资",
+    "total_raised": "总融资",
+    "last_round": "最新轮次",
+    "valuation": "估值",
+    "investors": "投资方",
+    "team": "团队",
+    "products": "产品",
+    "social": "社交链接",
+    "open_source": "开源",
+    "tags": "标签",
+    "visit_website": "访问官网",
+    "status": "状态",
+    "data_sources": "数据来源",
+    "back_to_list": "返回列表"
+  },
+  "search": {
+    "title": "搜索公司",
+    "placeholder": "按名称、分类、国家搜索...",
+    "results": "{count} 个结果",
+    "no_results": "未找到结果。请尝试其他搜索词。",
+    "filters": "筛选",
+    "category": "分类",
+    "country": "国家",
+    "clear_filters": "清除筛选"
+  },
+  "compare": {
+    "title": "对比公司",
+    "select_prompt": "选择 2-3 家公司进行对比",
+    "add_company": "添加公司",
+    "remove": "移除",
+    "field": "字段",
+    "no_data": "暂无"
+  },
+  "analytics": {
+    "title": "AI 行业数据分析",
+    "total_companies": "收录公司总数",
+    "total_funding": "总融资额",
+    "open_source": "开源项目",
+    "funding_chart": "融资排行",
+    "category_chart": "分类分布",
+    "timeline_chart": "成立年份趋势",
+    "geography_chart": "国家分布"
+  },
+  "footer": {
+    "description": "追踪全球 AI 公司的开源项目。",
+    "contribute": "在 GitHub 上贡献",
+    "data_updated": "数据最近更新于"
+  }
+}

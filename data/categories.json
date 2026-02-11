@@ -1,0 +1,21 @@
+{
+  "categories": [
+    { "id": "llm-foundation-model", "name": "LLM / Foundation Model", "name_zh": "大语言模型 / 基础模型", "icon": "brain" },
+    { "id": "ai-coding", "name": "AI Coding", "name_zh": "AI 编程", "icon": "code" },
+    { "id": "ai-image-video", "name": "AI Image & Video", "name_zh": "AI 图像与视频", "icon": "image" },
+    { "id": "ai-audio-speech", "name": "AI Audio & Speech", "name_zh": "AI 语音", "icon": "mic" },
+    { "id": "ai-search", "name": "AI Search", "name_zh": "AI 搜索", "icon": "search" },
+    { "id": "ai-robotics", "name": "AI Robotics", "name_zh": "AI 机器人", "icon": "bot" },
+    { "id": "ai-infrastructure", "name": "AI Infrastructure", "name_zh": "AI 基础设施", "icon": "server" },
+    { "id": "ai-data-analytics", "name": "AI Data & Analytics", "name_zh": "AI 数据与分析", "icon": "database" },
+    { "id": "ai-assistant", "name": "AI Assistant", "name_zh": "AI 助手", "icon": "message-circle" },
+    { "id": "ai-enterprise", "name": "AI Enterprise", "name_zh": "AI 企业服务", "icon": "building" },
+    { "id": "autonomous-vehicles", "name": "Autonomous Vehicles", "name_zh": "自动驾驶", "icon": "car" },
+    { "id": "ai-security-defense", "name": "AI Security & Defense", "name_zh": "AI 安全与防务", "icon": "shield" },
+    { "id": "ai-healthcare", "name": "AI Healthcare", "name_zh": "AI 医疗", "icon": "heart-pulse" },
+    { "id": "ai-education", "name": "AI Education", "name_zh": "AI 教育", "icon": "graduation-cap" },
+    { "id": "ai-finance", "name": "AI Finance", "name_zh": "AI 金融", "icon": "dollar-sign" },
+    { "id": "ai-gaming", "name": "AI Gaming", "name_zh": "AI 游戏", "icon": "gamepad-2" },
+    { "id": "ai-other", "name": "AI Other", "name_zh": "其他 AI", "icon": "sparkles" }
+  ]
+}

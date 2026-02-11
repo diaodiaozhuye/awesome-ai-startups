@@ -1,0 +1,18 @@
+{
+  "tags": [
+    "generative-ai", "nlp", "computer-vision", "reinforcement-learning",
+    "transformer", "diffusion-model", "multimodal", "open-source",
+    "api-platform", "developer-tools", "b2b", "b2c",
+    "saas", "hardware", "edge-ai", "on-device",
+    "fine-tuning", "rag", "agents", "prompt-engineering",
+    "text-to-image", "text-to-video", "text-to-speech", "speech-to-text",
+    "code-generation", "copilot", "chatbot", "search-engine",
+    "self-driving", "humanoid-robot", "drone", "defense",
+    "drug-discovery", "medical-imaging", "clinical-trials",
+    "fraud-detection", "trading", "risk-assessment",
+    "content-creation", "marketing", "customer-support",
+    "data-labeling", "synthetic-data", "vector-database",
+    "model-serving", "mlops", "gpu-cloud",
+    "china", "us", "europe", "unicorn", "decacorn"
+  ]
+}

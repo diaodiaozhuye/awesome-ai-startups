@@ -1,0 +1,51 @@
+{
+  "slug": "midjourney",
+  "name": "Midjourney",
+  "name_zh": "Midjourney",
+  "description": "Midjourney is an independent research lab producing an AI program that creates images from textual descriptions.",
+  "description_zh": "Midjourney 是一个独立研究实验室，开发根据文字描述生成图像的 AI 程序。",
+  "website": "https://www.midjourney.com",
+  "category": "ai-image-video",
+  "tags": [
+    "generative-ai",
+    "text-to-image",
+    "diffusion-model",
+    "b2c"
+  ],
+  "founded_year": 2021,
+  "headquarters": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "team": {
+    "employee_count_range": "11-50",
+    "founders": [
+      {
+        "name": "David Holz",
+        "title": "CEO"
+      }
+    ]
+  },
+  "social": {
+    "twitter": "@midaborney"
+  },
+  "products": [
+    {
+      "name": "Midjourney",
+      "description": "AI image generation from text prompts",
+      "url": "https://www.midjourney.com"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://www.midjourney.com"
+    ],
+    "data_quality_score": 0.8
+  }
+}

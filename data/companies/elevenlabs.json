@@ -1,0 +1,74 @@
+{
+  "slug": "elevenlabs",
+  "name": "ElevenLabs",
+  "name_zh": "ElevenLabs",
+  "description": "ElevenLabs is an AI voice technology company providing realistic text-to-speech, voice cloning, and audio AI tools.",
+  "description_zh": "ElevenLabs 是一家 AI 语音技术公司，提供逼真的文本转语音、声音克隆和音频 AI 工具。",
+  "website": "https://elevenlabs.io",
+  "category": "ai-audio-speech",
+  "tags": [
+    "text-to-speech",
+    "generative-ai",
+    "api-platform",
+    "content-creation"
+  ],
+  "founded_year": 2022,
+  "headquarters": {
+    "city": "New York",
+    "state": "New York",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "funding": {
+    "total_raised_usd": 101000000,
+    "last_round": "series-b",
+    "last_round_date": "2024-01-22",
+    "valuation_usd": 1100000000,
+    "investors": [
+      "Andreessen Horowitz",
+      "Nat Friedman",
+      "Daniel Gross"
+    ]
+  },
+  "team": {
+    "employee_count_range": "51-200",
+    "founders": [
+      {
+        "name": "Mati Staniszewski",
+        "title": "CEO"
+      },
+      {
+        "name": "Piotr Dabkowski",
+        "title": "CTO"
+      }
+    ]
+  },
+  "social": {
+    "github": "https://github.com/elevenlabs",
+    "twitter": "@elevenlabsio",
+    "linkedin": "https://linkedin.com/company/elevenlabsio",
+    "crunchbase": "https://www.crunchbase.com/organization/elevenlabs"
+  },
+  "products": [
+    {
+      "name": "ElevenLabs TTS",
+      "description": "Text-to-speech API",
+      "url": "https://elevenlabs.io"
+    },
+    {
+      "name": "Voice Lab",
+      "description": "Voice cloning and design",
+      "url": "https://elevenlabs.io/voice-lab"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://elevenlabs.io"
+    ],
+    "data_quality_score": 0.8
+  }
+}

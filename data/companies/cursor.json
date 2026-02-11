@@ -1,0 +1,73 @@
+{
+  "slug": "cursor",
+  "name": "Cursor",
+  "name_zh": "Cursor",
+  "description": "Cursor is an AI-native code editor built to make programming with AI effortless, featuring intelligent code completion and chat.",
+  "description_zh": "Cursor 是一款 AI 原生代码编辑器，旨在让 AI 编程变得轻松，具有智能代码补全和对话功能。",
+  "website": "https://cursor.com",
+  "category": "ai-coding",
+  "tags": [
+    "code-generation",
+    "copilot",
+    "developer-tools",
+    "b2c"
+  ],
+  "founded_year": 2022,
+  "headquarters": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "funding": {
+    "total_raised_usd": 400000000,
+    "last_round": "series-b",
+    "valuation_usd": 2500000000,
+    "investors": [
+      "Andreessen Horowitz",
+      "Thrive Capital"
+    ]
+  },
+  "team": {
+    "employee_count_range": "11-50",
+    "founders": [
+      {
+        "name": "Michael Truell",
+        "title": "CEO"
+      },
+      {
+        "name": "Sualeh Asif",
+        "title": "Co-founder"
+      },
+      {
+        "name": "Arvid Lunnemark",
+        "title": "Co-founder"
+      },
+      {
+        "name": "Aman Sanger",
+        "title": "Co-founder"
+      }
+    ]
+  },
+  "social": {
+    "twitter": "@cursor_ai",
+    "linkedin": "https://linkedin.com/company/cursor-ai"
+  },
+  "products": [
+    {
+      "name": "Cursor Editor",
+      "description": "AI-native code editor",
+      "url": "https://cursor.com"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://cursor.com"
+    ],
+    "data_quality_score": 0.8
+  }
+}

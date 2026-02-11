@@ -1,0 +1,227 @@
+{
+  "generated_at": "2026-02-11",
+  "total_companies": 28,
+  "by_category": [
+    {
+      "label": "llm-foundation-model",
+      "count": 7
+    },
+    {
+      "label": "ai-image-video",
+      "count": 4
+    },
+    {
+      "label": "ai-assistant",
+      "count": 3
+    },
+    {
+      "label": "ai-coding",
+      "count": 3
+    },
+    {
+      "label": "ai-robotics",
+      "count": 2
+    },
+    {
+      "label": "ai-data-analytics",
+      "count": 2
+    },
+    {
+      "label": "ai-audio-speech",
+      "count": 1
+    },
+    {
+      "label": "ai-infrastructure",
+      "count": 1
+    },
+    {
+      "label": "ai-enterprise",
+      "count": 1
+    },
+    {
+      "label": "ai-search",
+      "count": 1
+    },
+    {
+      "label": "ai-healthcare",
+      "count": 1
+    },
+    {
+      "label": "ai-security-defense",
+      "count": 1
+    },
+    {
+      "label": "autonomous-vehicles",
+      "count": 1
+    }
+  ],
+  "by_country": [
+    {
+      "label": "United States",
+      "count": 20
+    },
+    {
+      "label": "China",
+      "count": 4
+    },
+    {
+      "label": "Norway",
+      "count": 1
+    },
+    {
+      "label": "Canada",
+      "count": 1
+    },
+    {
+      "label": "France",
+      "count": 1
+    },
+    {
+      "label": "United Kingdom",
+      "count": 1
+    }
+  ],
+  "by_founded_year": [
+    {
+      "label": "2021",
+      "count": 5
+    },
+    {
+      "label": "2023",
+      "count": 5
+    },
+    {
+      "label": "2022",
+      "count": 5
+    },
+    {
+      "label": "2019",
+      "count": 3
+    },
+    {
+      "label": "2016",
+      "count": 3
+    },
+    {
+      "label": "2013",
+      "count": 2
+    },
+    {
+      "label": "2015",
+      "count": 2
+    },
+    {
+      "label": "2014",
+      "count": 1
+    },
+    {
+      "label": "2018",
+      "count": 1
+    },
+    {
+      "label": "2009",
+      "count": 1
+    }
+  ],
+  "by_status": [
+    {
+      "label": "active",
+      "count": 27
+    },
+    {
+      "label": "ipo",
+      "count": 1
+    }
+  ],
+  "funding_leaderboard": [
+    {
+      "slug": "openai",
+      "name": "OpenAI",
+      "total_raised_usd": 11300000000,
+      "valuation_usd": 157000000000
+    },
+    {
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "total_raised_usd": 7300000000,
+      "valuation_usd": 18400000000
+    },
+    {
+      "slug": "waymo",
+      "name": "Waymo",
+      "total_raised_usd": 5500000000,
+      "valuation_usd": 0
+    },
+    {
+      "slug": "databricks",
+      "name": "Databricks",
+      "total_raised_usd": 4100000000,
+      "valuation_usd": 43000000000
+    },
+    {
+      "slug": "mistral-ai",
+      "name": "Mistral AI",
+      "total_raised_usd": 2000000000,
+      "valuation_usd": 6000000000
+    },
+    {
+      "slug": "inflection-ai",
+      "name": "Inflection AI",
+      "total_raised_usd": 1525000000,
+      "valuation_usd": 0
+    },
+    {
+      "slug": "recursion",
+      "name": "Recursion",
+      "total_raised_usd": 1100000000,
+      "valuation_usd": 0
+    },
+    {
+      "slug": "moonshot-ai",
+      "name": "Moonshot AI",
+      "total_raised_usd": 1000000000,
+      "valuation_usd": 3000000000
+    },
+    {
+      "slug": "cohere",
+      "name": "Cohere",
+      "total_raised_usd": 970000000,
+      "valuation_usd": 5500000000
+    },
+    {
+      "slug": "shield-ai",
+      "name": "Shield AI",
+      "total_raised_usd": 900000000,
+      "valuation_usd": 2700000000
+    }
+  ],
+  "total_funding_usd": 40226000000,
+  "open_source_count": 7,
+  "recently_added": [
+    {
+      "slug": "1x-technologies",
+      "name": "1X Technologies",
+      "added_date": "2026-02-11"
+    },
+    {
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "added_date": "2026-02-11"
+    },
+    {
+      "slug": "baichuan-ai",
+      "name": "Baichuan AI",
+      "added_date": "2026-02-11"
+    },
+    {
+      "slug": "character-ai",
+      "name": "Character.AI",
+      "added_date": "2026-02-11"
+    },
+    {
+      "slug": "cohere",
+      "name": "Cohere",
+      "added_date": "2026-02-11"
+    }
+  ]
+}

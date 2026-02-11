@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/ai-company-directory/data/schema/company.schema.json",
+  "title": "AI Company",
+  "description": "Schema for an AI company entry in the directory",
+  "type": "object",
+  "required": ["slug", "name", "description", "website", "category", "founded_year", "headquarters"],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL-safe identifier, must match the filename (without .json)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "name_zh": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 2000
+    },
+    "description_zh": {
+      "type": "string",
+      "maxLength": 2000
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "llm-foundation-model",
+        "ai-coding",
+        "ai-image-video",
+        "ai-audio-speech",
+        "ai-search",
+        "ai-robotics",
+        "ai-infrastructure",
+        "ai-data-analytics",
+        "ai-assistant",
+        "ai-enterprise",
+        "autonomous-vehicles",
+        "ai-security-defense",
+        "ai-healthcare",
+        "ai-education",
+        "ai-finance",
+        "ai-gaming",
+        "ai-other"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 10,
+      "uniqueItems": true
+    },
+    "founded_year": {
+      "type": "integer",
+      "minimum": 1990,
+      "maximum": 2030
+    },
+    "headquarters": {
+      "type": "object",
+      "required": ["city", "country"],
+      "additionalProperties": false,
+      "properties": {
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "country": { "type": "string" },
+        "country_code": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        }
+      }
+    },
+    "funding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "total_raised_usd": { "type": "number", "minimum": 0 },
+        "last_round": {
+          "type": "string",
+          "enum": ["pre-seed", "seed", "series-a", "series-b", "series-c", "series-d", "series-e", "series-f", "growth", "ipo", "unknown"]
+        },
+        "last_round_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "valuation_usd": { "type": "number", "minimum": 0 },
+        "investors": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "team": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "employee_count_range": {
+          "type": "string",
+          "enum": ["1-10", "11-50", "51-200", "201-500", "501-1000", "1001-5000", "5001+"]
+        },
+        "founders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "additionalProperties": false,
+            "properties": {
+              "name": { "type": "string" },
+              "title": { "type": "string" },
+              "linkedin": { "type": "string", "format": "uri" }
+            }
+          }
+        }
+      }
+    },
+    "social": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "github": { "type": "string", "format": "uri" },
+        "twitter": { "type": "string" },
+        "linkedin": { "type": "string", "format": "uri" },
+        "crunchbase": { "type": "string", "format": "uri" }
+      }
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "open_source": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "acquired", "shut-down", "ipo"]
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "added_date": { "type": "string", "format": "date" },
+        "last_updated": { "type": "string", "format": "date" },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        },
+        "data_quality_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    }
+  }
+}

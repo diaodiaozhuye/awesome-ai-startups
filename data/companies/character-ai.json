@@ -1,0 +1,65 @@
+{
+  "slug": "character-ai",
+  "name": "Character.AI",
+  "name_zh": "Character.AI",
+  "description": "Character.AI is a platform where users can create and interact with AI-powered characters for conversation and entertainment.",
+  "description_zh": "Character.AI 是一个用户可以创建和与 AI 角色互动的平台，用于对话和娱乐。",
+  "website": "https://character.ai",
+  "category": "ai-assistant",
+  "tags": [
+    "chatbot",
+    "generative-ai",
+    "b2c",
+    "content-creation"
+  ],
+  "founded_year": 2021,
+  "headquarters": {
+    "city": "Menlo Park",
+    "state": "California",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "funding": {
+    "total_raised_usd": 150000000,
+    "last_round": "series-a",
+    "valuation_usd": 1000000000,
+    "investors": [
+      "Andreessen Horowitz",
+      "SV Angel"
+    ]
+  },
+  "team": {
+    "employee_count_range": "51-200",
+    "founders": [
+      {
+        "name": "Noam Shazeer",
+        "title": "CEO"
+      },
+      {
+        "name": "Daniel De Freitas",
+        "title": "Co-founder"
+      }
+    ]
+  },
+  "social": {
+    "twitter": "@character_ai",
+    "linkedin": "https://linkedin.com/company/character-ai"
+  },
+  "products": [
+    {
+      "name": "Character.AI",
+      "description": "AI character chat platform",
+      "url": "https://character.ai"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://character.ai"
+    ],
+    "data_quality_score": 0.8
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "waymo",
+  "name": "Waymo",
+  "name_zh": "Waymo",
+  "description": "Waymo is an autonomous driving technology company and subsidiary of Alphabet developing self-driving vehicles.",
+  "description_zh": "Waymo 是 Alphabet 旗下的自动驾驶技术公司，开发自动驾驶汽车。",
+  "website": "https://waymo.com",
+  "category": "autonomous-vehicles",
+  "tags": [
+    "self-driving",
+    "computer-vision",
+    "reinforcement-learning",
+    "hardware"
+  ],
+  "founded_year": 2009,
+  "headquarters": {
+    "city": "Mountain View",
+    "state": "California",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "funding": {
+    "total_raised_usd": 5500000000,
+    "last_round": "growth",
+    "investors": [
+      "Alphabet",
+      "Silver Lake",
+      "Tiger Global",
+      "Andreessen Horowitz"
+    ]
+  },
+  "team": {
+    "employee_count_range": "1001-5000",
+    "founders": [
+      {
+        "name": "Sebastian Thrun",
+        "title": "Founder"
+      }
+    ]
+  },
+  "social": {
+    "github": "https://github.com/waymo-research",
+    "twitter": "@Waymo",
+    "linkedin": "https://linkedin.com/company/waymo",
+    "crunchbase": "https://www.crunchbase.com/organization/waymo"
+  },
+  "products": [
+    {
+      "name": "Waymo One",
+      "description": "Autonomous ride-hailing service",
+      "url": "https://waymo.com/waymo-one"
+    },
+    {
+      "name": "Waymo Driver",
+      "description": "Autonomous driving technology",
+      "url": "https://waymo.com/waymo-driver"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://waymo.com"
+    ],
+    "data_quality_score": 0.8
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "stability-ai",
+  "name": "Stability AI",
+  "name_zh": "Stability AI",
+  "description": "Stability AI is the company behind Stable Diffusion, an open-source text-to-image model that democratized AI image generation.",
+  "description_zh": "Stability AI 是 Stable Diffusion 背后的公司，该开源文本转图像模型使 AI 图像生成大众化。",
+  "website": "https://stability.ai",
+  "category": "ai-image-video",
+  "tags": [
+    "generative-ai",
+    "text-to-image",
+    "diffusion-model",
+    "open-source"
+  ],
+  "founded_year": 2019,
+  "headquarters": {
+    "city": "London",
+    "country": "United Kingdom",
+    "country_code": "GB"
+  },
+  "funding": {
+    "total_raised_usd": 260000000,
+    "last_round": "series-b",
+    "investors": [
+      "Coatue",
+      "Lightspeed Venture Partners",
+      "Intel Capital"
+    ]
+  },
+  "team": {
+    "employee_count_range": "51-200",
+    "founders": [
+      {
+        "name": "Emad Mostaque",
+        "title": "Founder"
+      }
+    ]
+  },
+  "social": {
+    "github": "https://github.com/Stability-AI",
+    "twitter": "@StabilityAI",
+    "linkedin": "https://linkedin.com/company/stability-ai",
+    "crunchbase": "https://www.crunchbase.com/organization/stability-ai"
+  },
+  "products": [
+    {
+      "name": "Stable Diffusion",
+      "description": "Open-source text-to-image model",
+      "url": "https://stability.ai/stable-diffusion"
+    },
+    {
+      "name": "Stable Video",
+      "description": "AI video generation",
+      "url": "https://stability.ai"
+    }
+  ],
+  "open_source": true,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://stability.ai"
+    ],
+    "data_quality_score": 0.8
+  }
+}

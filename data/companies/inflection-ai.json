@@ -1,0 +1,65 @@
+{
+  "slug": "inflection-ai",
+  "name": "Inflection AI",
+  "name_zh": "Inflection AI",
+  "description": "Inflection AI builds personal AI assistants designed for natural, empathetic conversation. Creator of Pi.",
+  "description_zh": "Inflection AI 构建个人 AI 助手，专注于自然、有同理心的对话。Pi 的创造者。",
+  "website": "https://inflection.ai",
+  "category": "ai-assistant",
+  "tags": [
+    "chatbot",
+    "nlp",
+    "b2c"
+  ],
+  "founded_year": 2022,
+  "headquarters": {
+    "city": "Palo Alto",
+    "state": "California",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "funding": {
+    "total_raised_usd": 1525000000,
+    "last_round": "series-b",
+    "investors": [
+      "Microsoft",
+      "Reid Hoffman",
+      "Bill Gates",
+      "Nvidia"
+    ]
+  },
+  "team": {
+    "employee_count_range": "51-200",
+    "founders": [
+      {
+        "name": "Mustafa Suleyman",
+        "title": "Co-founder"
+      },
+      {
+        "name": "Karén Simonyan",
+        "title": "Co-founder"
+      }
+    ]
+  },
+  "social": {
+    "twitter": "@inflaborection_ai",
+    "linkedin": "https://linkedin.com/company/inflection-ai"
+  },
+  "products": [
+    {
+      "name": "Pi",
+      "description": "Personal AI assistant",
+      "url": "https://pi.ai"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://inflection.ai"
+    ],
+    "data_quality_score": 0.8
+  }
+}

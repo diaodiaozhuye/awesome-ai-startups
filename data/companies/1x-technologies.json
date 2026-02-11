@@ -1,0 +1,65 @@
+{
+  "slug": "1x-technologies",
+  "name": "1X Technologies",
+  "name_zh": "1X Technologies",
+  "description": "1X Technologies (formerly Halodi Robotics) creates human-centric humanoid robots powered by AI for real-world tasks.",
+  "description_zh": "1X Technologies（前身为 Halodi Robotics）创建以人为中心的人形机器人，由 AI 驱动完成真实世界任务。",
+  "website": "https://www.1x.tech",
+  "category": "ai-robotics",
+  "tags": [
+    "humanoid-robot",
+    "reinforcement-learning",
+    "hardware",
+    "europe"
+  ],
+  "founded_year": 2014,
+  "headquarters": {
+    "city": "Moss",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "funding": {
+    "total_raised_usd": 125000000,
+    "last_round": "series-b",
+    "investors": [
+      "OpenAI",
+      "Tiger Global",
+      "Samsung NEXT"
+    ]
+  },
+  "team": {
+    "employee_count_range": "51-200",
+    "founders": [
+      {
+        "name": "Bernt Oyvind Bornich",
+        "title": "CEO"
+      }
+    ]
+  },
+  "social": {
+    "twitter": "@1aborX_Tech",
+    "linkedin": "https://linkedin.com/company/1x-technologies"
+  },
+  "products": [
+    {
+      "name": "NEO",
+      "description": "Bipedal humanoid robot",
+      "url": "https://www.1x.tech/neo"
+    },
+    {
+      "name": "EVE",
+      "description": "Wheeled humanoid robot",
+      "url": "https://www.1x.tech/eve"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://www.1x.tech"
+    ],
+    "data_quality_score": 0.8
+  }
+}

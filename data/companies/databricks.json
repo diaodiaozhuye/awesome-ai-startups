@@ -1,0 +1,76 @@
+{
+  "slug": "databricks",
+  "name": "Databricks",
+  "name_zh": "Databricks",
+  "description": "Databricks is a unified analytics platform built on Apache Spark that combines data engineering, data science, and machine learning.",
+  "description_zh": "Databricks 是基于 Apache Spark 构建的统一分析平台，融合了数据工程、数据科学和机器学习。",
+  "website": "https://www.databricks.com",
+  "category": "ai-data-analytics",
+  "tags": [
+    "data-labeling",
+    "mlops",
+    "b2b",
+    "saas",
+    "open-source"
+  ],
+  "founded_year": 2013,
+  "headquarters": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "funding": {
+    "total_raised_usd": 4100000000,
+    "last_round": "growth",
+    "last_round_date": "2023-09-14",
+    "valuation_usd": 43000000000,
+    "investors": [
+      "Andreessen Horowitz",
+      "T. Rowe Price",
+      "Nvidia",
+      "Capital One Ventures"
+    ]
+  },
+  "team": {
+    "employee_count_range": "5001+",
+    "founders": [
+      {
+        "name": "Ali Ghodsi",
+        "title": "CEO"
+      },
+      {
+        "name": "Matei Zaharia",
+        "title": "CTO"
+      }
+    ]
+  },
+  "social": {
+    "github": "https://github.com/databricks",
+    "twitter": "@databricks",
+    "linkedin": "https://linkedin.com/company/databricks",
+    "crunchbase": "https://www.crunchbase.com/organization/databricks"
+  },
+  "products": [
+    {
+      "name": "Lakehouse Platform",
+      "description": "Unified data and AI platform",
+      "url": "https://www.databricks.com/product"
+    },
+    {
+      "name": "MLflow",
+      "description": "Open-source ML lifecycle platform",
+      "url": "https://mlflow.org"
+    }
+  ],
+  "open_source": true,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://www.databricks.com"
+    ],
+    "data_quality_score": 0.8
+  }
+}

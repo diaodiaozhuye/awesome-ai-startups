@@ -1,0 +1,75 @@
+{
+  "site": {
+    "title": "AI Company Directory",
+    "description": "Open-source directory of AI startups and companies worldwide"
+  },
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "compare": "Compare",
+    "analytics": "Analytics",
+    "github": "GitHub"
+  },
+  "home": {
+    "hero_title": "AI Company Directory",
+    "hero_subtitle": "Open-source directory of {count} AI startups and companies worldwide",
+    "filter_all": "All",
+    "sort_by": "Sort by",
+    "sort_funding": "Funding",
+    "sort_name": "Name",
+    "sort_year": "Founded Year",
+    "no_results": "No companies found for this filter."
+  },
+  "company": {
+    "founded": "Founded",
+    "headquarters": "Headquarters",
+    "employees": "Employees",
+    "funding": "Funding",
+    "total_raised": "Total Raised",
+    "last_round": "Last Round",
+    "valuation": "Valuation",
+    "investors": "Investors",
+    "team": "Team",
+    "products": "Products",
+    "social": "Social Links",
+    "open_source": "Open Source",
+    "tags": "Tags",
+    "visit_website": "Visit Website",
+    "status": "Status",
+    "data_sources": "Data Sources",
+    "back_to_list": "Back to List"
+  },
+  "search": {
+    "title": "Search Companies",
+    "placeholder": "Search by name, category, country...",
+    "results": "{count} results",
+    "no_results": "No results found. Try a different search term.",
+    "filters": "Filters",
+    "category": "Category",
+    "country": "Country",
+    "clear_filters": "Clear Filters"
+  },
+  "compare": {
+    "title": "Compare Companies",
+    "select_prompt": "Select 2-3 companies to compare",
+    "add_company": "Add Company",
+    "remove": "Remove",
+    "field": "Field",
+    "no_data": "N/A"
+  },
+  "analytics": {
+    "title": "AI Industry Analytics",
+    "total_companies": "Total Companies",
+    "total_funding": "Total Funding",
+    "open_source": "Open Source",
+    "funding_chart": "Top Funded Companies",
+    "category_chart": "Companies by Category",
+    "timeline_chart": "Founded Year Timeline",
+    "geography_chart": "Companies by Country"
+  },
+  "footer": {
+    "description": "An open-source project tracking AI companies worldwide.",
+    "contribute": "Contribute on GitHub",
+    "data_updated": "Data last updated"
+  }
+}

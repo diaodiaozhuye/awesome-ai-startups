@@ -1,0 +1,91 @@
+{
+  "slug": "openai",
+  "name": "OpenAI",
+  "name_zh": "OpenAI",
+  "description": "OpenAI is an AI research and deployment company that builds general-purpose AI systems. Creator of GPT-4, ChatGPT, and DALL-E.",
+  "description_zh": "OpenAI 是一家 AI 研究与部署公司，构建通用人工智能系统。GPT-4、ChatGPT 和 DALL-E 的创造者。",
+  "website": "https://openai.com",
+  "category": "llm-foundation-model",
+  "tags": [
+    "generative-ai",
+    "nlp",
+    "transformer",
+    "multimodal",
+    "api-platform",
+    "chatbot"
+  ],
+  "founded_year": 2015,
+  "headquarters": {
+    "city": "San Francisco",
+    "state": "California",
+    "country": "United States",
+    "country_code": "US"
+  },
+  "funding": {
+    "total_raised_usd": 11300000000,
+    "last_round": "growth",
+    "last_round_date": "2024-10-02",
+    "valuation_usd": 157000000000,
+    "investors": [
+      "Microsoft",
+      "Thrive Capital",
+      "Khosla Ventures",
+      "SoftBank"
+    ]
+  },
+  "team": {
+    "employee_count_range": "1001-5000",
+    "founders": [
+      {
+        "name": "Sam Altman",
+        "title": "CEO"
+      },
+      {
+        "name": "Greg Brockman",
+        "title": "President"
+      },
+      {
+        "name": "Ilya Sutskever",
+        "title": "Co-founder"
+      }
+    ]
+  },
+  "social": {
+    "github": "https://github.com/openai",
+    "twitter": "@OpenAI",
+    "linkedin": "https://linkedin.com/company/openai",
+    "crunchbase": "https://www.crunchbase.com/organization/openai"
+  },
+  "products": [
+    {
+      "name": "ChatGPT",
+      "description": "Conversational AI assistant",
+      "url": "https://chat.openai.com"
+    },
+    {
+      "name": "GPT-4",
+      "description": "Large multimodal model",
+      "url": "https://openai.com/gpt-4"
+    },
+    {
+      "name": "DALL-E",
+      "description": "Text-to-image generation",
+      "url": "https://openai.com/dall-e-3"
+    },
+    {
+      "name": "Sora",
+      "description": "Text-to-video generation",
+      "url": "https://openai.com/sora"
+    }
+  ],
+  "open_source": false,
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-11",
+    "sources": [
+      "https://openai.com"
+    ],
+    "data_quality_score": 0.8
+  }
+}
