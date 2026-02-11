@@ -3,7 +3,7 @@
 [![Daily Scrape](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml/badge.svg)](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-[English](README.md) | 中文
+[English](README.md#ai-company-directory) | 中文
 
 一个**开源、Git 原生的数据仓库**，追踪全球 AI 创业公司和企业。
 
