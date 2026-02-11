@@ -9,7 +9,11 @@
       "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth status)",
       "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" auth login --web --git-protocol https)",
       "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" repo create awesome-ai-startups --public --description \"An open-source, Git-native data repository tracking AI startups and companies worldwide. Features automated scrapers, structured JSON data, and a Next.js static website.\")",
-      "Bash(git remote add origin https://github.com/diaodiaozhuye/awesome-ai-startups.git)"
+      "Bash(git remote add origin https://github.com/diaodiaozhuye/awesome-ai-startups.git)",
+      "Bash(wc:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }
