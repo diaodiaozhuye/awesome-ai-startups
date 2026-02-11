@@ -3,6 +3,8 @@
 [![Daily Scrape](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml/badge.svg)](https://github.com/ai-company-directory/ai-company-directory/actions/workflows/daily-scrape.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+English | [中文](README_ZH.md)
+
 An **open-source, Git-native data repository** tracking AI startups and companies worldwide.
 
 - **Data as Code**: Each company is a JSON file in `data/companies/`, version-controlled with full Git history
