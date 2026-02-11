@@ -31,3 +31,13 @@ export function formatRound(round: string): string {
 export function cn(...classes: (string | boolean | undefined | null)[]): string {
   return classes.filter(Boolean).join(" ");
 }
+
+/** Resolve a bilingual field based on locale. Falls back to the base field. */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function localized(item: any, locale: "en" | "zh", field: string = "name"): string {
+  if (locale === "zh") {
+    const zhValue = item[`${field}_zh`];
+    if (typeof zhValue === "string" && zhValue) return zhValue;
+  }
+  return (item[field] as string) ?? "";
+}

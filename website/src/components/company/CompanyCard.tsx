@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { FundingBadge } from "./FundingBadge";
-import { formatCurrency } from "@/lib/utils";
+import { formatCurrency, localized } from "@/lib/utils";
 import type { CompanyIndexEntry, Locale } from "@/lib/types";
 
 interface CompanyCardProps {
@@ -12,10 +12,8 @@ interface CompanyCardProps {
 }
 
 export function CompanyCard({ company, locale, categoryLabel }: CompanyCardProps) {
-  const name = locale === "zh" && company.name_zh ? company.name_zh : company.name;
-  const description = locale === "zh" && company.description_zh
-    ? company.description_zh
-    : company.description;
+  const name = localized(company, locale, "name");
+  const description = localized(company, locale, "description");
 
   return (
     <Link href={`/${locale}/companies/${company.slug}`}>

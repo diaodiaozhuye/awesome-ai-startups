@@ -12,6 +12,9 @@ export function getAllCompanies(): CompanyIndex {
 }
 
 export function getCompanyBySlug(slug: string): Company {
+  if (!/^[a-z0-9-]+$/.test(slug)) {
+    throw new Error(`Invalid slug: ${slug}`);
+  }
   const filePath = path.join(COMPANIES_DIR, `${slug}.json`);
   const raw = fs.readFileSync(filePath, "utf-8");
   return JSON.parse(raw) as Company;

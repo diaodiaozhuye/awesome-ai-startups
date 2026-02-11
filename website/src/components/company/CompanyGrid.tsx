@@ -5,21 +5,13 @@ import { CompanyCard } from "./CompanyCard";
 import { Pagination } from "@/components/ui/Pagination";
 import { Button } from "@/components/ui/Button";
 import type { CompanyIndexEntry, Locale, Category } from "@/lib/types";
+import type { HomeDict } from "@/lib/dict";
 
 interface CompanyGridProps {
   companies: CompanyIndexEntry[];
   categories: Category[];
   locale: Locale;
-  dict: {
-    home: {
-      filter_all: string;
-      sort_by: string;
-      sort_funding: string;
-      sort_name: string;
-      sort_year: string;
-      no_results: string;
-    };
-  };
+  dict: { home: HomeDict };
 }
 
 const ITEMS_PER_PAGE = 12;
@@ -28,6 +20,11 @@ export function CompanyGrid({ companies, categories, locale, dict }: CompanyGrid
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState<"funding" | "name" | "year">("funding");
   const [currentPage, setCurrentPage] = useState(1);
+
+  const categoryMap = useMemo(
+    () => new Map(categories.map((c) => [c.id, c])),
+    [categories],
+  );
 
   const filtered = useMemo(() => {
     let result = companies;
@@ -112,7 +109,7 @@ export function CompanyGrid({ companies, categories, locale, dict }: CompanyGrid
       ) : (
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {paged.map((company) => {
-            const cat = categories.find((c) => c.id === company.category);
+            const cat = categoryMap.get(company.category);
             const catLabel = cat ? (locale === "zh" ? cat.name_zh : cat.name) : undefined;
             return (
               <CompanyCard key={company.slug} company={company} locale={locale} categoryLabel={catLabel} />

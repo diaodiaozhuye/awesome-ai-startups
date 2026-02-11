@@ -2,22 +2,21 @@ import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { FundingBadge } from "./FundingBadge";
-import { formatCurrency } from "@/lib/utils";
+import { formatCurrency, localized } from "@/lib/utils";
 import type { Company, Locale } from "@/lib/types";
+import type { Dictionary } from "@/lib/dict";
 
 interface CompanyDetailProps {
   company: Company;
   locale: Locale;
-  dict: any;
+  dict: Dictionary;
   categoryLabel?: string;
 }
 
 export function CompanyDetail({ company, locale, dict, categoryLabel }: CompanyDetailProps) {
   const t = dict.company;
-  const name = locale === "zh" && company.name_zh ? company.name_zh : company.name;
-  const description = locale === "zh" && company.description_zh
-    ? company.description_zh
-    : company.description;
+  const name = localized(company, locale, "name");
+  const description = localized(company, locale, "description");
 
   return (
     <div className="max-w-4xl mx-auto">
@@ -148,8 +147,8 @@ export function CompanyDetail({ company, locale, dict, categoryLabel }: CompanyD
             <h2 className="font-semibold text-lg mb-4">{t.products}</h2>
             <ul className="space-y-3">
               {company.products.map((p) => {
-                const productName = locale === "zh" && p.name_zh ? p.name_zh : p.name;
-                const productDesc = locale === "zh" && p.description_zh ? p.description_zh : p.description;
+                const productName = localized(p, locale, "name");
+                const productDesc = localized(p, locale, "description");
                 return (
                   <li key={p.name} className="text-sm">
                     <div className="flex items-center justify-between">
