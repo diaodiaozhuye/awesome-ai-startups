@@ -41,6 +41,7 @@ class Deduplicator:
     def __init__(self) -> None:
         self._existing_domains: dict[str, str] = {}  # domain -> slug
         self._existing_names: dict[str, str] = {}  # lowercase name -> slug
+        self._existing_names_zh: dict[str, str] = {}  # name_zh -> slug
         self._load_existing()
 
     def _load_existing(self) -> None:
@@ -56,6 +57,10 @@ class Deduplicator:
 
                 if name:
                     self._existing_names[name.lower()] = slug
+
+                name_zh = data.get("name_zh", "")
+                if name_zh:
+                    self._existing_names_zh[name_zh] = slug
 
                 # Match on product_url domain
                 product_url = data.get("product_url", "")
@@ -106,6 +111,16 @@ class Deduplicator:
         name_lower = product.name.lower()
         if name_lower in self._existing_names:
             return self._existing_names[name_lower]
+
+        # 3b. Match by name_zh (Chinese name dedup)
+        if product.name_zh and product.name_zh in self._existing_names_zh:
+            return self._existing_names_zh[product.name_zh]
+
+        # 3c. Match by name against existing name_zh (cross-lingual)
+        if name_lower:
+            for zh_name, slug in self._existing_names_zh.items():
+                if zh_name.lower() == name_lower:
+                    return slug
 
         # 4. Match by fuzzy name
         for existing_name, slug in self._existing_names.items():

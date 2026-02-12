@@ -53,9 +53,14 @@ def scrape(source: str, limit: int, dry_run: bool) -> None:
             sys.exit(1)
         scrapers_to_run = [ALL_SCRAPERS[n] for n in names]
 
+    from scrapers.enrichment.cross_validator import CrossValidator
+    from scrapers.enrichment.normalizer import PlausibilityValidator
+
     normalizer = Normalizer()
+    plausibility = PlausibilityValidator()
     deduplicator = Deduplicator()
-    merger = Merger()
+    cross_validator = CrossValidator()
+    merger = Merger(cross_validator=cross_validator)
 
     all_scraped: list = []
     for scraper_cls in scrapers_to_run:
@@ -83,8 +88,19 @@ def scrape(source: str, limit: int, dry_run: bool) -> None:
     normalized = [normalizer.normalize(p) for p in all_scraped]
     click.echo(f"\nNormalized {len(normalized)} products")
 
+    # Plausibility check
+    plausible: list = []
+    for p in normalized:
+        is_valid, issues = plausibility.validate(p)
+        if is_valid:
+            plausible.append(p)
+        else:
+            safe_name = p.name.encode("ascii", "replace").decode("ascii")
+            click.echo(f"  Rejected (implausible): {safe_name} - {'; '.join(issues)}")
+    click.echo(f"Plausibility: {len(plausible)}/{len(normalized)} passed")
+
     # Deduplicate
-    result = deduplicator.deduplicate(normalized)
+    result = deduplicator.deduplicate(plausible)
     click.echo(
         f"New: {len(result.new_products)}, Updates: {len(result.updates_for_existing)}"
     )
@@ -110,6 +126,15 @@ def scrape(source: str, limit: int, dry_run: bool) -> None:
     for slug, product in result.updates_for_existing:
         merger.merge_update(slug, product)
         click.echo(f"  Updated: {slug}")
+
+    # Report cross-validation violations
+    if cross_validator.violations:
+        click.echo(
+            f"\nCross-validation: {len(cross_validator.violations)} field(s) skipped:"
+        )
+        for v in cross_validator.violations:
+            icon = "X" if v.severity == "error" else "!"
+            click.echo(f"  [{icon}] {v.target_slug}.{v.field}: {v.reason}")
 
     click.echo("\nDone! Run 'aiscrape generate-stats' to update index and stats.")
 

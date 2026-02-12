@@ -18,6 +18,7 @@ from urllib.parse import quote_plus
 
 from scrapers.base import ScrapedProduct, SourceTier
 from scrapers.config import PRODUCTS_DIR
+from scrapers.enrichment.cross_validator import VALIDATED_FIELDS, CrossValidator
 from scrapers.utils import get_nested as _get_nested
 
 logger = logging.getLogger(__name__)
@@ -131,6 +132,12 @@ def _set_nested(data: dict[str, Any], path: str, value: Any) -> None:
 class TieredMerger:
     """Merge scraped product data using tier-based priority with field-level provenance."""
 
+    def __init__(
+        self,
+        cross_validator: CrossValidator | None = None,
+    ) -> None:
+        self._cross_validator = cross_validator
+
     # -- public API ---------------------------------------------------------
 
     def merge_or_create(self, slug: str, scraped: ScrapedProduct) -> dict[str, Any]:
@@ -196,10 +203,14 @@ class TieredMerger:
         slug = self._validate_slug(slug)
         today = date.today().isoformat()
 
+        raw_url = scraped.product_url or ""
+        if raw_url and not self._cv_ok(slug, "product_url", raw_url):
+            raw_url = ""
+
         product: dict[str, Any] = {
             "slug": slug,
             "name": scraped.name,
-            "product_url": scraped.product_url or "",
+            "product_url": raw_url,
             "description": scraped.description or f"{scraped.name} is an AI product.",
             "product_type": scraped.product_type or "other",
             "category": scraped.category or "ai-app",
@@ -212,10 +223,14 @@ class TieredMerger:
             "sources": [],
         }
 
-        # -- optional i18n fields -------------------------------------------
-        if scraped.name_zh:
+        # -- optional i18n fields (cross-validated) ----------------------------
+        if scraped.name_zh and self._cv_ok(slug, "name_zh", scraped.name_zh):
             product["name_zh"] = scraped.name_zh
-        if scraped.description_zh:
+        if scraped.description_zh and self._cv_ok(
+            slug,
+            "description_zh",
+            scraped.description_zh,
+        ):
             product["description_zh"] = scraped.description_zh
 
         # -- company block --------------------------------------------------
@@ -429,9 +444,34 @@ class TieredMerger:
         if not self._should_overwrite(existing_tier, new_tier):
             return False
 
+        # Cross-validation gate for fields prone to contamination.
+        if (
+            self._cross_validator is not None
+            and isinstance(value, str)
+            and field_path in VALIDATED_FIELDS
+        ):
+            slug = product.get("slug", "")
+            if not self._cross_validator.validate_field(slug, field_path, value):
+                logger.info(
+                    "Skipping %s for %s: cross-validation failed",
+                    field_path,
+                    slug,
+                )
+                return False
+            self._cross_validator.update_index(slug, field_path, value)
+
         _set_nested(product, field_path, value)
         self._record_provenance(product, field_path, scraped)
         return True
+
+    def _cv_ok(self, slug: str, field_path: str, value: str) -> bool:
+        """Shorthand: cross-validate *value* if a validator is present."""
+        if self._cross_validator is None:
+            return True
+        ok = self._cross_validator.validate_field(slug, field_path, value)
+        if ok:
+            self._cross_validator.update_index(slug, field_path, value)
+        return ok
 
     def _extend_array_field(
         self,

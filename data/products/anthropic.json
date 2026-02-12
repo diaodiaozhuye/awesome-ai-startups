@@ -6,7 +6,7 @@
   "product_type": "app",
   "category": "ai-app",
   "status": "active",
-  "name_zh": "豆包",
+  "name_zh": "Claude",
   "description_zh": "Anthropic公司推出的对话式AI智能助手",
   "sub_category": "voice-assistant",
   "tags": [
