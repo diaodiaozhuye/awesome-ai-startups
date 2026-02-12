@@ -32,7 +32,7 @@ _SAMPLE_HTML = """
 
 class TestIndeedSearchJobs:
     @patch("scrapers.sources.indeed.create_http_client")
-    def test_parses_job_cards(self, mock_create: MagicMock) -> None:
+    def test_parses_job_cards_via_httpx(self, mock_create: MagicMock) -> None:
         mock_response = MagicMock()
         mock_response.text = _SAMPLE_HTML
         mock_response.is_success = True
@@ -40,11 +40,13 @@ class TestIndeedSearchJobs:
 
         mock_client = MagicMock()
         mock_client.get.return_value = mock_response
+        mock_client.headers = {}
         mock_create.return_value = mock_client
 
         scraper = IndeedScraper()
         scraper.RATE_LIMIT_DELAY = 0.0
-        jobs = scraper._search_jobs("ML Engineer", 10)
+        # Test the httpx fallback path directly
+        jobs = scraper._search_via_httpx("ML Engineer", 10)
 
         assert len(jobs) == 2
         assert jobs[0]["company_name"] == "OpenAI"
@@ -59,11 +61,13 @@ class TestIndeedSearchJobs:
 
         mock_client = MagicMock()
         mock_client.get.return_value = mock_response
+        mock_client.headers = {}
         mock_create.return_value = mock_client
 
         scraper = IndeedScraper()
         scraper.RATE_LIMIT_DELAY = 0.0
-        jobs = scraper._search_jobs("ML Engineer", 10)
+        # Test the httpx fallback path directly
+        jobs = scraper._search_via_httpx("ML Engineer", 10)
         # The third card has empty company name, should be skipped
         assert all(j["company_name"] for j in jobs)
 
@@ -82,8 +86,8 @@ class TestIndeedExtractCompany:
         assert company is not None
         assert company.name == "OpenAI"
         assert company.source == "indeed"
-        assert company.headquarters_city == "San Francisco"
-        assert company.headquarters_country == "United States"
+        assert company.company_headquarters_city == "San Francisco"
+        assert company.company_headquarters_country == "United States"
         assert company.category == "llm-foundation-model"
 
     def test_returns_none_for_empty_name(self) -> None:

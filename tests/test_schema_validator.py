@@ -1,4 +1,4 @@
-"""Tests for the SchemaValidator."""
+"""Tests for the ProductSchemaValidator."""
 
 from __future__ import annotations
 
@@ -7,82 +7,93 @@ from pathlib import Path
 
 import pytest
 
-from scrapers.validation.schema_validator import SchemaValidator
+from scrapers.validation.schema_validator import ProductSchemaValidator
 
 
 @pytest.fixture
-def validator() -> SchemaValidator:
-    return SchemaValidator()
+def validator() -> ProductSchemaValidator:
+    return ProductSchemaValidator()
 
 
-class TestSchemaValidator:
-    def test_valid_company(self, validator: SchemaValidator, tmp_path: Path) -> None:
-        data = {
-            "slug": "test-co",
+def _valid_product_data(slug: str = "test-product") -> dict:
+    """Return a minimal valid product dict matching product.schema.json."""
+    return {
+        "slug": slug,
+        "name": "Test Product",
+        "product_url": "https://test-product.com",
+        "description": "A valid test product with a proper description for testing.",
+        "product_type": "app",
+        "category": "ai-app",
+        "status": "active",
+        "company": {
             "name": "Test Co",
-            "description": "A valid test company with a proper description.",
-            "website": "https://test.co",
-            "category": "ai-other",
-            "founded_year": 2023,
-            "headquarters": {"city": "NYC", "country": "United States"},
-        }
-        filepath = tmp_path / "test-co.json"
+            "url": "https://test.co",
+        },
+    }
+
+
+class TestValidateFile:
+    def test_valid_product(
+        self, validator: ProductSchemaValidator, tmp_path: Path
+    ) -> None:
+        data = _valid_product_data()
+        filepath = tmp_path / "test-product.json"
         filepath.write_text(json.dumps(data), encoding="utf-8")
 
         result = validator.validate_file(filepath)
         assert result.valid, f"Errors: {result.errors}"
 
     def test_missing_required_field(
-        self, validator: SchemaValidator, tmp_path: Path
+        self, validator: ProductSchemaValidator, tmp_path: Path
     ) -> None:
         data = {
-            "slug": "test-co",
-            "name": "Test Co",
-            # missing description, website, category, founded_year, headquarters
+            "slug": "test-product",
+            "name": "Test Product",
+            # missing product_url, description, product_type, category, status
         }
-        filepath = tmp_path / "test-co.json"
+        filepath = tmp_path / "test-product.json"
         filepath.write_text(json.dumps(data), encoding="utf-8")
 
         result = validator.validate_file(filepath)
         assert not result.valid
-        assert any(
-            "required" in e.lower() or "description" in e.lower() for e in result.errors
-        )
+        assert any("required" in e.lower() for e in result.errors)
 
-    def test_slug_mismatch(self, validator: SchemaValidator, tmp_path: Path) -> None:
-        data = {
-            "slug": "wrong-slug",
-            "name": "Test Co",
-            "description": "A valid test company with a proper description.",
-            "website": "https://test.co",
-            "category": "ai-other",
-            "founded_year": 2023,
-            "headquarters": {"city": "NYC", "country": "United States"},
-        }
-        filepath = tmp_path / "test-co.json"
+    def test_slug_mismatch(
+        self, validator: ProductSchemaValidator, tmp_path: Path
+    ) -> None:
+        data = _valid_product_data("wrong-slug")
+        filepath = tmp_path / "test-product.json"
         filepath.write_text(json.dumps(data), encoding="utf-8")
 
         result = validator.validate_file(filepath)
         assert not result.valid
         assert any("slug mismatch" in e.lower() for e in result.errors)
 
-    def test_invalid_category(self, validator: SchemaValidator, tmp_path: Path) -> None:
-        data = {
-            "slug": "test-co",
-            "name": "Test Co",
-            "description": "A valid test company with a proper description.",
-            "website": "https://test.co",
-            "category": "not-a-real-category",
-            "founded_year": 2023,
-            "headquarters": {"city": "NYC", "country": "United States"},
-        }
-        filepath = tmp_path / "test-co.json"
+    def test_invalid_category(
+        self, validator: ProductSchemaValidator, tmp_path: Path
+    ) -> None:
+        data = _valid_product_data()
+        data["category"] = "not-a-real-category"
+        filepath = tmp_path / "test-product.json"
         filepath.write_text(json.dumps(data), encoding="utf-8")
 
         result = validator.validate_file(filepath)
         assert not result.valid
 
-    def test_invalid_json(self, validator: SchemaValidator, tmp_path: Path) -> None:
+    def test_invalid_product_type(
+        self, validator: ProductSchemaValidator, tmp_path: Path
+    ) -> None:
+        data = _valid_product_data()
+        data["product_type"] = "invalid-type"
+        filepath = tmp_path / "test-product.json"
+        filepath.write_text(json.dumps(data), encoding="utf-8")
+
+        result = validator.validate_file(filepath)
+        assert not result.valid
+
+    def test_invalid_json(
+        self, validator: ProductSchemaValidator, tmp_path: Path
+    ) -> None:
         filepath = tmp_path / "broken.json"
         filepath.write_text("{invalid json", encoding="utf-8")
 
@@ -90,8 +101,23 @@ class TestSchemaValidator:
         assert not result.valid
         assert any("invalid json" in e.lower() for e in result.errors)
 
-    def test_validate_all_seed_data(self, validator: SchemaValidator) -> None:
-        """Integration test: all 28 seed companies should be valid."""
+
+class TestValidateProductDict:
+    def test_valid_dict(self, validator: ProductSchemaValidator) -> None:
+        data = _valid_product_data()
+        result = validator.validate_product_dict(data, "test-product")
+        assert result.valid, f"Errors: {result.errors}"
+
+    def test_slug_mismatch_in_dict(self, validator: ProductSchemaValidator) -> None:
+        data = _valid_product_data("wrong-slug")
+        result = validator.validate_product_dict(data, "test-product")
+        assert not result.valid
+        assert any("slug mismatch" in e.lower() for e in result.errors)
+
+
+class TestValidateAllSeedData:
+    def test_validate_all_seed_data(self, validator: ProductSchemaValidator) -> None:
+        """Integration test: all seed products should be valid."""
         results = validator.validate_all()
         assert len(results) >= 28
 

@@ -10,19 +10,18 @@ class TestIndexGenerator:
     def test_generates_index(self, tmp_path: object) -> None:
         """Integration test: generate index from actual seed data."""
         gen = IndexGenerator()
-        companies = gen.generate()
+        products = gen.generate()
 
-        assert len(companies) >= 28
-        assert all("slug" in c for c in companies)
-        assert all("name" in c for c in companies)
-        assert all("category" in c for c in companies)
-        assert all("country" in c for c in companies)
+        assert len(products) >= 28
+        assert all("slug" in c for c in products)
+        assert all("name" in c for c in products)
+        assert all("category" in c for c in products)
 
     def test_index_sorted_by_funding(self) -> None:
         gen = IndexGenerator()
-        companies = gen.generate()
+        products = gen.generate()
 
-        funding_values = [c.get("total_raised_usd", 0) for c in companies]
+        funding_values = [c.get("total_raised_usd", 0) or 0 for c in products]
         assert funding_values == sorted(funding_values, reverse=True)
 
 
@@ -32,7 +31,7 @@ class TestStatsGenerator:
         gen = StatsGenerator()
         stats = gen.generate()
 
-        assert stats["total_companies"] >= 28
+        assert stats["total_products"] >= 28
         assert stats["total_funding_usd"] > 0
         assert len(stats["by_category"]) > 0
         assert len(stats["by_country"]) > 0

@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from scrapers.base import ScrapedCompany
+from scrapers.base import ScrapedProduct
 from scrapers.base_job_scraper import BaseJobSiteScraper
 
 
@@ -27,15 +27,15 @@ class _FakeJobScraper(BaseJobSiteScraper):
             return result[:limit]
         return []
 
-    def _extract_company(self, job_data: dict[str, str]) -> ScrapedCompany | None:
+    def _extract_company(self, job_data: dict[str, str]) -> ScrapedProduct | None:
         name = job_data.get("company")
         if not name:
             return None
-        return ScrapedCompany(
+        return ScrapedProduct(
             name=name,
             source="fake",
-            website=job_data.get("website"),
-            headquarters_city=job_data.get("city"),
+            company_website=job_data.get("website"),
+            company_headquarters_city=job_data.get("city"),
             tags=("test",),
         )
 
@@ -111,25 +111,32 @@ class TestDeduplication:
 class TestMerge:
     def test_merge_fills_missing_fields(self) -> None:
         scraper = _FakeJobScraper([[]])
-        existing = ScrapedCompany(name="Test", source="fake", tags=("a",))
-        incoming = ScrapedCompany(
-            name="Test", source="fake", headquarters_city="SF", tags=("b",)
+        existing = ScrapedProduct(name="Test", source="fake", tags=("a",))
+        incoming = ScrapedProduct(
+            name="Test",
+            source="fake",
+            company_headquarters_city="SF",
+            tags=("b",),
         )
         merged = scraper._merge(existing, incoming)
-        assert merged.headquarters_city == "SF"
+        assert merged.company_headquarters_city == "SF"
         assert set(merged.tags) == {"a", "b"}
 
     def test_merge_does_not_overwrite(self) -> None:
         scraper = _FakeJobScraper([[]])
-        existing = ScrapedCompany(name="Test", source="fake", headquarters_city="NYC")
-        incoming = ScrapedCompany(name="Test", source="fake", headquarters_city="SF")
+        existing = ScrapedProduct(
+            name="Test", source="fake", company_headquarters_city="NYC"
+        )
+        incoming = ScrapedProduct(
+            name="Test", source="fake", company_headquarters_city="SF"
+        )
         merged = scraper._merge(existing, incoming)
-        assert merged.headquarters_city == "NYC"
+        assert merged.company_headquarters_city == "NYC"
 
     def test_merge_preserves_name_and_source(self) -> None:
         scraper = _FakeJobScraper([[]])
-        existing = ScrapedCompany(name="Original", source="fake")
-        incoming = ScrapedCompany(name="Different", source="other")
+        existing = ScrapedProduct(name="Original", source="fake")
+        incoming = ScrapedProduct(name="Different", source="other")
         merged = scraper._merge(existing, incoming)
         assert merged.name == "Original"
         assert merged.source == "fake"
@@ -137,13 +144,15 @@ class TestMerge:
 
 class TestDedupKey:
     def test_domain_key(self) -> None:
-        company = ScrapedCompany(
-            name="Test", source="fake", website="https://www.example.com/about"
+        company = ScrapedProduct(
+            name="Test",
+            source="fake",
+            company_website="https://www.example.com/about",
         )
         key = BaseJobSiteScraper._dedup_key(company)
         assert key == "example.com"
 
     def test_name_fallback(self) -> None:
-        company = ScrapedCompany(name="My Company", source="fake")
+        company = ScrapedProduct(name="My Company", source="fake")
         key = BaseJobSiteScraper._dedup_key(company)
         assert key == "my company"

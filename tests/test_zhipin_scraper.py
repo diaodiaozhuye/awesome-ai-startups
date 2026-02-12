@@ -33,8 +33,8 @@ _SAMPLE_HTML = """
 
 
 class TestZhipinSearchJobs:
-    @patch("scrapers.sources.zhipin.create_http_client")
-    def test_parses_chinese_job_cards(self, mock_create: MagicMock) -> None:
+    @patch("scrapers.sources.zhipin.create_china_http_client")
+    def test_parses_chinese_job_cards_via_httpx(self, mock_create: MagicMock) -> None:
         mock_response = MagicMock()
         mock_response.text = _SAMPLE_HTML
         mock_response.is_success = True
@@ -46,7 +46,8 @@ class TestZhipinSearchJobs:
 
         scraper = ZhipinScraper()
         scraper.RATE_LIMIT_DELAY = 0.0
-        jobs = scraper._search_jobs("大模型", 10)
+        # Test the httpx fallback path directly
+        jobs = scraper._search_via_httpx("大模型", 10)
 
         assert len(jobs) == 2
         assert "智谱" in jobs[0]["company_name"]
@@ -66,10 +67,10 @@ class TestZhipinExtractCompany:
         assert company is not None
         assert company.name == "北京智谱华章科技有限公司"
         assert company.source == "zhipin"
-        assert company.headquarters_city == "北京"
-        assert company.headquarters_country == "China"
-        assert company.headquarters_country_code == "CN"
-        assert company.employee_count_range == "1001-5000"
+        assert company.company_headquarters_city == "北京"
+        assert company.company_headquarters_country == "China"
+        assert company.company_headquarters_country_code == "CN"
+        assert company.company_employee_count_range == "1001-5000"
         assert company.description_zh == "人工智能"
         assert company.extra.get("name_zh") == "北京智谱华章科技有限公司"
 
