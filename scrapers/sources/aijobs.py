@@ -6,7 +6,7 @@ import logging
 
 from bs4 import BeautifulSoup, Tag
 
-from scrapers.base_job_scraper import BaseJobSiteScraper
+from scrapers.base_job_scraper import BaseJobSiteScraper, ScrapedCompany
 from scrapers.utils import create_http_client
 
 logger = logging.getLogger(__name__)
