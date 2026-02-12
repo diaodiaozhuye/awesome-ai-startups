@@ -1,0 +1,76 @@
+{
+  "slug": "scale-ai",
+  "name": "Scale Data Engine",
+  "product_url": "https://scale.com/data-engine",
+  "description": "Scale AI provides high-quality training data and AI infrastructure for enterprises building AI applications at scale.",
+  "product_type": "dev-tool",
+  "category": "ai-data",
+  "status": "active",
+  "name_zh": "Scale AI",
+  "description_zh": "Scale AI 为大规模构建 AI 应用的企业提供高质量训练数据和 AI 基础设施。",
+  "sub_category": "data-pipeline",
+  "tags": [
+    "data-labeling",
+    "synthetic-data",
+    "b2b",
+    "mlops"
+  ],
+  "open_source": false,
+  "repository_url": "https://github.com/scaleapi",
+  "company": {
+    "name": "Scale AI",
+    "url": "https://scale.com",
+    "website": "https://scale.com",
+    "name_zh": "Scale AI",
+    "founded_year": 2016,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 600000000,
+      "last_round": "series-e",
+      "valuation_usd": 7300000000,
+      "investors": [
+        "Accel",
+        "Tiger Global",
+        "Founders Fund",
+        "Index Ventures"
+      ]
+    },
+    "employee_count_range": "501-1000",
+    "social": {
+      "linkedin": "https://linkedin.com/company/scaleai",
+      "crunchbase": "https://www.crunchbase.com/organization/scale-ai",
+      "twitter": "@scale_AI",
+      "github": "https://github.com/scaleapi"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Alexandr Wang",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Lucy Guo",
+      "title": "Co-founder",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://scale.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

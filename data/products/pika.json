@@ -1,0 +1,69 @@
+{
+  "slug": "pika",
+  "name": "Pika",
+  "product_url": "https://pika.art",
+  "description": "Pika is an AI company building tools to make video creation accessible for everyone through generative AI technology.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "Pika",
+  "description_zh": "Pika 是一家 AI 公司，通过生成式 AI 技术让每个人都能轻松创作视频。",
+  "sub_category": "image-generation",
+  "tags": [
+    "generative-ai",
+    "text-to-video",
+    "content-creation",
+    "b2c"
+  ],
+  "open_source": false,
+  "company": {
+    "name": "Pika",
+    "url": "https://pika.art",
+    "website": "https://pika.art",
+    "name_zh": "Pika",
+    "founded_year": 2023,
+    "headquarters": {
+      "city": "Palo Alto",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 135000000,
+      "last_round": "series-a",
+      "investors": [
+        "Spark Capital",
+        "Lightspeed Venture Partners"
+      ]
+    },
+    "employee_count_range": "11-50",
+    "social": {
+      "twitter": "@paborika_labs"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Demi Guo",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Chenlin Meng",
+      "title": "CTO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://pika.art",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

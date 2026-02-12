@@ -1,0 +1,39 @@
+{
+  "slug": "scrapegraphai",
+  "name": "ScrapeGraphAI",
+  "product_url": "https://scrapegraphai.com",
+  "description": "Python scraper based on AI",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/ScrapeGraphAI",
+  "company": {
+    "name": "ScrapeGraphAI",
+    "url": "https://scrapegraphai.com",
+    "website": "https://scrapegraphai.com",
+    "headquarters": {
+      "city": "United States of America"
+    },
+    "social": {
+      "twitter": "scrapegraphai",
+      "github": "https://github.com/ScrapeGraphAI"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/ScrapeGraphAI",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

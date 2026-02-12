@@ -1,0 +1,84 @@
+{
+  "slug": "hugging-face",
+  "name": "Transformers",
+  "product_url": "https://github.com/huggingface/transformers",
+  "description": "Hugging Face is the AI community platform for sharing models, datasets, and apps. Home of the Transformers library and model Hub.",
+  "product_type": "api-service",
+  "category": "ai-infrastructure",
+  "status": "active",
+  "name_zh": "Hugging Face",
+  "description_zh": "Hugging Face 是用于分享模型、数据集和应用的 AI 社区平台。Transformers 库和模型中心的发源地。",
+  "sub_category": "compute-platform",
+  "tags": [
+    "open-source",
+    "developer-tools",
+    "model-serving",
+    "mlops",
+    "api-platform"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/huggingface",
+  "company": {
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "website": "https://huggingface.co",
+    "name_zh": "Hugging Face",
+    "founded_year": 2016,
+    "headquarters": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 395000000,
+      "last_round": "series-d",
+      "last_round_date": "2023-08-24",
+      "valuation_usd": 4500000000,
+      "investors": [
+        "Google",
+        "Amazon",
+        "Nvidia",
+        "Salesforce",
+        "Sequoia Capital"
+      ]
+    },
+    "employee_count_range": "201-500",
+    "social": {
+      "linkedin": "https://linkedin.com/company/huggingface",
+      "crunchbase": "https://www.crunchbase.com/organization/hugging-face",
+      "twitter": "@huggingface",
+      "github": "https://github.com/huggingface"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Clement Delangue",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Julien Chaumond",
+      "title": "CTO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://huggingface.co",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://github.com/huggingface",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

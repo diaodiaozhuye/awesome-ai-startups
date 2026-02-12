@@ -1,0 +1,38 @@
+{
+  "slug": "explosion",
+  "name": "Explosion",
+  "product_url": "https://explosion.ai",
+  "description": "Software company specializing in developer tools and tailored solutions for AI and Natural Language Processing",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/explosion",
+  "company": {
+    "name": "Explosion",
+    "url": "https://explosion.ai",
+    "website": "https://explosion.ai",
+    "headquarters": {
+      "city": "Berlin, Germany"
+    },
+    "social": {
+      "github": "https://github.com/explosion"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/explosion",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

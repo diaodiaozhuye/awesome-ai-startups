@@ -1,0 +1,82 @@
+{
+  "slug": "runway",
+  "name": "Gen-3 Alpha",
+  "product_url": "https://runwayml.com",
+  "description": "Runway is an applied AI research company building the next generation of creative tools powered by machine learning.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "Runway",
+  "description_zh": "Runway 是一家应用 AI 研究公司，构建下一代由机器学习驱动的创意工具。",
+  "sub_category": "image-generation",
+  "tags": [
+    "generative-ai",
+    "text-to-video",
+    "text-to-image",
+    "content-creation"
+  ],
+  "open_source": false,
+  "repository_url": "https://github.com/runwayml",
+  "company": {
+    "name": "Runway",
+    "url": "https://runwayml.com",
+    "website": "https://runwayml.com",
+    "name_zh": "Runway",
+    "founded_year": 2018,
+    "headquarters": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 237000000,
+      "last_round": "series-c",
+      "last_round_date": "2023-06-29",
+      "valuation_usd": 1500000000,
+      "investors": [
+        "Google",
+        "Nvidia",
+        "Salesforce Ventures",
+        "Felicis Ventures"
+      ]
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "linkedin": "https://linkedin.com/company/runwayml",
+      "crunchbase": "https://www.crunchbase.com/organization/runway-ai",
+      "twitter": "@runaborayml",
+      "github": "https://github.com/runwayml"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Cristobal Valenzuela",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Alejandro Matamala",
+      "title": "Co-founder",
+      "is_founder": true
+    },
+    {
+      "name": "Anastasis Germanidis",
+      "title": "Co-founder",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://runwayml.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

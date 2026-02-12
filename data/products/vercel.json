@@ -1,0 +1,38 @@
+{
+  "slug": "vercel",
+  "name": "Vercel",
+  "product_url": "https://vercel.com",
+  "description": "Develop. Preview. Ship. Creators of Next.js.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/vercel",
+  "company": {
+    "name": "Vercel",
+    "url": "https://vercel.com",
+    "website": "https://vercel.com",
+    "headquarters": {
+      "city": "United States of America"
+    },
+    "social": {
+      "github": "https://github.com/vercel"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/vercel",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "perplexity-ai",
+  "name": "Perplexity",
+  "product_url": "https://www.perplexity.ai",
+  "description": "Perplexity AI is an AI-powered answer engine that provides direct, cited answers to questions using real-time web search.",
+  "product_type": "app",
+  "category": "ai-search",
+  "status": "active",
+  "name_zh": "Perplexity AI",
+  "description_zh": "Perplexity AI 是一款 AI 驱动的答案引擎，利用实时网络搜索提供直接且有引用的答案。",
+  "sub_category": "web-search",
+  "tags": [
+    "search-engine",
+    "nlp",
+    "rag",
+    "b2c"
+  ],
+  "open_source": false,
+  "company": {
+    "name": "Perplexity AI",
+    "url": "https://www.perplexity.ai",
+    "website": "https://www.perplexity.ai",
+    "name_zh": "Perplexity AI",
+    "founded_year": 2022,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 250000000,
+      "last_round": "series-b",
+      "valuation_usd": 3000000000,
+      "investors": [
+        "IVP",
+        "NEA",
+        "Databricks Ventures",
+        "Jeff Bezos"
+      ]
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "linkedin": "https://linkedin.com/company/perplexity-ai",
+      "crunchbase": "https://www.crunchbase.com/organization/perplexity-ai",
+      "twitter": "@perplexity_ai"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Aravind Srinivas",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Denis Yarats",
+      "title": "CTO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.perplexity.ai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

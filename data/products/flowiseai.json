@@ -1,0 +1,39 @@
+{
+  "slug": "flowiseai",
+  "name": "FlowiseAI",
+  "product_url": "https://flowiseai.com",
+  "description": "Build AI Agents, Visually",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/FlowiseAI",
+  "company": {
+    "name": "FlowiseAI",
+    "url": "https://flowiseai.com",
+    "website": "https://flowiseai.com",
+    "headquarters": {
+      "city": "Unknown"
+    },
+    "social": {
+      "twitter": "FlowiseAI",
+      "github": "https://github.com/FlowiseAI"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/FlowiseAI",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

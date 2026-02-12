@@ -1,0 +1,38 @@
+{
+  "slug": "tensorflow",
+  "name": "tensorflow",
+  "product_url": "http://www.tensorflow.org",
+  "description": "An Open Source Machine Learning Framework for Everyone",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/tensorflow",
+  "company": {
+    "name": "tensorflow",
+    "url": "http://www.tensorflow.org",
+    "website": "http://www.tensorflow.org",
+    "headquarters": {
+      "city": "Unknown"
+    },
+    "social": {
+      "github": "https://github.com/tensorflow"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/tensorflow",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

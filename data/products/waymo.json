@@ -1,0 +1,70 @@
+{
+  "slug": "waymo",
+  "name": "Waymo One",
+  "product_url": "https://waymo.com/waymo-one",
+  "description": "Waymo is an autonomous driving technology company and subsidiary of Alphabet developing self-driving vehicles.",
+  "product_type": "hardware",
+  "category": "ai-hardware",
+  "status": "active",
+  "name_zh": "Waymo",
+  "description_zh": "Waymo 是 Alphabet 旗下的自动驾驶技术公司，开发自动驾驶汽车。",
+  "sub_category": "autonomous-vehicle",
+  "tags": [
+    "self-driving",
+    "computer-vision",
+    "reinforcement-learning",
+    "hardware"
+  ],
+  "open_source": false,
+  "repository_url": "https://github.com/waymo-research",
+  "company": {
+    "name": "Waymo",
+    "url": "https://waymo.com",
+    "website": "https://waymo.com",
+    "name_zh": "Waymo",
+    "founded_year": 2009,
+    "headquarters": {
+      "city": "Mountain View",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 5500000000,
+      "last_round": "growth",
+      "investors": [
+        "Alphabet",
+        "Silver Lake",
+        "Tiger Global",
+        "Andreessen Horowitz"
+      ]
+    },
+    "employee_count_range": "1001-5000",
+    "social": {
+      "linkedin": "https://linkedin.com/company/waymo",
+      "crunchbase": "https://www.crunchbase.com/organization/waymo",
+      "twitter": "@Waymo",
+      "github": "https://github.com/waymo-research"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Sebastian Thrun",
+      "title": "Founder",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://waymo.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

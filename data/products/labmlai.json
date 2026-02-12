@@ -1,0 +1,39 @@
+{
+  "slug": "labmlai",
+  "name": "labml.ai",
+  "product_url": "https://labml.ai",
+  "description": "Tools to help deep learning researchers",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/labmlai",
+  "company": {
+    "name": "labml.ai",
+    "url": "https://labml.ai",
+    "website": "https://labml.ai",
+    "headquarters": {
+      "city": "Unknown"
+    },
+    "social": {
+      "twitter": "labmlai",
+      "github": "https://github.com/labmlai"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/labmlai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

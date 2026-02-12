@@ -1,7 +1,18 @@
-"""Data enrichment pipeline: normalize, deduplicate, merge."""
+"""Data enrichment pipeline: normalize, deduplicate, merge, validate, score."""
 
 from scrapers.enrichment.deduplicator import Deduplicator
+from scrapers.enrichment.icon_fetcher import IconFetcher
+from scrapers.enrichment.keyword_extractor import KeywordExtractor
 from scrapers.enrichment.merger import Merger
-from scrapers.enrichment.normalizer import Normalizer
+from scrapers.enrichment.normalizer import Normalizer, PlausibilityValidator
+from scrapers.enrichment.quality_scorer import QualityScorer
 
-__all__ = ["Normalizer", "Deduplicator", "Merger"]
+__all__ = [
+    "Normalizer",
+    "Deduplicator",
+    "Merger",
+    "KeywordExtractor",
+    "IconFetcher",
+    "QualityScorer",
+    "PlausibilityValidator",
+]

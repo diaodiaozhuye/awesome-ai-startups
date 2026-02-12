@@ -1,0 +1,39 @@
+{
+  "slug": "langflow",
+  "name": "Langflow",
+  "product_url": "https://www.langflow.org",
+  "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/langflow-ai",
+  "company": {
+    "name": "Langflow",
+    "url": "https://www.langflow.org",
+    "website": "https://www.langflow.org",
+    "headquarters": {
+      "city": "Unknown"
+    },
+    "social": {
+      "twitter": "langflow_ai",
+      "github": "https://github.com/langflow-ai"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/langflow-ai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

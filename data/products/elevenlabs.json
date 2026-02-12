@@ -1,0 +1,76 @@
+{
+  "slug": "elevenlabs",
+  "name": "ElevenLabs TTS",
+  "product_url": "https://elevenlabs.io",
+  "description": "ElevenLabs is an AI voice technology company providing realistic text-to-speech, voice cloning, and audio AI tools.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "ElevenLabs",
+  "description_zh": "ElevenLabs 是一家 AI 语音技术公司，提供逼真的文本转语音、声音克隆和音频 AI 工具。",
+  "sub_category": "audio-speech",
+  "tags": [
+    "text-to-speech",
+    "generative-ai",
+    "api-platform",
+    "content-creation"
+  ],
+  "open_source": false,
+  "repository_url": "https://github.com/elevenlabs",
+  "company": {
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "website": "https://elevenlabs.io",
+    "name_zh": "ElevenLabs",
+    "founded_year": 2022,
+    "headquarters": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 101000000,
+      "last_round": "series-b",
+      "last_round_date": "2024-01-22",
+      "valuation_usd": 1100000000,
+      "investors": [
+        "Andreessen Horowitz",
+        "Nat Friedman",
+        "Daniel Gross"
+      ]
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "linkedin": "https://linkedin.com/company/elevenlabsio",
+      "crunchbase": "https://www.crunchbase.com/organization/elevenlabs",
+      "twitter": "@elevenlabsio",
+      "github": "https://github.com/elevenlabs"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Mati Staniszewski",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Piotr Dabkowski",
+      "title": "CTO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://elevenlabs.io",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

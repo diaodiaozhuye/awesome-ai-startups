@@ -1,0 +1,38 @@
+{
+  "slug": "amai-gmbh",
+  "name": "AMAI GmbH",
+  "product_url": "https://am.ai",
+  "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/AMAI-GmbH",
+  "company": {
+    "name": "AMAI GmbH",
+    "url": "https://am.ai",
+    "website": "https://am.ai",
+    "headquarters": {
+      "city": "Karlsruhe, Germany"
+    },
+    "social": {
+      "github": "https://github.com/AMAI-GmbH"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/AMAI-GmbH",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

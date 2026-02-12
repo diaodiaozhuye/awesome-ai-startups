@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft",
+  "name": "Microsoft",
+  "product_url": "https://opensource.microsoft.com",
+  "description": "Open source projects and samples from Microsoft",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/microsoft",
+  "company": {
+    "name": "Microsoft",
+    "url": "https://opensource.microsoft.com",
+    "website": "https://opensource.microsoft.com",
+    "headquarters": {
+      "city": "Redmond, WA"
+    },
+    "social": {
+      "twitter": "OpenAtMicrosoft",
+      "github": "https://github.com/microsoft"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/microsoft",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

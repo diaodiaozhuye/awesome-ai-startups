@@ -1,0 +1,24 @@
+{
+  "slug": "topaz-labs",
+  "name": "Topaz Labs",
+  "description": "Topaz Labs is an AI company.",
+  "website": "",
+  "category": "ai-image-video",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "Dallas",
+    "country": "TXActively Hiring1 year ago"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://www.linkedin.com/jobs"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "linkedin"
+  ],
+  "status": "active"
+}

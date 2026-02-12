@@ -1,0 +1,39 @@
+{
+  "slug": "sim",
+  "name": "Sim",
+  "product_url": "https://sim.ai",
+  "description": "Sim is a powerful, user-friendly platform that allows developers and agents to build, test, and optimize agentic workflows.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/simstudioai",
+  "company": {
+    "name": "Sim",
+    "url": "https://sim.ai",
+    "website": "https://sim.ai",
+    "headquarters": {
+      "city": "Unknown"
+    },
+    "social": {
+      "twitter": "simdotai",
+      "github": "https://github.com/simstudioai"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/simstudioai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

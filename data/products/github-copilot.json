@@ -1,0 +1,56 @@
+{
+  "slug": "github-copilot",
+  "name": "GitHub Copilot",
+  "product_url": "https://github.com/features/copilot",
+  "description": "GitHub Copilot is an AI pair programmer developed by GitHub and OpenAI that provides code suggestions directly in the editor.",
+  "product_type": "dev-tool",
+  "category": "ai-dev-tool",
+  "status": "active",
+  "name_zh": "GitHub Copilot",
+  "description_zh": "GitHub Copilot 是由 GitHub 和 OpenAI 开发的 AI 编程助手，在编辑器中直接提供代码建议。",
+  "sub_category": "coding-assistant",
+  "tags": [
+    "copilot",
+    "developer-tools",
+    "open-source",
+    "code-generation"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/github/copilot-docs",
+  "company": {
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "website": "https://github.com/features/copilot",
+    "name_zh": "GitHub Copilot",
+    "founded_year": 2021,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "twitter": "@GitHubCopilot",
+      "github": "https://github.com/github/copilot-docs"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/features/copilot",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://github.com/tesseract-ocr",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

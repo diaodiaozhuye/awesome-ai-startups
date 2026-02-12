@@ -2,17 +2,24 @@
   "tags": [
     "generative-ai", "nlp", "computer-vision", "reinforcement-learning",
     "transformer", "diffusion-model", "multimodal", "open-source",
-    "api-platform", "developer-tools", "b2b", "b2c",
-    "saas", "hardware", "edge-ai", "on-device",
+    "api-platform", "developer-tools", "sdk", "cli-tool",
+    "saas", "mobile-app", "desktop-app", "browser-extension",
+    "b2b", "b2c", "enterprise", "startup",
+    "hardware", "edge-ai", "on-device", "cloud-native",
     "fine-tuning", "rag", "agents", "prompt-engineering",
     "text-to-image", "text-to-video", "text-to-speech", "speech-to-text",
+    "text-to-3d", "text-to-music", "image-to-video",
     "code-generation", "copilot", "chatbot", "search-engine",
     "self-driving", "humanoid-robot", "drone", "defense",
-    "drug-discovery", "medical-imaging", "clinical-trials",
+    "drug-discovery", "medical-imaging", "clinical-trials", "protein-folding",
     "fraud-detection", "trading", "risk-assessment",
     "content-creation", "marketing", "customer-support",
     "data-labeling", "synthetic-data", "vector-database",
-    "model-serving", "mlops", "gpu-cloud",
-    "china", "us", "europe", "unicorn", "decacorn"
+    "model-serving", "mlops", "gpu-cloud", "inference",
+    "real-time", "low-latency", "high-throughput",
+    "safety", "alignment", "governance", "privacy",
+    "freemium", "open-weights", "closed-source",
+    "china", "us", "europe", "japan", "korea",
+    "unicorn", "decacorn", "yc-backed", "series-a"
   ]
 }

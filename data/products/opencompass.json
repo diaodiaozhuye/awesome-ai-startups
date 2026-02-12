@@ -1,0 +1,39 @@
+{
+  "slug": "opencompass",
+  "name": "OpenCompass",
+  "product_url": "opencompass.org.cn",
+  "description": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/open-compass",
+  "company": {
+    "name": "OpenCompass",
+    "url": "opencompass.org.cn",
+    "website": "opencompass.org.cn",
+    "headquarters": {
+      "city": "China"
+    },
+    "social": {
+      "twitter": "OpenCompassX",
+      "github": "https://github.com/open-compass"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/open-compass",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

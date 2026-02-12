@@ -1,0 +1,53 @@
+{
+  "slug": "tencent",
+  "name": "Hunyuan",
+  "product_url": "https://hunyuan.tencent.com",
+  "description": "Tencent is a Chinese multinational technology company developing AI platforms, models, and cloud services including the Hunyuan large language model.",
+  "product_type": "api-service",
+  "category": "ai-infrastructure",
+  "status": "active",
+  "name_zh": "腾讯",
+  "description_zh": "腾讯是一家中国跨国科技公司，开发 AI 平台、模型和云服务，包括混元大语言模型。",
+  "sub_category": "compute-platform",
+  "tags": [
+    "open-source",
+    "cloud",
+    "generative-ai",
+    "china"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/Tencent",
+  "company": {
+    "name": "Tencent",
+    "url": "https://www.tencent.com",
+    "website": "https://www.tencent.com",
+    "name_zh": "腾讯",
+    "founded_year": 1998,
+    "headquarters": {
+      "city": "Shenzhen",
+      "country": "China",
+      "country_code": "CN"
+    },
+    "social": {
+      "github": "https://github.com/Tencent"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/Tencent",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://www.tencent.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

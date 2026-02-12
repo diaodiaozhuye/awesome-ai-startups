@@ -1,0 +1,39 @@
+{
+  "slug": "lightning-ai",
+  "name": "⚡️ Lightning AI",
+  "product_url": "https://lightning.ai",
+  "description": "Turn ideas into AI, Lightning fast. Creators of PyTorch Lightning, Lightning AI Studio, TorchMetrics, Fabric, Lit-GPT, Lit-LLaMA",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/Lightning-AI",
+  "company": {
+    "name": "⚡️ Lightning AI",
+    "url": "https://lightning.ai",
+    "website": "https://lightning.ai",
+    "headquarters": {
+      "city": "United States of America"
+    },
+    "social": {
+      "twitter": "LightningAI",
+      "github": "https://github.com/Lightning-AI"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/Lightning-AI",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

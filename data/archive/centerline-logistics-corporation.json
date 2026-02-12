@@ -1,0 +1,24 @@
+{
+  "slug": "centerline-logistics-corporation",
+  "name": "Centerline Logistics Corporation",
+  "description": "Centerline Logistics Corporation is an AI company.",
+  "website": "",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "Seattle",
+    "country": "WA1 year ago"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://www.linkedin.com/jobs"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "linkedin"
+  ],
+  "status": "active"
+}

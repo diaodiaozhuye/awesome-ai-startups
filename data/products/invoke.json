@@ -1,0 +1,38 @@
+{
+  "slug": "invoke",
+  "name": "Invoke",
+  "product_url": "http://invoke.ai",
+  "description": "Invoke AI is building the next generation of tools for artists and creative teams.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/invoke-ai",
+  "company": {
+    "name": "Invoke",
+    "url": "http://invoke.ai",
+    "website": "http://invoke.ai",
+    "headquarters": {
+      "city": "Unknown"
+    },
+    "social": {
+      "github": "https://github.com/invoke-ai"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/invoke-ai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

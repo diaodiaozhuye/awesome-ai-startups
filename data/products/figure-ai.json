@@ -1,0 +1,67 @@
+{
+  "slug": "figure-ai",
+  "name": "Figure 01",
+  "product_url": "https://www.figure.ai",
+  "description": "Figure AI is building commercially viable autonomous humanoid robots to address labor shortages in warehouses and manufacturing.",
+  "product_type": "hardware",
+  "category": "ai-hardware",
+  "status": "active",
+  "name_zh": "Figure AI",
+  "description_zh": "Figure AI 正在构建商业化的自主人形机器人，以解决仓储和制造业的劳动力短缺问题。",
+  "sub_category": "robot",
+  "tags": [
+    "humanoid-robot",
+    "reinforcement-learning",
+    "hardware"
+  ],
+  "open_source": false,
+  "company": {
+    "name": "Figure AI",
+    "url": "https://www.figure.ai",
+    "website": "https://www.figure.ai",
+    "name_zh": "Figure AI",
+    "founded_year": 2022,
+    "headquarters": {
+      "city": "Sunnyvale",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 675000000,
+      "last_round": "series-b",
+      "valuation_usd": 2600000000,
+      "investors": [
+        "Microsoft",
+        "OpenAI",
+        "Nvidia",
+        "Jeff Bezos"
+      ]
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "linkedin": "https://linkedin.com/company/figureai",
+      "twitter": "@Figure_robot"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Brett Adcock",
+      "title": "CEO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.figure.ai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

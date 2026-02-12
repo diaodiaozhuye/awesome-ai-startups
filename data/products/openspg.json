@@ -1,0 +1,38 @@
+{
+  "slug": "openspg",
+  "name": "OpenSPG",
+  "product_url": "https://openspg.github.io",
+  "description": "This project encompasses a series of continuous explorations by Ant Group in the field of bidirectional enhancement between symbolic knowledge and LLMs",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/OpenSPG",
+  "company": {
+    "name": "OpenSPG",
+    "url": "https://openspg.github.io",
+    "website": "https://openspg.github.io",
+    "headquarters": {
+      "city": "Unknown"
+    },
+    "social": {
+      "github": "https://github.com/OpenSPG"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/OpenSPG",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

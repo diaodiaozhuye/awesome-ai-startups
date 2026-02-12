@@ -1,0 +1,38 @@
+{
+  "slug": "kong",
+  "name": "Kong",
+  "product_url": "https://konghq.com",
+  "description": "Powering the API world. No AI without APIs.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/Kong",
+  "company": {
+    "name": "Kong",
+    "url": "https://konghq.com",
+    "website": "https://konghq.com",
+    "headquarters": {
+      "city": "San Francisco"
+    },
+    "social": {
+      "github": "https://github.com/Kong"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/Kong",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

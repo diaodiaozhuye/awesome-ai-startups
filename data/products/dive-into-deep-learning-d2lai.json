@@ -1,0 +1,38 @@
+{
+  "slug": "dive-into-deep-learning-d2lai",
+  "name": "Dive into Deep Learning (D2L.ai)",
+  "product_url": "https://D2L.ai",
+  "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/d2l-ai",
+  "company": {
+    "name": "Dive into Deep Learning (D2L.ai)",
+    "url": "https://D2L.ai",
+    "website": "https://D2L.ai",
+    "headquarters": {
+      "city": "Unknown"
+    },
+    "social": {
+      "github": "https://github.com/d2l-ai"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/d2l-ai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

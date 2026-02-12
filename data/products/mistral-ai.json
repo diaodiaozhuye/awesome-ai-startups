@@ -1,0 +1,82 @@
+{
+  "slug": "mistral-ai",
+  "name": "Mistral Large",
+  "product_url": "https://mistral.ai",
+  "description": "Mistral AI is a French AI company building open and portable generative AI models. Known for efficient, open-weight models.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "Mistral AI",
+  "description_zh": "Mistral AI 是一家法国 AI 公司，构建开放和便携的生成式 AI 模型。以高效开源模型闻名。",
+  "sub_category": "text-generation",
+  "tags": [
+    "generative-ai",
+    "nlp",
+    "transformer",
+    "open-source",
+    "api-platform",
+    "europe"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/mistralai",
+  "company": {
+    "name": "Mistral AI",
+    "url": "https://mistral.ai",
+    "website": "https://mistral.ai",
+    "name_zh": "Mistral AI",
+    "founded_year": 2023,
+    "headquarters": {
+      "city": "Paris",
+      "country": "France",
+      "country_code": "FR"
+    },
+    "funding": {
+      "total_raised_usd": 2000000000,
+      "last_round": "series-b",
+      "last_round_date": "2024-06-11",
+      "valuation_usd": 6000000000,
+      "investors": [
+        "Andreessen Horowitz",
+        "General Catalyst",
+        "Lightspeed Venture Partners"
+      ]
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "linkedin": "https://linkedin.com/company/mistral-ai",
+      "crunchbase": "https://www.crunchbase.com/organization/mistral-ai",
+      "twitter": "@MistralAI",
+      "github": "https://github.com/mistralai"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Arthur Mensch",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Timothee Lacroix",
+      "title": "CTO",
+      "is_founder": true
+    },
+    {
+      "name": "Guillaume Lample",
+      "title": "Chief Scientist",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://mistral.ai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}
