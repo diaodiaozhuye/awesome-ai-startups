@@ -105,9 +105,9 @@ class GlassdoorScraper(BaseJobSiteScraper):
             source="glassdoor",
             source_url="https://www.glassdoor.com",
             category=category,
-            headquarters_city=city or None,
-            headquarters_country=country or None,
-            employee_count_range=employee_range,
+            company_headquarters_city=city or None,
+            company_headquarters_country=country or None,
+            company_employee_count_range=employee_range,
             tags=("glassdoor",),
         )
 

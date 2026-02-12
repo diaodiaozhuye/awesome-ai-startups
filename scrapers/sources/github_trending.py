@@ -73,18 +73,23 @@ class GitHubTrendingScraper(BaseScraper):
                     )
                     org_data = org_response.json() if org_response.is_success else {}
 
+                    twitter = org_data.get("twitter_username")
+                    extra: dict[str, str] = {}
+                    if twitter:
+                        extra["twitter"] = f"@{twitter}"
+
                     company = ScrapedCompany(
                         name=org_data.get("name") or org_login,
                         source="github",
                         source_url=f"https://github.com/{org_login}",
-                        website=org_data.get("blog") or None,
+                        company_website=org_data.get("blog") or None,
                         description=org_data.get("description")
                         or repo.get("description"),
-                        headquarters_city=org_data.get("location"),
-                        github_url=f"https://github.com/{org_login}",
-                        twitter=org_data.get("twitter_username"),
+                        company_headquarters_city=org_data.get("location"),
+                        repository_url=f"https://github.com/{org_login}",
                         open_source=True,
                         tags=("open-source",),
+                        extra=extra,
                     )
                     companies.append(company)
 

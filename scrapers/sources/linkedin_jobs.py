@@ -118,15 +118,20 @@ class LinkedInJobsScraper(BaseJobSiteScraper):
 
         category = self._matcher.extract_category(job_data.get("job_title", ""))
 
+        linkedin_url = job_data.get("linkedin_url") or ""
+        extra: dict[str, str] = {}
+        if linkedin_url:
+            extra["linkedin_url"] = linkedin_url
+
         return ScrapedCompany(
             name=name,
             source="linkedin-jobs",
             source_url="https://www.linkedin.com/jobs",
             category=category,
-            headquarters_city=city or None,
-            headquarters_country=country or None,
-            linkedin_url=job_data.get("linkedin_url") or None,
+            company_headquarters_city=city or None,
+            company_headquarters_country=country or None,
             tags=("linkedin",),
+            extra=extra,
         )
 
 
