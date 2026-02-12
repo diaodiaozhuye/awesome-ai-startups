@@ -13,17 +13,6 @@ export interface Funding {
   investors?: string[];
 }
 
-export interface Founder {
-  name: string;
-  title?: string;
-  linkedin?: string;
-}
-
-export interface Team {
-  employee_count_range?: string;
-  founders?: Founder[];
-}
-
 export interface Social {
   github?: string;
   twitter?: string;
@@ -31,53 +20,79 @@ export interface Social {
   crunchbase?: string;
 }
 
-export interface Product {
+export interface CompanyInfo {
   name: string;
   name_zh?: string;
-  description?: string;
-  description_zh?: string;
-  url?: string;
+  url: string;
+  website?: string;
+  founded_year?: number;
+  headquarters?: Headquarters;
+  funding?: Funding;
+  employee_count_range?: string;
+  social?: Social;
 }
 
-export interface CompanyMeta {
+export interface KeyPerson {
+  name: string;
+  title?: string;
+  is_founder?: boolean;
+  profile_url?: string;
+}
+
+export interface Source {
+  url: string;
+  source_name: string;
+  scraped_at?: string;
+}
+
+export interface ProductMeta {
   added_date?: string;
   last_updated?: string;
-  sources?: string[];
   data_quality_score?: number;
+  needs_review?: boolean;
 }
 
-export interface Company {
+/** Full product detail — loaded from individual product JSON files. */
+export interface ProductDetail {
   slug: string;
   name: string;
   name_zh?: string;
   description: string;
   description_zh?: string;
-  website: string;
+  product_url: string;
+  icon_url?: string;
+  product_type: string;
   category: string;
+  sub_category?: string;
   tags?: string[];
-  founded_year: number;
-  headquarters: Headquarters;
-  funding?: Funding;
-  team?: Team;
-  social?: Social;
-  products?: Product[];
+  keywords?: string[];
   open_source?: boolean;
-  status?: string;
-  meta?: CompanyMeta;
+  status: string;
+  repository_url?: string;
+  company: CompanyInfo;
+  key_people?: KeyPerson[];
+  sources?: Source[];
+  meta?: ProductMeta;
 }
 
-export interface CompanyIndexEntry {
+/** Flattened product entry from index.json — used for list/card views. */
+export interface ProductIndexEntry {
   slug: string;
   name: string;
   name_zh?: string;
   description: string;
   description_zh?: string;
-  website: string;
+  product_url: string;
+  icon_url?: string;
+  product_type: string;
   category: string;
+  sub_category?: string;
   tags?: string[];
-  founded_year: number;
+  keywords?: string[];
   open_source?: boolean;
-  status?: string;
+  status: string;
+  company_name: string;
+  company_url: string;
   country: string;
   country_code: string;
   city: string;
@@ -87,9 +102,9 @@ export interface CompanyIndexEntry {
   employee_count_range: string;
 }
 
-export interface CompanyIndex {
+export interface ProductIndex {
   total: number;
-  companies: CompanyIndexEntry[];
+  products: ProductIndexEntry[];
 }
 
 export interface StatEntry {
@@ -106,10 +121,11 @@ export interface FundingLeaderEntry {
 
 export interface Stats {
   generated_at: string;
-  total_companies: number;
+  total_products: number;
   by_category: StatEntry[];
+  by_product_type: StatEntry[];
+  by_sub_category: StatEntry[];
   by_country: StatEntry[];
-  by_founded_year: StatEntry[];
   by_status: StatEntry[];
   funding_leaderboard: FundingLeaderEntry[];
   total_funding_usd: number;

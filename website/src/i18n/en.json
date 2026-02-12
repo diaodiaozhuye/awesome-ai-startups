@@ -12,15 +12,17 @@
   },
   "home": {
     "hero_title": "AI Product Data",
-    "hero_subtitle": "Open-source data repository of {count} AI products and companies worldwide",
+    "hero_subtitle": "Open-source data repository of {count} AI products worldwide",
     "filter_all": "All",
     "sort_by": "Sort by",
     "sort_funding": "Funding",
     "sort_name": "Name",
-    "sort_year": "Founded Year",
-    "no_results": "No companies found for this filter."
+    "no_results": "No products found for this filter."
   },
-  "company": {
+  "product": {
+    "product_type": "Product Type",
+    "sub_category": "Sub-category",
+    "company_name": "Company",
     "founded": "Founded",
     "headquarters": "Headquarters",
     "employees": "Employees",
@@ -29,20 +31,26 @@
     "last_round": "Last Round",
     "valuation": "Valuation",
     "investors": "Investors",
-    "team": "Team",
-    "products": "Products",
+    "key_people": "Key People",
+    "founder": "Founder",
     "social": "Social Links",
     "open_source": "Open Source",
     "tags": "Tags",
     "overview": "Overview",
     "visit": "Visit",
-    "visit_website": "Visit Website",
+    "visit_product": "Visit Product",
+    "visit_company": "Visit Company",
     "status": "Status",
     "data_sources": "Data Sources",
-    "back_to_list": "Back to List"
+    "back_to_list": "Back to List",
+    "city": "City",
+    "country": "Country",
+    "category": "Category",
+    "yes": "Yes",
+    "no": "No"
   },
   "search": {
-    "title": "Search Companies",
+    "title": "Search Products",
     "placeholder": "Search by name, category, country...",
     "results": "{count} results",
     "no_results": "No results found. Try a different search term.",
@@ -52,25 +60,25 @@
     "clear_filters": "Clear Filters"
   },
   "compare": {
-    "title": "Compare Companies",
-    "select_prompt": "Select 2-3 companies to compare",
-    "add_company": "Add Company",
+    "title": "Compare Products",
+    "select_prompt": "Select 2-3 products to compare",
+    "add_product": "Add Product",
     "remove": "Remove",
     "field": "Field",
     "no_data": "N/A"
   },
   "analytics": {
     "title": "AI Industry Analytics",
-    "total_companies": "Total Companies",
+    "total_products": "Total Products",
     "total_funding": "Total Funding",
     "open_source": "Open Source",
-    "funding_chart": "Top Funded Companies",
-    "category_chart": "Companies by Category",
+    "funding_chart": "Top Funded Products",
+    "category_chart": "Products by Category",
     "timeline_chart": "Founded Year Timeline",
-    "geography_chart": "Companies by Country"
+    "geography_chart": "Products by Country"
   },
   "footer": {
-    "description": "An open-source project tracking AI companies worldwide.",
+    "description": "An open-source project tracking AI products worldwide.",
     "contribute": "Contribute on GitHub",
     "data_updated": "Data last updated"
   }

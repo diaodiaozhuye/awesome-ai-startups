@@ -3,63 +3,67 @@
 import { useState, useMemo } from "react";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
-import { formatCurrency, formatRound } from "@/lib/utils";
-import type { CompanyIndexEntry, Locale } from "@/lib/types";
+import { formatCurrency, formatRound, localized } from "@/lib/utils";
+import type { ProductIndexEntry, Locale } from "@/lib/types";
+import type { Dictionary } from "@/lib/dict";
 
 interface ComparePageClientProps {
-  companies: CompanyIndexEntry[];
+  products: ProductIndexEntry[];
   locale: Locale;
-  dict: any;
+  dict: Dictionary;
 }
 
-export function ComparePageClient({ companies, locale, dict }: ComparePageClientProps) {
+export function ComparePageClient({ products, locale, dict }: ComparePageClientProps) {
   const [selectedSlugs, setSelectedSlugs] = useState<string[]>([]);
   const [searchTerm, setSearchTerm] = useState("");
 
+  const t = dict.product;
+  const c = dict.compare;
+
   const selected = useMemo(
-    () => companies.filter((c) => selectedSlugs.includes(c.slug)),
-    [companies, selectedSlugs]
+    () => products.filter((p) => selectedSlugs.includes(p.slug)),
+    [products, selectedSlugs]
   );
 
   const searchResults = useMemo(() => {
     if (!searchTerm.trim()) return [];
     const term = searchTerm.toLowerCase();
-    return companies
+    return products
       .filter(
-        (c) =>
-          !selectedSlugs.includes(c.slug) &&
-          (c.name.toLowerCase().includes(term) ||
-            (c.name_zh && c.name_zh.includes(term)))
+        (p) =>
+          !selectedSlugs.includes(p.slug) &&
+          (p.name.toLowerCase().includes(term) ||
+            (p.name_zh && p.name_zh.includes(term)))
       )
       .slice(0, 5);
-  }, [companies, searchTerm, selectedSlugs]);
+  }, [products, searchTerm, selectedSlugs]);
 
-  const addCompany = (slug: string) => {
+  const addProduct = (slug: string) => {
     if (selectedSlugs.length < 3 && !selectedSlugs.includes(slug)) {
       setSelectedSlugs([...selectedSlugs, slug]);
       setSearchTerm("");
     }
   };
 
-  const removeCompany = (slug: string) => {
+  const removeProduct = (slug: string) => {
     setSelectedSlugs(selectedSlugs.filter((s) => s !== slug));
   };
 
   const compareFields = [
-    { key: "category", label: locale === "zh" ? "分类" : "Category", render: (c: CompanyIndexEntry) => c.category.replace(/-/g, " ") },
-    { key: "founded_year", label: locale === "zh" ? "成立年份" : "Founded", render: (c: CompanyIndexEntry) => String(c.founded_year) },
-    { key: "country", label: locale === "zh" ? "国家" : "Country", render: (c: CompanyIndexEntry) => c.country },
-    { key: "city", label: locale === "zh" ? "城市" : "City", render: (c: CompanyIndexEntry) => c.city },
-    { key: "total_raised", label: locale === "zh" ? "总融资" : "Total Raised", render: (c: CompanyIndexEntry) => c.total_raised_usd ? formatCurrency(c.total_raised_usd) : "N/A" },
-    { key: "valuation", label: locale === "zh" ? "估值" : "Valuation", render: (c: CompanyIndexEntry) => c.valuation_usd ? formatCurrency(c.valuation_usd) : "N/A" },
-    { key: "last_round", label: locale === "zh" ? "最新轮次" : "Last Round", render: (c: CompanyIndexEntry) => c.last_round ? formatRound(c.last_round) : "N/A" },
-    { key: "employees", label: locale === "zh" ? "员工" : "Employees", render: (c: CompanyIndexEntry) => c.employee_count_range || "N/A" },
-    { key: "open_source", label: locale === "zh" ? "开源" : "Open Source", render: (c: CompanyIndexEntry) => c.open_source ? "Yes" : "No" },
+    { key: "category", label: t.category, render: (p: ProductIndexEntry) => p.category.replace(/-/g, " ") },
+    { key: "product_type", label: t.product_type, render: (p: ProductIndexEntry) => p.product_type || c.no_data },
+    { key: "country", label: t.country, render: (p: ProductIndexEntry) => p.country },
+    { key: "city", label: t.city, render: (p: ProductIndexEntry) => p.city },
+    { key: "total_raised", label: t.total_raised, render: (p: ProductIndexEntry) => p.total_raised_usd ? formatCurrency(p.total_raised_usd) : c.no_data },
+    { key: "valuation", label: t.valuation, render: (p: ProductIndexEntry) => p.valuation_usd ? formatCurrency(p.valuation_usd) : c.no_data },
+    { key: "last_round", label: t.last_round, render: (p: ProductIndexEntry) => p.last_round ? formatRound(p.last_round) : c.no_data },
+    { key: "employees", label: t.employees, render: (p: ProductIndexEntry) => p.employee_count_range || c.no_data },
+    { key: "open_source", label: t.open_source, render: (p: ProductIndexEntry) => p.open_source ? t.yes : t.no },
   ];
 
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-6">{dict.compare.title}</h1>
+      <h1 className="text-3xl font-bold mb-6">{c.title}</h1>
 
       {selectedSlugs.length < 3 && (
         <div className="mb-6 relative">
@@ -67,18 +71,18 @@ export function ComparePageClient({ companies, locale, dict }: ComparePageClient
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder={dict.compare.add_company}
+            placeholder={c.add_product}
             className="w-full max-w-md rounded-lg border border-border bg-background px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50"
           />
           {searchResults.length > 0 && (
             <div className="absolute top-full left-0 mt-1 w-full max-w-md bg-background border border-border rounded-lg shadow-lg z-10">
-              {searchResults.map((c) => (
+              {searchResults.map((p) => (
                 <button
-                  key={c.slug}
-                  onClick={() => addCompany(c.slug)}
+                  key={p.slug}
+                  onClick={() => addProduct(p.slug)}
                   className="block w-full text-left px-4 py-2 text-sm hover:bg-muted transition-colors"
                 >
-                  {locale === "zh" && c.name_zh ? c.name_zh : c.name}
+                  {localized(p, locale, "name")}
                 </button>
               ))}
             </div>
@@ -88,11 +92,11 @@ export function ComparePageClient({ companies, locale, dict }: ComparePageClient
 
       {selected.length > 0 && (
         <div className="flex flex-wrap gap-2 mb-6">
-          {selected.map((c) => (
-            <Badge key={c.slug} variant="primary">
-              {locale === "zh" && c.name_zh ? c.name_zh : c.name}
+          {selected.map((p) => (
+            <Badge key={p.slug} variant="primary">
+              {localized(p, locale, "name")}
               <button
-                onClick={() => removeCompany(c.slug)}
+                onClick={() => removeProduct(p.slug)}
                 className="ml-2 hover:text-red-500"
               >
                 x
@@ -109,11 +113,11 @@ export function ComparePageClient({ companies, locale, dict }: ComparePageClient
               <thead>
                 <tr className="border-b border-border">
                   <th className="text-left py-3 px-4 font-medium text-muted-foreground">
-                    {dict.compare.field}
+                    {c.field}
                   </th>
-                  {selected.map((c) => (
-                    <th key={c.slug} className="text-left py-3 px-4 font-semibold">
-                      {locale === "zh" && c.name_zh ? c.name_zh : c.name}
+                  {selected.map((p) => (
+                    <th key={p.slug} className="text-left py-3 px-4 font-semibold">
+                      {localized(p, locale, "name")}
                     </th>
                   ))}
                 </tr>
@@ -122,9 +126,9 @@ export function ComparePageClient({ companies, locale, dict }: ComparePageClient
                 {compareFields.map((field) => (
                   <tr key={field.key} className="border-b border-border last:border-0">
                     <td className="py-3 px-4 text-muted-foreground">{field.label}</td>
-                    {selected.map((c) => (
-                      <td key={c.slug} className="py-3 px-4">
-                        {field.render(c)}
+                    {selected.map((p) => (
+                      <td key={p.slug} className="py-3 px-4">
+                        {field.render(p)}
                       </td>
                     ))}
                   </tr>
@@ -135,7 +139,7 @@ export function ComparePageClient({ companies, locale, dict }: ComparePageClient
         </Card>
       ) : (
         <p className="text-center text-muted-foreground py-12">
-          {dict.compare.select_prompt}
+          {c.select_prompt}
         </p>
       )}
     </div>

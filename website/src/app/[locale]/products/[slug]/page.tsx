@@ -1,6 +1,7 @@
-import { getCompanyBySlug, getAllSlugs, getCategories } from "@/lib/data";
+import { getProductBySlug, getAllSlugs, getCategories } from "@/lib/data";
 import { getDictionary, locales } from "@/lib/i18n";
-import { CompanyDetail } from "@/components/company/CompanyDetail";
+import { ProductDetail } from "@/components/product/ProductDetail";
+import { localized } from "@/lib/utils";
 import type { Locale } from "@/lib/types";
 import type { Metadata } from "next";
 
@@ -21,27 +22,26 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
-  const company = getCompanyBySlug(slug);
-  const name = locale === "zh" && company.name_zh ? company.name_zh : company.name;
+  const product = getProductBySlug(slug);
+  const name = localized(product, locale as Locale, "name");
+  const description = localized(product, locale as Locale, "description");
   return {
     title: `${name} - AI Product Data`,
-    description: locale === "zh" && company.description_zh
-      ? company.description_zh
-      : company.description,
+    description,
   };
 }
 
-export default async function CompanyPage({
+export default async function ProductPage({
   params,
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
-  const company = getCompanyBySlug(slug);
+  const product = getProductBySlug(slug);
   const dict = await getDictionary(locale as Locale);
   const categories = getCategories();
-  const cat = categories.find((c) => c.id === company.category);
-  const categoryLabel = cat ? (locale === "zh" ? cat.name_zh : cat.name) : undefined;
+  const cat = categories.find((c) => c.id === product.category);
+  const categoryLabel = cat ? localized(cat, locale as Locale, "name") : undefined;
 
-  return <CompanyDetail company={company} locale={locale as Locale} dict={dict} categoryLabel={categoryLabel} />;
+  return <ProductDetail product={product} locale={locale as Locale} dict={dict} categoryLabel={categoryLabel} />;
 }

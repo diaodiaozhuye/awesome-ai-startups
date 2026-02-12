@@ -1,9 +1,10 @@
 import { useMemo } from "react";
-import { CompanyCard } from "@/components/company/CompanyCard";
-import type { CompanyIndexEntry, Locale, Category } from "@/lib/types";
+import { ProductCard } from "@/components/product/ProductCard";
+import { localized } from "@/lib/utils";
+import type { ProductIndexEntry, Locale, Category } from "@/lib/types";
 
 interface SearchResultsProps {
-  results: CompanyIndexEntry[];
+  results: ProductIndexEntry[];
   locale: Locale;
   categories: Category[];
   noResultsText: string;
@@ -28,11 +29,11 @@ export function SearchResults({ results, locale, categories, noResultsText, resu
         {resultsText.replace("{count}", String(results.length))}
       </p>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {results.map((company) => {
-          const cat = categoryMap.get(company.category);
-          const catLabel = cat ? (locale === "zh" ? cat.name_zh : cat.name) : undefined;
+        {results.map((product) => {
+          const cat = categoryMap.get(product.category);
+          const catLabel = cat ? localized(cat, locale, "name") : undefined;
           return (
-            <CompanyCard key={company.slug} company={company} locale={locale} categoryLabel={catLabel} />
+            <ProductCard key={product.slug} product={product} locale={locale} categoryLabel={catLabel} />
           );
         })}
       </div>

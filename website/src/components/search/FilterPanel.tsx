@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/Button";
+import { localized } from "@/lib/utils";
 import type { Category, Locale } from "@/lib/types";
 
 interface FilterPanelProps {
@@ -64,7 +65,7 @@ export function FilterPanel({
                 onCategoryChange(selectedCategory === cat.id ? null : cat.id)
               }
             >
-              {locale === "zh" ? cat.name_zh : cat.name}
+              {localized(cat, locale, "name")}
             </Button>
           ))}
         </div>

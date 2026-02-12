@@ -4,7 +4,6 @@ import { formatCurrency } from "@/lib/utils";
 import { Card } from "@/components/ui/Card";
 import { FundingChart } from "@/components/analytics/FundingChart";
 import { CategoryDistribution } from "@/components/analytics/CategoryDistribution";
-import { FoundedTimeline } from "@/components/analytics/FoundedTimeline";
 import { GeographyMap } from "@/components/analytics/GeographyMap";
 import type { Locale } from "@/lib/types";
 
@@ -24,8 +23,8 @@ export default async function AnalyticsPage({
       {/* Summary cards */}
       <div className="grid gap-6 sm:grid-cols-3 mb-12">
         <Card>
-          <p className="text-sm text-muted-foreground">{dict.analytics.total_companies}</p>
-          <p className="text-3xl font-bold mt-1">{stats.total_companies}</p>
+          <p className="text-sm text-muted-foreground">{dict.analytics.total_products}</p>
+          <p className="text-3xl font-bold mt-1">{stats.total_products}</p>
         </Card>
         <Card>
           <p className="text-sm text-muted-foreground">{dict.analytics.total_funding}</p>
@@ -49,12 +48,6 @@ export default async function AnalyticsPage({
           <CategoryDistribution
             data={stats.by_category}
             title={dict.analytics.category_chart}
-          />
-        </Card>
-        <Card>
-          <FoundedTimeline
-            data={stats.by_founded_year}
-            title={dict.analytics.timeline_chart}
           />
         </Card>
         <Card>

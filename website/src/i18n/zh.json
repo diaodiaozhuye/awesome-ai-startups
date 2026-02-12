@@ -12,15 +12,17 @@
   },
   "home": {
     "hero_title": "AI 产品数据",
-    "hero_subtitle": "收录全球 {count} 个 AI 产品和企业的开源数据库",
+    "hero_subtitle": "收录全球 {count} 个 AI 产品的开源数据库",
     "filter_all": "全部",
     "sort_by": "排序",
     "sort_funding": "融资额",
     "sort_name": "名称",
-    "sort_year": "成立年份",
-    "no_results": "未找到符合筛选条件的公司。"
+    "no_results": "未找到符合筛选条件的产品。"
   },
-  "company": {
+  "product": {
+    "product_type": "产品类型",
+    "sub_category": "子分类",
+    "company_name": "公司",
     "founded": "成立于",
     "headquarters": "总部",
     "employees": "员工数",
@@ -29,20 +31,26 @@
     "last_round": "最新轮次",
     "valuation": "估值",
     "investors": "投资方",
-    "team": "团队",
-    "products": "产品",
+    "key_people": "核心团队",
+    "founder": "创始人",
     "social": "社交链接",
     "open_source": "开源",
     "tags": "标签",
     "overview": "概览",
     "visit": "访问",
-    "visit_website": "访问官网",
+    "visit_product": "访问产品",
+    "visit_company": "访问公司",
     "status": "状态",
     "data_sources": "数据来源",
-    "back_to_list": "返回列表"
+    "back_to_list": "返回列表",
+    "city": "城市",
+    "country": "国家",
+    "category": "分类",
+    "yes": "是",
+    "no": "否"
   },
   "search": {
-    "title": "搜索公司",
+    "title": "搜索产品",
     "placeholder": "按名称、分类、国家搜索...",
     "results": "{count} 个结果",
     "no_results": "未找到结果。请尝试其他搜索词。",
@@ -52,16 +60,16 @@
     "clear_filters": "清除筛选"
   },
   "compare": {
-    "title": "对比公司",
-    "select_prompt": "选择 2-3 家公司进行对比",
-    "add_company": "添加公司",
+    "title": "对比产品",
+    "select_prompt": "选择 2-3 个产品进行对比",
+    "add_product": "添加产品",
     "remove": "移除",
     "field": "字段",
     "no_data": "暂无"
   },
   "analytics": {
     "title": "AI 行业数据分析",
-    "total_companies": "收录公司总数",
+    "total_products": "收录产品总数",
     "total_funding": "总融资额",
     "open_source": "开源项目",
     "funding_chart": "融资排行",
@@ -70,7 +78,7 @@
     "geography_chart": "国家分布"
   },
   "footer": {
-    "description": "追踪全球 AI 公司的开源项目。",
+    "description": "追踪全球 AI 产品的开源项目。",
     "contribute": "在 GitHub 上贡献",
     "data_updated": "数据最近更新于"
   }

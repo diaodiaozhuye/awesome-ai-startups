@@ -1,4 +1,4 @@
-import { getAllCompanies } from "@/lib/data";
+import { getAllProducts } from "@/lib/data";
 import { getDictionary } from "@/lib/i18n";
 import { ComparePageClient } from "./ComparePageClient";
 import type { Locale } from "@/lib/types";
@@ -10,11 +10,11 @@ export default async function ComparePage({
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale as Locale);
-  const { companies } = getAllCompanies();
+  const { products } = getAllProducts();
 
   return (
     <ComparePageClient
-      companies={companies}
+      products={products}
       locale={locale as Locale}
       dict={dict}
     />

@@ -1,6 +1,6 @@
-import { getAllCompanies, getCategories } from "@/lib/data";
+import { getAllProducts, getCategories } from "@/lib/data";
 import { getDictionary } from "@/lib/i18n";
-import { CompanyGrid } from "@/components/company/CompanyGrid";
+import { ProductGrid } from "@/components/product/ProductGrid";
 import type { Locale } from "@/lib/types";
 
 export default async function HomePage({
@@ -10,7 +10,7 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   const dict = await getDictionary(locale as Locale);
-  const { companies, total } = getAllCompanies();
+  const { products, total } = getAllProducts();
   const categories = getCategories();
 
   return (
@@ -21,8 +21,8 @@ export default async function HomePage({
           {dict.home.hero_subtitle.replace("{count}", String(total))}
         </p>
       </div>
-      <CompanyGrid
-        companies={companies}
+      <ProductGrid
+        products={products}
         categories={categories}
         locale={locale as Locale}
         dict={dict}

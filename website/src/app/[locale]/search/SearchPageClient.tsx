@@ -5,18 +5,19 @@ import { SearchBar } from "@/components/search/SearchBar";
 import { SearchResults } from "@/components/search/SearchResults";
 import { FilterPanel } from "@/components/search/FilterPanel";
 import { createSearchIndex } from "@/lib/search";
-import type { CompanyIndexEntry, Locale, Category } from "@/lib/types";
+import type { ProductIndexEntry, Locale, Category } from "@/lib/types";
+import type { Dictionary } from "@/lib/dict";
 
 interface SearchPageClientProps {
-  companies: CompanyIndexEntry[];
+  products: ProductIndexEntry[];
   categories: Category[];
   countries: string[];
   locale: Locale;
-  dict: any;
+  dict: Dictionary;
 }
 
 export function SearchPageClient({
-  companies,
+  products,
   categories,
   countries,
   locale,
@@ -26,10 +27,10 @@ export function SearchPageClient({
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
 
-  const searchIndex = useMemo(() => createSearchIndex(companies), [companies]);
+  const searchIndex = useMemo(() => createSearchIndex(products), [products]);
 
   const results = useMemo(() => {
-    let filtered = companies;
+    let filtered = products;
 
     if (query.trim()) {
       const searchResults = searchIndex.search(query);
@@ -37,15 +38,15 @@ export function SearchPageClient({
     }
 
     if (selectedCategory) {
-      filtered = filtered.filter((c) => c.category === selectedCategory);
+      filtered = filtered.filter((p) => p.category === selectedCategory);
     }
 
     if (selectedCountry) {
-      filtered = filtered.filter((c) => c.country === selectedCountry);
+      filtered = filtered.filter((p) => p.country === selectedCountry);
     }
 
     return filtered;
-  }, [companies, query, selectedCategory, selectedCountry, searchIndex]);
+  }, [products, query, selectedCategory, selectedCountry, searchIndex]);
 
   const handleSearch = useCallback((q: string) => {
     setQuery(q);
