@@ -13,6 +13,10 @@ import os
 import time
 from dataclasses import dataclass, field
 from datetime import date
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    import httpx
 
 from scrapers.config import (
     DATA_DIR,
@@ -94,9 +98,9 @@ class FirecrawlClient:
         ).rstrip("/")
         self._usage = self._load_usage()
         self._last_request_time: float = 0.0
-        self._client: httpx.Client | None = None  # noqa: F821
+        self._client: httpx.Client | None = None
 
-    def _get_client(self) -> httpx.Client:  # noqa: F821
+    def _get_client(self) -> httpx.Client:
         """Lazy-initialize the httpx client."""
         if self._client is None:
             import httpx

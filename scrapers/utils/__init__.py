@@ -86,6 +86,7 @@ def fetch_with_retry(
     own_client = client is None
     if own_client:
         client = create_http_client()
+    assert client is not None  # narrowing for mypy
 
     last_error: Exception | None = None
     for attempt in range(max_retries):

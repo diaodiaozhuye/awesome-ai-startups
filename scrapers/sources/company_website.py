@@ -11,8 +11,12 @@ import json
 import logging
 import re
 import time
+from typing import TYPE_CHECKING
 
 from scrapers.base import BaseScraper, ScrapedProduct, SourceTier
+
+if TYPE_CHECKING:
+    import httpx
 from scrapers.config import DEFAULT_REQUEST_DELAY, PRODUCTS_DIR
 from scrapers.utils import create_http_client
 
@@ -136,7 +140,7 @@ class CompanyWebsiteScraper(BaseScraper):
 
     def _scrape_website(
         self,
-        client: httpx.Client,  # noqa: F821
+        client: httpx.Client,
         product_name: str,
         url: str,
     ) -> ScrapedProduct | None:

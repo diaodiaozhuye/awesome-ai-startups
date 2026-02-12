@@ -183,7 +183,7 @@ class ArXivScraper(BaseScraper):
 
     def _fetch_papers(
         self,
-        client: httpx.Client,  # noqa: F821
+        client: httpx.Client,
         category: str,
         max_results: int = 50,
     ) -> list[dict]:

@@ -166,7 +166,7 @@ class WikidataScraper(BaseScraper):
 
     def _fetch_key_people(
         self,
-        client: httpx.Client,  # noqa: F821
+        client: httpx.Client,
         entity_id: str,
     ) -> tuple[dict[str, str | bool], ...]:
         """Fetch founders and CEO for a given Wikidata entity."""

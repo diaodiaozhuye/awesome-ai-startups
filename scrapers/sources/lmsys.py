@@ -100,7 +100,7 @@ class LMSYSScraper(BaseScraper):
 
     def _fetch_leaderboard(
         self,
-        client: httpx.Client,  # noqa: F821
+        client: httpx.Client,
         limit: int,
     ) -> list[dict]:
         """Fetch rows from the LMSYS leaderboard dataset."""
@@ -121,14 +121,15 @@ class LMSYSScraper(BaseScraper):
                 return self._fetch_leaderboard_fallback(client, limit)
 
             data = response.json()
-            return data.get("rows", [])
+            rows: list[dict] = data.get("rows", [])
+            return rows
 
         except Exception:
             return self._fetch_leaderboard_fallback(client, limit)
 
     def _fetch_leaderboard_fallback(
         self,
-        client: httpx.Client,  # noqa: F821
+        client: httpx.Client,
         limit: int,
     ) -> list[dict]:
         """Fallback: try the parquet endpoint or direct API."""
@@ -147,7 +148,8 @@ class LMSYSScraper(BaseScraper):
                 return []
 
             data = response.json()
-            return data.get("rows", [])
+            rows: list[dict] = data.get("rows", [])
+            return rows
 
         except Exception:
             return []

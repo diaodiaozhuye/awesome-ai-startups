@@ -9,8 +9,12 @@ from __future__ import annotations
 
 import logging
 import time
+from typing import TYPE_CHECKING
 
 from scrapers.base import BaseScraper, ScrapedProduct, SourceTier
+
+if TYPE_CHECKING:
+    import httpx
 from scrapers.config import DEFAULT_REQUEST_DELAY
 from scrapers.utils import create_http_client
 
@@ -90,7 +94,7 @@ class PyPIScraper(BaseScraper):
 
     def _fetch_package(
         self,
-        client: httpx.Client,  # noqa: F821
+        client: httpx.Client,
         pkg_info: dict[str, str],
     ) -> ScrapedProduct | None:
         """Fetch metadata and download stats for a single PyPI package."""
@@ -216,7 +220,7 @@ class NpmScraper(BaseScraper):
 
     def _fetch_package(
         self,
-        client: httpx.Client,  # noqa: F821
+        client: httpx.Client,
         pkg_info: dict[str, str],
     ) -> ScrapedProduct | None:
         """Fetch metadata and download stats for a single npm package."""
@@ -345,7 +349,7 @@ class DockerHubScraper(BaseScraper):
 
     def _fetch_image(
         self,
-        client: httpx.Client,  # noqa: F821
+        client: httpx.Client,
         img_info: dict[str, str],
     ) -> ScrapedProduct | None:
         """Fetch metadata for a single Docker Hub image."""
