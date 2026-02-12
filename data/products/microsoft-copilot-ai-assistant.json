@@ -1,0 +1,90 @@
+{
+  "slug": "microsoft-copilot-ai-assistant",
+  "name": "Microsoft Copilot AI Assistant",
+  "product_url": "https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4",
+  "description": "Microsoft Copilot: Your Personal AI Assistant for Every Task\n\nCopilot is your personal AI companion, ready to help with any task - from work projects to creative ideas to everyday questions. Powered by cutting-edge OpenAI and Microsoft AI technology, Copilot makes getting things done easier, faster, and more intuitive.\n\nWHY CHOOSE COPILOT?\n\nMore Than Just an AI Chatbot\nExperience AI conversations that feel natural and intuitive. Copilot understands context, adapts to your needs, and provides ...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Microsoft Corporation",
+    "url": "https://www.bing.com/search?q=Microsoft+Corporation+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/23/d7/ab23d77f-517b-1bad-859f-f80e1fe33eb6/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

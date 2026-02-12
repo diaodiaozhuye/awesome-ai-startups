@@ -1,0 +1,90 @@
+{
+  "slug": "polybuzz-chat-with-characters",
+  "name": "PolyBuzz: Chat with Characters",
+  "product_url": "https://apps.apple.com/us/app/polybuzz-chat-with-characters/id6449190344?uo=4",
+  "description": "Our app revolutionizes the way we interact with AI chatbots. With our advanced technology, our chatbots think and reply like real characters, complete with authentic voices. You can choose from a massive selection of characters, each with their own unique voice and personality. Whether you're chatting with your favorite celebrity, a beloved character from a movie or TV show, or a historical figure, you'll feel like you're talking to a real person.\n\nCharacter creation - Character creation now ...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/polybuzz-chat-with-characters/id6449190344?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "CLOUD WHALE INTERACTIVE TECHNOLOGY LLC.",
+    "url": "https://www.bing.com/search?q=CLOUD+WHALE+INTERACTIVE+TECHNOLOGY+LLC.+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/c6/44/4dc6444a-7e8a-12bd-c20d-5f3f40645b60/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

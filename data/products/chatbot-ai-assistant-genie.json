@@ -1,0 +1,90 @@
+{
+  "slug": "chatbot-ai-assistant-genie",
+  "name": "Chatbot AI Assistant - Genie",
+  "product_url": "https://apps.apple.com/us/app/chatbot-ai-assistant-genie/id1658377526?uo=4",
+  "description": "Try the advanced AI Chatbot assistant for free and see how your AI assistant can help you with work, study, and creative projects. Use AI Chat, AI Image Generator, Web Search, and Deep Reasoning to write, create, and research better in seconds. Experience the fastest and smartest multipurpose AI tool.\n\nChatbot AI Assistant for Every Task\n\nChatbot AI app is an advanced AI chatbot powered by the latest advancements in AI, and it serves as both a creative partner and a knowledgeable research ass...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/chatbot-ai-assistant-genie/id1658377526?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "APPNATION YAZILIM HIZMETLERI TICARET ANONIM SIRKETI",
+    "url": "https://www.bing.com/search?q=APPNATION+YAZILIM+HIZMETLERI+TICARET+ANONIM+SIRKETI+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/af/7c/67af7c3d-d9bc-cc93-efc1-3d754c90fcec/AppIcon-Omega-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

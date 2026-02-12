@@ -1,31 +1,40 @@
 {
   "slug": "hugging-face",
   "name": "Transformers",
-  "product_url": "https://github.com/huggingface/transformers",
-  "description": "Hugging Face is the AI community platform for sharing models, datasets, and apps. Home of the Transformers library and model Hub.",
-  "product_type": "api-service",
-  "category": "ai-infrastructure",
+  "product_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+  "description": "all-MiniLM-L6-v2 by sentence-transformers — a sentence similarity model on HuggingFace.",
+  "product_type": "framework",
+  "category": "ai-model",
   "status": "active",
   "name_zh": "Hugging Face",
   "description_zh": "Hugging Face 是用于分享模型、数据集和应用的 AI 社区平台。Transformers 库和模型中心的发源地。",
-  "sub_category": "compute-platform",
+  "sub_category": "embedding",
   "tags": [
     "open-source",
     "developer-tools",
     "model-serving",
     "mlops",
-    "api-platform"
+    "api-platform",
+    "sentence-similarity",
+    "fill-mask",
+    "image-classification",
+    "image-text-to-text",
+    "audio-classification",
+    "zero-shot-image-classification",
+    "voice-activity-detection",
+    "automatic-speech-recognition",
+    "time-series-forecasting"
   ],
   "open_source": true,
-  "repository_url": "https://github.com/huggingface",
+  "repository_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
   "company": {
-    "name": "Hugging Face",
+    "name": "sentence-transformers",
     "url": "https://huggingface.co",
     "website": "https://huggingface.co",
     "name_zh": "Hugging Face",
     "founded_year": 2016,
     "headquarters": {
-      "city": "New York",
+      "city": "NYC + Paris",
       "state": "New York",
       "country": "United States",
       "country_code": "US"
@@ -73,12 +82,211 @@
       "url": "https://github.com/huggingface",
       "source_name": "migration",
       "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/google-bert/bert-base-uncased",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/Falconsai/nsfw_image_detection",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/google/electra-base-discriminator",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/dima806/fairface_age_image_detection",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/laion/clap-htsat-fused",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/FacebookAI/roberta-large",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/openai/clip-vit-base-patch32",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/colbert-ir/colbertv2.0",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/BAAI/bge-m3",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/pyannote/segmentation-3.0",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/pyannote/speaker-diarization-3.1",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/autogluon/chronos-bolt-small",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/Bingsu/adetailer",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
     }
   ],
   "meta": {
     "added_date": "2026-02-11",
-    "last_updated": "2026-02-12",
+    "last_updated": "2026-02-13",
     "data_quality_score": 0.0,
-    "needs_review": true
-  }
+    "needs_review": true,
+    "provenance": {
+      "product_url": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "open_source": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "repository_url": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "api_available": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "api_docs_url": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "modalities": {
+        "source": "huggingface",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.website": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.headquarters.city": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "api_available": true,
+  "api_docs_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2#how-to-use",
+  "modalities": [
+    "text",
+    "image",
+    "audio"
+  ]
 }

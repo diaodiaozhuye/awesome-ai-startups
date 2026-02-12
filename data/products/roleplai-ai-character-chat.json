@@ -1,0 +1,90 @@
+{
+  "slug": "roleplai-ai-character-chat",
+  "name": "RolePlai - Ai Character Chat",
+  "product_url": "https://apps.apple.com/us/app/roleplai-ai-character-chat/id1671444242?uo=4",
+  "description": "Introducing \"RolePlai\" – the revolutionary AI powered chat bot app that features the world's most advanced AI technology, making it feel like you're talking to a real person. This cutting-edge app allows you to instantly create any celebrity, public profile, custom character, and personality with remarkable precision. Dive into the world of interactive roleplay and forge meaningful connections with a diverse range of AI personas, all tailored to your preferences.\n\n\nOur advanced AI engine flaw...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/roleplai-ai-character-chat/id1671444242?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "ANDREW WEDD",
+    "url": "https://www.bing.com/search?q=ANDREW+WEDD+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/83/e3/8c83e36e-8022-84a2-4706-55aba7c50675/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

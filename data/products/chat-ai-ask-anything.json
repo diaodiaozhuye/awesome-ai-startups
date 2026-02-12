@@ -1,0 +1,90 @@
+{
+  "slug": "chat-ai-ask-anything",
+  "name": "Chat AI - Ask Anything",
+  "product_url": "https://apps.apple.com/us/app/chat-ai-ask-anything/id1660877567?uo=4",
+  "description": "Welcome to CHAT AI, the AI chatbot that uses the latest language processing technology to have intelligent and engaging conversations with you. Simply type in your message, and CHAT AI will respond thoughtfully and personally.\n\nWhether you want to write long-form content (essays, emails, articles, etc.) chat about current events, share your thoughts and feelings, or just have a casual conversation, CHAT AI is here to listen and engage with you. With its constantly evolving AI technology,  CHA...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/chat-ai-ask-anything/id1660877567?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "ElevenThirteen LLC",
+    "url": "https://www.bing.com/search?q=ElevenThirteen+LLC+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/49/b6/2d49b636-076d-734d-a78c-b52f5c2c3c0d/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

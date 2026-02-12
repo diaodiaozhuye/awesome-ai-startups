@@ -1,0 +1,118 @@
+{
+  "slug": "grok",
+  "name": "Grok",
+  "product_url": "https://apps.apple.com/us/app/grok/id6670324846?uo=4",
+  "description": "Grok is an AI-powered assistant, developed by xAI, designed to be maximally truthful, useful, and curious. Get answers to any question, generate striking images and videos, and let Grok search the web and X for you to gain a deeper understanding of the world. With Grok, the universe is in your hands!\n\nAI assistant\n- Ask anything and get fast replies, have Grok do deep research on the web for you, or solve the hardest problems in math, science, and coding with Grok 4.\n- Upload documents and ph...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description_zh": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/grok/id6670324846?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.ainav.cn/favorites/ai%E5%AF%B9%E8%AF%9D%E8%81%8A%E5%A4%A9",
+      "source_name": "ainav",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "xAI",
+    "url": "https://www.bing.com/search?q=xAI+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/b2/4c/10b24cf9-dc86-c590-1e55-c644595f55de/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ],
+  "description_zh": "Grok 是马斯克旗下的xAI公司最新推出的人工智能助手，一个与 ChatGPT 类似的聊天机器人，关键的区别之处在于 Grok 可以实时访问 ?（原Twitter）数据，可以为用户提供最新且独特的信息。",
+  "sub_category": "voice-assistant",
+  "tags": [
+    "ai对话聊天"
+  ]
+}

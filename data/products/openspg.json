@@ -31,8 +31,34 @@
   ],
   "meta": {
     "added_date": "2026-02-12",
-    "last_updated": "2026-02-12",
+    "last_updated": "2026-02-13",
     "data_quality_score": 0.0,
-    "needs_review": true
+    "needs_review": true,
+    "provenance": {
+      "description": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.website": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "open_source": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "repository_url": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
   }
 }

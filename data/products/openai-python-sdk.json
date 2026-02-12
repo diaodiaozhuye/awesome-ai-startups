@@ -1,0 +1,122 @@
+{
+  "slug": "openai-python-sdk",
+  "name": "OpenAI Python SDK",
+  "product_url": "https://pypi.org/project/openai/",
+  "description": "The official Python library for the openai API",
+  "product_type": "framework",
+  "category": "ai-dev-tool",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "open_source": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "license": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "repository_url": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://pypi.org/project/openai/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "OpenAI",
+    "url": "https://www.bing.com/search?q=OpenAI+AI"
+  },
+  "sub_category": "ai-framework",
+  "tags": [
+    "python",
+    "open-source"
+  ],
+  "platforms": [
+    "api",
+    "cli"
+  ],
+  "open_source": true,
+  "license": "Apache-2.0",
+  "repository_url": "https://github.com/openai/openai-python"
+}

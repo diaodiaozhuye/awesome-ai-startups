@@ -1,0 +1,118 @@
+{
+  "slug": "google-gemini",
+  "name": "Google Gemini",
+  "product_url": "https://apps.apple.com/us/app/google-gemini/id6477489729?uo=4",
+  "description": "Google Gemini app is your personal, proactive and powerful AI Assistant.\n\nWith Gemini on your iPhone or iPad, you can:\n\n- Enjoy fast and unlimited prompting powered by our biggest upgrade yet, Gemini 3 Flash\n- Go Live with Gemini to brainstorm ideas, simplify complex topics, and rehearse for important moments. Share your camera or screen to talk with Gemini about anything you see.\n- Create mockups by blending images, design posters with sharp text, and effortlessly build diagrams with Nano Ba...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description_zh": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/google-gemini/id6477489729?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.ainav.cn/favorites/ai%E5%AF%B9%E8%AF%9D%E8%81%8A%E5%A4%A9",
+      "source_name": "ainav",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Google",
+    "url": "https://www.bing.com/search?q=Google+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/26/f6/a426f619-5326-a203-f605-3ff613810f93/AppIcon-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220-0.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ],
+  "description_zh": "Gemini AI是由Google DeepMind发布的一款多模态人工智能模型",
+  "sub_category": "voice-assistant",
+  "tags": [
+    "ai对话聊天"
+  ]
+}

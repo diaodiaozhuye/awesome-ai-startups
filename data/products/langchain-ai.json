@@ -1,37 +1,136 @@
 {
   "slug": "langchain-ai",
   "name": "langchain-ai",
-  "product_url": "https://github.com/langchain-ai",
+  "product_url": "https://pypi.org/project/langchain/",
   "description": "🦜🔗 The platform for reliable agents.",
-  "product_type": "other",
-  "category": "ai-app",
+  "product_type": "framework",
+  "category": "ai-dev-tool",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "python"
   ],
   "open_source": true,
   "repository_url": "https://github.com/langchain-ai",
   "company": {
-    "name": "langchain-ai",
+    "name": "LangChain",
     "url": "https://github.com/langchain-ai",
     "headquarters": {
-      "city": "Unknown"
+      "city": "United States of America"
     },
     "social": {
       "github": "https://github.com/langchain-ai"
-    }
+    },
+    "website": "https://www.langchain.com"
   },
   "sources": [
     {
       "url": "https://github.com/langchain-ai",
       "source_name": "migration",
       "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/langchain/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-13"
     }
   ],
   "meta": {
     "added_date": "2026-02-12",
-    "last_updated": "2026-02-12",
+    "last_updated": "2026-02-13",
     "data_quality_score": 0.0,
-    "needs_review": true
-  }
+    "needs_review": true,
+    "provenance": {
+      "description": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.website": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.headquarters.city": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "open_source": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "repository_url": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "license": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sub_category": "ai-framework",
+  "license": "MIT",
+  "platforms": [
+    "api",
+    "cli"
+  ]
 }

@@ -1,0 +1,104 @@
+{
+  "slug": "luca20duo-mo-tai-zhi-neng-dui-hua-zhu-shou",
+  "name": "Luca2.0多模态智能对话助手",
+  "product_url": "https://luca.cn",
+  "description": "11月4日，面壁智能多模态大模...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "name_zh": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description_zh": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.ainav.cn/favorites/ai%E5%AF%B9%E8%AF%9D%E8%81%8A%E5%A4%A9",
+      "source_name": "ainav",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "name_zh": "Luca2.0多模态智能对话助手",
+  "description_zh": "11月4日，面壁智能多模态大模...",
+  "company": {
+    "name": "Luca2.0多模态智能对话助手",
+    "url": "https://www.bing.com/search?q=Luca2.0%E5%A4%9A%E6%A8%A1%E6%80%81%E6%99%BA%E8%83%BD%E5%AF%B9%E8%AF%9D%E5%8A%A9%E6%89%8B+AI"
+  },
+  "sub_category": "voice-assistant",
+  "tags": [
+    "ai对话聊天"
+  ]
+}

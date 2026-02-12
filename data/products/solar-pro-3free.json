@@ -1,0 +1,131 @@
+{
+  "slug": "solar-pro-3free",
+  "name": "solar-pro-3:free",
+  "product_url": "https://openrouter.ai/models/upstage/solar-pro-3:free",
+  "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized for Korean with English and Japanese support.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "modalities": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "context_window": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "api_available": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "api_docs_url": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "pricing": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://openrouter.ai/models/upstage/solar-pro-3:free",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "solar-pro-3:free",
+    "url": "https://www.bing.com/search?q=solar-pro-3%3Afree+AI"
+  },
+  "sub_category": "text-generation",
+  "tags": [
+    "llm",
+    "api-service"
+  ],
+  "modalities": [
+    "text"
+  ],
+  "context_window": 128000,
+  "api_available": true,
+  "api_docs_url": "https://openrouter.ai/docs",
+  "pricing": {
+    "model": "free",
+    "has_free_tier": true
+  }
+}

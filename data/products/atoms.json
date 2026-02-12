@@ -1,0 +1,128 @@
+{
+  "slug": "atoms",
+  "name": "Atoms",
+  "product_url": "https://www.producthunt.com/r/JPDY4ECBKWVO5J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
+  "description": "Turn your ideas into products that sell  ",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.website": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "key_people": {
+        "source": "producthunt",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.producthunt.com/products/atoms-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
+      "source_name": "producthunt",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Atoms",
+    "url": "https://www.producthunt.com/r/JPDY4ECBKWVO5J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
+    "website": "https://www.producthunt.com/r/JPDY4ECBKWVO5J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29"
+  },
+  "tags": [
+    "generative-ai"
+  ],
+  "key_people": [
+    {
+      "name": "[REDACTED]",
+      "title": "Maker",
+      "is_founder": false
+    },
+    {
+      "name": "[REDACTED]",
+      "title": "Maker",
+      "is_founder": false
+    },
+    {
+      "name": "[REDACTED]",
+      "title": "Maker",
+      "is_founder": false
+    },
+    {
+      "name": "[REDACTED]",
+      "title": "Maker",
+      "is_founder": false
+    },
+    {
+      "name": "[REDACTED]",
+      "title": "Maker",
+      "is_founder": false
+    },
+    {
+      "name": "[REDACTED]",
+      "title": "Maker",
+      "is_founder": false
+    }
+  ]
+}

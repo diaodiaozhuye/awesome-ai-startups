@@ -1,0 +1,90 @@
+{
+  "slug": "soulplay-romance-ai-roleplay",
+  "name": "Soulplay - Romance AI Roleplay",
+  "product_url": "https://apps.apple.com/us/app/soulplay-romance-ai-roleplay/id6501972568?uo=4",
+  "description": "Step into a creative world of imagination and storytelling with Soulplay. Whether you're into fantasy adventures, school life drama, or sci-fi missions, Soulplay lets you explore a wide variety of interactive scenarios through rich conversations with AI-powered characters.\n\nImmersive Roleplay: Choose from hundreds of characters and story settings, from epic heroes to quirky classmates. Whether you're in the mood for a fun chat or deep storytelling, there's something for everyone.\n\nCreate Your...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/soulplay-romance-ai-roleplay/id6501972568?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Studio Dopa LLC",
+    "url": "https://www.bing.com/search?q=Studio+Dopa+LLC+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/77/17/3b771793-2e43-420d-23de-6afbf6c6a0ef/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

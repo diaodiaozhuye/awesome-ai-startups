@@ -1,0 +1,90 @@
+{
+  "slug": "ai-chatbot-assistant-askeasy",
+  "name": "AI ChatBot Assistant: AskEasy",
+  "product_url": "https://apps.apple.com/us/app/ai-chatbot-assistant-askeasy/id6447290444?uo=4",
+  "description": "AskEasy* is your personal AI assistant, who helps with daily tasks, making your life easier, more fun, and efficient. \nIt swiftly finds answers to any query, writes texts, generates images, assists with daily tasks, and can even recommend a book to read or a movie to watch! Simply input your request, and watch as accurate responses magically appear on your screen.\nKey Features:\n【AI IMAGE GENERATOR】\nTransform words into stunning visuals. Enter a description, and let AI generate captivating ima...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/ai-chatbot-assistant-askeasy/id6447290444?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Zilingial Limited",
+    "url": "https://www.bing.com/search?q=Zilingial+Limited+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/8b/29/ec8b2987-07ac-8150-828b-44dd246192d4/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220-0.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

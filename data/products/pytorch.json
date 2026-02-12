@@ -1,18 +1,21 @@
 {
   "slug": "pytorch",
   "name": "pytorch",
-  "product_url": "https://pytorch.org",
+  "product_url": "https://hub.docker.com/r/pytorch/pytorch",
   "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-  "product_type": "other",
-  "category": "ai-app",
+  "product_type": "framework",
+  "category": "ai-infrastructure",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "docker",
+    "infrastructure",
+    "python"
   ],
   "open_source": true,
   "repository_url": "https://github.com/pytorch",
   "company": {
-    "name": "pytorch",
+    "name": "Meta",
     "url": "https://pytorch.org",
     "website": "https://pytorch.org",
     "headquarters": {
@@ -27,12 +30,115 @@
       "url": "https://github.com/pytorch",
       "source_name": "migration",
       "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://hub.docker.com/r/pytorch/pytorch",
+      "source_name": "dockerhub",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://pypi.org/project/torch/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-13"
     }
   ],
   "meta": {
     "added_date": "2026-02-12",
-    "last_updated": "2026-02-12",
+    "last_updated": "2026-02-13",
     "data_quality_score": 0.0,
-    "needs_review": true
-  }
+    "needs_review": true,
+    "provenance": {
+      "description": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.website": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.headquarters.city": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "open_source": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "repository_url": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "license": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sub_category": "inference-platform",
+  "platforms": [
+    "api",
+    "cli",
+    "desktop"
+  ],
+  "license": "BSD-3-Clause"
 }

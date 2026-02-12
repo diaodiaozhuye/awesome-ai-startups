@@ -1,0 +1,111 @@
+{
+  "slug": "xun-fei-xing-huo",
+  "name": "讯飞星火",
+  "product_url": "https://ai-bot.cn/sites/1909.html",
+  "description": "AI智能助手，免费PPT生成、深度研究",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "name_zh": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description_zh": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://ai-bot.cn/favorites/ai-chatbots/",
+      "source_name": "aibot",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "name_zh": "讯飞星火",
+  "description_zh": "AI智能助手，免费PPT生成、深度研究",
+  "company": {
+    "name": "讯飞星火",
+    "url": "https://www.bing.com/search?q=%E8%AE%AF%E9%A3%9E%E6%98%9F%E7%81%AB+AI"
+  },
+  "icon_url": "https://ai-bot.cn/wp-content/uploads/2024/01/xunfei-xinghuo-logo.png",
+  "sub_category": "voice-assistant",
+  "tags": [
+    "ai-chatbots"
+  ]
+}

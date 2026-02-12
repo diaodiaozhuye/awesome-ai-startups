@@ -1,0 +1,111 @@
+{
+  "slug": "wen-xiao-bai-deepseek-r1man-xie-ban",
+  "name": "问小白-DeepSeek-R1满血版",
+  "product_url": "https://www.wenxiaobai.com/?forceLogin=true&amp;source=ainav&amp;ad_source=ainav",
+  "description": "免费不限次数，深度思考和联网搜索。问小白「DeepSeek-R1 671B 满血版」主打一个不卡、零延迟、不限次、而且可以一直免费用，不卡不限频次网页版/app均可使用",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "name_zh": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description_zh": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.ainav.cn/favorites/ai%E5%AF%B9%E8%AF%9D%E8%81%8A%E5%A4%A9",
+      "source_name": "ainav",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "name_zh": "问小白-DeepSeek-R1满血版",
+  "description_zh": "免费不限次数，深度思考和联网搜索。问小白「DeepSeek-R1 671B 满血版」主打一个不卡、零延迟、不限次、而且可以一直免费用，不卡不限频次网页版/app均可使用",
+  "company": {
+    "name": "问小白-DeepSeek-R1满血版",
+    "url": "https://www.bing.com/search?q=%E9%97%AE%E5%B0%8F%E7%99%BD-DeepSeek-R1%E6%BB%A1%E8%A1%80%E7%89%88+AI"
+  },
+  "icon_url": "https://www.ainav.cn/wp-content/uploads/2025/05/1747800260-c49ca29e5862cf41a758f0098a87e72.jpg",
+  "sub_category": "voice-assistant",
+  "tags": [
+    "ai对话聊天"
+  ]
+}

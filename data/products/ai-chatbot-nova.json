@@ -1,0 +1,90 @@
+{
+  "slug": "ai-chatbot-nova",
+  "name": "AI Chatbot - Nova",
+  "product_url": "https://apps.apple.com/us/app/ai-chatbot-nova/id1669007652?uo=4",
+  "description": "Nova is a revolutionary AI chatbot and personal assistant, built on the latest GPT-5.2, GPT5, GPT-4o, Google Gemini 3 Pro, Claude, and DeepSeek technologies.\n\nNova Chatbot uses advanced AI developed on the technology such as GPT-5.2 and GPT-5 that understands your questions and generates human-like responses, making you feel like you are chatting with a knowledgeable friend. Nova Chatbot & AI Assistant can even recommend a book to read or a movie to watch!\n\nNova AI Chatbot is the #1 cross-com...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/ai-chatbot-nova/id1669007652?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "SCALEUP YAZILIM HIZMETLERI",
+    "url": "https://www.bing.com/search?q=SCALEUP+YAZILIM+HIZMETLERI+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/3f/0c/ca3f0c1d-b7b3-033e-6075-94b9996099c0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

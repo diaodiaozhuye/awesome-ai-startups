@@ -1,0 +1,117 @@
+{
+  "slug": "teng-xun-yuan-bao",
+  "name": "腾讯元宝",
+  "product_url": "https://ai-bot.cn/sites/12946.html",
+  "description": "腾讯推出的免费AI智能助手",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "name_zh": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description_zh": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://ai-bot.cn/favorites/ai-chatbots/",
+      "source_name": "aibot",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.ainav.cn/favorites/ai%E5%AF%B9%E8%AF%9D%E8%81%8A%E5%A4%A9",
+      "source_name": "ainav",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "name_zh": "腾讯元宝",
+  "description_zh": "腾讯推出的免费AI智能助手",
+  "company": {
+    "name": "腾讯元宝",
+    "url": "https://www.bing.com/search?q=%E8%85%BE%E8%AE%AF%E5%85%83%E5%AE%9D+AI"
+  },
+  "icon_url": "https://ai-bot.cn/wp-content/uploads/2024/05/tencent-yuanbao-icon.png",
+  "sub_category": "voice-assistant",
+  "tags": [
+    "ai-chatbots",
+    "ai对话聊天"
+  ]
+}

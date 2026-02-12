@@ -1,0 +1,90 @@
+{
+  "slug": "character-ai-chat-talk-text",
+  "name": "Character AI: Chat, Talk, Text",
+  "product_url": "https://apps.apple.com/us/app/character-ai-chat-talk-text/id1671705818?uo=4",
+  "description": "AI chat, reimagined.\n\nCharacter.AI isn’t just another AI chat app—it’s an infinite playground for your imagination, creativity, and exploration.\n\n\nDive into immersive conversations, create your own AI chatbots, and join a vibrant community of creators, just like you.\n\n\n• Text or talk—your next adventure begins here!\nChat, call, text, and create with AI Characters that respond intelligently, remember past conversations, and adapt to your style. Every AI chat feels natural, engaging, and unique...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/character-ai-chat-talk-text/id1671705818?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Character.AI",
+    "url": "https://www.bing.com/search?q=Character.AI+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/e4/7a/09e47a68-1484-33c7-51ae-9ff944039f49/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

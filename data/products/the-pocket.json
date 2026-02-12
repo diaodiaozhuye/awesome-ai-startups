@@ -1,18 +1,20 @@
 {
   "slug": "the-pocket",
   "name": "The Pocket",
-  "product_url": "https://github.com/The-Pocket",
-  "description": "100 Lines Let Agents build Agent",
-  "product_type": "other",
-  "category": "ai-app",
+  "product_url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
+  "description": "Tesseract OCR",
+  "product_type": "framework",
+  "category": "ai-dev-tool",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "javascript",
+    "python"
   ],
   "open_source": true,
-  "repository_url": "https://github.com/The-Pocket",
+  "repository_url": "https://github.com/tesseract-ocr",
   "company": {
-    "name": "The Pocket",
+    "name": "LangChain",
     "url": "https://github.com/The-Pocket",
     "headquarters": {
       "city": "Unknown"
@@ -20,19 +22,167 @@
     "social": {
       "twitter": "ZacharyHuang12",
       "github": "https://github.com/The-Pocket"
-    }
+    },
+    "website": "https://github.com/tesseract-ocr"
   },
   "sources": [
     {
       "url": "https://github.com/The-Pocket",
       "source_name": "migration",
       "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://github.com/tesseract-ocr",
+      "source_name": "github",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.npmjs.com/package/langchain",
+      "source_name": "npm",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@huggingface/inference",
+      "source_name": "npm",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.npmjs.com/package/llamaindex",
+      "source_name": "npm",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@tensorflow/tfjs",
+      "source_name": "npm",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.npmjs.com/package/onnxruntime-web",
+      "source_name": "npm",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.npmjs.com/package/replicate",
+      "source_name": "npm",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.npmjs.com/package/@pinecone-database/pinecone",
+      "source_name": "npm",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.npmjs.com/package/cohere-ai",
+      "source_name": "npm",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://pypi.org/project/transformers/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://pypi.org/project/diffusers/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://pypi.org/project/datasets/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-13"
     }
   ],
   "meta": {
     "added_date": "2026-02-12",
-    "last_updated": "2026-02-12",
+    "last_updated": "2026-02-13",
     "data_quality_score": 0.0,
-    "needs_review": true
-  }
+    "needs_review": true,
+    "provenance": {
+      "description": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.website": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "open_source": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "repository_url": {
+        "source": "github",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "npm",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "npm",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "npm",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "npm",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "npm",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "license": {
+        "source": "npm",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "npm",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sub_category": "ai-framework",
+  "license": "MIT",
+  "platforms": [
+    "api",
+    "web",
+    "cli"
+  ]
 }

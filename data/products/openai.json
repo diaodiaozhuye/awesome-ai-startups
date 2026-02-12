@@ -1,26 +1,27 @@
 {
   "slug": "openai",
   "name": "ChatGPT",
-  "product_url": "https://chat.openai.com",
-  "description": "OpenAI is an AI research and deployment company that builds general-purpose AI systems. Creator of GPT-4, ChatGPT, and DALL-E.",
-  "product_type": "llm",
-  "category": "ai-model",
+  "product_url": "https://apps.apple.com/us/app/chatgpt/id6448311069?uo=4",
+  "description": "Introducing ChatGPT for iOS: OpenAI’s latest advancements at your fingertips.\n\nThis official app is free, syncs your history across devices, and brings you the latest from OpenAI, including the new image generator.\n\nWith ChatGPT in your pocket, you’ll find:\n\n· Image generation–Generate original images from a description, or transform existing ones with a few simple words. \n· Advanced Voice Mode–Tap the soundwave icon to have a real-time convo on the go. Settle a dinner table debate, or practi...",
+  "product_type": "app",
+  "category": "ai-app",
   "status": "active",
   "name_zh": "OpenAI",
-  "description_zh": "OpenAI 是一家 AI 研究与部署公司，构建通用人工智能系统。GPT-4、ChatGPT 和 DALL-E 的创造者。",
-  "sub_category": "text-generation",
+  "description_zh": "OpenAI 推出的AI聊天机器人",
+  "sub_category": "voice-assistant",
   "tags": [
     "generative-ai",
     "nlp",
     "transformer",
     "multimodal",
     "api-platform",
-    "chatbot"
+    "chatbot",
+    "ai-chatbots"
   ],
   "open_source": false,
   "repository_url": "https://github.com/openai",
   "company": {
-    "name": "OpenAI",
+    "name": "OpenAI OpCo, LLC",
     "url": "https://openai.com",
     "website": "https://openai.com",
     "name_zh": "OpenAI",
@@ -73,12 +74,94 @@
       "url": "https://openai.com",
       "source_name": "migration",
       "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/chatgpt/id6448311069?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://ai-bot.cn/favorites/ai-chatbots/",
+      "source_name": "aibot",
+      "scraped_at": "2026-02-13"
     }
   ],
   "meta": {
     "added_date": "2026-02-11",
-    "last_updated": "2026-02-12",
+    "last_updated": "2026-02-13",
     "data_quality_score": 0.0,
-    "needs_review": true
-  }
+    "needs_review": true,
+    "provenance": {
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description_zh": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/ff/6c/71ff6c58-6537-dea4-40b3-17704932c02f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
 }

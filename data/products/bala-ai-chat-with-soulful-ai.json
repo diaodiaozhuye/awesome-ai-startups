@@ -1,0 +1,90 @@
+{
+  "slug": "bala-ai-chat-with-soulful-ai",
+  "name": "BALA AI - Chat With Soulful AI",
+  "product_url": "https://apps.apple.com/us/app/bala-ai-chat-with-soulful-ai/id6470903137?uo=4",
+  "description": "● Privacy will be fully protected\n● Available to chat 24/7 without queuing\n● Billions of AI characters for you\n● Custom your own soulful character AI\n● Build your personal kingdom in BALA AI\n\n*Custom your own soulful AI characters\nThe customization capabilities have been taken to the next level at BALA AI. Gender, age, speaking style, background story, or even appearance can be customized. Add your personal touch and bring your imagination to life. What's more, you can choose to share your AI...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/bala-ai-chat-with-soulful-ai/id6470903137?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Pallar Media Limited",
+    "url": "https://www.bing.com/search?q=Pallar+Media+Limited+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/59/a1/7b59a142-c4e3-3742-e7cc-76879c855cd5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

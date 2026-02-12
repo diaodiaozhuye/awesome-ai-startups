@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-02-12",
-  "total_products": 55,
+  "generated_at": "2026-02-13",
+  "total_products": 184,
   "by_category": [
     {
       "label": "ai-app",
-      "count": 30
+      "count": 105
     },
     {
       "label": "ai-model",
+      "count": 50
+    },
+    {
+      "label": "ai-dev-tool",
       "count": 13
+    },
+    {
+      "label": "ai-infrastructure",
+      "count": 9
     },
     {
       "label": "ai-hardware",
       "count": 3
     },
     {
-      "label": "ai-dev-tool",
-      "count": 3
-    },
-    {
       "label": "ai-data",
-      "count": 2
-    },
-    {
-      "label": "ai-infrastructure",
       "count": 2
     },
     {
@@ -38,15 +38,19 @@
   "by_product_type": [
     {
       "label": "other",
-      "count": 25
-    },
-    {
-      "label": "llm",
-      "count": 13
+      "count": 74
     },
     {
       "label": "app",
-      "count": 7
+      "count": 47
+    },
+    {
+      "label": "llm",
+      "count": 35
+    },
+    {
+      "label": "framework",
+      "count": 19
     },
     {
       "label": "dev-tool",
@@ -58,17 +62,29 @@
     },
     {
       "label": "api-service",
-      "count": 2
+      "count": 1
     }
   ],
   "by_sub_category": [
     {
       "label": "text-generation",
+      "count": 35
+    },
+    {
+      "label": "voice-assistant",
+      "count": 23
+    },
+    {
+      "label": "ai-framework",
+      "count": 10
+    },
+    {
+      "label": "inference-platform",
       "count": 8
     },
     {
       "label": "image-generation",
-      "count": 4
+      "count": 6
     },
     {
       "label": "personal-assistant",
@@ -87,11 +103,11 @@
       "count": 2
     },
     {
-      "label": "compute-platform",
-      "count": 2
+      "label": "audio-speech",
+      "count": 1
     },
     {
-      "label": "audio-speech",
+      "label": "embedding",
       "count": 1
     },
     {
@@ -111,6 +127,10 @@
       "count": 1
     },
     {
+      "label": "compute-platform",
+      "count": 1
+    },
+    {
       "label": "autonomous-vehicle",
       "count": 1
     }
@@ -118,18 +138,34 @@
   "by_country": [
     {
       "label": "United States",
-      "count": 20
+      "count": 23
     },
     {
       "label": "China",
       "count": 6
     },
     {
+      "label": "United Kingdom",
+      "count": 4
+    },
+    {
       "label": "Norway",
-      "count": 1
+      "count": 2
     },
     {
       "label": "Canada",
+      "count": 2
+    },
+    {
+      "label": "Australia",
+      "count": 1
+    },
+    {
+      "label": "Italy",
+      "count": 1
+    },
+    {
+      "label": "Czech Republic",
       "count": 1
     },
     {
@@ -137,14 +173,18 @@
       "count": 1
     },
     {
-      "label": "United Kingdom",
+      "label": "Taiwan",
+      "count": 1
+    },
+    {
+      "label": "Germany",
       "count": 1
     }
   ],
   "by_status": [
     {
       "label": "active",
-      "count": 55
+      "count": 184
     }
   ],
   "funding_leaderboard": [
@@ -210,32 +250,32 @@
     }
   ],
   "total_funding_usd": 40226000000,
-  "open_source_count": 35,
+  "open_source_count": 49,
   "recently_added": [
     {
-      "slug": "amai-gmbh",
-      "name": "AMAI GmbH",
-      "added_date": "2026-02-12"
+      "slug": "1code",
+      "name": "1Code",
+      "added_date": "2026-02-13"
     },
     {
-      "slug": "autogpt",
-      "name": "AutoGPT",
-      "added_date": "2026-02-12"
+      "slug": "agent-builder-by-thesys",
+      "name": "Agent Builder by Thesys",
+      "added_date": "2026-02-13"
     },
     {
-      "slug": "dive-into-deep-learning-d2lai",
-      "name": "Dive into Deep Learning (D2L.ai)",
-      "added_date": "2026-02-12"
+      "slug": "ai-chat-al-video-generator",
+      "name": "AI+ Chat & Al Video Generator",
+      "added_date": "2026-02-13"
     },
     {
-      "slug": "e2b-cloud-for-ai-agents",
-      "name": "E2B | Cloud for AI Agents",
-      "added_date": "2026-02-12"
+      "slug": "ai-chatbot-ask-me-anything",
+      "name": "AI Chatbot - Ask Me Anything",
+      "added_date": "2026-02-13"
     },
     {
-      "slug": "explosion",
-      "name": "Explosion",
-      "added_date": "2026-02-12"
+      "slug": "ai-chatbot-assistant-askeasy",
+      "name": "AI ChatBot Assistant: AskEasy",
+      "added_date": "2026-02-13"
     }
   ]
 }

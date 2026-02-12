@@ -1,0 +1,90 @@
+{
+  "slug": "botify-ai-create-chat-bot",
+  "name": "Botify AI: Create. Chat. Bot",
+  "product_url": "https://apps.apple.com/us/app/botify-ai-create-chat-bot/id1566710178?uo=4",
+  "description": "Create your own digital friend with a unique personality and chat with AI every time you want on any topic you choose!\n\nGet ready for a new way of interacting with AI. Introducing Botify AI, the revolutionary app that lets you:\n\n- Chat with AI-powered virtual characters, from real people to fictional favorites.\n- Create your own AI character and personalize every aspect, including appearance, mood, voice, and biography.\n- Share your AI character on social networks and show off your creativity...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/botify-ai-create-chat-bot/id1566710178?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Ex-human, Inc",
+    "url": "https://www.bing.com/search?q=Ex-human%2C+Inc+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/2f/6e/422f6e6e-3a77-5df0-a71f-7e0d3bfabf38/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

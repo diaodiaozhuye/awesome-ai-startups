@@ -1,0 +1,110 @@
+{
+  "slug": "chromadb",
+  "name": "ChromaDB",
+  "product_url": "https://hub.docker.com/r/chromadb/chroma",
+  "description": "ChromaDB is an AI product.",
+  "product_type": "framework",
+  "category": "ai-infrastructure",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "open_source": {
+        "source": "dockerhub",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://hub.docker.com/r/chromadb/chroma",
+      "source_name": "dockerhub",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Chroma",
+    "url": "https://www.bing.com/search?q=Chroma+AI"
+  },
+  "sub_category": "inference-platform",
+  "tags": [
+    "docker",
+    "open-source",
+    "infrastructure"
+  ],
+  "platforms": [
+    "api",
+    "cli",
+    "desktop"
+  ],
+  "open_source": true
+}

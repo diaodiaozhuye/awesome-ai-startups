@@ -1,0 +1,111 @@
+{
+  "slug": "tian-gong-ai-8211-kun-lun-mo-wei-tui-chu-de-aizhu-shou",
+  "name": "天工AI &#8211; 昆仑万维推出的AI助手",
+  "product_url": "https://www.tiangong.cn",
+  "description": "天工 AI 由昆仑万维推出，有天工 3.0 大模型。具备文档音视分析、写作等功能，可进行彩页创作。还有宝典广场，能认领或创建宝典。提供AI 搜索，简洁高级，让知识流通，可登录或下载 App 体验。",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "name_zh": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description_zh": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.ainav.cn/favorites/ai%E5%AF%B9%E8%AF%9D%E8%81%8A%E5%A4%A9",
+      "source_name": "ainav",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "name_zh": "天工AI &#8211; 昆仑万维推出的AI助手",
+  "description_zh": "天工 AI 由昆仑万维推出，有天工 3.0 大模型。具备文档音视分析、写作等功能，可进行彩页创作。还有宝典广场，能认领或创建宝典。提供AI 搜索，简洁高级，让知识流通，可登录或下载 App 体验。",
+  "company": {
+    "name": "天工AI &#8211; 昆仑万维推出的AI助手",
+    "url": "https://www.bing.com/search?q=%E5%A4%A9%E5%B7%A5AI+%26%238211%3B+%E6%98%86%E4%BB%91%E4%B8%87%E7%BB%B4%E6%8E%A8%E5%87%BA%E7%9A%84AI%E5%8A%A9%E6%89%8B+AI"
+  },
+  "icon_url": "https://www.ainav.cn/wp-content/uploads/2023/08/957cc-search.tiangong.cn.png",
+  "sub_category": "voice-assistant",
+  "tags": [
+    "ai对话聊天"
+  ]
+}

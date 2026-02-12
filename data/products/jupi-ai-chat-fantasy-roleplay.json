@@ -1,0 +1,90 @@
+{
+  "slug": "jupi-ai-chat-fantasy-roleplay",
+  "name": "Jupi AI Chat Fantasy Roleplay",
+  "product_url": "https://apps.apple.com/us/app/jupi-ai-chat-fantasy-roleplay/id1668337467?uo=4",
+  "description": "Are you ready for the ultimate AI roleplay experience?\n\nJupi is an app that lets you create your own fantasy AI characters to chat and roleplay with. Customize your character's looks, voice, persona and style according to your liking. Later on, either share it with other users in the app or keep it private to yourself and chat without limits. \n\nImagine anyone and digitally bring him or her to life. You can create celebrities, historical figures, anime, fantasy or game characters, or even a vi...",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "platforms": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/jupi-ai-chat-fantasy-roleplay/id1668337467?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Bots and Bolts",
+    "url": "https://www.bing.com/search?q=Bots+and+Bolts+AI"
+  },
+  "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/12/a5/c112a561-7ccf-a46a-e7e7-ea1fd464d467/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
+  "platforms": [
+    "ios"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "riemanngl",
+  "name": "RiemannGL",
+  "product_url": "",
+  "description": "Graphs are ubiquitous, and learning on graphs has become a cornerstone in artificial intelligence and data mining communities. Unlike pixel grids in images or sequential structures in language, graphs exhibit a typical non-Euclidean structure with complex interactions among the objects. This paper argues that Riemannian geometry provides a principled and necessary foundation for graph representation learning, and that Riemannian graph learning should be viewed as a unifying paradigm rather than a collection of isolated techniques. While recent studies have explored the integration of graph learning and Riemannian geometry, most existing approaches are limited to a narrow class of manifolds, particularly hyperbolic spaces, and often adopt extrinsic manifold formulations. We contend that the central mission of Riemannian graph learning is to endow graph neural networks with intrinsic manifold structures, which remains underexplored. To advance this perspective, we identify key conceptual and methodological gaps in existing approaches and outline a structured research agenda along three dimensions: manifold type, neural architecture, and learning paradigm. We further discuss open challenges, theoretical foundations, and promising directions that are critical for unlocking the full potential of Riemannian graph learning. This paper aims to provide a coherent viewpoint and to stimulate broader exploration of Riemannian geometry as a foundational framework for future graph learning research.",
+  "product_type": "other",
+  "category": "ai-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "key_people": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "release_date": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "http://arxiv.org/abs/2602.10982v1",
+      "source_name": "arxiv",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "RiemannGL",
+    "url": "https://www.bing.com/search?q=RiemannGL+AI"
+  },
+  "tags": [
+    "research",
+    "machine-learning"
+  ],
+  "key_people": [
+    {
+      "name": "Li Sun",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Qiqi Wan",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Suyang Zhou",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Zhenhao Huang",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Philip S. Yu",
+      "title": "Author",
+      "is_founder": false
+    }
+  ],
+  "release_date": "2026-02-11"
+}

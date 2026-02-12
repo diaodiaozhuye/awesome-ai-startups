@@ -1,21 +1,23 @@
 {
   "slug": "anthropic",
   "name": "Claude",
-  "product_url": "https://claude.ai",
-  "description": "Anthropic is an AI safety company building reliable, interpretable, and steerable AI systems. Creator of the Claude family of AI assistants.",
-  "product_type": "llm",
-  "category": "ai-model",
+  "product_url": "https://ai-bot.cn/sites/460.html",
+  "description": "Anthropic公司推出的对话式AI智能助手",
+  "product_type": "app",
+  "category": "ai-app",
   "status": "active",
   "name_zh": "Anthropic",
-  "description_zh": "Anthropic 是一家 AI 安全公司，致力于构建可靠、可解释、可控的 AI 系统。Claude 系列 AI 助手的创造者。",
-  "sub_category": "text-generation",
+  "description_zh": "Anthropic公司推出的对话式AI智能助手",
+  "sub_category": "voice-assistant",
   "tags": [
     "generative-ai",
     "nlp",
     "transformer",
     "api-platform",
     "chatbot",
-    "b2b"
+    "b2b",
+    "ai-chatbots",
+    "ai对话聊天"
   ],
   "open_source": false,
   "repository_url": "https://github.com/anthropics",
@@ -68,12 +70,79 @@
       "url": "https://www.anthropic.com",
       "source_name": "migration",
       "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://ai-bot.cn/favorites/ai-chatbots/",
+      "source_name": "aibot",
+      "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.ainav.cn/favorites/ai%E5%AF%B9%E8%AF%9D%E8%81%8A%E5%A4%A9",
+      "source_name": "ainav",
+      "scraped_at": "2026-02-13"
     }
   ],
   "meta": {
     "added_date": "2026-02-11",
-    "last_updated": "2026-02-12",
+    "last_updated": "2026-02-13",
     "data_quality_score": 0.0,
-    "needs_review": true
-  }
+    "needs_review": true,
+    "provenance": {
+      "product_url": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description_zh": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "icon_url": "https://ai-bot.cn/wp-content/uploads/2023/03/anthropic-icon.png"
 }

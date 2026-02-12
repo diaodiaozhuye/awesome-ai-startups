@@ -126,6 +126,12 @@ class CompanyWebsiteScraper(BaseScraper):
                 or data.get("meta", {}).get("data_quality_score", 1.0) < 0.5
             )
 
+            # Ensure URLs have a scheme (some data has bare domains like "agpt.co")
+            if product_url and not product_url.startswith("http"):
+                product_url = f"https://{product_url}"
+            if company_url and not company_url.startswith("http"):
+                company_url = f"https://{company_url}"
+
             if needs_enrichment and product_url:
                 urls.append((name, product_url))
             elif needs_enrichment and company_url:

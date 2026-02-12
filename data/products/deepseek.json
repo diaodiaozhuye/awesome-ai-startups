@@ -1,20 +1,21 @@
 {
   "slug": "deepseek",
   "name": "DeepSeek-V3",
-  "product_url": "https://www.deepseek.com",
-  "description": "DeepSeek is a Chinese AI company focused on building powerful open-source large language models for research and applications.",
-  "product_type": "llm",
-  "category": "ai-model",
+  "product_url": "https://www.deepseek.com/?ref=ainav.cn",
+  "description": "DeepSeek是幻方量化旗下的人工智能公司深度求索自主研发的开源大模型和AI智能助手",
+  "product_type": "app",
+  "category": "ai-app",
   "status": "active",
   "name_zh": "深度求索",
-  "description_zh": "深度求索是一家中国 AI 公司，专注于构建强大的开源大语言模型，服务于研究和应用。",
-  "sub_category": "text-generation",
+  "description_zh": "DeepSeek是幻方量化旗下的人工智能公司深度求索自主研发的开源大模型和AI智能助手",
+  "sub_category": "voice-assistant",
   "tags": [
     "generative-ai",
     "nlp",
     "transformer",
     "open-source",
-    "china"
+    "china",
+    "ai对话聊天"
   ],
   "open_source": true,
   "repository_url": "https://github.com/deepseek-ai",
@@ -51,12 +52,74 @@
       "url": "https://www.deepseek.com",
       "source_name": "migration",
       "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://www.ainav.cn/favorites/ai%E5%AF%B9%E8%AF%9D%E8%81%8A%E5%A4%A9",
+      "source_name": "ainav",
+      "scraped_at": "2026-02-13"
     }
   ],
   "meta": {
     "added_date": "2026-02-11",
-    "last_updated": "2026-02-12",
+    "last_updated": "2026-02-13",
     "data_quality_score": 0.0,
-    "needs_review": true
-  }
+    "needs_review": true,
+    "provenance": {
+      "product_url": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "icon_url": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description_zh": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "ainav",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/05/5fdae-www.deepseek.com.png"
 }

@@ -24,6 +24,8 @@ _VALID_SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]*[a-z0-9]$|^[a-z0-9]$")
 def slugify(text: str) -> str:
     """Convert text to a URL-safe slug.
 
+    Handles Chinese/CJK characters via transliteration (unidecode).
+
     >>> slugify("OpenAI")
     'openai'
     >>> slugify("Hugging Face")
@@ -31,8 +33,11 @@ def slugify(text: str) -> str:
     >>> slugify("1X Technologies")
     '1x-technologies'
     """
+    from unidecode import unidecode
+
     text = unicodedata.normalize("NFKD", text)
-    text = text.encode("ascii", "ignore").decode("ascii")
+    # Transliterate non-ASCII (Chinese, etc.) to ASCII before stripping
+    text = unidecode(text)
     text = text.lower().strip()
     text = re.sub(r"[^\w\s-]", "", text)
     text = re.sub(r"[-\s]+", "-", text)
