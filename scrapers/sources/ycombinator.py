@@ -22,6 +22,8 @@ class YCombinatorScraper(BaseScraper):
 
     YC_API_URL = "https://45bwzj1sgc-dsn.algolia.net/1/indexes/YCCompany_production"
     YC_APP_ID = "45BWZJ1SGC"
+    # Public search-only API key extracted from YC's client-side JavaScript.
+    # This is NOT a secret — it is visible to anyone inspecting ycombinator.com.
     YC_API_KEY = (
         "MjBjYjRiMzY0NzdhZWY0NjExY2NhZjYxMGIxYjc2MTAwNWFkNTkwNTc4NjgxYjU0Y"
         "zFhYTY2ZGQ5OGY5NDMxZnJlc3RyaWN0SW5kaWNlcz0lNUIlMjJZQ0NvbXBhbnlfcH"

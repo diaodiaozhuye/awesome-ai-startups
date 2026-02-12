@@ -158,6 +158,8 @@ class FirecrawlClient:
         if wait_for > 0:
             payload["waitFor"] = wait_for
 
+        import httpx
+
         client = self._get_client()
 
         for attempt in range(MAX_RETRIES):
@@ -201,7 +203,12 @@ class FirecrawlClient:
                     error=f"HTTP {response.status_code}: {response.text[:200]}",
                 )
 
-            except Exception as e:
+            except (
+                httpx.HTTPError,
+                httpx.TimeoutException,
+                OSError,
+                ConnectionError,
+            ) as e:
                 if attempt < MAX_RETRIES - 1:
                     time.sleep(DEFAULT_REQUEST_DELAY * (attempt + 1))
                     continue

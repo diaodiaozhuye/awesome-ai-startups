@@ -1,0 +1,102 @@
+# Scraper Status & Anti-Bot Analysis
+
+Last updated: 2026-02-12
+
+## Working Scrapers
+
+### LinkedIn Jobs - httpx (guest API)
+- Tech: httpx + BeautifulSoup (no browser needed)
+- Endpoint: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search
+- Why it works: LinkedIn provides a public guest API for job search, no authentication required. Returns server-rendered HTML fragments.
+- Rate limit: 5s between requests, User-Agent rotation
+- Output: 50+ companies per run
+
+### Liepin (猎聘) - Playwright
+- Tech: Playwright headless Chromium + BeautifulSoup
+- Why it works: No Cloudflare, no slider captcha. Standard JS SPA that renders fully in headless browser.
+- Selectors: .job-card-pc-container > .ellipsis-1 (positional: [0]=title, [1]=location, [2]=company, [3]=industry+scale)
+- Note: CSS class names are obfuscated (e.g. _40108AoLGr) but semantic container classes are stable
+- Output: 20+ companies per run
+
+### GitHub Trending - httpx
+- Tech: httpx + BeautifulSoup
+- Why it works: GitHub's trending page is server-rendered, no anti-bot protection
+- Output: 20+ companies per run
+
+---
+
+## Blocked Scrapers
+
+### Indeed - Cloudflare Turnstile
+- Symptom: Page title is "Just a moment...", HTML contains captcha, challenge, verify
+- Protection: Cloudflare Turnstile (post-2024 version)
+- Detection methods:
+  - navigator.webdriver property (true in headless browsers)
+  - WebGL renderer fingerprint
+  - Canvas fingerprint
+  - Mouse movement trajectory analysis (no real mouse in automation)
+  - TLS fingerprint (JA3/JA4 hash differs from real Chrome)
+- What we tried:
+  - playwright-stealth v2 - patches fingerprint APIs but Cloudflare's detection goes beyond these
+  - Extended wait (10s) - challenge never auto-resolves without human interaction
+  - Browser-like headers - irrelevant, Cloudflare runs client-side JS checks
+- Potential solutions: Proxy rotation services (ScrapingBee, BrightData), residential proxies
+
+### Glassdoor - Cloudflare Turnstile
+- Symptom: Same as Indeed - "Just a moment..." challenge page
+- Protection: Cloudflare Turnstile
+- Same root cause as Indeed: Cloudflare JS challenge requires human-like browser fingerprint
+- Additional note: Even playwright-stealth fails because Cloudflare 2024+ checks multiple signals simultaneously (not just navigator.webdriver)
+
+### Boss直聘 (Zhipin) - Slider Captcha + IP Ban
+- Symptom: Page title is "安全验证" (Security Verification), HTML contains captcha, slider, verify
+- Protection: Custom slider captcha + IP reputation system
+- Detection methods:
+  - Slider captcha requiring drag gesture with human-like acceleration curve
+  - IP reputation scoring - API returns code 35 with message "您的IP地址存在异常行为" (Your IP has abnormal behavior)
+  - Even the internal API (/wapi/zpgeek/search/joblist.json) requires valid cookies from a browser session that passed the captcha
+- What we tried:
+  - Playwright with stealth - gets blocked by slider captcha
+  - Direct API call - returns IP ban error (code 35)
+- Potential solutions: Captcha solving services (2captcha), mobile app API reverse engineering
+
+### 拉勾 (Lagou) - Slider Captcha
+- Symptom: Page title is "滑动验证页面" (Slide Verification Page), HTML contains captcha
+- Protection: Slider captcha (similar to Boss直聘)
+- Detection: Requires physical drag gesture with velocity/acceleration analysis
+- Potential solutions: Same as Boss直聘
+
+### AI-Jobs.net - Site Structure Issue
+- Symptom: Page loads but no job listing data visible
+- Root cause: Not a bot detection issue - the site's architecture is different:
+  - Homepage is a dashboard-style SPA that requires authentication for job data
+  - JSON export endpoint (/hiring/jobs/latest/export/?format=json) redirects to external site foorilla.com
+  - No traditional public job listing page to scrape
+- Potential solutions: Find their actual public API, or scrape a different AI-specific job board
+
+---
+
+## Anti-Bot Technology Comparison
+
+| Protection            | How it works                                              | Bypass difficulty |
+|-----------------------|-----------------------------------------------------------|-------------------|
+| Cloudflare Turnstile  | JS challenge + browser fingerprinting + TLS fingerprint   | Very hard         |
+| Slider Captcha        | Drag gesture with trajectory analysis                     | Hard              |
+| IP Reputation         | Server-side IP scoring based on request patterns          | Medium            |
+| JS Rendering          | Content loaded via JavaScript, not in initial HTML        | Easy (Playwright) |
+| Rate Limiting         | Request frequency throttling                              | Easy              |
+
+## Architecture Notes
+
+### Browser Lifecycle
+- BrowserFetcher creates one Chromium instance per scrape() call
+- Reused across all keyword searches via _before_scrape() / _after_scrape() hooks
+- playwright-stealth patches are applied at the Playwright context level (affects all pages)
+
+### Dependency Structure
+
+  pip install -e ".[browser]"              # Installs playwright + playwright-stealth
+  python -m playwright install chromium    # Downloads Chromium binary (~150MB)
+
+- playwright is optional - scrapers that use httpx (LinkedIn, GitHub) work without it
+- playwright-stealth is optional within optional - BrowserFetcher checks HAS_STEALTH at runtime

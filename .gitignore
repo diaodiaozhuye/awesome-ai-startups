@@ -33,6 +33,14 @@ website/.env*.local
 .DS_Store
 Thumbs.db
 desktop.ini
+nul
+
+# Local diagnostic scripts
+run_all_sources.py
+run_scrapers_report.py
+
+# Runtime state
+data/.firecrawl_usage.json
 
 # Env
 .env

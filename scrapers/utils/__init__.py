@@ -87,25 +87,30 @@ def fetch_with_retry(
     max_retries: int = MAX_RETRIES,
     retry_delay: float = RETRY_DELAY,
 ) -> httpx.Response:
-    """Fetch a URL with retry logic for transient failures."""
+    """Fetch a URL with retry logic for transient failures.
+
+    When no *client* is provided, a temporary client is created and
+    closed automatically after the request completes (success or failure).
+    """
     own_client = client is None
     if own_client:
         client = create_http_client()
     assert client is not None  # narrowing for mypy
 
     last_error: Exception | None = None
-    for attempt in range(max_retries):
-        try:
-            response = client.get(url)
-            response.raise_for_status()
-            return response
-        except (httpx.HTTPStatusError, httpx.TransportError) as e:
-            last_error = e
-            if attempt < max_retries - 1:
-                time.sleep(retry_delay * (2**attempt))
-
-    if own_client:
-        client.close()
+    try:
+        for attempt in range(max_retries):
+            try:
+                response = client.get(url)
+                response.raise_for_status()
+                return response
+            except (httpx.HTTPStatusError, httpx.TransportError) as e:
+                last_error = e
+                if attempt < max_retries - 1:
+                    time.sleep(retry_delay * (2**attempt))
+    finally:
+        if own_client:
+            client.close()
 
     raise last_error  # type: ignore[misc]
 

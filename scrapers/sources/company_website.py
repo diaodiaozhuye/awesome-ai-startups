@@ -177,7 +177,7 @@ class CompanyWebsiteScraper(BaseScraper):
             match = pattern.search(html)
             if match:
                 value = match.group(1).strip()
-                if key == "og:description" or key == "description" and not description:
+                if key in ("og:description", "description") and not description:
                     description = value
                 elif key == "og:image":
                     og_image = value
