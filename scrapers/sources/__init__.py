@@ -3,11 +3,13 @@
 from scrapers.sources.aiji import AijiScraper
 from scrapers.sources.aijobs import AIJobsScraper
 from scrapers.sources.app_stores import AppStoreScraper, GooglePlayScraper
+from scrapers.sources.artificial_analysis import ArtificialAnalysisScraper
 from scrapers.sources.arxiv_scraper import ArXivScraper
 from scrapers.sources.company_website import CompanyWebsiteScraper
 from scrapers.sources.crunchbase import CrunchbaseScraper
 from scrapers.sources.huggingface import HuggingFaceScraper
 from scrapers.sources.indeed import IndeedScraper
+from scrapers.sources.kr36 import Kr36Scraper
 from scrapers.sources.lagou import LagouScraper
 from scrapers.sources.liepin import LiepinScraper
 from scrapers.sources.lmsys import LMSYSScraper
@@ -17,6 +19,7 @@ from scrapers.sources.package_registries import (
     NpmScraper,
     PyPIScraper,
 )
+from scrapers.sources.papers_with_code import PapersWithCodeScraper
 from scrapers.sources.producthunt import ProductHuntScraper
 from scrapers.sources.techcrunch import TechCrunchScraper
 from scrapers.sources.theresanai import TAAScraper
@@ -44,6 +47,11 @@ ALL_SCRAPERS = {
     # T2 Open Web — app stores
     "google_play": GooglePlayScraper,
     "app_store": AppStoreScraper,
+    # T2 Open Web — benchmarks & evaluation
+    "papers_with_code": PapersWithCodeScraper,
+    "artificial_analysis": ArtificialAnalysisScraper,
+    # T2 Open Web — media & news
+    "36kr": Kr36Scraper,
     # T2 Open Web — enrichment (package registries)
     "pypi": PyPIScraper,
     "npm": NpmScraper,
@@ -63,6 +71,7 @@ __all__ = [
     "AIJobsScraper",
     "AijiScraper",
     "AppStoreScraper",
+    "ArtificialAnalysisScraper",
     "ArXivScraper",
     "CompanyWebsiteScraper",
     "CrunchbaseScraper",
@@ -70,11 +79,13 @@ __all__ = [
     "GooglePlayScraper",
     "HuggingFaceScraper",
     "IndeedScraper",
+    "Kr36Scraper",
     "LagouScraper",
     "LiepinScraper",
     "LMSYSScraper",
     "NpmScraper",
     "OpenRouterScraper",
+    "PapersWithCodeScraper",
     "ProductHuntScraper",
     "PyPIScraper",
     "TAAScraper",
