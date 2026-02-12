@@ -69,9 +69,15 @@ class Normalizer:
 
     def normalize(self, product: ScrapedProduct) -> ScrapedProduct:
         """Normalize all fields of a ScrapedProduct."""
+        # Clear descriptions that are too short to pass schema validation (minLength: 10)
+        description = product.description
+        if description and len(description.strip()) < 10:
+            description = None
+
         return replace(
             product,
             name=self._normalize_name(product.name),
+            description=description,
             company_website=(
                 normalize_url(product.company_website)
                 if product.company_website

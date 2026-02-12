@@ -23,11 +23,29 @@ jobs:
       - name: Install dependencies
         run: pip install -e .
 
-      - name: Run scrapers
+      - name: Run scrapers (sources with no extra keys)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
-        run: aiscrape scrape --source all --limit 50
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # Run sources individually to avoid cascading failures
+          # Sources that need no API keys or use GITHUB_TOKEN only
+          for source in wikidata huggingface arxiv openrouter lmsys aibot ainav app_store github pypi npm dockerhub; do
+            echo "--- Scraping $source ---"
+            aiscrape scrape --source "$source" --limit 20 || echo "[WARN] $source failed, continuing..."
+          done
+          # Sources that need PRODUCTHUNT_TOKEN
+          if [ -n "$PRODUCTHUNT_TOKEN" ]; then
+            aiscrape scrape --source producthunt --limit 20 || echo "[WARN] producthunt failed"
+          fi
+          # Sources that need FIRECRAWL_API_KEY
+          if [ -n "$FIRECRAWL_API_KEY" ]; then
+            for source in crunchbase techcrunch theresanaiforthat toolify papers_with_code artificial_analysis; do
+              aiscrape scrape --source "$source" --limit 20 || echo "[WARN] $source failed"
+            done
+          fi
 
       - name: Validate all data
         run: aiscrape validate

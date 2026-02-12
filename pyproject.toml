@@ -15,6 +15,7 @@ dependencies = [
     "beautifulsoup4>=4.12",
     "jsonschema>=4.21",
     "python-dateutil>=2.9",
+    "python-dotenv>=1.0",
     "python-Levenshtein>=0.25",
     "tenacity>=8.2",
     "unidecode>=1.3",
