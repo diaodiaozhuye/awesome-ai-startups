@@ -1,0 +1,65 @@
+{
+  "slug": "1x-technologies",
+  "name": "NEO",
+  "product_url": "https://www.1x.tech/neo",
+  "description": "1X Technologies (formerly Halodi Robotics) creates human-centric humanoid robots powered by AI for real-world tasks.",
+  "product_type": "hardware",
+  "category": "ai-hardware",
+  "status": "active",
+  "name_zh": "1X Technologies",
+  "description_zh": "1X Technologies（前身为 Halodi Robotics）创建以人为中心的人形机器人，由 AI 驱动完成真实世界任务。",
+  "sub_category": "robot",
+  "tags": [
+    "humanoid-robot",
+    "reinforcement-learning",
+    "hardware",
+    "europe"
+  ],
+  "open_source": false,
+  "company": {
+    "name": "1X Technologies",
+    "url": "https://www.1x.tech",
+    "website": "https://www.1x.tech",
+    "name_zh": "1X Technologies",
+    "founded_year": 2014,
+    "headquarters": {
+      "city": "Moss",
+      "country": "Norway",
+      "country_code": "NO"
+    },
+    "funding": {
+      "total_raised_usd": 125000000,
+      "last_round": "series-b",
+      "investors": [
+        "OpenAI",
+        "Tiger Global",
+        "Samsung NEXT"
+      ]
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "linkedin": "https://linkedin.com/company/1x-technologies",
+      "twitter": "@1aborX_Tech"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Bernt Oyvind Bornich",
+      "title": "CEO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.1x.tech",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

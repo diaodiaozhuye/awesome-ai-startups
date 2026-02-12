@@ -1,0 +1,66 @@
+{
+  "slug": "zhipu-ai",
+  "name": "GLM-4",
+  "product_url": "https://open.bigmodel.cn",
+  "description": "Zhipu AI is a Chinese AI company building large language models and cognitive intelligence technology, spun out of Tsinghua University.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "智谱 AI",
+  "description_zh": "智谱 AI 是一家源自清华大学的中国 AI 公司，致力于构建大语言模型和认知智能技术。",
+  "sub_category": "text-generation",
+  "tags": [
+    "generative-ai",
+    "nlp",
+    "transformer",
+    "api-platform",
+    "china"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/THUDM",
+  "company": {
+    "name": "Zhipu AI",
+    "url": "https://www.zhipuai.cn",
+    "website": "https://www.zhipuai.cn",
+    "name_zh": "智谱 AI",
+    "founded_year": 2019,
+    "headquarters": {
+      "city": "Beijing",
+      "country": "China",
+      "country_code": "CN"
+    },
+    "funding": {
+      "total_raised_usd": 400000000,
+      "last_round": "series-b",
+      "investors": [
+        "Hillhouse Capital",
+        "Lenovo Capital"
+      ]
+    },
+    "employee_count_range": "201-500",
+    "social": {
+      "twitter": "@thaboramureri",
+      "github": "https://github.com/THUDM"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Zhang Peng",
+      "title": "CEO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.zhipuai.cn",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

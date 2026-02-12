@@ -1,0 +1,39 @@
+{
+  "slug": "autogpt",
+  "name": "AutoGPT",
+  "product_url": "agpt.co",
+  "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/Significant-Gravitas",
+  "company": {
+    "name": "AutoGPT",
+    "url": "agpt.co",
+    "website": "agpt.co",
+    "headquarters": {
+      "city": "Unknown"
+    },
+    "social": {
+      "twitter": "SigGravitas",
+      "github": "https://github.com/Significant-Gravitas"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/Significant-Gravitas",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

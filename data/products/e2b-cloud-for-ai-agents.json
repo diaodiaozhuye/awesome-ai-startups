@@ -1,0 +1,39 @@
+{
+  "slug": "e2b-cloud-for-ai-agents",
+  "name": "E2B | Cloud for AI Agents",
+  "product_url": "https://e2b.dev/docs",
+  "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/e2b-dev",
+  "company": {
+    "name": "E2B | Cloud for AI Agents",
+    "url": "https://e2b.dev/docs",
+    "website": "https://e2b.dev/docs",
+    "headquarters": {
+      "city": "United States of America"
+    },
+    "social": {
+      "twitter": "e2b",
+      "github": "https://github.com/e2b-dev"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/e2b-dev",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

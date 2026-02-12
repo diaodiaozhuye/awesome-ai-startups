@@ -1,0 +1,415 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/diaodiaozhuye/awesome-ai-startups/data/schema/product.schema.json",
+  "title": "AI Product",
+  "description": "Schema for an AI product entry in the directory",
+  "type": "object",
+  "required": ["slug", "name", "product_url", "description", "product_type", "category", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL-safe identifier, must match the filename (without .json)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "name_zh": {
+      "type": ["string", "null"],
+      "maxLength": 200
+    },
+    "product_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "icon_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 5000
+    },
+    "description_zh": {
+      "type": "string",
+      "maxLength": 5000
+    },
+    "product_type": {
+      "type": "string",
+      "enum": ["llm", "app", "dev-tool", "hardware", "dataset", "framework", "api-service", "other"]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "ai-model",
+        "ai-app",
+        "ai-dev-tool",
+        "ai-infrastructure",
+        "ai-hardware",
+        "ai-data",
+        "ai-agent",
+        "ai-search",
+        "ai-security",
+        "ai-science"
+      ]
+    },
+    "sub_category": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 20,
+      "uniqueItems": true
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Bilingual Chinese+English keywords"
+    },
+    "company": {
+      "type": "object",
+      "required": ["name", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "name_zh": {
+          "type": ["string", "null"]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Auto-computed fallback URL for the company"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+        "wikipedia_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "logo_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "description": {
+          "type": "string"
+        },
+        "founded_year": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2035
+        },
+        "headquarters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "city": { "type": "string" },
+            "state": { "type": "string" },
+            "country": { "type": "string" },
+            "country_code": {
+              "type": "string",
+              "pattern": "^[A-Z]{2}$"
+            }
+          }
+        },
+        "funding": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "total_raised_usd": { "type": "number", "minimum": 0 },
+            "last_round": {
+              "type": "string",
+              "enum": [
+                "pre-seed",
+                "seed",
+                "series-a",
+                "series-b",
+                "series-c",
+                "series-d",
+                "series-e",
+                "series-f",
+                "growth",
+                "ipo",
+                "unknown"
+              ]
+            },
+            "last_round_date": {
+              "type": "string",
+              "format": "date"
+            },
+            "valuation_usd": { "type": "number", "minimum": 0 },
+            "investors": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "employee_count_range": {
+          "type": "string",
+          "enum": ["1-10", "11-50", "51-200", "201-500", "501-1000", "1001-5000", "5001+"]
+        },
+        "social": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "linkedin": { "type": "string", "format": "uri" },
+            "crunchbase": { "type": "string", "format": "uri" },
+            "twitter": { "type": "string" },
+            "github": { "type": "string", "format": "uri" }
+          }
+        }
+      }
+    },
+    "key_people": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "title": { "type": "string" },
+          "is_founder": { "type": "boolean" },
+          "profile_url": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "architecture": {
+      "type": "string"
+    },
+    "parameter_count": {
+      "type": "string",
+      "description": "e.g. '70B'"
+    },
+    "context_window": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "modalities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "supported_languages": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "training_data_cutoff": {
+      "type": "string",
+      "format": "date"
+    },
+    "platforms": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "deployment_options": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "api_available": {
+      "type": "boolean"
+    },
+    "api_docs_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "open_source": {
+      "type": "boolean"
+    },
+    "license": {
+      "type": "string"
+    },
+    "repository_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "github_stars": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "github_contributors": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "github_last_commit": {
+      "type": "string",
+      "format": "date"
+    },
+    "package_downloads": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "pypi_monthly": { "type": "integer", "minimum": 0 },
+        "npm_weekly": { "type": "integer", "minimum": 0 },
+        "docker_pulls": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "benchmarks": {
+      "type": "object",
+      "additionalProperties": { "type": "number" },
+      "description": "Key is benchmark name, value is score"
+    },
+    "pricing": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "model": {
+          "type": "string",
+          "enum": ["free", "freemium", "paid", "enterprise", "open-source", "usage-based"]
+        },
+        "has_free_tier": { "type": "boolean" },
+        "input_price_per_1m_tokens": { "type": "number", "minimum": 0 },
+        "output_price_per_1m_tokens": { "type": "number", "minimum": 0 },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "target_audience": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "use_cases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "integrations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "competitors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Slugs of competing products"
+    },
+    "based_on": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Slugs of products this is based on"
+    },
+    "used_by": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Slugs of products that use this product"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "beta", "alpha", "announced", "deprecated", "discontinued"]
+    },
+    "release_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_update_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "version": {
+      "type": "string"
+    },
+    "huggingface_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "huggingface_downloads": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "discord_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "community_size": {
+      "type": "string"
+    },
+    "app_store": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "google_play_url": { "type": "string", "format": "uri" },
+        "apple_store_url": { "type": "string", "format": "uri" },
+        "rating": { "type": "number", "minimum": 0, "maximum": 5 },
+        "downloads": { "type": "string" },
+        "last_updated": { "type": "string", "format": "date" }
+      }
+    },
+    "hiring": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "is_hiring": { "type": "boolean" },
+        "total_positions": { "type": "integer", "minimum": 0 },
+        "positions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title"],
+            "additionalProperties": false,
+            "properties": {
+              "title": { "type": "string" },
+              "location": { "type": "string" },
+              "url": { "type": "string", "format": "uri" },
+              "source": { "type": "string" },
+              "salary_range": { "type": "string" }
+            }
+          }
+        },
+        "tech_stack": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "last_checked": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "source_name"],
+        "additionalProperties": false,
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "source_name": { "type": "string" },
+          "scraped_at": { "type": "string", "format": "date" }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "added_date": { "type": "string", "format": "date" },
+        "last_updated": { "type": "string", "format": "date" },
+        "data_quality_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "needs_review": { "type": "boolean" },
+        "provenance": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "source": { "type": "string" },
+              "tier": { "type": "integer", "minimum": 1, "maximum": 4 },
+              "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+              "updated_at": { "type": "string", "format": "date" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

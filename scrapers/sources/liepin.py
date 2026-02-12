@@ -1,29 +1,52 @@
-"""猎聘网 (Liepin) scraper for discovering Chinese AI companies."""
+"""猎聘网 (Liepin) scraper for discovering Chinese AI companies.
+
+T4 Auxiliary — scrapes 猎聘网 job search pages via Firecrawl (primary)
+or httpx+BeautifulSoup (fallback) for AI/ML job listings. Focuses on
+mid-to-senior level recruitment, making it a good source for discovering
+established AI companies and well-funded startups.
+
+Proxy support: set ``CHINA_PROXY_URL`` environment variable to route
+httpx requests through a proxy. Firecrawl uses its own infrastructure.
+"""
 
 from __future__ import annotations
 
 import logging
+import re
 from urllib.parse import quote
 
+import httpx
 from bs4 import BeautifulSoup
 
-from scrapers.base import ScrapedCompany
-from scrapers.base_job_scraper import BaseJobSiteScraper
-from scrapers.utils import create_http_client
+from scrapers.base_job_scraper import BaseJobSiteScraper, ScrapedCompany
+from scrapers.config import SCRAPY_REQUEST_DELAY
+from scrapers.utils.china_http import (
+    create_china_http_client,
+    parse_chinese_job_markdown,
+)
 
 logger = logging.getLogger(__name__)
 
-_SEARCH_URL = "https://www.liepin.com/zhaopin/?key={query}"
+_BASE_URL = "https://www.liepin.com"
+_SEARCH_URL = f"{_BASE_URL}/zhaopin/?key={{query}}"
 
 
 class LiepinScraper(BaseJobSiteScraper):
     """Scrape 猎聘网 for AI/ML job listings to discover Chinese AI companies.
 
-    猎聘网 focuses on mid-to-senior level recruitment, making it a good
-    source for discovering established AI companies and well-funded startups.
+    猎聘网 focuses on mid-to-senior level recruitment. Uses Firecrawl
+    when available for better JS-rendered content extraction, falls back
+    to direct httpx requests with BeautifulSoup parsing.
+
+    Features:
+      - Firecrawl primary (handles JS rendering + anti-bot)
+      - httpx + BeautifulSoup fallback
+      - User-Agent rotation via china_http utilities
+      - Optional proxy support via CHINA_PROXY_URL
+      - 7s rate limit delay (slow-and-steady for Chinese sites)
     """
 
-    RATE_LIMIT_DELAY = 5.0
+    RATE_LIMIT_DELAY: float = SCRAPY_REQUEST_DELAY
 
     @property
     def source_name(self) -> str:
@@ -33,11 +56,55 @@ class LiepinScraper(BaseJobSiteScraper):
         return "zh"
 
     def _search_jobs(self, keyword: str, limit: int) -> list[dict[str, str]]:
-        client = create_http_client()
-        client.headers.update({
-            "Referer": "https://www.liepin.com/",
-            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-        })
+        """Search 猎聘 for jobs matching keyword."""
+        try:
+            return self._search_via_firecrawl(keyword, limit)
+        except ImportError:
+            pass
+
+        return self._search_via_httpx(keyword, limit)
+
+    def _search_via_firecrawl(
+        self, keyword: str, limit: int
+    ) -> list[dict[str, str]]:
+        """Search 猎聘 via Firecrawl for JS-rendered content."""
+        from scrapers.utils.firecrawl_client import FirecrawlClient
+
+        fc = FirecrawlClient()
+        jobs: list[dict[str, str]] = []
+
+        try:
+            if fc.remaining_quota <= 0:
+                raise ImportError("Firecrawl quota exhausted")
+
+            url = _SEARCH_URL.format(query=quote(keyword))
+            result = fc.scrape_url(url, formats=["markdown"], wait_for=5000)
+
+            if not result.success:
+                logger.debug(
+                    "liepin Firecrawl failed for '%s': %s", keyword, result.error
+                )
+                return []
+
+            # Try site-specific markdown parsing first
+            jobs = self._parse_liepin_markdown(result.markdown)
+
+            # Fall back to generic Chinese job markdown parser
+            if not jobs:
+                jobs = parse_chinese_job_markdown(
+                    result.markdown, site_name="liepin"
+                )
+
+        finally:
+            fc.close()
+
+        return jobs[:limit]
+
+    def _search_via_httpx(
+        self, keyword: str, limit: int
+    ) -> list[dict[str, str]]:
+        """Search 猎聘 via direct HTTP request."""
+        client = create_china_http_client(referer=f"{_BASE_URL}/")
         jobs: list[dict[str, str]] = []
 
         try:
@@ -46,7 +113,9 @@ class LiepinScraper(BaseJobSiteScraper):
 
             if not response.is_success:
                 logger.info(
-                    "[liepin] HTTP %s for keyword '%s'", response.status_code, keyword
+                    "[liepin] HTTP %s for keyword '%s'",
+                    response.status_code,
+                    keyword,
                 )
                 return []
 
@@ -73,23 +142,79 @@ class LiepinScraper(BaseJobSiteScraper):
                     ".company-info .industry, .company-tag:first-child"
                 )
 
-                company_name = company_el.get_text(strip=True) if company_el else ""
+                company_name = (
+                    company_el.get_text(strip=True) if company_el else ""
+                )
                 if not company_name:
                     continue
 
                 jobs.append({
                     "company_name": company_name,
-                    "location": location_el.get_text(strip=True) if location_el else "",
-                    "job_title": title_el.get_text(strip=True) if title_el else "",
-                    "scale": scale_el.get_text(strip=True) if scale_el else "",
-                    "industry": industry_el.get_text(strip=True) if industry_el else "",
+                    "location": (
+                        location_el.get_text(strip=True) if location_el else ""
+                    ),
+                    "job_title": (
+                        title_el.get_text(strip=True) if title_el else ""
+                    ),
+                    "scale": (
+                        scale_el.get_text(strip=True) if scale_el else ""
+                    ),
+                    "industry": (
+                        industry_el.get_text(strip=True) if industry_el else ""
+                    ),
                 })
+        except (httpx.HTTPError, httpx.TimeoutException) as e:
+            logger.info("[liepin] HTTP error for '%s': %s", keyword, e)
         finally:
             client.close()
 
         return jobs
 
-    def _extract_company(self, job_data: dict[str, str]) -> ScrapedCompany | None:
+    def _parse_liepin_markdown(self, markdown: str) -> list[dict[str, str]]:
+        """Parse 猎聘 search results from Firecrawl markdown."""
+        jobs: list[dict[str, str]] = []
+
+        # Liepin card pattern:
+        #   [Job Title](link) Salary
+        #   Company Name  Location  Scale  Industry
+        card_pattern = re.compile(
+            r"(?:^|\n)"
+            r"\[([^\]]{3,60})\]\([^)]*\)"  # [job title](link)
+            r"[^\n]{0,40}\n"  # rest of title line (salary etc.)
+            r"\s*([^\n·|\-]{2,40})"  # company name
+            r"(?:\s*[·|]\s*([^\n·|]{1,20}))?"  # location
+            r"(?:\s*[·|]\s*([^\n·|]{1,20}))?"  # scale
+            r"(?:\s*[·|]\s*([^\n·|]{1,20}))?",  # industry
+            re.MULTILINE,
+        )
+
+        for match in card_pattern.finditer(markdown):
+            title = match.group(1).strip()
+            company = match.group(2).strip()
+            location = (match.group(3) or "").strip()
+            scale = (match.group(4) or "").strip()
+            industry = (match.group(5) or "").strip()
+
+            if not company or len(company) < 2:
+                continue
+
+            # Skip navigation elements
+            if company in {"猎聘", "首页", "登录", "注册", "搜索", "我的"}:
+                continue
+
+            jobs.append({
+                "company_name": company,
+                "location": location,
+                "job_title": title,
+                "scale": scale,
+                "industry": industry,
+            })
+
+        return jobs
+
+    def _extract_company(
+        self, job_data: dict[str, str]
+    ) -> ScrapedCompany | None:
         name = job_data.get("company_name", "").strip()
         if not name:
             return None
@@ -103,13 +228,13 @@ class LiepinScraper(BaseJobSiteScraper):
         return ScrapedCompany(
             name=name,
             source="liepin",
-            source_url="https://www.liepin.com",
+            source_url=_BASE_URL,
             description_zh=job_data.get("industry") or None,
             category=category,
-            headquarters_city=city or None,
-            headquarters_country="China" if city else None,
-            headquarters_country_code="CN" if city else None,
-            employee_count_range=employee_range,
+            company_headquarters_city=city or None,
+            company_headquarters_country="China" if city else None,
+            company_headquarters_country_code="CN" if city else None,
+            company_employee_count_range=employee_range,
             tags=("liepin",),
             extra={"name_zh": name},
         )

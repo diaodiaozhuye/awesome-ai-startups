@@ -16,9 +16,19 @@ dependencies = [
     "jsonschema>=4.21",
     "python-dateutil>=2.9",
     "python-Levenshtein>=0.25",
+    "tenacity>=8.2",
 ]
 
 [project.optional-dependencies]
+llm = [
+    "anthropic>=0.39",
+]
+firecrawl = [
+    "firecrawl-py>=1.0",
+]
+appstores = [
+    "google-play-scraper>=1.2",
+]
 browser = [
     "playwright>=1.40",
 ]
@@ -34,7 +44,7 @@ dev = [
 aiscrape = "scrapers.cli:cli"
 
 [tool.setuptools.packages.find]
-include = ["scrapers*"]
+include = ["scrapers*", "scrapers.data*"]
 
 [tool.ruff]
 target-version = "py311"

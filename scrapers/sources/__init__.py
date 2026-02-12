@@ -1,30 +1,66 @@
 """Scraper source implementations."""
 
+from scrapers.sources.aiji import AijiScraper
 from scrapers.sources.aijobs import AIJobsScraper
+from scrapers.sources.app_stores import AppStoreScraper, GooglePlayScraper
+from scrapers.sources.artificial_analysis import ArtificialAnalysisScraper
+from scrapers.sources.arxiv_scraper import ArXivScraper
+from scrapers.sources.company_website import CompanyWebsiteScraper
 from scrapers.sources.crunchbase import CrunchbaseScraper
-from scrapers.sources.github_trending import GitHubTrendingScraper
-from scrapers.sources.glassdoor import GlassdoorScraper
+from scrapers.sources.huggingface import HuggingFaceScraper
 from scrapers.sources.indeed import IndeedScraper
+from scrapers.sources.kr36 import Kr36Scraper
 from scrapers.sources.lagou import LagouScraper
 from scrapers.sources.liepin import LiepinScraper
-from scrapers.sources.linkedin_jobs import LinkedInJobsScraper
+from scrapers.sources.lmsys import LMSYSScraper
+from scrapers.sources.openrouter import OpenRouterScraper
+from scrapers.sources.package_registries import (
+    DockerHubScraper,
+    NpmScraper,
+    PyPIScraper,
+)
+from scrapers.sources.papers_with_code import PapersWithCodeScraper
 from scrapers.sources.producthunt import ProductHuntScraper
 from scrapers.sources.techcrunch import TechCrunchScraper
+from scrapers.sources.theresanai import TAAScraper
+from scrapers.sources.toolify import ToolifyScraper
+from scrapers.sources.wikidata import WikidataScraper
 from scrapers.sources.ycombinator import YCombinatorScraper
 from scrapers.sources.zhipin import ZhipinScraper
 
 ALL_SCRAPERS = {
-    # Original sources
-    "github": GitHubTrendingScraper,
+    # T1 Authoritative
+    "wikidata": WikidataScraper,
+    "crunchbase": CrunchbaseScraper,
+    # T2 Open Web — models & products
+    "huggingface": HuggingFaceScraper,
     "ycombinator": YCombinatorScraper,
     "producthunt": ProductHuntScraper,
-    "crunchbase": CrunchbaseScraper,
     "techcrunch": TechCrunchScraper,
-    # Job site scrapers
+    "arxiv": ArXivScraper,
+    "lmsys": LMSYSScraper,
+    "openrouter": OpenRouterScraper,
+    # T2 Open Web — product directories
+    "theresanaiforthat": TAAScraper,
+    "toolify": ToolifyScraper,
+    "aiji": AijiScraper,
+    # T2 Open Web — app stores
+    "google_play": GooglePlayScraper,
+    "app_store": AppStoreScraper,
+    # T2 Open Web — benchmarks & evaluation
+    "papers_with_code": PapersWithCodeScraper,
+    "artificial_analysis": ArtificialAnalysisScraper,
+    # T2 Open Web — media & news
+    "36kr": Kr36Scraper,
+    # T2 Open Web — enrichment (package registries)
+    "pypi": PyPIScraper,
+    "npm": NpmScraper,
+    "dockerhub": DockerHubScraper,
+    # T2 Open Web — company websites
+    "company_website": CompanyWebsiteScraper,
+    # T4 Job site scrapers
     "indeed": IndeedScraper,
     "aijobs": AIJobsScraper,
-    "linkedin-jobs": LinkedInJobsScraper,
-    "glassdoor": GlassdoorScraper,
     "zhipin": ZhipinScraper,
     "lagou": LagouScraper,
     "liepin": LiepinScraper,
@@ -33,15 +69,29 @@ ALL_SCRAPERS = {
 __all__ = [
     "ALL_SCRAPERS",
     "AIJobsScraper",
+    "AijiScraper",
+    "AppStoreScraper",
+    "ArtificialAnalysisScraper",
+    "ArXivScraper",
+    "CompanyWebsiteScraper",
     "CrunchbaseScraper",
-    "GitHubTrendingScraper",
-    "GlassdoorScraper",
+    "DockerHubScraper",
+    "GooglePlayScraper",
+    "HuggingFaceScraper",
     "IndeedScraper",
+    "Kr36Scraper",
     "LagouScraper",
     "LiepinScraper",
-    "LinkedInJobsScraper",
+    "LMSYSScraper",
+    "NpmScraper",
+    "OpenRouterScraper",
+    "PapersWithCodeScraper",
     "ProductHuntScraper",
+    "PyPIScraper",
+    "TAAScraper",
     "TechCrunchScraper",
+    "ToolifyScraper",
+    "WikidataScraper",
     "YCombinatorScraper",
     "ZhipinScraper",
 ]

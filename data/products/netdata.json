@@ -1,0 +1,38 @@
+{
+  "slug": "netdata",
+  "name": "netdata",
+  "product_url": "https://www.netdata.cloud",
+  "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/netdata",
+  "company": {
+    "name": "netdata",
+    "url": "https://www.netdata.cloud",
+    "website": "https://www.netdata.cloud",
+    "headquarters": {
+      "city": "USA"
+    },
+    "social": {
+      "github": "https://github.com/netdata"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/netdata",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

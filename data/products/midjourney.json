@@ -1,0 +1,56 @@
+{
+  "slug": "midjourney",
+  "name": "Midjourney",
+  "product_url": "https://www.midjourney.com",
+  "description": "Midjourney is an independent research lab producing an AI program that creates images from textual descriptions.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "Midjourney",
+  "description_zh": "Midjourney 是一个独立研究实验室，开发根据文字描述生成图像的 AI 程序。",
+  "sub_category": "image-generation",
+  "tags": [
+    "generative-ai",
+    "text-to-image",
+    "diffusion-model",
+    "b2c"
+  ],
+  "open_source": false,
+  "company": {
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com",
+    "website": "https://www.midjourney.com",
+    "name_zh": "Midjourney",
+    "founded_year": 2021,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "employee_count_range": "11-50",
+    "social": {
+      "twitter": "@midaborney"
+    }
+  },
+  "key_people": [
+    {
+      "name": "David Holz",
+      "title": "CEO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.midjourney.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

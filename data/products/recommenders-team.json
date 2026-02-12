@@ -1,0 +1,37 @@
+{
+  "slug": "recommenders-team",
+  "name": "Recommenders team",
+  "product_url": "https://github.com/recommenders-team",
+  "description": "Recommenders offers examples & best practices for building recommendation systems, provided as Jupyter notebooks. An LF AI & Data Sandbox project.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/recommenders-team",
+  "company": {
+    "name": "Recommenders team",
+    "url": "https://github.com/recommenders-team",
+    "headquarters": {
+      "city": "United States of America"
+    },
+    "social": {
+      "github": "https://github.com/recommenders-team"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/recommenders-team",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

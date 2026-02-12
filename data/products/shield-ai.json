@@ -1,0 +1,73 @@
+{
+  "slug": "shield-ai",
+  "name": "Hivemind",
+  "product_url": "https://shield.ai/hivemind",
+  "description": "Shield AI builds AI-powered defense technology including autonomous drones and intelligent pilot systems.",
+  "product_type": "app",
+  "category": "ai-security",
+  "status": "active",
+  "name_zh": "Shield AI",
+  "description_zh": "Shield AI 构建 AI 驱动的国防技术，包括自主无人机和智能飞行员系统。",
+  "sub_category": "ai-safety",
+  "tags": [
+    "drone",
+    "defense",
+    "reinforcement-learning",
+    "edge-ai"
+  ],
+  "open_source": false,
+  "company": {
+    "name": "Shield AI",
+    "url": "https://shield.ai",
+    "website": "https://shield.ai",
+    "name_zh": "Shield AI",
+    "founded_year": 2015,
+    "headquarters": {
+      "city": "San Diego",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 900000000,
+      "last_round": "series-f",
+      "valuation_usd": 2700000000,
+      "investors": [
+        "Andreessen Horowitz",
+        "Point72",
+        "Snowflake Ventures"
+      ]
+    },
+    "employee_count_range": "501-1000",
+    "social": {
+      "linkedin": "https://linkedin.com/company/shield-ai",
+      "crunchbase": "https://www.crunchbase.com/organization/shield-ai",
+      "twitter": "@ShieldAI"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Ryan Tseng",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Brandon Tseng",
+      "title": "President",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://shield.ai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

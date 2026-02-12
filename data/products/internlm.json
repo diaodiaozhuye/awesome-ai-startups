@@ -1,0 +1,55 @@
+{
+  "slug": "internlm",
+  "name": "InternLM3",
+  "product_url": "https://github.com/InternLM/InternLM",
+  "description": "InternLM is an open-source large language model series developed by Shanghai AI Laboratory, including InternLM, InternLM2, and InternLM3.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "书生",
+  "description_zh": "书生是由上海人工智能实验室开发的开源大语言模型系列，包括 InternLM、InternLM2 和 InternLM3。",
+  "sub_category": "text-generation",
+  "tags": [
+    "open-source",
+    "generative-ai",
+    "nlp",
+    "transformer",
+    "china"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/InternLM",
+  "company": {
+    "name": "InternLM",
+    "url": "https://internlm.intern-ai.org.cn",
+    "website": "https://internlm.intern-ai.org.cn",
+    "name_zh": "书生",
+    "founded_year": 2023,
+    "headquarters": {
+      "city": "Shanghai",
+      "country": "China",
+      "country_code": "CN"
+    },
+    "social": {
+      "twitter": "@intern_lm",
+      "github": "https://github.com/InternLM"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/InternLM",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://internlm.intern-ai.org.cn",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

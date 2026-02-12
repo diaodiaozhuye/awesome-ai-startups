@@ -1,0 +1,83 @@
+{
+  "slug": "cohere",
+  "name": "Command",
+  "product_url": "https://cohere.com/command",
+  "description": "Cohere builds enterprise-grade large language models and RAG solutions. Focused on making NLP accessible for business applications.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "Cohere",
+  "description_zh": "Cohere 构建企业级大语言模型和 RAG 解决方案。专注于让 NLP 服务于商业应用。",
+  "sub_category": "text-generation",
+  "tags": [
+    "generative-ai",
+    "nlp",
+    "transformer",
+    "api-platform",
+    "b2b",
+    "rag"
+  ],
+  "open_source": false,
+  "repository_url": "https://github.com/cohere-ai",
+  "company": {
+    "name": "Cohere",
+    "url": "https://cohere.com",
+    "website": "https://cohere.com",
+    "name_zh": "Cohere",
+    "founded_year": 2019,
+    "headquarters": {
+      "city": "Toronto",
+      "country": "Canada",
+      "country_code": "CA"
+    },
+    "funding": {
+      "total_raised_usd": 970000000,
+      "last_round": "series-d",
+      "last_round_date": "2024-07-22",
+      "valuation_usd": 5500000000,
+      "investors": [
+        "PSP Investments",
+        "Nvidia",
+        "Salesforce Ventures",
+        "Cisco Investments"
+      ]
+    },
+    "employee_count_range": "201-500",
+    "social": {
+      "linkedin": "https://linkedin.com/company/cohere-ai",
+      "crunchbase": "https://www.crunchbase.com/organization/cohere-2",
+      "twitter": "@CohereAI",
+      "github": "https://github.com/cohere-ai"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Aidan Gomez",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Ivan Zhang",
+      "title": "Co-founder",
+      "is_founder": true
+    },
+    {
+      "name": "Nick Frosst",
+      "title": "Co-founder",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://cohere.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

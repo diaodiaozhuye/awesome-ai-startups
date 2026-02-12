@@ -1,0 +1,38 @@
+{
+  "slug": "the-pocket",
+  "name": "The Pocket",
+  "product_url": "https://github.com/The-Pocket",
+  "description": "100 Lines Let Agents build Agent",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/The-Pocket",
+  "company": {
+    "name": "The Pocket",
+    "url": "https://github.com/The-Pocket",
+    "headquarters": {
+      "city": "Unknown"
+    },
+    "social": {
+      "twitter": "ZacharyHuang12",
+      "github": "https://github.com/The-Pocket"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/The-Pocket",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

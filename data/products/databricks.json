@@ -1,0 +1,78 @@
+{
+  "slug": "databricks",
+  "name": "Lakehouse Platform",
+  "product_url": "https://www.databricks.com/product",
+  "description": "Databricks is a unified analytics platform built on Apache Spark that combines data engineering, data science, and machine learning.",
+  "product_type": "dev-tool",
+  "category": "ai-data",
+  "status": "active",
+  "name_zh": "Databricks",
+  "description_zh": "Databricks 是基于 Apache Spark 构建的统一分析平台，融合了数据工程、数据科学和机器学习。",
+  "sub_category": "data-pipeline",
+  "tags": [
+    "data-labeling",
+    "mlops",
+    "b2b",
+    "saas",
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/databricks",
+  "company": {
+    "name": "Databricks",
+    "url": "https://www.databricks.com",
+    "website": "https://www.databricks.com",
+    "name_zh": "Databricks",
+    "founded_year": 2013,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 4100000000,
+      "last_round": "growth",
+      "last_round_date": "2023-09-14",
+      "valuation_usd": 43000000000,
+      "investors": [
+        "Andreessen Horowitz",
+        "T. Rowe Price",
+        "Nvidia",
+        "Capital One Ventures"
+      ]
+    },
+    "employee_count_range": "5001+",
+    "social": {
+      "linkedin": "https://linkedin.com/company/databricks",
+      "crunchbase": "https://www.crunchbase.com/organization/databricks",
+      "twitter": "@databricks",
+      "github": "https://github.com/databricks"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Ali Ghodsi",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Matei Zaharia",
+      "title": "CTO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.databricks.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

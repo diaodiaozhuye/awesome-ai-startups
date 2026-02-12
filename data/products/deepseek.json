@@ -1,0 +1,62 @@
+{
+  "slug": "deepseek",
+  "name": "DeepSeek-V3",
+  "product_url": "https://www.deepseek.com",
+  "description": "DeepSeek is a Chinese AI company focused on building powerful open-source large language models for research and applications.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "深度求索",
+  "description_zh": "深度求索是一家中国 AI 公司，专注于构建强大的开源大语言模型，服务于研究和应用。",
+  "sub_category": "text-generation",
+  "tags": [
+    "generative-ai",
+    "nlp",
+    "transformer",
+    "open-source",
+    "china"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/deepseek-ai",
+  "company": {
+    "name": "DeepSeek",
+    "url": "https://www.deepseek.com",
+    "website": "https://www.deepseek.com",
+    "name_zh": "深度求索",
+    "founded_year": 2023,
+    "headquarters": {
+      "city": "Hangzhou",
+      "country": "China",
+      "country_code": "CN"
+    },
+    "funding": {
+      "total_raised_usd": 0,
+      "last_round": "unknown"
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "twitter": "@deepseek_ai",
+      "github": "https://github.com/deepseek-ai"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Liang Wenfeng",
+      "title": "CEO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.deepseek.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

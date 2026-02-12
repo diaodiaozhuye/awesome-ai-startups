@@ -1,0 +1,78 @@
+{
+  "slug": "jasper-ai",
+  "name": "Jasper",
+  "product_url": "https://www.jasper.ai",
+  "description": "Jasper AI is an enterprise AI platform for marketing teams to create on-brand content at scale.",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "name_zh": "Jasper AI",
+  "description_zh": "Jasper AI 是面向营销团队的企业 AI 平台，用于大规模创建品牌一致的内容。",
+  "sub_category": "workflow-automation",
+  "tags": [
+    "content-creation",
+    "marketing",
+    "b2b",
+    "saas"
+  ],
+  "open_source": false,
+  "company": {
+    "name": "Jasper AI",
+    "url": "https://www.jasper.ai",
+    "website": "https://www.jasper.ai",
+    "name_zh": "Jasper AI",
+    "founded_year": 2021,
+    "headquarters": {
+      "city": "Austin",
+      "state": "Texas",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 131000000,
+      "last_round": "series-a",
+      "valuation_usd": 1500000000,
+      "investors": [
+        "Insight Partners",
+        "Bessemer Venture Partners",
+        "IVP"
+      ]
+    },
+    "employee_count_range": "201-500",
+    "social": {
+      "linkedin": "https://linkedin.com/company/heyjasperai",
+      "crunchbase": "https://www.crunchbase.com/organization/jasper-ai",
+      "twitter": "@heyjasperai"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Dave Rogenmoser",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "JP Morgan",
+      "title": "CTO",
+      "is_founder": true
+    },
+    {
+      "name": "Chris Hull",
+      "title": "COO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.jasper.ai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

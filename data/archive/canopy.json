@@ -1,0 +1,24 @@
+{
+  "slug": "canopy",
+  "name": "Canopy",
+  "description": "Canopy is an AI company.",
+  "website": "",
+  "category": "ai-other",
+  "founded_year": 2026,
+  "headquarters": {
+    "city": "Detroit",
+    "country": "MIBe an early applicant1 week ago"
+  },
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "sources": [
+      "https://www.linkedin.com/jobs"
+    ],
+    "data_quality_score": 0.4
+  },
+  "tags": [
+    "linkedin"
+  ],
+  "status": "active"
+}

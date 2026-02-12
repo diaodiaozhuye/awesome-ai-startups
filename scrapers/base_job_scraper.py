@@ -15,10 +15,13 @@ from abc import abstractmethod
 from dataclasses import fields, replace
 from typing import Any
 
-from scrapers.base import BaseScraper, ScrapedCompany
+from scrapers.base import BaseScraper, ScrapedProduct, SourceTier
 from scrapers.config import JOB_SCRAPER_MAX_JOBS_PER_KEYWORD, JOB_SCRAPER_RATE_LIMIT
 from scrapers.keyword_matcher import JobKeywordMatcher
 from scrapers.utils import extract_domain
+
+# Backwards compatibility alias
+ScrapedCompany = ScrapedProduct
 
 logger = logging.getLogger(__name__)
 
@@ -37,6 +40,10 @@ class BaseJobSiteScraper(BaseScraper):
 
     RATE_LIMIT_DELAY: float = JOB_SCRAPER_RATE_LIMIT
     MAX_JOBS_PER_KEYWORD: int = JOB_SCRAPER_MAX_JOBS_PER_KEYWORD
+
+    @property
+    def source_tier(self) -> SourceTier:
+        return SourceTier.T4_AUXILIARY
 
     def __init__(self) -> None:
         self._matcher = JobKeywordMatcher()
@@ -126,10 +133,11 @@ class BaseJobSiteScraper(BaseScraper):
         self._last_request_time = time.time()
 
     @staticmethod
-    def _dedup_key(company: ScrapedCompany) -> str:
+    def _dedup_key(company: ScrapedProduct) -> str:
         """Generate a deduplication key from domain or lowercased name."""
-        if company.website:
-            domain = extract_domain(company.website)
+        url = company.company_website or company.product_url or ""
+        if url:
+            domain = extract_domain(url)
             if domain:
                 return domain
         return company.name.lower().strip()

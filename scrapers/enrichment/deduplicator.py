@@ -1,12 +1,12 @@
-"""Deduplicate companies by domain and fuzzy name matching."""
+"""Deduplicate products by domain and fuzzy name matching."""
 
 from __future__ import annotations
 
 import json
 from dataclasses import dataclass
 
-from scrapers.base import ScrapedCompany
-from scrapers.config import COMPANIES_DIR
+from scrapers.base import ScrapedProduct
+from scrapers.config import PRODUCTS_DIR
 from scrapers.utils import extract_domain, slugify
 
 try:
@@ -21,22 +21,22 @@ except ImportError:
         return (2.0 * common) / (len(a) + len(b))
 
 
-# Similarity threshold for considering two names as the same company
+# Similarity threshold for considering two names as the same product
 NAME_SIMILARITY_THRESHOLD = 0.85
 
 
 @dataclass
 class DeduplicationResult:
-    """Result of deduplication: split into new and existing companies."""
+    """Result of deduplication: split into new and existing products."""
 
-    new_companies: list[ScrapedCompany]
+    new_products: list[ScrapedProduct]
     updates_for_existing: list[
-        tuple[str, ScrapedCompany]
+        tuple[str, ScrapedProduct]
     ]  # (existing_slug, scraped_data)
 
 
 class Deduplicator:
-    """Deduplicate scraped companies against the existing data directory."""
+    """Deduplicate scraped products against the existing data directory."""
 
     def __init__(self) -> None:
         self._existing_domains: dict[str, str] = {}  # domain -> slug
@@ -44,11 +44,11 @@ class Deduplicator:
         self._load_existing()
 
     def _load_existing(self) -> None:
-        """Load domains and names from existing company JSON files."""
-        if not COMPANIES_DIR.exists():
+        """Load domains and names from existing product JSON files."""
+        if not PRODUCTS_DIR.exists():
             return
 
-        for filepath in COMPANIES_DIR.glob("*.json"):
+        for filepath in PRODUCTS_DIR.glob("*.json"):
             try:
                 data = json.loads(filepath.read_text(encoding="utf-8"))
                 slug = data.get("slug", filepath.stem)
@@ -57,49 +57,64 @@ class Deduplicator:
                 if name:
                     self._existing_names[name.lower()] = slug
 
-                website = data.get("website", "")
-                if website:
-                    domain = extract_domain(website)
+                # Match on product_url domain
+                product_url = data.get("product_url", "")
+                if product_url:
+                    domain = extract_domain(product_url)
+                    if domain:
+                        self._existing_domains[domain] = slug
+
+                # Also match on company.website domain
+                company = data.get("company", {})
+                company_website = company.get("website", "") if company else ""
+                if company_website:
+                    domain = extract_domain(company_website)
                     if domain:
                         self._existing_domains[domain] = slug
             except (json.JSONDecodeError, KeyError):
                 continue
 
-    def deduplicate(self, companies: list[ScrapedCompany]) -> DeduplicationResult:
-        """Split scraped companies into new ones and updates for existing ones."""
-        new: list[ScrapedCompany] = []
-        updates: list[tuple[str, ScrapedCompany]] = []
+    def deduplicate(self, products: list[ScrapedProduct]) -> DeduplicationResult:
+        """Split scraped products into new ones and updates for existing ones."""
+        new: list[ScrapedProduct] = []
+        updates: list[tuple[str, ScrapedProduct]] = []
 
-        for company in companies:
-            existing_slug = self._find_existing(company)
+        for product in products:
+            existing_slug = self._find_existing(product)
             if existing_slug:
-                updates.append((existing_slug, company))
+                updates.append((existing_slug, product))
             else:
-                new.append(company)
+                new.append(product)
 
-        return DeduplicationResult(new_companies=new, updates_for_existing=updates)
+        return DeduplicationResult(new_products=new, updates_for_existing=updates)
 
-    def _find_existing(self, company: ScrapedCompany) -> str | None:
-        """Check if a scraped company matches any existing entry."""
-        # 1. Match by domain
-        if company.website:
-            domain = extract_domain(company.website)
+    def _find_existing(self, product: ScrapedProduct) -> str | None:
+        """Check if a scraped product matches any existing entry."""
+        # 1. Match by product_url domain
+        if product.product_url:
+            domain = extract_domain(product.product_url)
             if domain and domain in self._existing_domains:
                 return self._existing_domains[domain]
 
-        # 2. Match by exact name
-        name_lower = company.name.lower()
+        # 2. Match by company_website domain
+        if product.company_website:
+            domain = extract_domain(product.company_website)
+            if domain and domain in self._existing_domains:
+                return self._existing_domains[domain]
+
+        # 3. Match by exact name
+        name_lower = product.name.lower()
         if name_lower in self._existing_names:
             return self._existing_names[name_lower]
 
-        # 3. Match by fuzzy name
+        # 4. Match by fuzzy name
         for existing_name, slug in self._existing_names.items():
             if lev_ratio(name_lower, existing_name) >= NAME_SIMILARITY_THRESHOLD:
                 return slug
 
-        # 4. Match by slug
-        candidate_slug = slugify(company.name)
-        if (COMPANIES_DIR / f"{candidate_slug}.json").exists():
+        # 5. Match by slug
+        candidate_slug = slugify(product.name)
+        if (PRODUCTS_DIR / f"{candidate_slug}.json").exists():
             return candidate_slug
 
         return None

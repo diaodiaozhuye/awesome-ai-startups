@@ -48,10 +48,35 @@ def _default_keywords() -> dict[str, dict[str, list[str] | dict[str, list[str]]]
         },
         "zh": {
             "search": [
-                "机器学习工程师",
-                "人工智能研究员",
+                # Core AI roles
+                "AI工程师",
+                "人工智能工程师",
                 "算法工程师",
+                "机器学习工程师",
+                "深度学习工程师",
                 "大模型工程师",
+                "LLM工程师",
+                "人工智能研究员",
+                # NLP / CV / Speech
+                "NLP工程师",
+                "自然语言处理",
+                "计算机视觉工程师",
+                "语音识别工程师",
+                # Emerging roles
+                "AIGC",
+                "智能体开发",
+                "AI Agent",
+                "多模态",
+                "具身智能",
+                # Infrastructure
+                "MLOps",
+                "AI平台工程师",
+                "推理优化",
+                # Industry-specific
+                "自动驾驶算法",
+                "AI芯片",
+                "机器人算法",
+                "AI安全",
             ],
             "match": [
                 "机器学习",
@@ -60,10 +85,20 @@ def _default_keywords() -> dict[str, dict[str, list[str] | dict[str, list[str]]]
                 "算法",
                 "大模型",
                 "自然语言处理",
+                "计算机视觉",
+                "语音识别",
+                "aigc",
+                "智能体",
+                "多模态",
+                "具身智能",
+                "自动驾驶",
+                "推理优化",
             ],
             "categories": {
-                "llm-foundation-model": ["大模型", "语言模型"],
-                "ai-robotics": ["机器人", "自动驾驶"],
+                "llm-foundation-model": ["大模型", "语言模型", "llm"],
+                "ai-robotics": ["机器人", "自动驾驶", "具身智能"],
+                "ai-image-video": ["计算机视觉", "图像生成", "视频生成"],
+                "ai-infrastructure": ["mlops", "推理优化", "ai平台", "ai芯片"],
             },
         },
     }

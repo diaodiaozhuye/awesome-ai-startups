@@ -6,96 +6,103 @@ import json
 from pathlib import Path
 from unittest.mock import patch
 
-import pytest
-
-from scrapers.base import ScrapedCompany
+from scrapers.base import ScrapedProduct
 from scrapers.enrichment.deduplicator import Deduplicator
 
-
-@pytest.fixture
-def mock_companies_dir(tmp_path: Path) -> Path:
-    """Create a temporary companies dir with known entries."""
-    companies_dir = tmp_path / "companies"
-    companies_dir.mkdir()
-
-    openai_data = {
+_FIXTURE_DATA: dict[str, dict] = {
+    "openai": {
         "slug": "openai",
-        "name": "OpenAI",
-        "website": "https://openai.com",
-    }
-    (companies_dir / "openai.json").write_text(
-        json.dumps(openai_data), encoding="utf-8"
-    )
-
-    anthropic_data = {
+        "name": "ChatGPT",
+        "product_url": "https://chat.openai.com",
+        "company": {
+            "name": "OpenAI",
+            "url": "https://openai.com",
+            "website": "https://openai.com",
+        },
+    },
+    "anthropic": {
         "slug": "anthropic",
-        "name": "Anthropic",
-        "website": "https://www.anthropic.com",
-    }
-    (companies_dir / "anthropic.json").write_text(
-        json.dumps(anthropic_data), encoding="utf-8"
-    )
+        "name": "Claude",
+        "product_url": "https://claude.ai",
+        "company": {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com",
+            "website": "https://www.anthropic.com",
+        },
+    },
+}
 
-    return companies_dir
+
+def _create_mock_products_dir(tmp_path: Path) -> Path:
+    """Create a temporary products dir with known entries."""
+    products_dir = tmp_path / "products"
+    products_dir.mkdir()
+
+    for slug, data in _FIXTURE_DATA.items():
+        (products_dir / f"{slug}.json").write_text(json.dumps(data), encoding="utf-8")
+
+    return products_dir
 
 
 class TestDeduplicator:
-    def test_detects_existing_by_domain(self, mock_companies_dir: Path) -> None:
-        with patch(
-            "scrapers.enrichment.deduplicator.COMPANIES_DIR", mock_companies_dir
-        ):
+    def test_detects_existing_by_domain(self, tmp_path: Path) -> None:
+        products_dir = _create_mock_products_dir(tmp_path)
+        with patch("scrapers.enrichment.deduplicator.PRODUCTS_DIR", products_dir):
             dedup = Deduplicator()
-            companies = [
-                ScrapedCompany(
-                    name="OpenAI Inc", source="test", website="https://openai.com/about"
+            products = [
+                ScrapedProduct(
+                    name="OpenAI Inc",
+                    source="test",
+                    company_website="https://openai.com/about",
                 ),
             ]
-            result = dedup.deduplicate(companies)
-            assert len(result.new_companies) == 0
+            result = dedup.deduplicate(products)
+            assert len(result.new_products) == 0
             assert len(result.updates_for_existing) == 1
             assert result.updates_for_existing[0][0] == "openai"
 
-    def test_detects_existing_by_name(self, mock_companies_dir: Path) -> None:
-        with patch(
-            "scrapers.enrichment.deduplicator.COMPANIES_DIR", mock_companies_dir
-        ):
+    def test_detects_existing_by_name(self, tmp_path: Path) -> None:
+        products_dir = _create_mock_products_dir(tmp_path)
+        with patch("scrapers.enrichment.deduplicator.PRODUCTS_DIR", products_dir):
             dedup = Deduplicator()
-            companies = [
-                ScrapedCompany(name="Anthropic", source="test"),
+            products = [
+                ScrapedProduct(name="Claude", source="test"),
             ]
-            result = dedup.deduplicate(companies)
-            assert len(result.new_companies) == 0
+            result = dedup.deduplicate(products)
+            assert len(result.new_products) == 0
             assert len(result.updates_for_existing) == 1
 
-    def test_identifies_new_company(self, mock_companies_dir: Path) -> None:
-        with patch(
-            "scrapers.enrichment.deduplicator.COMPANIES_DIR", mock_companies_dir
-        ):
+    def test_identifies_new_product(self, tmp_path: Path) -> None:
+        products_dir = _create_mock_products_dir(tmp_path)
+        with patch("scrapers.enrichment.deduplicator.PRODUCTS_DIR", products_dir):
             dedup = Deduplicator()
-            companies = [
-                ScrapedCompany(
+            products = [
+                ScrapedProduct(
                     name="Brand New Startup",
                     source="test",
-                    website="https://newstartup.ai",
+                    product_url="https://newstartup.ai",
                 ),
             ]
-            result = dedup.deduplicate(companies)
-            assert len(result.new_companies) == 1
+            result = dedup.deduplicate(products)
+            assert len(result.new_products) == 1
             assert len(result.updates_for_existing) == 0
 
-    def test_mixed_new_and_existing(self, mock_companies_dir: Path) -> None:
-        with patch(
-            "scrapers.enrichment.deduplicator.COMPANIES_DIR", mock_companies_dir
-        ):
+    def test_mixed_new_and_existing(self, tmp_path: Path) -> None:
+        products_dir = _create_mock_products_dir(tmp_path)
+        with patch("scrapers.enrichment.deduplicator.PRODUCTS_DIR", products_dir):
             dedup = Deduplicator()
-            companies = [
-                ScrapedCompany(
-                    name="OpenAI", source="test", website="https://openai.com"
+            products = [
+                ScrapedProduct(
+                    name="ChatGPT",
+                    source="test",
+                    product_url="https://chat.openai.com",
                 ),
-                ScrapedCompany(
-                    name="New AI Corp", source="test", website="https://newai.com"
+                ScrapedProduct(
+                    name="New AI Corp",
+                    source="test",
+                    product_url="https://newai.com",
                 ),
             ]
-            result = dedup.deduplicate(companies)
-            assert len(result.new_companies) == 1
+            result = dedup.deduplicate(products)
+            assert len(result.new_products) == 1
             assert len(result.updates_for_existing) == 1

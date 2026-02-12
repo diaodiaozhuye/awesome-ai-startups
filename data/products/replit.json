@@ -1,0 +1,70 @@
+{
+  "slug": "replit",
+  "name": "Replit Agent",
+  "product_url": "https://replit.com",
+  "description": "Replit is a collaborative coding platform with AI-powered features that enables anyone to build software directly in the browser.",
+  "product_type": "dev-tool",
+  "category": "ai-dev-tool",
+  "status": "active",
+  "name_zh": "Replit",
+  "description_zh": "Replit 是一个协作编程平台，具有 AI 驱动的功能，让任何人都能直接在浏览器中构建软件。",
+  "sub_category": "coding-assistant",
+  "tags": [
+    "code-generation",
+    "developer-tools",
+    "b2c",
+    "saas"
+  ],
+  "open_source": false,
+  "repository_url": "https://github.com/replit",
+  "company": {
+    "name": "Replit",
+    "url": "https://replit.com",
+    "website": "https://replit.com",
+    "name_zh": "Replit",
+    "founded_year": 2016,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 222000000,
+      "last_round": "series-b",
+      "valuation_usd": 1160000000,
+      "investors": [
+        "Andreessen Horowitz",
+        "Khosla Ventures",
+        "Coatue"
+      ]
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "linkedin": "https://linkedin.com/company/replit",
+      "crunchbase": "https://www.crunchbase.com/organization/replit",
+      "twitter": "@Replit",
+      "github": "https://github.com/replit"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Amjad Masad",
+      "title": "CEO",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://replit.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

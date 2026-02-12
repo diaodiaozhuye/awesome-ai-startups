@@ -1,0 +1,71 @@
+{
+  "slug": "character-ai",
+  "name": "Character.AI",
+  "product_url": "https://character.ai",
+  "description": "Character.AI is a platform where users can create and interact with AI-powered characters for conversation and entertainment.",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "name_zh": "Character.AI",
+  "description_zh": "Character.AI 是一个用户可以创建和与 AI 角色互动的平台，用于对话和娱乐。",
+  "sub_category": "personal-assistant",
+  "tags": [
+    "chatbot",
+    "generative-ai",
+    "b2c",
+    "content-creation"
+  ],
+  "open_source": false,
+  "company": {
+    "name": "Character.AI",
+    "url": "https://character.ai",
+    "website": "https://character.ai",
+    "name_zh": "Character.AI",
+    "founded_year": 2021,
+    "headquarters": {
+      "city": "Menlo Park",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 150000000,
+      "last_round": "series-a",
+      "valuation_usd": 1000000000,
+      "investors": [
+        "Andreessen Horowitz",
+        "SV Angel"
+      ]
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "linkedin": "https://linkedin.com/company/character-ai",
+      "twitter": "@character_ai"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Noam Shazeer",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Daniel De Freitas",
+      "title": "Co-founder",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://character.ai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

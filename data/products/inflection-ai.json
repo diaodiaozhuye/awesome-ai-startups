@@ -1,0 +1,71 @@
+{
+  "slug": "inflection-ai",
+  "name": "Pi",
+  "product_url": "https://pi.ai",
+  "description": "Inflection AI builds personal AI assistants designed for natural, empathetic conversation. Creator of Pi.",
+  "product_type": "app",
+  "category": "ai-app",
+  "status": "active",
+  "name_zh": "Inflection AI",
+  "description_zh": "Inflection AI 构建个人 AI 助手，专注于自然、有同理心的对话。Pi 的创造者。",
+  "sub_category": "personal-assistant",
+  "tags": [
+    "chatbot",
+    "nlp",
+    "b2c"
+  ],
+  "open_source": false,
+  "company": {
+    "name": "Inflection AI",
+    "url": "https://inflection.ai",
+    "website": "https://inflection.ai",
+    "name_zh": "Inflection AI",
+    "founded_year": 2022,
+    "headquarters": {
+      "city": "Palo Alto",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 1525000000,
+      "last_round": "series-b",
+      "investors": [
+        "Microsoft",
+        "Reid Hoffman",
+        "Bill Gates",
+        "Nvidia"
+      ]
+    },
+    "employee_count_range": "51-200",
+    "social": {
+      "linkedin": "https://linkedin.com/company/inflection-ai",
+      "twitter": "@inflaborection_ai"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Mustafa Suleyman",
+      "title": "Co-founder",
+      "is_founder": true
+    },
+    {
+      "name": "Karén Simonyan",
+      "title": "Co-founder",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://inflection.ai",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

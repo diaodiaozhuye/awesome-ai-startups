@@ -1,0 +1,84 @@
+{
+  "slug": "openai",
+  "name": "ChatGPT",
+  "product_url": "https://chat.openai.com",
+  "description": "OpenAI is an AI research and deployment company that builds general-purpose AI systems. Creator of GPT-4, ChatGPT, and DALL-E.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "OpenAI",
+  "description_zh": "OpenAI 是一家 AI 研究与部署公司，构建通用人工智能系统。GPT-4、ChatGPT 和 DALL-E 的创造者。",
+  "sub_category": "text-generation",
+  "tags": [
+    "generative-ai",
+    "nlp",
+    "transformer",
+    "multimodal",
+    "api-platform",
+    "chatbot"
+  ],
+  "open_source": false,
+  "repository_url": "https://github.com/openai",
+  "company": {
+    "name": "OpenAI",
+    "url": "https://openai.com",
+    "website": "https://openai.com",
+    "name_zh": "OpenAI",
+    "founded_year": 2015,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 11300000000,
+      "last_round": "growth",
+      "last_round_date": "2024-10-02",
+      "valuation_usd": 157000000000,
+      "investors": [
+        "Microsoft",
+        "Thrive Capital",
+        "Khosla Ventures",
+        "SoftBank"
+      ]
+    },
+    "employee_count_range": "1001-5000",
+    "social": {
+      "linkedin": "https://linkedin.com/company/openai",
+      "crunchbase": "https://www.crunchbase.com/organization/openai",
+      "twitter": "@OpenAI",
+      "github": "https://github.com/openai"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Sam Altman",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Greg Brockman",
+      "title": "President",
+      "is_founder": true
+    },
+    {
+      "name": "Ilya Sutskever",
+      "title": "Co-founder",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://openai.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

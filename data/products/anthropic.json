@@ -1,0 +1,79 @@
+{
+  "slug": "anthropic",
+  "name": "Claude",
+  "product_url": "https://claude.ai",
+  "description": "Anthropic is an AI safety company building reliable, interpretable, and steerable AI systems. Creator of the Claude family of AI assistants.",
+  "product_type": "llm",
+  "category": "ai-model",
+  "status": "active",
+  "name_zh": "Anthropic",
+  "description_zh": "Anthropic 是一家 AI 安全公司，致力于构建可靠、可解释、可控的 AI 系统。Claude 系列 AI 助手的创造者。",
+  "sub_category": "text-generation",
+  "tags": [
+    "generative-ai",
+    "nlp",
+    "transformer",
+    "api-platform",
+    "chatbot",
+    "b2b"
+  ],
+  "open_source": false,
+  "repository_url": "https://github.com/anthropics",
+  "company": {
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com",
+    "website": "https://www.anthropic.com",
+    "name_zh": "Anthropic",
+    "founded_year": 2021,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "United States",
+      "country_code": "US"
+    },
+    "funding": {
+      "total_raised_usd": 7300000000,
+      "last_round": "series-d",
+      "last_round_date": "2024-03-27",
+      "valuation_usd": 18400000000,
+      "investors": [
+        "Google",
+        "Amazon",
+        "Spark Capital",
+        "Salesforce Ventures"
+      ]
+    },
+    "employee_count_range": "501-1000",
+    "social": {
+      "linkedin": "https://linkedin.com/company/anthropicresearch",
+      "crunchbase": "https://www.crunchbase.com/organization/anthropic",
+      "twitter": "@AnthropicAI",
+      "github": "https://github.com/anthropics"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Dario Amodei",
+      "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Daniela Amodei",
+      "title": "President",
+      "is_founder": true
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.anthropic.com",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-11",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

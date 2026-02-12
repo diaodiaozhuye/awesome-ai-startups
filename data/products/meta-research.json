@@ -1,0 +1,38 @@
+{
+  "slug": "meta-research",
+  "name": "Meta Research",
+  "product_url": "https://opensource.fb.com",
+  "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "tags": [
+    "open-source"
+  ],
+  "open_source": true,
+  "repository_url": "https://github.com/facebookresearch",
+  "company": {
+    "name": "Meta Research",
+    "url": "https://opensource.fb.com",
+    "website": "https://opensource.fb.com",
+    "headquarters": {
+      "city": "Menlo Park, California"
+    },
+    "social": {
+      "github": "https://github.com/facebookresearch"
+    }
+  },
+  "sources": [
+    {
+      "url": "https://github.com/facebookresearch",
+      "source_name": "migration",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "data_quality_score": 0.0,
+    "needs_review": true
+  }
+}

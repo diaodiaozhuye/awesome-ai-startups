@@ -6,8 +6,7 @@ import logging
 
 from bs4 import BeautifulSoup, Tag
 
-from scrapers.base import ScrapedCompany
-from scrapers.base_job_scraper import BaseJobSiteScraper
+from scrapers.base_job_scraper import BaseJobSiteScraper, ScrapedCompany
 from scrapers.utils import create_http_client
 
 logger = logging.getLogger(__name__)
@@ -115,8 +114,10 @@ class AIJobsScraper(BaseJobSiteScraper):
             name=name,
             source="aijobs",
             source_url=source_url,
-            headquarters_city=location.split(",")[0].strip() if location else None,
-            headquarters_country=(
+            company_headquarters_city=(
+                location.split(",")[0].strip() if location else None
+            ),
+            company_headquarters_country=(
                 location.split(",")[-1].strip() if "," in location else None
             ),
             tags=("aijobs",),
