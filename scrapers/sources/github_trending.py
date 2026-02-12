@@ -2,10 +2,15 @@
 
 from __future__ import annotations
 
+import logging
 import os
 
-from scrapers.base import BaseScraper, ScrapedCompany
+import httpx
+
+from scrapers.base import BaseScraper, ScrapedProduct, SourceTier
 from scrapers.utils import create_http_client
+
+logger = logging.getLogger(__name__)
 
 
 class GitHubTrendingScraper(BaseScraper):
@@ -28,7 +33,11 @@ class GitHubTrendingScraper(BaseScraper):
     def source_name(self) -> str:
         return "github"
 
-    def scrape(self, limit: int = 100) -> list[ScrapedCompany]:
+    @property
+    def source_tier(self) -> SourceTier:
+        return SourceTier.T2_OPEN_WEB
+
+    def scrape(self, limit: int = 100) -> list[ScrapedProduct]:
         token = os.environ.get("GITHUB_TOKEN", "")
         headers = {}
         if token:
@@ -39,11 +48,11 @@ class GitHubTrendingScraper(BaseScraper):
             client.headers.update(headers)
 
         seen_orgs: set[str] = set()
-        companies: list[ScrapedCompany] = []
+        products: list[ScrapedProduct] = []
 
         try:
             for query in self.SEARCH_QUERIES:
-                if len(companies) >= limit:
+                if len(products) >= limit:
                     break
 
                 response = client.get(
@@ -52,7 +61,7 @@ class GitHubTrendingScraper(BaseScraper):
                         "q": query,
                         "sort": "stars",
                         "order": "desc",
-                        "per_page": min(30, limit - len(companies)),
+                        "per_page": min(30, limit - len(products)),
                     },
                 )
                 response.raise_for_status()
@@ -68,20 +77,29 @@ class GitHubTrendingScraper(BaseScraper):
 
                     seen_orgs.add(org_login)
 
-                    org_response = client.get(
-                        f"https://api.github.com/orgs/{org_login}"
-                    )
-                    org_data = org_response.json() if org_response.is_success else {}
+                    try:
+                        org_response = client.get(
+                            f"https://api.github.com/orgs/{org_login}"
+                        )
+                        org_data = (
+                            org_response.json() if org_response.is_success else {}
+                        )
+                    except (httpx.HTTPError, httpx.TimeoutException, OSError) as exc:
+                        logger.debug(
+                            "GitHub org fetch failed for %s: %s", org_login, exc
+                        )
+                        org_data = {}
 
                     twitter = org_data.get("twitter_username")
                     extra: dict[str, str] = {}
                     if twitter:
                         extra["twitter"] = f"@{twitter}"
 
-                    company = ScrapedCompany(
+                    product = ScrapedProduct(
                         name=org_data.get("name") or org_login,
                         source="github",
                         source_url=f"https://github.com/{org_login}",
+                        source_tier=SourceTier.T2_OPEN_WEB,
                         company_website=org_data.get("blog") or None,
                         description=org_data.get("description")
                         or repo.get("description"),
@@ -91,11 +109,11 @@ class GitHubTrendingScraper(BaseScraper):
                         tags=("open-source",),
                         extra=extra,
                     )
-                    companies.append(company)
+                    products.append(product)
 
-                    if len(companies) >= limit:
+                    if len(products) >= limit:
                         break
         finally:
             client.close()
 
-        return companies[:limit]
+        return products[:limit]

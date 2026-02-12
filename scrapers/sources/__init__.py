@@ -1,12 +1,14 @@
 """Scraper source implementations."""
 
-from scrapers.sources.aiji import AijiScraper
+from scrapers.sources.aibot import AiBotScraper
 from scrapers.sources.aijobs import AIJobsScraper
+from scrapers.sources.ainav import AiNavScraper
 from scrapers.sources.app_stores import AppStoreScraper, GooglePlayScraper
 from scrapers.sources.artificial_analysis import ArtificialAnalysisScraper
 from scrapers.sources.arxiv_scraper import ArXivScraper
 from scrapers.sources.company_website import CompanyWebsiteScraper
 from scrapers.sources.crunchbase import CrunchbaseScraper
+from scrapers.sources.github_trending import GitHubTrendingScraper
 from scrapers.sources.huggingface import HuggingFaceScraper
 from scrapers.sources.indeed import IndeedScraper
 from scrapers.sources.kr36 import Kr36Scraper
@@ -43,7 +45,8 @@ ALL_SCRAPERS = {
     # T2 Open Web — product directories
     "theresanaiforthat": TAAScraper,
     "toolify": ToolifyScraper,
-    "aiji": AijiScraper,
+    "aibot": AiBotScraper,
+    "ainav": AiNavScraper,
     # T2 Open Web — app stores
     "google_play": GooglePlayScraper,
     "app_store": AppStoreScraper,
@@ -52,6 +55,8 @@ ALL_SCRAPERS = {
     "artificial_analysis": ArtificialAnalysisScraper,
     # T2 Open Web — media & news
     "36kr": Kr36Scraper,
+    # T2 Open Web — GitHub
+    "github": GitHubTrendingScraper,
     # T2 Open Web — enrichment (package registries)
     "pypi": PyPIScraper,
     "npm": NpmScraper,
@@ -68,14 +73,16 @@ ALL_SCRAPERS = {
 
 __all__ = [
     "ALL_SCRAPERS",
+    "AiBotScraper",
     "AIJobsScraper",
-    "AijiScraper",
+    "AiNavScraper",
     "AppStoreScraper",
     "ArtificialAnalysisScraper",
     "ArXivScraper",
     "CompanyWebsiteScraper",
     "CrunchbaseScraper",
     "DockerHubScraper",
+    "GitHubTrendingScraper",
     "GooglePlayScraper",
     "HuggingFaceScraper",
     "IndeedScraper",

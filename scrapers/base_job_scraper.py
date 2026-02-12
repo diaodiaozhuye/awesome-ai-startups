@@ -15,6 +15,8 @@ from abc import abstractmethod
 from dataclasses import fields, replace
 from typing import Any
 
+import httpx
+
 from scrapers.base import BaseScraper, ScrapedProduct, SourceTier
 from scrapers.config import JOB_SCRAPER_MAX_JOBS_PER_KEYWORD, JOB_SCRAPER_RATE_LIMIT
 from scrapers.keyword_matcher import JobKeywordMatcher
@@ -88,7 +90,7 @@ class BaseJobSiteScraper(BaseScraper):
 
             try:
                 jobs = self._search_jobs(keyword, self.MAX_JOBS_PER_KEYWORD)
-            except Exception:
+            except (httpx.HTTPError, httpx.TimeoutException, ValueError, OSError):
                 logger.warning(
                     "[%s] Error searching '%s'",
                     self.source_name,

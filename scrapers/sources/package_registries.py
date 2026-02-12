@@ -9,12 +9,10 @@ from __future__ import annotations
 
 import logging
 import time
-from typing import TYPE_CHECKING
+
+import httpx
 
 from scrapers.base import BaseScraper, ScrapedProduct, SourceTier
-
-if TYPE_CHECKING:
-    import httpx
 from scrapers.config import DEFAULT_REQUEST_DELAY
 from scrapers.utils import create_http_client
 
@@ -111,8 +109,8 @@ class PyPIScraper(BaseScraper):
 
             meta = meta_resp.json()
             info = meta.get("info", {})
-        except Exception:
-            logger.debug("PyPI metadata %s: request failed", package, exc_info=True)
+        except (httpx.HTTPError, httpx.TimeoutException, ValueError, OSError) as exc:
+            logger.debug("PyPI metadata %s: request failed: %s", package, exc)
             return None
 
         # Fetch recent download stats
@@ -123,8 +121,9 @@ class PyPIScraper(BaseScraper):
             if stats_resp.is_success:
                 stats = stats_resp.json()
                 monthly_downloads = stats.get("data", {}).get("last_month")
-        except Exception:
-            pass  # Downloads are optional enrichment data
+        except (httpx.HTTPError, httpx.TimeoutException, ValueError, OSError):
+            logger.debug("PyPI download stats unavailable for %s", package)
+            # Downloads are optional enrichment data
 
         description = info.get("summary") or info.get("description", "")[:200]
         homepage = info.get("home_page") or info.get("project_url") or ""
@@ -231,7 +230,8 @@ class NpmScraper(BaseScraper):
             if not meta_resp.is_success:
                 return None
             meta = meta_resp.json()
-        except Exception:
+        except (httpx.HTTPError, httpx.TimeoutException, ValueError, OSError) as exc:
+            logger.debug("npm metadata %s: request failed: %s", package, exc)
             return None
 
         # Weekly downloads
@@ -241,8 +241,8 @@ class NpmScraper(BaseScraper):
             dl_resp = client.get(NPM_DOWNLOADS_URL.format(package=package))
             if dl_resp.is_success:
                 weekly_downloads = dl_resp.json().get("downloads")
-        except Exception:
-            pass
+        except (httpx.HTTPError, httpx.TimeoutException, ValueError, OSError):
+            logger.debug("npm download stats unavailable for %s", package)
 
         description = meta.get("description", "")
         homepage = meta.get("homepage") or ""
@@ -361,7 +361,10 @@ class DockerHubScraper(BaseScraper):
             if not resp.is_success:
                 return None
             data = resp.json()
-        except Exception:
+        except (httpx.HTTPError, httpx.TimeoutException, ValueError, OSError) as exc:
+            logger.debug(
+                "Docker Hub metadata %s/%s: request failed: %s", namespace, repo, exc
+            )
             return None
 
         pull_count = data.get("pull_count", 0)

@@ -85,5 +85,5 @@ class IconFetcher:
         try:
             parsed = urlparse(url)
             return parsed.netloc or parsed.path.split("/")[0]
-        except Exception:
+        except (ValueError, AttributeError):
             return None

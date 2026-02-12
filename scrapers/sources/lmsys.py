@@ -6,14 +6,15 @@ T2 Open Web source — fetches the most authoritative LLM benchmark
 
 from __future__ import annotations
 
+import logging
 from datetime import date
-from typing import TYPE_CHECKING
+
+import httpx
 
 from scrapers.base import BaseScraper, ScrapedProduct, SourceTier
 from scrapers.utils import create_http_client
 
-if TYPE_CHECKING:
-    import httpx
+logger = logging.getLogger(__name__)
 
 # The LMSYS leaderboard data is published as a HuggingFace dataset.
 # We use the dataset viewer API to fetch rows without needing the
@@ -124,7 +125,8 @@ class LMSYSScraper(BaseScraper):
             rows: list[dict] = data.get("rows", [])
             return rows
 
-        except Exception:
+        except (httpx.HTTPError, httpx.TimeoutException, ValueError, OSError) as exc:
+            logger.debug("LMSYS primary fetch failed: %s, trying fallback", exc)
             return self._fetch_leaderboard_fallback(client, limit)
 
     def _fetch_leaderboard_fallback(
@@ -151,7 +153,8 @@ class LMSYSScraper(BaseScraper):
             rows: list[dict] = data.get("rows", [])
             return rows
 
-        except Exception:
+        except (httpx.HTTPError, httpx.TimeoutException, ValueError, OSError) as exc:
+            logger.debug("LMSYS fallback fetch also failed: %s", exc)
             return []
 
     def _parse_row(self, row: dict, today: str) -> ScrapedProduct | None:

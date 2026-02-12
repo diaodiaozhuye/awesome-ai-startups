@@ -96,6 +96,14 @@ The website supports English (`/en/`) and Chinese (`/zh/`). Follow these rules s
 - **Static export routing**: `trailingSlash: true` is required in next.config.ts so Vercel serves `/zh/index.html` correctly. Without it, `/zh` returns 404.
 - **Slug validation**: `getCompanyBySlug()` in `lib/data.ts` validates slugs against `^[a-z0-9-]+$` to prevent path traversal. Maintain this check.
 
+## Scraper Execution Rules
+
+- **No batch runs**: Do NOT run `--source all` in a single session. Run one or two sources at a time.
+- **Slow and steady**: Respect rate limits. Use `--limit` to cap per-source fetches (e.g. `--limit 20`).
+- **Daily schedule**: Scrapers are designed to run on a fixed daily schedule (via `daily-scrape.yml`), not interactively in bulk. Each daily run picks up incremental changes.
+- **Dry-run first**: Always use `--dry-run` to preview output before writing to disk.
+- **API keys**: Some scrapers require environment variables (`FIRECRAWL_API_KEY`, `GITHUB_TOKEN`, `PRODUCTHUNT_TOKEN`, `ANTHROPIC_API_KEY`). Scrapers gracefully skip if keys are missing — this is expected behavior, not an error.
+
 ## CI/CD
 
 - **validate-pr.yml**: On PRs -- runs schema validation, ruff, mypy, website lint + build

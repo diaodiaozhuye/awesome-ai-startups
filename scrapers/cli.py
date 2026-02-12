@@ -6,8 +6,13 @@ import json
 import sys
 
 import click
+from dotenv import load_dotenv
 
 from scrapers.config import PRODUCTS_DIR
+
+# Load .env file so API keys (FIRECRAWL_API_KEY, GITHUB_TOKEN, etc.)
+# are available via os.environ without requiring system-level env vars.
+load_dotenv()
 
 
 @click.group()
@@ -23,8 +28,8 @@ def cli() -> None:
         "Source to scrape (comma-separated or 'all'): "
         "wikidata, crunchbase, huggingface, ycombinator, producthunt, "
         "techcrunch, arxiv, lmsys, openrouter, theresanaiforthat, "
-        "toolify, aiji, google_play, app_store, papers_with_code, "
-        "artificial_analysis, 36kr, pypi, npm, dockerhub, "
+        "toolify, aibot, ainav, google_play, app_store, papers_with_code, "
+        "artificial_analysis, 36kr, pypi, npm, dockerhub, github, "
         "company_website, indeed, aijobs, zhipin, lagou, liepin"
     ),
 )

@@ -11,12 +11,10 @@ import json
 import logging
 import re
 import time
-from typing import TYPE_CHECKING
+
+import httpx
 
 from scrapers.base import BaseScraper, ScrapedProduct, SourceTier
-
-if TYPE_CHECKING:
-    import httpx
 from scrapers.config import DEFAULT_REQUEST_DELAY, PRODUCTS_DIR
 from scrapers.utils import create_http_client
 
@@ -156,7 +154,8 @@ class CompanyWebsiteScraper(BaseScraper):
 
             return self._extract_metadata(product_name, url, html)
 
-        except Exception:
+        except (httpx.HTTPError, httpx.TimeoutException, OSError) as exc:
+            logger.debug("Direct fetch failed for %s: %s, trying Firecrawl", url, exc)
             return self._try_firecrawl(product_name, url)
 
     def _extract_metadata(
@@ -254,7 +253,7 @@ class CompanyWebsiteScraper(BaseScraper):
         except ImportError:
             logger.debug("Firecrawl not available, skipping %s", url)
             return None
-        except Exception:
+        except (httpx.HTTPError, httpx.TimeoutException, ValueError, OSError):
             logger.debug("Firecrawl failed for %s", url, exc_info=True)
             return None
 

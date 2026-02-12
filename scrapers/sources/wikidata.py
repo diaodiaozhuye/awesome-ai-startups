@@ -6,16 +6,17 @@ founding year, headquarters, key people, and Wikipedia URLs.
 
 from __future__ import annotations
 
+import logging
 import time
 from datetime import date
-from typing import TYPE_CHECKING
+
+import httpx
 
 from scrapers.base import BaseScraper, ScrapedProduct, SourceTier
 from scrapers.config import DEFAULT_REQUEST_DELAY
 from scrapers.utils import create_http_client
 
-if TYPE_CHECKING:
-    import httpx
+logger = logging.getLogger(__name__)
 
 # Wikidata SPARQL endpoint (public, no auth required)
 WIKIDATA_SPARQL_URL = "https://query.wikidata.org/sparql"
@@ -207,7 +208,8 @@ class WikidataScraper(BaseScraper):
                 )
 
             return tuple(people)
-        except Exception:
+        except (httpx.HTTPError, httpx.TimeoutException, ValueError, OSError) as exc:
+            logger.debug("Wikidata key_people query failed for %s: %s", entity_id, exc)
             return ()
 
 

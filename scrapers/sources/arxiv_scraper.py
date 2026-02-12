@@ -7,20 +7,21 @@ phase: extracting model names from paper titles and metadata.
 
 from __future__ import annotations
 
+import logging
 import re
 import time
 from datetime import date
-from typing import TYPE_CHECKING
+
+import httpx
 
 from scrapers.base import BaseScraper, DiscoveredName, ScrapedProduct, SourceTier
 from scrapers.config import DEFAULT_REQUEST_DELAY
 from scrapers.utils import create_http_client
 
-if TYPE_CHECKING:
-    import httpx
+logger = logging.getLogger(__name__)
 
 # ArXiv API endpoint (public, no auth required)
-ARXIV_API_URL = "http://export.arxiv.org/api/query"
+ARXIV_API_URL = "https://export.arxiv.org/api/query"
 
 # AI-related categories on ArXiv
 ARXIV_AI_CATEGORIES = [
@@ -205,7 +206,8 @@ class ArXivScraper(BaseScraper):
 
             return self._parse_atom_feed(response.text)
 
-        except Exception:
+        except (httpx.HTTPError, httpx.TimeoutException, OSError) as exc:
+            logger.debug("ArXiv query failed for %s: %s", category, exc)
             return []
 
     def _parse_atom_feed(self, xml_text: str) -> list[dict]:
