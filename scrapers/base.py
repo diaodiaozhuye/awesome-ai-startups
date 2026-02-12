@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
+from collections.abc import Mapping
 from dataclasses import dataclass, field
 from enum import IntEnum
 
@@ -145,7 +146,14 @@ class ScrapedProduct:
     hiring_tech_stack: tuple[str, ...] = ()
 
     # -- Extra -----------------------------------------------------------
-    extra: dict[str, str] = field(default_factory=dict)
+    extra: Mapping[str, str] = field(default_factory=dict)
+
+    def __post_init__(self) -> None:
+        """Wrap mutable extra dict in MappingProxyType for true immutability."""
+        from types import MappingProxyType as _MappingProxy
+
+        if isinstance(self.extra, dict):
+            object.__setattr__(self, "extra", _MappingProxy(self.extra))
 
 
 # ---------------------------------------------------------------------------

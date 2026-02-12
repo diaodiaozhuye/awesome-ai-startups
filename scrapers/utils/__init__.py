@@ -9,7 +9,16 @@ from typing import Any
 
 import httpx
 
-from scrapers.config import HTTP_TIMEOUT, MAX_RETRIES, RETRY_DELAY, USER_AGENT
+from scrapers.config import (
+    HTTP_TIMEOUT,
+    MAX_RETRIES,
+    PRODUCTS_DIR,
+    RETRY_DELAY,
+    USER_AGENT,
+)
+
+# Slug validation pattern — must match product.schema.json and website slug check
+_VALID_SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]*[a-z0-9]$|^[a-z0-9]$")
 
 
 def slugify(text: str) -> str:
@@ -29,6 +38,31 @@ def slugify(text: str) -> str:
     text = re.sub(r"[-\s]+", "-", text)
     text = text.strip("-")
     return text
+
+
+def validate_slug(slug: str) -> str:
+    """Validate that a slug is safe for use in file paths.
+
+    Prevents path traversal attacks by ensuring the slug contains only
+    lowercase alphanumeric characters and hyphens, and that the resolved
+    file path stays within PRODUCTS_DIR.
+
+    Args:
+        slug: The slug to validate.
+
+    Returns:
+        The validated slug (unchanged).
+
+    Raises:
+        ValueError: If the slug is invalid or would escape PRODUCTS_DIR.
+    """
+    if not slug or not _VALID_SLUG_RE.match(slug):
+        raise ValueError(f"Invalid slug: {slug!r}")
+    # Defense-in-depth: verify resolved path stays within PRODUCTS_DIR
+    filepath = (PRODUCTS_DIR / f"{slug}.json").resolve()
+    if not str(filepath).startswith(str(PRODUCTS_DIR.resolve())):
+        raise ValueError(f"Slug would escape products directory: {slug!r}")
+    return slug
 
 
 def create_http_client(**kwargs: Any) -> httpx.Client:

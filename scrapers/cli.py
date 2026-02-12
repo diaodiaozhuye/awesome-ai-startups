@@ -60,8 +60,15 @@ def scrape(source: str, limit: int, dry_run: bool) -> None:
             results = scraper.scrape(limit=limit)
             click.echo(f"[{scraper.source_name}] Found {len(results)} products")
             all_scraped.extend(results)
-        except Exception as e:
-            click.echo(f"[{scraper.source_name}] Error: {e}")
+        except (OSError, ValueError, KeyError, json.JSONDecodeError) as e:
+            click.echo(f"[{scraper.source_name}] Error: {e}", err=True)
+        except Exception:
+            import traceback
+
+            click.echo(
+                f"[{scraper.source_name}] Unexpected error:\n{traceback.format_exc()}",
+                err=True,
+            )
 
     if not all_scraped:
         click.echo("\nNo products discovered.")
@@ -167,6 +174,14 @@ def generate_stats() -> None:
 @click.argument("slug")
 def show(slug: str) -> None:
     """Show data for a single product by slug."""
+    from scrapers.utils import validate_slug
+
+    try:
+        slug = validate_slug(slug)
+    except ValueError:
+        click.echo(f"Invalid slug: {slug}")
+        sys.exit(1)
+
     filepath = PRODUCTS_DIR / f"{slug}.json"
     if not filepath.exists():
         click.echo(f"Product not found: {slug}")
@@ -245,6 +260,14 @@ def enrich(
 
     # Collect candidate products
     if slug:
+        from scrapers.utils import validate_slug
+
+        try:
+            slug = validate_slug(slug)
+        except ValueError:
+            click.echo(f"Invalid slug: {slug}")
+            sys.exit(1)
+
         filepath = PRODUCTS_DIR / f"{slug}.json"
         if not filepath.exists():
             click.echo(f"Product not found: {slug}")
@@ -296,6 +319,15 @@ def enrich(
             continue
 
         product_slug = data.get("slug", filepath.stem)
+
+        # Validate slug from JSON data to prevent path traversal
+        from scrapers.utils import validate_slug as _validate_slug
+
+        try:
+            product_slug = _validate_slug(product_slug)
+        except ValueError:
+            click.echo(f"  SKIP {filepath.name} (invalid slug in data)")
+            continue
 
         if dry_run:
             gaps = enricher.identify_gaps(data)

@@ -360,13 +360,21 @@ class TestEnrich:
         result = enricher.enrich(_FULL_PRODUCT)
         assert result is None
 
-    def test_returns_none_on_llm_error(self) -> None:
+    def test_returns_none_on_network_error(self) -> None:
         enricher = LLMEnricher()
         mock_client = MagicMock()
-        mock_client.messages.create.side_effect = RuntimeError("API error")
+        mock_client.messages.create.side_effect = ConnectionError("Connection refused")
         enricher._client = mock_client
         result = enricher.enrich(_SPARSE_PRODUCT)
         assert result is None
+
+    def test_raises_on_unexpected_error(self) -> None:
+        enricher = LLMEnricher()
+        mock_client = MagicMock()
+        mock_client.messages.create.side_effect = RuntimeError("Unexpected error")
+        enricher._client = mock_client
+        with pytest.raises(RuntimeError, match="Unexpected error"):
+            enricher.enrich(_SPARSE_PRODUCT)
 
     def test_returns_none_on_invalid_response(self) -> None:
         enricher = LLMEnricher()

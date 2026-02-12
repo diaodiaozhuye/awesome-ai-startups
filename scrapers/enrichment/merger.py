@@ -153,6 +153,7 @@ class TieredMerger:
 
     def merge_or_create(self, slug: str, scraped: ScrapedProduct) -> dict[str, Any]:
         """Merge into existing product or create new one.  Returns the product dict."""
+        slug = self._validate_slug(slug)
         filepath = PRODUCTS_DIR / f"{slug}.json"
         if filepath.exists():
             return self.merge_update(slug, scraped)
@@ -160,6 +161,7 @@ class TieredMerger:
 
     def merge_update(self, slug: str, scraped: ScrapedProduct) -> dict[str, Any]:
         """Merge scraped data into existing product JSON using tier rules."""
+        slug = self._validate_slug(slug)
         filepath = PRODUCTS_DIR / f"{slug}.json"
         product: dict[str, Any] = json.loads(filepath.read_text(encoding="utf-8"))
         new_tier = scraped.source_tier.value
@@ -209,6 +211,7 @@ class TieredMerger:
 
     def create_new(self, slug: str, scraped: ScrapedProduct) -> dict[str, Any]:
         """Create a new product JSON from scraped data."""
+        slug = self._validate_slug(slug)
         today = date.today().isoformat()
 
         product: dict[str, Any] = {
@@ -379,6 +382,24 @@ class TieredMerger:
         filepath.parent.mkdir(parents=True, exist_ok=True)
         self._write(filepath, product)
         return product
+
+    # -- slug validation ----------------------------------------------------
+
+    @staticmethod
+    def _validate_slug(slug: str) -> str:
+        """Validate slug to prevent path traversal.
+
+        Raises:
+            ValueError: If the slug is invalid or would escape PRODUCTS_DIR.
+        """
+        import re
+
+        if not slug or not re.match(r"^[a-z0-9][a-z0-9-]*[a-z0-9]$|^[a-z0-9]$", slug):
+            raise ValueError(f"Invalid slug: {slug!r}")
+        filepath = (PRODUCTS_DIR / f"{slug}.json").resolve()
+        if not str(filepath).startswith(str(PRODUCTS_DIR.resolve())):
+            raise ValueError(f"Slug would escape products directory: {slug!r}")
+        return slug
 
     # -- tier logic ---------------------------------------------------------
 

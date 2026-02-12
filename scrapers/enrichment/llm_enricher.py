@@ -159,9 +159,25 @@ class LLMEnricher:
         prompt = self._build_prompt(product, gaps)
         try:
             response = self._call_llm(prompt)
-        except Exception:
-            logger.exception("LLM call failed for %s", product.get("slug", "unknown"))
+        except (ConnectionError, TimeoutError, OSError) as exc:
+            logger.warning(
+                "LLM network error for %s: %s", product.get("slug", "unknown"), exc
+            )
             return None
+        except Exception as exc:
+            # Anthropic API errors (rate limit, auth, etc.) are recoverable.
+            # The module is lazily imported so we check by module name.
+            if type(exc).__module__.startswith("anthropic"):
+                logger.warning(
+                    "Anthropic API error for %s: %s",
+                    product.get("slug", "unknown"),
+                    exc,
+                )
+                return None
+            logger.exception(
+                "Unexpected LLM error for %s", product.get("slug", "unknown")
+            )
+            raise
 
         parsed = self._parse_response(response, gaps)
         if not parsed:

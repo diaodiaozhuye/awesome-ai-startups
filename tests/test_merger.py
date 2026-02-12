@@ -323,6 +323,140 @@ class TestMergeOrCreate:
         assert product["company"]["founded_year"] == 2020
 
 
+class TestT3FillOnlyInvariant:
+    """T3 (AI-generated) data must only fill empty fields, never overwrite existing."""
+
+    def test_t3_does_not_overwrite_existing_description(
+        self, merger: TieredMerger, tmp_path: Any
+    ) -> None:
+        existing = _valid_product_json()
+        existing["description"] = "Human-written description"
+        existing["meta"]["provenance"] = {
+            "description": {
+                "source": "manual",
+                "tier": 2,
+                "confidence": 0.75,
+                "updated_at": "2026-01-01",
+            }
+        }
+        filepath = tmp_path / "test-product.json"
+        filepath.write_text(json.dumps(existing), encoding="utf-8")
+
+        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
+            product = merger.merge_update(
+                "test-product",
+                _make_product(
+                    source_tier=SourceTier.T3_AI_GENERATED,
+                    source="llm-enrichment",
+                    description="LLM generated description that should not win",
+                ),
+            )
+
+        assert product["description"] == "Human-written description"
+
+    def test_t3_fills_empty_description(
+        self, merger: TieredMerger, tmp_path: Any
+    ) -> None:
+        existing = _valid_product_json()
+        existing["sub_category"] = ""  # empty field
+        filepath = tmp_path / "test-product.json"
+        filepath.write_text(json.dumps(existing), encoding="utf-8")
+
+        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
+            product = merger.merge_update(
+                "test-product",
+                _make_product(
+                    source_tier=SourceTier.T3_AI_GENERATED,
+                    source="llm-enrichment",
+                    sub_category="text-generation",
+                ),
+            )
+
+        assert product["sub_category"] == "text-generation"
+
+    def test_t3_does_not_overwrite_t2_even_without_provenance(
+        self, merger: TieredMerger, tmp_path: Any
+    ) -> None:
+        """T3 checks the *value* (not provenance) — non-empty fields are protected."""
+        existing = _valid_product_json()
+        existing["product_type"] = "llm"
+        # No provenance recorded — T3 should still not overwrite non-empty
+        filepath = tmp_path / "test-product.json"
+        filepath.write_text(json.dumps(existing), encoding="utf-8")
+
+        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
+            product = merger.merge_update(
+                "test-product",
+                _make_product(
+                    source_tier=SourceTier.T3_AI_GENERATED,
+                    product_type="app",
+                ),
+            )
+
+        assert product["product_type"] == "llm"
+
+    def test_t2_can_overwrite_t3_filled_field(
+        self, merger: TieredMerger, tmp_path: Any
+    ) -> None:
+        """A T2 source should overwrite data previously filled by T3."""
+        existing = _valid_product_json()
+        existing["sub_category"] = "llm-generated-value"
+        existing["meta"]["provenance"] = {
+            "sub_category": {
+                "source": "llm-enrichment",
+                "tier": 3,
+                "confidence": 0.50,
+                "updated_at": "2026-01-01",
+            }
+        }
+        filepath = tmp_path / "test-product.json"
+        filepath.write_text(json.dumps(existing), encoding="utf-8")
+
+        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
+            product = merger.merge_update(
+                "test-product",
+                _make_product(
+                    source_tier=SourceTier.T2_OPEN_WEB,
+                    sub_category="text-generation",
+                ),
+            )
+
+        assert product["sub_category"] == "text-generation"
+
+
+class TestSlugValidation:
+    """Slug validation prevents path traversal."""
+
+    def test_rejects_path_traversal(self, merger: TieredMerger, tmp_path: Any) -> None:
+        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
+            with pytest.raises(ValueError, match="Invalid slug"):
+                merger.merge_or_create("../../etc/passwd", _make_product())
+
+    def test_rejects_backslash_traversal(
+        self, merger: TieredMerger, tmp_path: Any
+    ) -> None:
+        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
+            with pytest.raises(ValueError, match="Invalid slug"):
+                merger.merge_or_create("..\\..\\windows\\system32", _make_product())
+
+    def test_rejects_empty_slug(self, merger: TieredMerger, tmp_path: Any) -> None:
+        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
+            with pytest.raises(ValueError, match="Invalid slug"):
+                merger.merge_or_create("", _make_product())
+
+    def test_accepts_valid_slug(self, merger: TieredMerger, tmp_path: Any) -> None:
+        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
+            product = merger.merge_or_create("valid-slug-123", _make_product())
+        assert product["slug"] == "valid-slug-123"
+
+    def test_accepts_single_char_slug(
+        self, merger: TieredMerger, tmp_path: Any
+    ) -> None:
+        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
+            product = merger.merge_or_create("x", _make_product())
+        assert product["slug"] == "x"
+
+
 class TestBuildCompanyUrl:
     def test_prefers_website(self) -> None:
         sp = _make_product(company_website="https://company.com")
