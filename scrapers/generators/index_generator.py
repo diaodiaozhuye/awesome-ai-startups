@@ -1,40 +1,43 @@
-"""Generate index.json — a lightweight company listing for the frontend."""
+"""Generate index.json — a lightweight product listing for the frontend."""
 
 from __future__ import annotations
 
 import json
 from typing import Any
 
-from scrapers.config import COMPANIES_DIR, INDEX_FILE
+from scrapers.config import INDEX_FILE, PRODUCTS_DIR
 
 
 class IndexGenerator:
-    """Generate data/index.json from individual company files.
+    """Generate data/index.json from individual product files.
 
-    index.json contains a lightweight array of companies with only the fields
+    index.json contains a lightweight array of products with only the fields
     needed for the list page, avoiding the need to load each file individually.
     """
 
-    # Fields to include in the index entry
+    # Fields to include in the index entry (top-level product fields)
     INDEX_FIELDS = [
         "slug",
         "name",
         "name_zh",
         "description",
         "description_zh",
-        "website",
+        "product_url",
+        "icon_url",
+        "product_type",
         "category",
+        "sub_category",
         "tags",
-        "founded_year",
+        "keywords",
         "open_source",
         "status",
     ]
 
     def generate(self) -> list[dict[str, Any]]:
         """Generate index.json and return the data."""
-        companies: list[dict[str, Any]] = []
+        products: list[dict[str, Any]] = []
 
-        for filepath in sorted(COMPANIES_DIR.glob("*.json")):
+        for filepath in sorted(PRODUCTS_DIR.glob("*.json")):
             try:
                 data = json.loads(filepath.read_text(encoding="utf-8"))
             except (json.JSONDecodeError, OSError):
@@ -45,28 +48,31 @@ class IndexGenerator:
                 if field in data:
                     entry[field] = data[field]
 
-            # Extract nested fields into flat index fields
-            hq = data.get("headquarters", {})
+            # Extract nested company fields into flat index fields
+            company = data.get("company", {})
+            entry["company_name"] = company.get("name", "")
+            entry["company_url"] = company.get("url", "")
+
+            hq = company.get("headquarters", {})
             entry["country"] = hq.get("country", "")
             entry["country_code"] = hq.get("country_code", "")
             entry["city"] = hq.get("city", "")
 
-            funding = data.get("funding", {})
+            funding = company.get("funding", {})
             entry["total_raised_usd"] = funding.get("total_raised_usd", 0)
             entry["last_round"] = funding.get("last_round", "")
             entry["valuation_usd"] = funding.get("valuation_usd", 0)
 
-            team = data.get("team", {})
-            entry["employee_count_range"] = team.get("employee_count_range", "")
+            entry["employee_count_range"] = company.get("employee_count_range", "")
 
-            companies.append(entry)
+            products.append(entry)
 
         # Sort by total funding descending, then name
-        companies.sort(key=lambda c: (-c.get("total_raised_usd", 0), c.get("name", "")))
+        products.sort(key=lambda p: (-p.get("total_raised_usd", 0), p.get("name", "")))
 
         output = {
-            "total": len(companies),
-            "companies": companies,
+            "total": len(products),
+            "products": products,
         }
 
         INDEX_FILE.write_text(
@@ -74,4 +80,4 @@ class IndexGenerator:
             encoding="utf-8",
         )
 
-        return companies
+        return products

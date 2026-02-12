@@ -7,41 +7,42 @@ from collections import Counter
 from datetime import date
 from typing import Any
 
-from scrapers.config import COMPANIES_DIR, STATS_FILE
+from scrapers.config import PRODUCTS_DIR, STATS_FILE
 
 
 class StatsGenerator:
     """Generate data/stats.json with aggregated statistics.
 
     Produces:
-    - Total company count
-    - Distribution by category, country, founded year
+    - Total product count
+    - Distribution by category, product type, sub-category, country, status
     - Funding leaderboard
-    - Recently added companies
+    - Recently added products
     """
 
     def generate(self) -> dict[str, Any]:
         """Generate stats.json and return the data."""
-        all_companies: list[dict[str, Any]] = []
+        all_products: list[dict[str, Any]] = []
 
-        for filepath in sorted(COMPANIES_DIR.glob("*.json")):
+        for filepath in sorted(PRODUCTS_DIR.glob("*.json")):
             try:
                 data = json.loads(filepath.read_text(encoding="utf-8"))
-                all_companies.append(data)
+                all_products.append(data)
             except (json.JSONDecodeError, OSError):
                 continue
 
         stats: dict[str, Any] = {
             "generated_at": date.today().isoformat(),
-            "total_companies": len(all_companies),
-            "by_category": self._count_by_field(all_companies, "category"),
-            "by_country": self._count_by_country(all_companies),
-            "by_founded_year": self._count_by_field(all_companies, "founded_year"),
-            "by_status": self._count_by_field(all_companies, "status"),
-            "funding_leaderboard": self._funding_leaderboard(all_companies, top_n=10),
-            "total_funding_usd": self._total_funding(all_companies),
-            "open_source_count": sum(1 for c in all_companies if c.get("open_source")),
-            "recently_added": self._recently_added(all_companies, top_n=5),
+            "total_products": len(all_products),
+            "by_category": self._count_by_field(all_products, "category"),
+            "by_product_type": self._count_by_field(all_products, "product_type"),
+            "by_sub_category": self._count_by_field(all_products, "sub_category"),
+            "by_country": self._count_by_country(all_products),
+            "by_status": self._count_by_field(all_products, "status"),
+            "funding_leaderboard": self._funding_leaderboard(all_products, top_n=10),
+            "total_funding_usd": self._total_funding(all_products),
+            "open_source_count": sum(1 for p in all_products if p.get("open_source")),
+            "recently_added": self._recently_added(all_products, top_n=5),
         }
 
         STATS_FILE.write_text(
@@ -52,54 +53,65 @@ class StatsGenerator:
         return stats
 
     @staticmethod
-    def _count_by_field(companies: list[dict], field: str) -> list[dict[str, Any]]:
+    def _count_by_field(
+        products: list[dict[str, Any]], field: str
+    ) -> list[dict[str, Any]]:
         counter: Counter[str] = Counter()
-        for c in companies:
-            value = c.get(field)
+        for p in products:
+            value = p.get(field)
             if value is not None:
                 counter[str(value)] += 1
         return [{"label": k, "count": v} for k, v in counter.most_common()]
 
     @staticmethod
-    def _count_by_country(companies: list[dict]) -> list[dict[str, Any]]:
+    def _count_by_country(products: list[dict[str, Any]]) -> list[dict[str, Any]]:
         counter: Counter[str] = Counter()
-        for c in companies:
-            country = c.get("headquarters", {}).get("country")
+        for p in products:
+            country = p.get("company", {}).get("headquarters", {}).get("country")
             if country:
                 counter[country] += 1
         return [{"label": k, "count": v} for k, v in counter.most_common()]
 
     @staticmethod
     def _funding_leaderboard(
-        companies: list[dict], top_n: int = 10
+        products: list[dict[str, Any]], top_n: int = 10
     ) -> list[dict[str, Any]]:
-        funded = []
-        for c in companies:
-            total = c.get("funding", {}).get("total_raised_usd", 0)
+        funded: list[dict[str, Any]] = []
+        for p in products:
+            total = p.get("company", {}).get("funding", {}).get("total_raised_usd", 0)
             if total and total > 0:
                 funded.append(
                     {
-                        "slug": c["slug"],
-                        "name": c["name"],
+                        "slug": p["slug"],
+                        "name": p["name"],
                         "total_raised_usd": total,
-                        "valuation_usd": c.get("funding", {}).get("valuation_usd", 0),
+                        "valuation_usd": (
+                            p.get("company", {})
+                            .get("funding", {})
+                            .get("valuation_usd", 0)
+                        ),
                     }
                 )
         funded.sort(key=lambda x: -x["total_raised_usd"])
         return funded[:top_n]
 
     @staticmethod
-    def _total_funding(companies: list[dict]) -> float:
-        return sum(c.get("funding", {}).get("total_raised_usd", 0) for c in companies)
+    def _total_funding(products: list[dict[str, Any]]) -> float:
+        return sum(
+            p.get("company", {}).get("funding", {}).get("total_raised_usd", 0)
+            for p in products
+        )
 
     @staticmethod
-    def _recently_added(companies: list[dict], top_n: int = 5) -> list[dict[str, str]]:
-        with_dates = []
-        for c in companies:
-            added = c.get("meta", {}).get("added_date")
+    def _recently_added(
+        products: list[dict[str, Any]], top_n: int = 5
+    ) -> list[dict[str, str]]:
+        with_dates: list[dict[str, str]] = []
+        for p in products:
+            added = p.get("meta", {}).get("added_date")
             if added:
                 with_dates.append(
-                    {"slug": c["slug"], "name": c["name"], "added_date": added}
+                    {"slug": p["slug"], "name": p["name"], "added_date": added}
                 )
         with_dates.sort(key=lambda x: x["added_date"], reverse=True)
         return with_dates[:top_n]
