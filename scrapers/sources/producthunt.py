@@ -2,10 +2,13 @@
 
 from __future__ import annotations
 
+import logging
 import os
 
-from scrapers.base import BaseScraper, ScrapedCompany
+from scrapers.base import BaseScraper, ScrapedProduct, SourceTier
 from scrapers.utils import create_http_client
+
+logger = logging.getLogger(__name__)
 
 
 class ProductHuntScraper(BaseScraper):
@@ -43,21 +46,25 @@ class ProductHuntScraper(BaseScraper):
     def source_name(self) -> str:
         return "producthunt"
 
-    def scrape(self, limit: int = 100) -> list[ScrapedCompany]:
+    @property
+    def source_tier(self) -> SourceTier:
+        return SourceTier.T2_OPEN_WEB
+
+    def scrape(self, limit: int = 100) -> list[ScrapedProduct]:
         token = os.environ.get("PRODUCTHUNT_TOKEN", "")
         if not token:
-            print("[ProductHunt] Warning: PRODUCTHUNT_TOKEN not set, skipping.")
+            logger.warning("PRODUCTHUNT_TOKEN not set, skipping.")
             return []
 
         client = create_http_client()
         client.headers["Authorization"] = f"Bearer {token}"
 
-        companies: list[ScrapedCompany] = []
+        products: list[ScrapedProduct] = []
         seen_names: set[str] = set()
 
         try:
             for topic in self.AI_TOPICS:
-                if len(companies) >= limit:
+                if len(products) >= limit:
                     break
 
                 response = client.post(
@@ -66,7 +73,7 @@ class ProductHuntScraper(BaseScraper):
                         "query": self.QUERY,
                         "variables": {
                             "topic": topic,
-                            "first": min(20, limit - len(companies)),
+                            "first": min(20, limit - len(products)),
                         },
                     },
                 )
@@ -87,25 +94,29 @@ class ProductHuntScraper(BaseScraper):
                     seen_names.add(name.lower())
 
                     makers = tuple(
-                        {"name": m["name"], "title": "Maker"}
+                        {"name": m["name"], "title": "Maker", "is_founder": False}
                         for m in node.get("makers", [])
                         if m.get("name")
                     )
 
-                    company = ScrapedCompany(
+                    website = node.get("website")
+                    product = ScrapedProduct(
                         name=name,
                         source="producthunt",
                         source_url=node.get("url", ""),
-                        website=node.get("website"),
+                        source_tier=SourceTier.T2_OPEN_WEB,
+                        product_url=website,
+                        company_website=website,
                         description=node.get("tagline") or node.get("description"),
-                        founders=makers,
+                        key_people=makers,
                         tags=("generative-ai",),
+                        status="active",
                     )
-                    companies.append(company)
+                    products.append(product)
 
-                    if len(companies) >= limit:
+                    if len(products) >= limit:
                         break
         finally:
             client.close()
 
-        return companies[:limit]
+        return products[:limit]

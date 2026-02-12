@@ -7,7 +7,6 @@ from urllib.parse import quote_plus
 
 from bs4 import BeautifulSoup
 
-from scrapers.base import ScrapedCompany
 from scrapers.base_job_scraper import BaseJobSiteScraper
 from scrapers.utils import create_http_client
 
@@ -107,8 +106,8 @@ class IndeedScraper(BaseJobSiteScraper):
             source_url="https://www.indeed.com",
             description=job_data.get("snippet") or None,
             category=category,
-            headquarters_city=city or None,
-            headquarters_country=country or None,
+            company_headquarters_city=city or None,
+            company_headquarters_country=country or None,
             tags=("indeed",),
         )
 

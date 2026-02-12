@@ -16,6 +16,7 @@ dependencies = [
     "jsonschema>=4.21",
     "python-dateutil>=2.9",
     "python-Levenshtein>=0.25",
+    "tenacity>=8.2",
 ]
 
 [project.optional-dependencies]
@@ -34,7 +35,7 @@ dev = [
 aiscrape = "scrapers.cli:cli"
 
 [tool.setuptools.packages.find]
-include = ["scrapers*"]
+include = ["scrapers*", "scrapers.data*"]
 
 [tool.ruff]
 target-version = "py311"

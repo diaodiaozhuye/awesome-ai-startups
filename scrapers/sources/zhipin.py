@@ -7,7 +7,7 @@ from urllib.parse import quote
 
 from bs4 import BeautifulSoup
 
-from scrapers.base import ScrapedCompany
+from scrapers.base import ScrapedProduct
 from scrapers.base_job_scraper import BaseJobSiteScraper
 from scrapers.utils import create_http_client
 
@@ -109,10 +109,10 @@ class ZhipinScraper(BaseJobSiteScraper):
             source_url="https://www.zhipin.com",
             description_zh=job_data.get("industry") or None,
             category=category,
-            headquarters_city=city or None,
-            headquarters_country="China" if city else None,
-            headquarters_country_code="CN" if city else None,
-            employee_count_range=employee_range,
+            company_headquarters_city=city or None,
+            company_headquarters_country="China" if city else None,
+            company_headquarters_country_code="CN" if city else None,
+            company_employee_count_range=employee_range,
             tags=("zhipin",),
             extra={"name_zh": name},
         )
