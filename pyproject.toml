@@ -23,6 +23,9 @@ dependencies = [
 firecrawl = [
     "firecrawl-py>=1.0",
 ]
+appstores = [
+    "google-play-scraper>=1.2",
+]
 browser = [
     "playwright>=1.40",
 ]

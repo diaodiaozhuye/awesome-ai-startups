@@ -22,7 +22,8 @@ def cli() -> None:
     help=(
         "Source to scrape (comma-separated or 'all'): "
         "wikidata, crunchbase, huggingface, ycombinator, producthunt, "
-        "techcrunch, arxiv, lmsys, openrouter, pypi, npm, dockerhub, "
+        "techcrunch, arxiv, lmsys, openrouter, theresanaiforthat, "
+        "toolify, aiji, google_play, app_store, pypi, npm, dockerhub, "
         "company_website, indeed, aijobs, zhipin, lagou, liepin"
     ),
 )
