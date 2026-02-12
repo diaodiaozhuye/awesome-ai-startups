@@ -18,6 +18,7 @@ from urllib.parse import quote_plus
 
 from scrapers.base import ScrapedProduct, SourceTier
 from scrapers.config import PRODUCTS_DIR
+from scrapers.utils import get_nested as _get_nested
 
 logger = logging.getLogger(__name__)
 
@@ -108,25 +109,6 @@ _ARRAY_FIELD_MAP: dict[str, str] = {
     "hiring_positions": "hiring.positions",
     "hiring_tech_stack": "hiring.tech_stack",
 }
-
-
-# ---------------------------------------------------------------------------
-# Helper: nested dict access by dotted path
-# ---------------------------------------------------------------------------
-
-
-def _get_nested(data: dict[str, Any], path: str) -> Any:
-    """Retrieve a value from *data* following a dotted *path*.
-
-    Returns ``None`` when any intermediate key is missing.
-    """
-    keys = path.split(".")
-    current: Any = data
-    for key in keys:
-        if not isinstance(current, dict):
-            return None
-        current = current.get(key)
-    return current
 
 
 def _set_nested(data: dict[str, Any], path: str, value: Any) -> None:

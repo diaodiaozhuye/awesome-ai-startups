@@ -14,6 +14,7 @@ import os
 from typing import Any
 
 from scrapers.base import ScrapedProduct, SourceTier
+from scrapers.utils import get_nested as _get_nested
 
 logger = logging.getLogger(__name__)
 
@@ -82,17 +83,6 @@ _VALID_PRICING_MODELS = (
 
 # Default model — fast and cost-effective for classification tasks.
 DEFAULT_MODEL = "claude-sonnet-4-5-20250929"
-
-
-def _get_nested(data: dict[str, Any], path: str) -> Any:
-    """Retrieve a value from *data* following a dotted *path*."""
-    parts = path.split(".")
-    current: Any = data
-    for part in parts:
-        if not isinstance(current, dict):
-            return None
-        current = current.get(part)
-    return current
 
 
 class LLMEnricher:

@@ -105,6 +105,24 @@ def fetch_with_retry(
     raise last_error  # type: ignore[misc]
 
 
+def get_nested(data: dict[str, Any], path: str) -> Any:
+    """Retrieve a value from *data* following a dotted *path*.
+
+    Returns ``None`` when any intermediate key is missing.
+
+    >>> get_nested({"a": {"b": 2}}, "a.b")
+    2
+    >>> get_nested({"a": 1}, "a.b.c") is None
+    True
+    """
+    current: Any = data
+    for key in path.split("."):
+        if not isinstance(current, dict):
+            return None
+        current = current.get(key)
+    return current
+
+
 def normalize_url(url: str) -> str:
     """Normalize a URL by stripping trailing slashes and fragments."""
     url = url.strip()
