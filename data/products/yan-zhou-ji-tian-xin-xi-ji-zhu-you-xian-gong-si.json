@@ -1,0 +1,78 @@
+{
+  "slug": "yan-zhou-ji-tian-xin-xi-ji-zhu-you-xian-gong-si",
+  "name": "广州极天信息技术有限公司",
+  "product_url": "",
+  "description": "广州极天信息技术有限公司 is an AI product.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "provenance": {
+      "name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "description": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "product_type": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "category": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "status": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.url": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.headquarters": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.wikidata.org/wiki/Q19829042",
+      "source_name": "wikidata",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "company": {
+    "name": "广州极天信息技术有限公司",
+    "url": "https://www.bing.com/search?q=%E5%B9%BF%E5%B7%9E%E6%9E%81%E5%A4%A9%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8+AI",
+    "headquarters": {
+      "city": "Guangzhou",
+      "country": "People's Republic of China"
+    }
+  }
+}

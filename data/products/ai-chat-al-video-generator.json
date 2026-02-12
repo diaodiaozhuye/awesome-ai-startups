@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-02-12",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -77,6 +77,101 @@
       "url": "https://apps.apple.com/us/app/ai-chat-al-video-generator/id6447537694?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/chatgpt/id6448311069?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/character-ai-chat-talk-text/id1671705818?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/soulplay-romance-ai-roleplay/id6501972568?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/polybuzz-chat-with-characters/id6449190344?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/grok/id6670324846?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/chai-social-ai-platform-chat/id1544750895?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/jupi-ai-chat-fantasy-roleplay/id1668337467?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/bala-ai-chat-with-soulful-ai/id6470903137?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/ai-chatbot-assistant-askeasy/id6447290444?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/roleplai-ai-character-chat/id1671444242?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/sakura-chat-with-ai-bots/id6467520779?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/botify-ai-create-chat-bot/id1566710178?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/ai-chatbot-nova/id1669007652?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/chatbot-ai-assistant-genie/id1658377526?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/ai-chatbot-ask-me-anything/id1668805457?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/chat-ai-ask-anything/id1660877567?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/google-gemini/id6477489729?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-12"
     }
   ],
   "company": {

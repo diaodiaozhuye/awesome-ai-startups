@@ -1,0 +1,99 @@
+{
+  "slug": "bell",
+  "name": "Bell",
+  "product_url": "",
+  "description": "American AI-powered infrastructure company",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "provenance": {
+      "name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "description": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "product_type": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "category": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "status": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.url": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.founded_year": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.headquarters": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "key_people": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.wikidata.org/wiki/Q136652759",
+      "source_name": "wikidata",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "company": {
+    "name": "Bell, Inc.",
+    "url": "https://www.bing.com/search?q=Bell%2C+Inc.+AI",
+    "founded_year": 2025,
+    "headquarters": {
+      "city": "Houston",
+      "country": "United States",
+      "country_code": "US"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Mark Avery",
+      "title": "chief executive officer",
+      "is_founder": false
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-02-13",
-  "total_products": 184,
+  "generated_at": "2026-02-12",
+  "total_products": 202,
   "by_category": [
     {
       "label": "ai-app",
-      "count": 105
+      "count": 122
     },
     {
       "label": "ai-model",
-      "count": 50
+      "count": 49
     },
     {
       "label": "ai-dev-tool",
-      "count": 13
+      "count": 15
     },
     {
       "label": "ai-infrastructure",
@@ -38,7 +38,7 @@
   "by_product_type": [
     {
       "label": "other",
-      "count": 74
+      "count": 91
     },
     {
       "label": "app",
@@ -46,11 +46,11 @@
     },
     {
       "label": "llm",
-      "count": 35
+      "count": 34
     },
     {
       "label": "framework",
-      "count": 19
+      "count": 21
     },
     {
       "label": "dev-tool",
@@ -68,7 +68,7 @@
   "by_sub_category": [
     {
       "label": "text-generation",
-      "count": 35
+      "count": 34
     },
     {
       "label": "voice-assistant",
@@ -76,7 +76,7 @@
     },
     {
       "label": "ai-framework",
-      "count": 10
+      "count": 12
     },
     {
       "label": "inference-platform",
@@ -138,22 +138,34 @@
   "by_country": [
     {
       "label": "United States",
-      "count": 23
-    },
-    {
-      "label": "China",
-      "count": 6
+      "count": 26
     },
     {
       "label": "United Kingdom",
-      "count": 4
+      "count": 7
+    },
+    {
+      "label": "China",
+      "count": 5
     },
     {
       "label": "Norway",
       "count": 2
     },
     {
+      "label": "Germany",
+      "count": 2
+    },
+    {
       "label": "Canada",
+      "count": 2
+    },
+    {
+      "label": "People's Republic of China",
+      "count": 2
+    },
+    {
+      "label": "France",
       "count": 2
     },
     {
@@ -165,26 +177,38 @@
       "count": 1
     },
     {
+      "label": "Slovakia",
+      "count": 1
+    },
+    {
+      "label": "Monaco",
+      "count": 1
+    },
+    {
       "label": "Czech Republic",
       "count": 1
     },
     {
-      "label": "France",
+      "label": "Sri Lanka",
+      "count": 1
+    },
+    {
+      "label": "Ukraine",
+      "count": 1
+    },
+    {
+      "label": "Switzerland",
       "count": 1
     },
     {
       "label": "Taiwan",
-      "count": 1
-    },
-    {
-      "label": "Germany",
       "count": 1
     }
   ],
   "by_status": [
     {
       "label": "active",
-      "count": 184
+      "count": 202
     }
   ],
   "funding_leaderboard": [
@@ -250,7 +274,7 @@
     }
   ],
   "total_funding_usd": 40226000000,
-  "open_source_count": 49,
+  "open_source_count": 50,
   "recently_added": [
     {
       "slug": "1code",

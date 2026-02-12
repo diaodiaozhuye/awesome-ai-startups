@@ -1,0 +1,115 @@
+{
+  "slug": "pinecone",
+  "name": "Pinecone",
+  "product_url": "https://www.pinecone.io",
+  "description": "Pinecone client (DEPRECATED)",
+  "product_type": "framework",
+  "category": "ai-dev-tool",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "provenance": {
+      "name": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "product_url": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "description": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "product_type": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "category": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "status": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "company.name": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "company.url": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "sub_category": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "tags": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "platforms": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "open_source": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "license": {
+        "source": "pypi",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://pypi.org/project/pinecone-client/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "company": {
+    "name": "Pinecone",
+    "url": "https://www.bing.com/search?q=Pinecone+AI"
+  },
+  "sub_category": "ai-framework",
+  "tags": [
+    "python",
+    "open-source"
+  ],
+  "platforms": [
+    "api",
+    "cli"
+  ],
+  "open_source": true,
+  "license": "Apache-2.0"
+}

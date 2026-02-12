@@ -1,0 +1,112 @@
+{
+  "slug": "transfo-labs",
+  "name": "TRANSFO LABS",
+  "product_url": "https://transfolabs.online",
+  "description": "Consulting company specialized in digital transformation, artificial intelligence and IT systems modernization",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "provenance": {
+      "name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "product_url": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "description": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "product_type": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "category": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "status": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.url": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.website": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.founded_year": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.headquarters": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "key_people": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.wikidata.org/wiki/Q135641653",
+      "source_name": "wikidata",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "company": {
+    "name": "TRANSFO LABS",
+    "url": "https://transfolabs.online",
+    "website": "https://transfolabs.online",
+    "founded_year": 2020,
+    "headquarters": {
+      "city": "Asnières-sur-Seine",
+      "country": "France",
+      "country_code": "FR"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Mamoudou Traoré",
+      "title": "Co-founder",
+      "is_founder": true
+    }
+  ]
+}

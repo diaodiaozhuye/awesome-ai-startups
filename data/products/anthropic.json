@@ -6,7 +6,7 @@
   "product_type": "app",
   "category": "ai-app",
   "status": "active",
-  "name_zh": "Anthropic",
+  "name_zh": "豆包",
   "description_zh": "Anthropic公司推出的对话式AI智能助手",
   "sub_category": "voice-assistant",
   "tags": [
@@ -84,7 +84,7 @@
   ],
   "meta": {
     "added_date": "2026-02-11",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-02-12",
     "data_quality_score": 0.0,
     "needs_review": true,
     "provenance": {
@@ -141,6 +141,12 @@
         "tier": 2,
         "confidence": 0.75,
         "updated_at": "2026-02-13"
+      },
+      "name_zh": {
+        "source": "aibot",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
       }
     }
   },

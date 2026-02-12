@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-02-12",
     "provenance": {
       "name": {
         "source": "openrouter",
@@ -74,7 +74,7 @@
         "source": "openrouter",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-12"
       },
       "context_window": {
         "source": "openrouter",
@@ -99,6 +99,18 @@
         "tier": 2,
         "confidence": 0.75,
         "updated_at": "2026-02-13"
+      },
+      "pricing.model": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
+      },
+      "pricing.has_free_tier": {
+        "source": "openrouter",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-12"
       }
     }
   },
@@ -107,6 +119,101 @@
       "url": "https://openrouter.ai/models/upstage/solar-pro-3:free",
       "source_name": "openrouter",
       "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.5",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/z-ai/glm-5",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/qwen/qwen3-max-thinking",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/openrouter/aurora-alpha",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/anthropic/claude-opus-4.6",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/qwen/qwen3-coder-next",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/openrouter/free",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/stepfun/step-3.5-flash:free",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/stepfun/step-3.5-flash",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/arcee-ai/trinity-large-preview:free",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/moonshotai/kimi-k2.5",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/minimax/minimax-m2-her",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/writer/palmyra-x5",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/liquid/lfm-2.5-1.2b-thinking:free",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/liquid/lfm-2.5-1.2b-instruct:free",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/openai/gpt-audio",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/openai/gpt-audio-mini",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/z-ai/glm-4.7-flash",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/openai/gpt-5.2-codex",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-12"
     }
   ],
   "company": {
@@ -119,13 +226,15 @@
     "api-service"
   ],
   "modalities": [
-    "text"
+    "text",
+    "image",
+    "audio"
   ],
   "context_window": 128000,
   "api_available": true,
   "api_docs_url": "https://openrouter.ai/docs",
   "pricing": {
-    "model": "free",
-    "has_free_tier": true
+    "model": "usage-based",
+    "has_free_tier": false
   }
 }

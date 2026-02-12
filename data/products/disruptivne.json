@@ -1,0 +1,111 @@
+{
+  "slug": "disruptivne",
+  "name": "DISRUPTIVNE",
+  "product_url": "https://disruptivne.com",
+  "description": "Company focused on IT, AI, Mind research",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-12",
+    "last_updated": "2026-02-12",
+    "provenance": {
+      "name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "product_url": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "description": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "product_type": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "category": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "status": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.url": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.website": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.founded_year": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.headquarters": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "key_people": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.wikidata.org/wiki/Q134826747",
+      "source_name": "wikidata",
+      "scraped_at": "2026-02-12"
+    }
+  ],
+  "company": {
+    "name": "DISRUPTIVNE",
+    "url": "https://disruptivne.com",
+    "website": "https://disruptivne.com",
+    "founded_year": 2019,
+    "headquarters": {
+      "city": "European Union",
+      "country": "Slovakia"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Robert Durec",
+      "title": "Co-founder",
+      "is_founder": true
+    }
+  ]
+}

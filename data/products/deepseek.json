@@ -1,8 +1,8 @@
 {
   "slug": "deepseek",
   "name": "DeepSeek-V3",
-  "product_url": "https://www.deepseek.com/?ref=ainav.cn",
-  "description": "DeepSeek是幻方量化旗下的人工智能公司深度求索自主研发的开源大模型和AI智能助手",
+  "product_url": "https://deepseek.com",
+  "description": "Chinese artificial intelligence company",
   "product_type": "app",
   "category": "ai-app",
   "status": "active",
@@ -22,12 +22,12 @@
   "company": {
     "name": "DeepSeek",
     "url": "https://www.deepseek.com",
-    "website": "https://www.deepseek.com",
+    "website": "https://deepseek.com",
     "name_zh": "深度求索",
     "founded_year": 2023,
     "headquarters": {
       "city": "Hangzhou",
-      "country": "China",
+      "country": "People's Republic of China",
       "country_code": "CN"
     },
     "funding": {
@@ -38,12 +38,18 @@
     "social": {
       "twitter": "@deepseek_ai",
       "github": "https://github.com/deepseek-ai"
-    }
+    },
+    "wikipedia_url": "https://en.wikipedia.org/wiki/DeepSeek"
   },
   "key_people": [
     {
       "name": "Liang Wenfeng",
       "title": "CEO",
+      "is_founder": true
+    },
+    {
+      "name": "Liang Wenfeng",
+      "title": "Co-founder",
       "is_founder": true
     }
   ],
@@ -57,19 +63,24 @@
       "url": "https://www.ainav.cn/favorites/ai%E5%AF%B9%E8%AF%9D%E8%81%8A%E5%A4%A9",
       "source_name": "ainav",
       "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Q131577453",
+      "source_name": "wikidata",
+      "scraped_at": "2026-02-12"
     }
   ],
   "meta": {
     "added_date": "2026-02-11",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-02-12",
     "data_quality_score": 0.0,
     "needs_review": true,
     "provenance": {
       "product_url": {
-        "source": "ainav",
-        "tier": 2,
-        "confidence": 0.75,
-        "updated_at": "2026-02-13"
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
       },
       "icon_url": {
         "source": "ainav",
@@ -78,10 +89,10 @@
         "updated_at": "2026-02-13"
       },
       "description": {
-        "source": "ainav",
-        "tier": 2,
-        "confidence": 0.75,
-        "updated_at": "2026-02-13"
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
       },
       "description_zh": {
         "source": "ainav",
@@ -108,16 +119,58 @@
         "updated_at": "2026-02-13"
       },
       "status": {
-        "source": "ainav",
-        "tier": 2,
-        "confidence": 0.75,
-        "updated_at": "2026-02-13"
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
       },
       "tags": {
         "source": "ainav",
         "tier": 2,
         "confidence": 0.75,
         "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.website": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.wikipedia_url": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.founded_year": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.headquarters.city": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "company.headquarters.country": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
+      },
+      "key_people": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-12"
       }
     }
   },

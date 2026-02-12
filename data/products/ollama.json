@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-02-12",
     "provenance": {
       "name": {
         "source": "dockerhub",
@@ -89,6 +89,41 @@
       "url": "https://hub.docker.com/r/ollama/ollama",
       "source_name": "dockerhub",
       "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://hub.docker.com/r/vllm/vllm-openai",
+      "source_name": "dockerhub",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://hub.docker.com/r/chromadb/chroma",
+      "source_name": "dockerhub",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://hub.docker.com/r/qdrant/qdrant",
+      "source_name": "dockerhub",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://hub.docker.com/r/milvusdb/milvus",
+      "source_name": "dockerhub",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://hub.docker.com/r/pytorch/pytorch",
+      "source_name": "dockerhub",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://hub.docker.com/r/tensorflow/tensorflow",
+      "source_name": "dockerhub",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://hub.docker.com/r/localai/localai",
+      "source_name": "dockerhub",
+      "scraped_at": "2026-02-12"
     }
   ],
   "company": {

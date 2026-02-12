@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-02-12",
     "provenance": {
       "name": {
         "source": "pypi",
@@ -101,6 +101,66 @@
       "url": "https://pypi.org/project/openai/",
       "source_name": "pypi",
       "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://pypi.org/project/torch/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/langchain/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/anthropic/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/sentence-transformers/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/gradio/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/streamlit/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/chromadb/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/qdrant-client/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/llama-index/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/vllm/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/mlflow/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://pypi.org/project/wandb/",
+      "source_name": "pypi",
+      "scraped_at": "2026-02-12"
     }
   ],
   "company": {
