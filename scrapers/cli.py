@@ -201,8 +201,9 @@ def quality() -> None:
             continue
 
         score = scorer.score(data)
-        old_score = data.get("data_quality_score")
-        data["data_quality_score"] = score
+        meta = data.setdefault("meta", {})
+        old_score = meta.get("data_quality_score")
+        meta["data_quality_score"] = score
 
         filepath.write_text(
             json.dumps(data, indent=2, ensure_ascii=False) + "\n",
@@ -216,6 +217,109 @@ def quality() -> None:
             click.echo(f"  {filepath.name}: {score} (unchanged)")
 
     click.echo(f"\nScored {len(product_files)} products, {updated} updated")
+
+
+@cli.command()
+@click.option("--slug", default=None, help="Enrich a single product by slug")
+@click.option(
+    "--max-score",
+    default=0.6,
+    type=float,
+    help="Only enrich products with score <= this",
+)
+@click.option("--limit", default=10, help="Maximum products to enrich")
+@click.option("--dry-run", is_flag=True, help="Preview gaps without calling LLM")
+@click.option(
+    "--model", default=None, help="Anthropic model to use (default: claude-sonnet-4-5)"
+)
+def enrich(
+    slug: str | None, max_score: float, limit: int, dry_run: bool, model: str | None
+) -> None:
+    """Enrich products with missing fields using LLM (requires ANTHROPIC_API_KEY)."""
+    from scrapers.enrichment import LLMEnricher, QualityScorer
+    from scrapers.enrichment.merger import TieredMerger
+
+    if not PRODUCTS_DIR.exists():
+        click.echo("Products directory does not exist.")
+        sys.exit(1)
+
+    # Collect candidate products
+    if slug:
+        filepath = PRODUCTS_DIR / f"{slug}.json"
+        if not filepath.exists():
+            click.echo(f"Product not found: {slug}")
+            sys.exit(1)
+        candidates = [filepath]
+    else:
+        scorer = QualityScorer()
+        candidates = []
+        for filepath in sorted(PRODUCTS_DIR.glob("*.json")):
+            try:
+                data = json.loads(filepath.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                continue
+            score = scorer.score(data)
+            if score <= max_score:
+                candidates.append(filepath)
+        candidates = candidates[:limit]
+
+    if not candidates:
+        click.echo("No products need enrichment.")
+        return
+
+    click.echo(f"Found {len(candidates)} product(s) to enrich")
+
+    enricher_kwargs: dict[str, str] = {}
+    if model:
+        enricher_kwargs["model"] = model
+
+    # LLMEnricher uses lazy client init — safe to construct without API key.
+    # The key is only required when enrich() actually calls the LLM.
+    enricher = LLMEnricher(**enricher_kwargs)
+
+    if not dry_run:
+        # Validate API key eagerly so we fail fast
+        try:
+            _ = enricher.client
+        except (ImportError, ValueError) as e:
+            click.echo(f"Error: {e}")
+            sys.exit(1)
+
+    merger = TieredMerger()
+    enriched_count = 0
+
+    for filepath in candidates:
+        try:
+            data = json.loads(filepath.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            click.echo(f"  SKIP {filepath.name} (invalid JSON)")
+            continue
+
+        product_slug = data.get("slug", filepath.stem)
+
+        if dry_run:
+            gaps = enricher.identify_gaps(data)
+            if gaps:
+                click.echo(f"  {product_slug}: {len(gaps)} gaps — {', '.join(gaps)}")
+            else:
+                click.echo(f"  {product_slug}: no gaps")
+            continue
+
+        click.echo(f"  Enriching {product_slug}...")
+        scraped = enricher.enrich(data)
+        if scraped is None:
+            click.echo("    No enrichment needed or LLM returned nothing")
+            continue
+
+        merger.merge_update(product_slug, scraped)
+        enriched_count += 1
+        safe_name = product_slug.encode("ascii", "replace").decode("ascii")
+        click.echo(f"    Enriched: {safe_name}")
+
+    if dry_run:
+        click.echo(f"\n[DRY RUN] {len(candidates)} products analyzed")
+    else:
+        click.echo(f"\nEnriched {enriched_count} out of {len(candidates)} products")
 
 
 if __name__ == "__main__":

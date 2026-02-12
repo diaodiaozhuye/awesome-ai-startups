@@ -20,6 +20,9 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+llm = [
+    "anthropic>=0.39",
+]
 firecrawl = [
     "firecrawl-py>=1.0",
 ]
