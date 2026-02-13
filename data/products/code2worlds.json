@@ -1,0 +1,120 @@
+{
+  "slug": "code2worlds",
+  "name": "Code2Worlds",
+  "product_url": "",
+  "description": "Achieving spatial intelligence requires moving beyond visual plausibility to build world simulators grounded in physical laws. While coding LLMs have advanced static 3D scene generation, extending this paradigm to 4D dynamics remains a critical frontier. This task presents two fundamental challenges: multi-scale context entanglement, where monolithic generation fails to balance local object structures with global environmental layouts; and a semantic-physical execution gap, where open-loop code generation leads to physical hallucinations lacking dynamic fidelity. We introduce Code2Worlds, a framework that formulates 4D generation as language-to-simulation code generation. First, we propose a dual-stream architecture that disentangles retrieval-augmented object generation from hierarchical environmental orchestration. Second, to ensure dynamic fidelity, we establish a physics-aware closed-loop mechanism in which a PostProcess Agent scripts dynamics, coupled with a VLM-Motion Critic that performs self-reflection to iteratively refine simulation code. Evaluations on the Code4D benchmark show Code2Worlds outperforms baselines with a 41% SGS gain and 49% higher Richness, while uniquely generating physics-aware dynamics absent in prior static methods. Code: https://github.com/AIGeeksGroup/Code2Worlds. Website: https://aigeeksgroup.github.io/Code2Worlds.",
+  "product_type": "other",
+  "category": "ai-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "key_people": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "release_date": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "http://arxiv.org/abs/2602.11757v1",
+      "source_name": "arxiv",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Code2Worlds",
+    "url": "https://www.bing.com/search?q=Code2Worlds+AI"
+  },
+  "sub_category": "image-generation",
+  "tags": [
+    "research",
+    "computer-vision"
+  ],
+  "key_people": [
+    {
+      "name": "Yi Zhang",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Yunshuang Wang",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Zeyu Zhang",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Hao Tang",
+      "title": "Author",
+      "is_founder": false
+    }
+  ],
+  "release_date": "2026-02-12"
+}

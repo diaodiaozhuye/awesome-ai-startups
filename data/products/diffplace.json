@@ -1,0 +1,125 @@
+{
+  "slug": "diffplace",
+  "name": "DiffPlace",
+  "product_url": "",
+  "description": "Generative models have advanced significantly in realistic image synthesis, with diffusion models excelling in quality and stability. Recent multi-view diffusion models improve 3D-aware street view generation, but they struggle to produce place-aware and background-consistent urban scenes from text, BEV maps, and object bounding boxes. This limits their effectiveness in generating realistic samples for place recognition tasks. To address these challenges, we propose DiffPlace, a novel framework that introduces a place-ID controller to enable place-controllable multi-view image generation. The place-ID controller employs linear projection, perceiver transformer, and contrastive learning to map place-ID embeddings into a fixed CLIP space, allowing the model to synthesize images with consistent background buildings while flexibly modifying foreground objects and weather conditions. Extensive experiments, including quantitative comparisons and augmented training evaluations, demonstrate that DiffPlace outperforms existing methods in both generation quality and training support for visual place recognition. Our results highlight the potential of generative models in enhancing scene-level and place-aware synthesis, providing a valuable approach for improving place recognition in autonomous driving",
+  "product_type": "other",
+  "category": "ai-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "key_people": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "release_date": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "http://arxiv.org/abs/2602.11875v1",
+      "source_name": "arxiv",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "DiffPlace",
+    "url": "https://www.bing.com/search?q=DiffPlace+AI"
+  },
+  "sub_category": "image-generation",
+  "tags": [
+    "research",
+    "computer-vision"
+  ],
+  "key_people": [
+    {
+      "name": "Ji Li",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Zhiwei Li",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Shihao Li",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Zhenjiang Yu",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Boyang Wang",
+      "title": "Author",
+      "is_founder": false
+    }
+  ],
+  "release_date": "2026-02-12"
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "posteromni",
+  "name": "PosterOmni",
+  "product_url": "",
+  "description": "Image-to-poster generation is a high-demand task requiring not only local adjustments but also high-level design understanding. Models must generate text, layout, style, and visual elements while preserving semantic fidelity and aesthetic coherence. The process spans two regimes: local editing, where ID-driven generation, rescaling, filling, and extending must preserve concrete visual entities; and global creation, where layout- and style-driven tasks rely on understanding abstract design concepts. These intertwined demands make image-to-poster a multi-dimensional process coupling entity-preserving editing with concept-driven creation under image-prompt control. To address these challenges, we propose PosterOmni, a generalized artistic poster creation framework that unlocks the potential of a base edit model for multi-task image-to-poster generation. PosterOmni integrates the two regimes, namely local editing and global creation, within a single system through an efficient data-distillation-reward pipeline: (i) constructing multi-scenario image-to-poster datasets covering six task types across entity-based and concept-based creation; (ii) distilling knowledge between local and global experts for supervised fine-tuning; and (iii) applying unified PosterOmni Reward Feedback to jointly align visual entity-preserving and aesthetic preference across all tasks. Additionally, we establish PosterOmni-Bench, a unified benchmark for evaluating both local editing and global creation. Extensive experiments show that PosterOmni significantly enhances reference adherence, global composition quality, and aesthetic harmony, outperforming all open-source baselines and even surpassing several proprietary systems.",
+  "product_type": "other",
+  "category": "ai-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "key_people": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "release_date": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "http://arxiv.org/abs/2602.12127v1",
+      "source_name": "arxiv",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "PosterOmni",
+    "url": "https://www.bing.com/search?q=PosterOmni+AI"
+  },
+  "sub_category": "image-generation",
+  "tags": [
+    "research",
+    "computer-vision"
+  ],
+  "key_people": [
+    {
+      "name": "Sixiang Chen",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Jianyu Lai",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Jialin Gao",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Hengyu Shi",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Zhongying Liu",
+      "title": "Author",
+      "is_founder": false
+    }
+  ],
+  "release_date": "2026-02-12"
+}

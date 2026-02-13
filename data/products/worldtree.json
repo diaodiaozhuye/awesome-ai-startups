@@ -1,0 +1,115 @@
+{
+  "slug": "worldtree",
+  "name": "WorldTree",
+  "product_url": "",
+  "description": "Dynamic reconstruction has achieved remarkable progress, but there remain challenges in monocular input for more practical applications. The prevailing works attempt to construct efficient motion representations, but lack a unified spatiotemporal decomposition framework, suffering from either holistic temporal optimization or coupled hierarchical spatial composition. To this end, we propose WorldTree, a unified framework comprising Temporal Partition Tree (TPT) that enables coarse-to-fine optimization based on the inheritance-based partition tree structure for hierarchical temporal decomposition, and Spatial Ancestral Chains (SAC) that recursively query ancestral hierarchical structure to provide complementary spatial dynamics while specializing motion representations across ancestral nodes. Experimental results on different datasets indicate that our proposed method achieves 8.26% improvement of LPIPS on NVIDIA-LS and 9.09% improvement of mLPIPS on DyCheck compared to the second-best method. Code: https://github.com/iCVTEAM/WorldTree.",
+  "product_type": "other",
+  "category": "ai-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "key_people": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "release_date": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "http://arxiv.org/abs/2602.11845v1",
+      "source_name": "arxiv",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "WorldTree",
+    "url": "https://www.bing.com/search?q=WorldTree+AI"
+  },
+  "sub_category": "image-generation",
+  "tags": [
+    "research",
+    "computer-vision"
+  ],
+  "key_people": [
+    {
+      "name": "Qisen Wang",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Yifan Zhao",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Jia Li",
+      "title": "Author",
+      "is_founder": false
+    }
+  ],
+  "release_date": "2026-02-12"
+}

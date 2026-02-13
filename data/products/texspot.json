@@ -1,0 +1,125 @@
+{
+  "slug": "texspot",
+  "name": "TexSpot",
+  "product_url": "",
+  "description": "High-quality 3D texture generation remains a fundamental challenge due to the view-inconsistency inherent in current mainstream multi-view diffusion pipelines. Existing representations either rely on UV maps, which suffer from distortion during unwrapping, or point-based methods, which tightly couple texture fidelity to geometric density that limits high-resolution texture generation. To address these limitations, we introduce TexSpot, a diffusion-based texture enhancement framework. At its core is Texlet, a novel 3D texture representation that merges the geometric expressiveness of point-based 3D textures with the compactness of UV-based representation. Each Texlet latent vector encodes a local texture patch via a 2D encoder and is further aggregated using a 3D encoder to incorporate global shape context. A cascaded 3D-to-2D decoder reconstructs high-quality texture patches, enabling the Texlet space learning. Leveraging this representation, we train a diffusion transformer conditioned on Texlets to refine and enhance textures produced by multi-view diffusion methods. Extensive experiments demonstrate that TexSpot significantly improves visual fidelity, geometric consistency, and robustness over existing state-of-the-art 3D texture generation and enhancement approaches. Project page: https://anonymous.4open.science/w/TexSpot-page-2D91.",
+  "product_type": "other",
+  "category": "ai-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "key_people": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "release_date": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "http://arxiv.org/abs/2602.12157v1",
+      "source_name": "arxiv",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "TexSpot",
+    "url": "https://www.bing.com/search?q=TexSpot+AI"
+  },
+  "sub_category": "image-generation",
+  "tags": [
+    "research",
+    "computer-vision"
+  ],
+  "key_people": [
+    {
+      "name": "Ziteng Lu",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Yushuang Wu",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Chongjie Ye",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Yuda Qiu",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Jing Shao",
+      "title": "Author",
+      "is_founder": false
+    }
+  ],
+  "release_date": "2026-02-12"
+}

@@ -182,6 +182,11 @@
       "url": "https://huggingface.co/Bingsu/adetailer",
       "source_name": "huggingface",
       "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/amazon/chronos-2",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-13"
     }
   ],
   "meta": {

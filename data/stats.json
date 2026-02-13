@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-02-13",
-  "total_products": 223,
+  "total_products": 242,
   "by_category": [
     {
       "label": "ai-app",
-      "count": 123
+      "count": 125
     },
     {
       "label": "ai-model",
-      "count": 69
+      "count": 86
     },
     {
       "label": "ai-dev-tool",
@@ -38,7 +38,7 @@
   "by_product_type": [
     {
       "label": "other",
-      "count": 108
+      "count": 127
     },
     {
       "label": "app",
@@ -71,16 +71,16 @@
       "count": 42
     },
     {
+      "label": "image-generation",
+      "count": 25
+    },
+    {
       "label": "voice-assistant",
       "count": 23
     },
     {
       "label": "ai-framework",
       "count": 12
-    },
-    {
-      "label": "image-generation",
-      "count": 8
     },
     {
       "label": "inference-platform",
@@ -138,7 +138,7 @@
   "by_country": [
     {
       "label": "United States",
-      "count": 26
+      "count": 27
     },
     {
       "label": "United Kingdom",
@@ -203,12 +203,16 @@
     {
       "label": "Taiwan",
       "count": 1
+    },
+    {
+      "label": "Poland",
+      "count": 1
     }
   ],
   "by_status": [
     {
       "label": "active",
-      "count": 223
+      "count": 242
     }
   ],
   "funding_leaderboard": [

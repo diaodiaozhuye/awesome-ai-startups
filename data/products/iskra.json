@@ -1,0 +1,116 @@
+{
+  "slug": "iskra",
+  "name": "Iskra",
+  "product_url": "",
+  "description": "We propose a system for differentiating through solutions to geometry processing problems. Our system differentiates a broad class of geometric algorithms, exploiting existing fast problem-specific schemes common to geometry processing, including local-global and ADMM solvers. It is compatible with machine learning frameworks, opening doors to new classes of inverse geometry processing applications. We marry the scatter-gather approach to mesh processing with tensor-based workflows and rely on the adjoint method applied to user-specified imperative code to generate an efficient backward pass behind the scenes. We demonstrate our approach by differentiating through mean curvature flow, spectral conformal parameterization, geodesic distance computation, and as-rigid-as-possible deformation, examining usability and performance on these applications. Our system allows practitioners to differentiate through existing geometry processing algorithms without needing to reformulate them, resulting in low implementation effort, fast runtimes, and lower memory requirements than differentiable optimization tools not tailored to geometry processing.",
+  "product_type": "other",
+  "category": "ai-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "key_people": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "release_date": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "http://arxiv.org/abs/2602.12105v1",
+      "source_name": "arxiv",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Iskra",
+    "url": "https://www.bing.com/search?q=Iskra+AI"
+  },
+  "sub_category": "image-generation",
+  "tags": [
+    "research",
+    "computer-vision",
+    "machine-learning"
+  ],
+  "key_people": [
+    {
+      "name": "Ana Dodik",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Ahmed H. Mahmoud",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Justin Solomon",
+      "title": "Author",
+      "is_founder": false
+    }
+  ],
+  "release_date": "2026-02-12"
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "light4d",
+  "name": "Light4D",
+  "product_url": "",
+  "description": "Recent advances in diffusion-based generative models have established a new paradigm for image and video relighting. However, extending these capabilities to 4D relighting remains challenging, due primarily to the scarcity of paired 4D relighting training data and the difficulty of maintaining temporal consistency across extreme viewpoints. In this work, we propose Light4D, a novel training-free framework designed to synthesize consistent 4D videos under target illumination, even under extreme viewpoint changes. First, we introduce Disentangled Flow Guidance, a time-aware strategy that effectively injects lighting control into the latent space while preserving geometric integrity. Second, to reinforce temporal consistency, we develop Temporal Consistent Attention within the IC-Light architecture and further incorporate deterministic regularization to eliminate appearance flickering. Extensive experiments demonstrate that our method achieves competitive performance in temporal consistency and lighting fidelity, robustly handling camera rotations from -90 to 90. Code: https://github.com/AIGeeksGroup/Light4D. Website: https://aigeeksgroup.github.io/Light4D.",
+  "product_type": "other",
+  "category": "ai-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "sub_category": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "tags": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "key_people": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      },
+      "release_date": {
+        "source": "arxiv",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "http://arxiv.org/abs/2602.11769v1",
+      "source_name": "arxiv",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "Light4D",
+    "url": "https://www.bing.com/search?q=Light4D+AI"
+  },
+  "sub_category": "image-generation",
+  "tags": [
+    "research",
+    "computer-vision"
+  ],
+  "key_people": [
+    {
+      "name": "Zhenghuang Wu",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Kang Chen",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Zeyu Zhang",
+      "title": "Author",
+      "is_founder": false
+    },
+    {
+      "name": "Hao Tang",
+      "title": "Author",
+      "is_founder": false
+    }
+  ],
+  "release_date": "2026-02-12"
+}
