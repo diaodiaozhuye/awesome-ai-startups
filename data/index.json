@@ -1,5 +1,5 @@
 {
-  "total": 202,
+  "total": 223,
   "products": [
     {
       "slug": "openai",
@@ -1060,6 +1060,27 @@
       "employee_count_range": ""
     },
     {
+      "slug": "attentionretriever",
+      "name": "AttentionRetriever",
+      "description": "Retrieval augmented generation (RAG) has been widely adopted to help Large Language Models (LLMs) to process tasks involving long documents. However, existing retrieval models are not designed for long document retrieval and fail to address several key challenges of long document retrieval, including context-awareness, causal dependence, and scope of retrieval. In this paper, we proposed AttentionRetriever, a novel long document retrieval model that leverages attention mechanism and entity-based retrieval to build context-aware embeddings for long document and determine the scope of retrieval. With extensive experiments, we found AttentionRetriever is able to outperform existing retrieval models on long document retrieval datasets by a large margin while remaining as efficient as dense retrieval models.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "tags": [
+        "research"
+      ],
+      "status": "active",
+      "company_name": "AttentionRetriever",
+      "company_url": "https://www.bing.com/search?q=AttentionRetriever+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "autogpt",
       "name": "AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
@@ -1241,6 +1262,24 @@
       "employee_count_range": ""
     },
     {
+      "slug": "brandup-factory-gmbh",
+      "name": "BrandUp Factory GmbH",
+      "description": "Agency for corporate digitalization and automation, focusing on innovative business solutions.",
+      "product_url": "https://www.brandupfactory.com",
+      "product_type": "other",
+      "category": "ai-app",
+      "status": "active",
+      "company_name": "BrandUp Factory GmbH",
+      "company_url": "https://www.brandupfactory.com",
+      "country": "Germany",
+      "country_code": "DE",
+      "city": "Hamburg",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "chai-social-ai-platform-chat",
       "name": "CHAI: Social AI Platform- Chat",
       "description": "Our app revolutionizes the way we interact with AI chatbots. With our advanced technology, our chatbots think and reply like real characters, complete with authentic voices. You can choose from a massive selection of characters, each with their own unique voice and personality. Whether you're chatting with your favorite celebrity, a beloved character from a movie or TV show, or a historical figure, you'll feel like you're talking to a real person.\n\n\nCharacter creation - Character creation now...",
@@ -1400,6 +1439,27 @@
       "employee_count_range": ""
     },
     {
+      "slug": "choose-your-agent",
+      "name": "Choose Your Agent",
+      "description": "As AI usage becomes more prevalent in social contexts, understanding agent-user interaction is critical to designing systems that improve both individual and group outcomes. We present an online behavioral experiment (N = 243) in which participants play three multi-turn bargaining games in groups of three. Each game, presented in randomized order, grants \\textit{access to} a single LLM assistance modality: proactive recommendations from an \\textit{Advisor}, reactive feedback from a \\textit{Coach}, or autonomous execution by a \\textit{Delegate}; all modalities are powered by an underlying LLM that achieves superhuman performance in an all-agent environment. On each turn, participants privately decide whether to act manually or use the AI modality available in that game. Despite preferring the \\textit{Advisor} modality, participants achieve the highest mean individual gains with the \\textit{Delegate}, demonstrating a preference-performance misalignment. Moreover, delegation generates positive externalities; even non-adopting users in \\textit{access-to-delegate} treatment groups benefit by receiving higher-quality offers. Mechanism analysis reveals that the \\textit{Delegate} agent acts as a market maker, injecting rational, Pareto-improving proposals that restructure the trading environment. Our research reveals a gap between agent capabilities and realized group welfare. While autonomous agents can exhibit super-human strategic performance, their impact on realized welfare gains can be constrained by interfaces, user perceptions, and adoption barriers. Assistance modalities should be designed as mechanisms with endogenous participation; adoption-compatible interaction rules are a prerequisite to improving human welfare with automated assistance.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "tags": [
+        "research"
+      ],
+      "status": "active",
+      "company_name": "Choose Your Agent",
+      "company_url": "https://www.bing.com/search?q=Choose+Your+Agent+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "chromadb",
       "name": "ChromaDB",
       "description": "ChromaDB is an AI product.",
@@ -1440,6 +1500,29 @@
       "status": "active",
       "company_name": "Chroma",
       "company_url": "https://www.bing.com/search?q=Chroma+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "citilink-minutes",
+      "name": "CitiLink-Minutes",
+      "description": "City councils play a crucial role in local governance, directly influencing citizens' daily lives through decisions made during municipal meetings. These deliberations are formally documented in meeting minutes, which serve as official records of discussions, decisions, and voting outcomes. Despite their importance, municipal meeting records have received little attention in Information Retrieval (IR) and Natural Language Processing (NLP), largely due to the lack of annotated datasets, which ultimately limit the development of computational models. To address this gap, we introduce CitiLink-Minutes, a multilayer dataset of 120 European Portuguese municipal meeting minutes from six municipalities. Unlike prior annotated datasets of parliamentary or video records, CitiLink-Minutes provides multilayer annotations and structured linkage of official written minutes. The dataset contains over one million tokens, with all personal identifiers de-identified. Each minute was manually annotated by two trained annotators and curated by an experienced linguist across three complementary dimensions: (1) metadata, (2) subjects of discussion, and (3) voting outcomes, totaling over 38,000 individual annotations. Released under FAIR principles and accompanied by baseline results on metadata extraction, topic classification, and vote labeling, CitiLink-Minutes demonstrates its potential for downstream NLP and IR tasks, while promoting transparent access to municipal decisions.",
+      "product_url": "",
+      "product_type": "llm",
+      "category": "ai-model",
+      "sub_category": "text-generation",
+      "tags": [
+        "research",
+        "nlp"
+      ],
+      "status": "active",
+      "company_name": "CitiLink-Minutes",
+      "company_url": "https://www.bing.com/search?q=CitiLink-Minutes+AI",
       "country": "",
       "country_code": "",
       "city": "",
@@ -1646,6 +1729,30 @@
       "employee_count_range": "51-200"
     },
     {
+      "slug": "deepsight",
+      "name": "DeepSight",
+      "description": "As the development of Large Models (LMs) progresses rapidly, their safety is also a priority. In current Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) safety workflow, evaluation, diagnosis, and alignment are often handled by separate tools. Specifically, safety evaluation can only locate external behavioral risks but cannot figure out internal root causes. Meanwhile, safety diagnosis often drifts from concrete risk scenarios and remains at the explainable level. In this way, safety alignment lack dedicated explanations of changes in internal mechanisms, potentially degrading general capabilities. To systematically address these issues, we propose an open-source project, namely DeepSight, to practice a new safety evaluation-diagnosis integrated paradigm. DeepSight is low-cost, reproducible, efficient, and highly scalable large-scale model safety evaluation project consisting of a evaluation toolkit DeepSafe and a diagnosis toolkit DeepScan. By unifying task and data protocols, we build a connection between the two stages and transform safety evaluation from black-box to white-box insight. Besides, DeepSight is the first open source toolkit that support the frontier AI risk evaluation and joint safety evaluation and diagnosis.",
+      "product_url": "",
+      "product_type": "llm",
+      "category": "ai-model",
+      "sub_category": "text-generation",
+      "tags": [
+        "research",
+        "nlp",
+        "computer-vision"
+      ],
+      "status": "active",
+      "company_name": "DeepSight",
+      "company_url": "https://www.bing.com/search?q=DeepSight+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "dive-into-deep-learning-d2lai",
       "name": "Dive into Deep Learning (D2L.ai)",
       "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
@@ -1708,6 +1815,29 @@
       "employee_count_range": ""
     },
     {
+      "slug": "exstructiny",
+      "name": "ExStrucTiny",
+      "description": "Enterprise documents, such as forms and reports, embed critical information for downstream applications like data archiving, automated workflows, and analytics. Although generalist Vision Language Models (VLMs) perform well on established document understanding benchmarks, their ability to conduct holistic, fine-grained structured extraction across diverse document types and flexible schemas is not well studied. Existing Key Entity Extraction (KEE), Relation Extraction (RE), and Visual Question Answering (VQA) datasets are limited by narrow entity ontologies, simple queries, or homogeneous document types, often overlooking the need for adaptable and structured extraction. To address these gaps, we introduce ExStrucTiny, a new benchmark dataset for structured Information Extraction (IE) from document images, unifying aspects of KEE, RE, and VQA. Built through a novel pipeline combining manual and synthetic human-validated samples, ExStrucTiny covers more varied document types and extraction scenarios. We analyze open and closed VLMs on this benchmark, highlighting challenges such as schema adaptation, query under-specification, and answer localization. We hope our work provides a bedrock for improving generalist models for structured IE in documents.",
+      "product_url": "",
+      "product_type": "llm",
+      "category": "ai-model",
+      "sub_category": "text-generation",
+      "tags": [
+        "research",
+        "nlp"
+      ],
+      "status": "active",
+      "company_name": "ExStrucTiny",
+      "company_url": "https://www.bing.com/search?q=ExStrucTiny+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "explosion",
       "name": "Explosion",
       "description": "Software company specializing in developer tools and tailored solutions for AI and Natural Language Processing",
@@ -1724,6 +1854,28 @@
       "country": "",
       "country_code": "",
       "city": "Berlin, Germany",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "extractbench",
+      "name": "ExtractBench",
+      "description": "Unstructured documents like PDFs contain valuable structured information, but downstream systems require this data in reliable, standardized formats. LLMs are increasingly deployed to automate this extraction, making accuracy and reliability paramount. However, progress is bottlenecked by two gaps. First, no end-to-end benchmark evaluates PDF-to-JSON extraction under enterprise-scale schema breadth. Second, no principled methodology captures the semantics of nested extraction, where fields demand different notions of correctness (exact match for identifiers, tolerance for quantities, semantic equivalence for names), arrays require alignment, and omission must be distinguished from hallucination. We address both gaps with ExtractBench, an open-source benchmark and evaluation framework for PDF-to-JSON structured extraction. The benchmark pairs 35 PDF documents with JSON Schemas and human-annotated gold labels across economically valuable domains, yielding 12,867 evaluatable fields spanning schema complexities from tens to hundreds of fields. The evaluation framework treats the schema as an executable specification: each field declares its scoring metric. Baseline evaluations reveal that frontier models (GPT-5/5.2, Gemini-3 Flash/Pro, Claude 4.5 Opus/Sonnet) remain unreliable on realistic schemas. Performance degrades sharply with schema breadth, culminating in 0% valid output on a 369-field financial reporting schema across all tested models. We release ExtractBench at https://github.com/ContextualAI/extract-bench.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "tags": [
+        "research",
+        "machine-learning"
+      ],
+      "status": "active",
+      "company_name": "ExtractBench",
+      "company_url": "https://www.bing.com/search?q=ExtractBench+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
       "total_raised_usd": 0,
       "last_round": "",
       "valuation_usd": 0,
@@ -2320,6 +2472,27 @@
       "employee_count_range": ""
     },
     {
+      "slug": "lawthinker",
+      "name": "LawThinker",
+      "description": "Legal reasoning requires not only correct outcomes but also procedurally compliant reasoning processes. However, existing methods lack mechanisms to verify intermediate reasoning steps, allowing errors such as inapplicable statute citations to propagate undetected through the reasoning chain. To address this, we propose LawThinker, an autonomous legal research agent that adopts an Explore-Verify-Memorize strategy for dynamic judicial environments. The core idea is to enforce verification as an atomic operation after every knowledge exploration step. A DeepVerifier module examines each retrieval result along three dimensions of knowledge accuracy, fact-law relevance, and procedural compliance, with a memory module for cross-round knowledge reuse in long-horizon tasks. Experiments on the dynamic benchmark J1-EVAL show that LawThinker achieves a 24% improvement over direct reasoning and an 11% gain over workflow-based methods, with particularly strong improvements on process-oriented metrics. Evaluations on three static benchmarks further confirm its generalization capability. The code is available at https://github.com/yxy-919/LawThinker-agent .",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "tags": [
+        "research"
+      ],
+      "status": "active",
+      "company_name": "LawThinker",
+      "company_url": "https://www.bing.com/search?q=LawThinker+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "leapility",
       "name": "Leapility",
       "description": "Turn your repetitive workflows into AI-powered playbooks",
@@ -2526,6 +2699,30 @@
       "employee_count_range": ""
     },
     {
+      "slug": "meta-sel",
+      "name": "Meta-Sel",
+      "description": "Demonstration selection is a practical bottleneck in in-context learning (ICL): under a tight prompt budget, accuracy can change substantially depending on which few-shot examples are included, yet selection must remain cheap enough to run per query over large candidate pools. We propose Meta-Sel, a lightweight supervised meta-learning approach for intent classification that learns a fast, interpretable scoring function for (candidate, query) pairs from labeled training data. Meta-Sel constructs a meta-dataset by sampling pairs from the training split and using class agreement as supervision, then trains a calibrated logistic regressor on two inexpensive meta-features: TF--IDF cosine similarity and a length-compatibility ratio. At inference time, the selector performs a single vectorized scoring pass over the full candidate pool and returns the top-k demonstrations, requiring no model fine-tuning, no online exploration, and no additional LLM calls. This yields deterministic rankings and makes the selection mechanism straightforward to audit via interpretable feature weights. Beyond proposing Meta-Sel, we provide a broad empirical study of demonstration selection, benchmarking 12 methods -- spanning prompt engineering baselines, heuristic selection, reinforcement learning, and influence-based approaches -- across four intent datasets and five open-source LLMs. Across this benchmark, Meta-Sel consistently ranks among the top-performing methods, is particularly effective for smaller models where selection quality can partially compensate for limited model capacity, and maintains competitive selection-time overhead.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "sub_category": "text-generation",
+      "tags": [
+        "research",
+        "nlp",
+        "machine-learning"
+      ],
+      "status": "active",
+      "company_name": "Meta-Sel",
+      "company_url": "https://www.bing.com/search?q=Meta-Sel+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "microsoft",
       "name": "Microsoft",
       "description": "Open source projects and samples from Microsoft",
@@ -2645,6 +2842,27 @@
       "employee_count_range": ""
     },
     {
+      "slug": "modelwisdom",
+      "name": "ModelWisdom",
+      "description": "Model checking in TLA+ provides strong correctness guarantees, yet practitioners continue to face significant challenges in interpreting counterexamples, understanding large state-transition graphs, and repairing faulty models. These difficulties stem from the limited explainability of raw model-checker output and the substantial manual effort required to trace violations back to source specifications. Although the TLA+ Toolbox includes a state diagram viewer, it offers only a static, fully expanded graph without folding, color highlighting, or semantic explanations, which limits its scalability and interpretability. We present ModelWisdom, an interactive environment that uses visualization and large language models to make TLA+ model checking more interpretable and actionable. ModelWisdom offers: (i) Model Visualization, with colorized violation highlighting, click-through links from transitions to TLA+ code, and mapping between violating states and broken properties; (ii) Graph Optimization, including tree-based structuring and node/edge folding to manage large models; (iii) Model Digest, which summarizes and explains subgraphs via large language models (LLMs) and performs preprocessing and partial explanations; and (iv) Model Repair, which extracts error information and supports iterative debugging. Together, these capabilities turn raw model-checker output into an interactive, explainable workflow, improving understanding and reducing debugging effort for nontrivial TLA+ specifications. The website to ModelWisdom is available: https://model-wisdom.pages.dev. A demonstrative video can be found at https://www.youtube.com/watch?v=plyZo30VShA.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "tags": [
+        "research"
+      ],
+      "status": "active",
+      "company_name": "ModelWisdom",
+      "company_url": "https://www.bing.com/search?q=ModelWisdom+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "mucemere",
       "name": "Mucemere",
       "description": "IT company",
@@ -2736,6 +2954,30 @@
       "status": "active",
       "company_name": "Ollama",
       "company_url": "https://www.bing.com/search?q=Ollama+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "olmix",
+      "name": "Olmix",
+      "description": "Data mixing -- determining the ratios of data from different domains -- is a first-order concern for training language models (LMs). While existing mixing methods show promise, they fall short when applied during real-world LM development. We present Olmix, a framework that addresses two such challenges. First, the configuration space for developing a mixing method is not well understood -- design choices across existing methods lack justification or consensus and overlook practical issues like data constraints. We conduct a comprehensive empirical study of this space, identifying which design choices lead to a strong mixing method. Second, in practice, the domain set evolves throughout LM development as datasets are added, removed, partitioned, and revised -- a problem setting largely unaddressed by existing works, which assume fixed domains. We study how to efficiently recompute the mixture after the domain set is updated, leveraging information from past mixtures. We introduce mixture reuse, a mechanism that reuses existing ratios and recomputes ratios only for domains affected by the update. Over a sequence of five domain-set updates mirroring real-world LM development, mixture reuse matches the performance of fully recomputing the mix after each update with 74% less compute and improves over training without mixing by 11.6% on downstream tasks.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "sub_category": "text-generation",
+      "tags": [
+        "research",
+        "nlp",
+        "machine-learning"
+      ],
+      "status": "active",
+      "company_name": "Olmix",
+      "company_url": "https://www.bing.com/search?q=Olmix+AI",
       "country": "",
       "country_code": "",
       "city": "",
@@ -3108,6 +3350,48 @@
       "employee_count_range": ""
     },
     {
+      "slug": "sageo-arena",
+      "name": "SAGEO Arena",
+      "description": "Search-Augmented Generative Engines (SAGE) have emerged as a new paradigm for information access, bridging web-scale retrieval with generative capabilities to deliver synthesized answers. This shift has fundamentally reshaped how web content gains exposure online, giving rise to Search-Augmented Generative Engine Optimization (SAGEO), the practice of optimizing web documents to improve their visibility in AI-generated responses. Despite growing interest, no evaluation environment currently supports comprehensive investigation of SAGEO. Specifically, existing benchmarks lack end-to-end visibility evaluation of optimization strategies, operating on pre-determined candidate documents that abstract away retrieval and reranking preceding generation. Moreover, existing benchmarks discard structural information (e.g., schema markup) present in real web documents, overlooking the rich signals that search systems actively leverage in practice. Motivated by these gaps, we introduce SAGEO Arena, a realistic and reproducible environment for stage-level SAGEO analysis. Our objective is to jointly target search-oriented optimization (SEO) and generation-centric optimization (GEO). To achieve this, we integrate a full generative search pipeline over a large-scale corpus of web documents with rich structural information. Our findings reveal that existing approaches remain largely impractical under realistic conditions and often degrade performance in retrieval and reranking. We also find that structural information helps mitigate these limitations, and that effective SAGEO requires tailoring optimization to each pipeline stage. Overall, our benchmark paves the way for realistic SAGEO evaluation and optimization beyond simplified settings.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "tags": [
+        "research"
+      ],
+      "status": "active",
+      "company_name": "SAGEO Arena",
+      "company_url": "https://www.bing.com/search?q=SAGEO+Arena+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "sam3-litetext",
+      "name": "SAM3-LiteText",
+      "description": "Vision-language segmentation models such as SAM3 enable flexible, prompt-driven visual grounding, but inherit large, general-purpose text encoders originally designed for open-ended language understanding. In practice, segmentation prompts are short, structured, and semantically constrained, leading to substantial over-provisioning in text encoder capacity and persistent computational and memory overhead. In this paper, we perform a large-scale anatomical analysis of text prompting in vision-language segmentation, covering 404,796 real prompts across multiple benchmarks. Our analysis reveals severe redundancy: most context windows are underutilized, vocabulary usage is highly sparse, and text embeddings lie on low-dimensional manifold despite high-dimensional representations. Motivated by these findings, we propose SAM3-LiteText, a lightweight text encoding framework that replaces the original SAM3 text encoder with a compact MobileCLIP student that is optimized by knowledge distillation. Extensive experiments on image and video segmentation benchmarks show that SAM3-LiteText reduces text encoder parameters by up to 88%, substantially reducing static memory footprint, while maintaining segmentation performance comparable to the original model. Code: https://github.com/SimonZeng7108/efficientsam3/tree/sam3_litetext.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "tags": [
+        "research"
+      ],
+      "status": "active",
+      "company_name": "SAM3-LiteText",
+      "company_url": "https://www.bing.com/search?q=SAM3-LiteText+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "sakura-chat-with-ai-bots",
       "name": "Sakura - Chat with AI Bots",
       "description": "Chat with User-Generated AI Characters\n\nCreate Your Own AI Character\n\nMake an AI character that's truly yours - you can customize everything from their appearance to their way of thinking. Build an AI character that understands you and evolves with you over time.\n\nImmerse Yourself in AI Role-Play\n\nWith our app, you can live out adventures through interactive role-play with your AI characters. You can be anyone you want to be and break free from real-world limitations.\n\n• Activate your imagina...",
@@ -3118,6 +3402,27 @@
       "status": "active",
       "company_name": "Sakura AI, LLC",
       "company_url": "https://www.bing.com/search?q=Sakura+AI%2C+LLC+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "sci-coe",
+      "name": "Sci-CoE",
+      "description": "Large language models (LLMs) have demonstrated exceptional reasoning capabilities, and co-evolving paradigms have shown promising results in domains such as code and math. However, in scientific reasoning tasks, these models remain fragile due to unreliable solution evaluation and limited diversity in verification strategies. In this work, we propose Sci-CoE, a two-stage scientific co-evolving framework that enables models to self-evolve as both solver and verifier through a transition from sparse supervision to unsupervised learning. In the first stage, the model uses a small set of annotated data to establish fundamental correctness judgment anchors for the Verifier. In the second stage, we introduce a geometric reward mechanism that jointly considers consensus, reliability, and diversity, driving large-scale self-iteration on unlabeled data. Experiments on several general scientific benchmarks demonstrate that Sci-CoE enhances complex reasoning capabilities and exhibits strong scalability, facilitating the construction of more robust and diverse evaluation systems. Codes are available at https://github.com/InternScience/Sci-CoE.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "tags": [
+        "research"
+      ],
+      "status": "active",
+      "company_name": "Sci-CoE",
+      "company_url": "https://www.bing.com/search?q=Sci-CoE+AI",
       "country": "",
       "country_code": "",
       "city": "",
@@ -3164,6 +3469,29 @@
       "status": "active",
       "company_name": "Hugging Face",
       "company_url": "https://www.bing.com/search?q=Hugging+Face+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "seq2seq2seq",
+      "name": "Seq2Seq2Seq",
+      "description": "Efficient lossless compression is essential for minimizing storage costs and transmission overhead while preserving data integrity. Traditional compression techniques, such as dictionary-based and statistical methods, often struggle to optimally exploit the structure and redundancy in complex data formats. Recent advancements in deep learning have opened new avenues for compression; however, many existing approaches depend on dense vector representations that obscure the underlying token structure. To address these limitations, we propose a novel lossless compression method that leverages Reinforcement Learning applied to a T5 language model architecture. This approach enables the compression of data into sequences of tokens rather than traditional vector representations. Unlike auto-encoders, which typically encode information into continuous latent spaces, our method preserves the token-based structure, aligning more closely with the original data format. This preservation allows for higher compression ratios while maintaining semantic integrity. By training the model using an off-policy Reinforcement Learning algorithm, we optimize sequence length to minimize redundancy and enhance compression efficiency. Our method introduces an efficient and adaptive data compression system built upon advanced Reinforcement Learning techniques, functioning independently of external grammatical or world knowledge. This approach shows significant improvements in compression ratios compared to conventional methods. By leveraging the latent information within language models, our system effectively compresses data without requiring explicit content understanding, paving the way for more robust and practical compression solutions across various applications.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "sub_category": "text-generation",
+      "tags": [
+        "research",
+        "nlp"
+      ],
+      "status": "active",
+      "company_name": "Seq2Seq2Seq",
+      "company_url": "https://www.bing.com/search?q=Seq2Seq2Seq+AI",
       "country": "",
       "country_code": "",
       "city": "",
@@ -3253,6 +3581,29 @@
       "status": "active",
       "company_name": "SteuerLLM",
       "company_url": "https://www.bing.com/search?q=SteuerLLM+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "stop-unnecessary-reflection",
+      "name": "Stop Unnecessary Reflection",
+      "description": "Large Reasoning Models (LRMs) have demonstrated remarkable performance on complex reasoning tasks by employing test-time scaling. However, they often generate over-long chains-of-thought that, driven by substantial reflections such as repetitive self-questioning and circular reasoning, lead to high token consumption, substantial computational overhead, and increased latency without improving accuracy, particularly in smaller models. Our observation reveals that increasing problem complexity induces more excessive and unnecessary reflection, which in turn reduces accuracy and increases token overhead. To address this challenge, we propose Adaptive Reflection and Length Coordinated Penalty (ARLCP), a novel reinforcement learning framework designed to dynamically balance reasoning efficiency and solution accuracy. ARLCP introduces two key innovations: (1) a reflection penalty that adaptively curtails unnecessary reflective steps while preserving essential reasoning, and (2) a length penalty calibrated to the estimated complexity of the problem. By coordinating these penalties, ARLCP encourages the model to generate more concise and effective reasoning paths. We evaluate our method on five mathematical reasoning benchmarks using DeepSeek-R1-Distill-Qwen-1.5B and DeepSeek-R1-Distill-Qwen-7B models. Experimental results show that ARLCP achieves a superior efficiency-accuracy trade-off compared to existing approaches. For the 1.5B model, it reduces the average response length by 53.1% while simultaneously improving accuracy by 5.8%. For the 7B model, it achieves a 35.0% reduction in length with a 2.7% accuracy gain. The code is released at https://github.com/ZeweiYu1/ARLCP .",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "sub_category": "text-generation",
+      "tags": [
+        "research",
+        "nlp"
+      ],
+      "status": "active",
+      "company_name": "Stop Unnecessary Reflection",
+      "company_url": "https://www.bing.com/search?q=Stop+Unnecessary+Reflection+AI",
       "country": "",
       "country_code": "",
       "city": "",
@@ -3377,6 +3728,27 @@
       "employee_count_range": ""
     },
     {
+      "slug": "the-pensieve-paradigm",
+      "name": "The Pensieve Paradigm",
+      "description": "In the world of Harry Potter, when Dumbledore's mind is overburdened, he extracts memories into a Pensieve to be revisited later. In the world of AI, while we possess the Pensieve-mature databases and retrieval systems, our models inexplicably lack the \"wand\" to operate it. They remain like a Dumbledore without agency, passively accepting a manually engineered context as their entire memory. This work finally places the wand in the model's hand. We introduce StateLM, a new class of foundation models endowed with an internal reasoning loop to manage their own state. We equip our model with a suite of memory tools, such as context pruning, document indexing, and note-taking, and train it to actively manage these tools. By learning to dynamically engineering its own context, our model breaks free from the architectural prison of a fixed window. Experiments across various model sizes demonstrate StateLM's effectiveness across diverse scenarios. On long-document QA tasks, StateLMs consistently outperform standard LLMs across all model scales; on the chat memory task, they achieve absolute accuracy improvements of 10% to 20% over standard LLMs. On the deep research task BrowseComp-Plus, the performance gap becomes even more pronounced: StateLM achieves up to 52% accuracy, whereas standard LLM counterparts struggle around 5%. Ultimately, our approach shifts LLMs from passive predictors to state-aware agents where reasoning becomes a stateful and manageable process.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "tags": [
+        "research"
+      ],
+      "status": "active",
+      "company_name": "The Pensieve Paradigm",
+      "company_url": "https://www.bing.com/search?q=The+Pensieve+Paradigm+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "the-pocket",
       "name": "The Pocket",
       "description": "Tesseract OCR",
@@ -3462,6 +3834,75 @@
       "employee_count_range": ""
     },
     {
+      "slug": "towards-on-policy-sft",
+      "name": "Towards On-Policy SFT",
+      "description": "Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL's use of on-policy data. We propose a framework to bridge this chasm by enabling On-Policy SFT. We first present \\textbf{\\textit{Distribution Discriminant Theory (DDT)}}, which explains and quantifies the alignment between data and the model-induced distribution. Leveraging DDT, we introduce two complementary techniques: (i) \\textbf{\\textit{In-Distribution Finetuning (IDFT)}}, a loss-level method to enhance generalization ability of SFT, and (ii) \\textbf{\\textit{Hinted Decoding}}, a data-level technique that can re-align the training corpus to the model's distribution. Extensive experiments demonstrate that our framework achieves generalization performance on par with prominent offline RL algorithms, including DPO and SimPO, while maintaining the efficiency of an SFT pipeline. The proposed framework thus offers a practical alternative in domains where RL is infeasible. We open-source the code here: https://github.com/zhangmiaosen2000/Towards-On-Policy-SFT",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "sub_category": "image-generation",
+      "tags": [
+        "research",
+        "computer-vision",
+        "machine-learning"
+      ],
+      "status": "active",
+      "company_name": "Towards On-Policy SFT",
+      "company_url": "https://www.bing.com/search?q=Towards+On-Policy+SFT+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "unit",
+      "name": "UniT",
+      "description": "Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and making iterative corrections. While test-time scaling (TTS) has demonstrated that allocating additional inference compute for iterative reasoning substantially improves language model performance, extending this paradigm to unified multimodal models remains an open challenge. We introduce UniT, a framework for multimodal chain-of-thought test-time scaling that enables a single unified model to reason, verify, and refine across multiple rounds. UniT combines agentic data synthesis, unified model training, and flexible test-time inference to elicit cognitive behaviors including verification, subgoal decomposition, and content memory. Our key findings are: (1) unified models trained on short reasoning trajectories generalize to longer inference chains at test time; (2) sequential chain-of-thought reasoning provides a more scalable and compute-efficient TTS strategy than parallel sampling; (3) training on generation and editing trajectories improves out-of-distribution visual reasoning. These results establish multimodal test-time scaling as an effective paradigm for advancing both generation and understanding in unified models.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "sub_category": "image-generation",
+      "tags": [
+        "research",
+        "computer-vision",
+        "machine-learning"
+      ],
+      "status": "active",
+      "company_name": "UniT",
+      "company_url": "https://www.bing.com/search?q=UniT+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "value-alignment-tax",
+      "name": "Value Alignment Tax",
+      "description": "Existing work on value alignment typically characterizes value relations statically, ignoring how interventions - such as prompting, fine-tuning, or preference optimization - reshape the broader value system. We introduce the Value Alignment Tax (VAT), a framework that measures how alignment-induced changes propagate across interconnected values relative to achieved on-target gain. VAT captures the dynamics of value expression under alignment pressure. Using a controlled scenario-action dataset grounded in Schwartz value theory, we collect paired pre-post normative judgments and analyze alignment effects across models, values, and alignment strategies. Our results show that alignment often produces uneven, structured co-movement among values. These effects are invisible under conventional target-only evaluation, revealing systemic, process-level alignment risks and offering new insights into the dynamics of value alignment in LLMs.",
+      "product_url": "",
+      "product_type": "other",
+      "category": "ai-model",
+      "tags": [
+        "research"
+      ],
+      "status": "active",
+      "company_name": "Value Alignment Tax",
+      "company_url": "https://www.bing.com/search?q=Value+Alignment+Tax+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
       "slug": "vercel",
       "name": "Vercel",
       "description": "Develop. Preview. Ship. Creators of Next.js.",
@@ -3499,6 +3940,29 @@
       "status": "active",
       "company_name": "Vercel",
       "company_url": "https://www.bing.com/search?q=Vercel+AI",
+      "country": "",
+      "country_code": "",
+      "city": "",
+      "total_raised_usd": 0,
+      "last_round": "",
+      "valuation_usd": 0,
+      "employee_count_range": ""
+    },
+    {
+      "slug": "visual-reasoning-benchmark",
+      "name": "Visual Reasoning Benchmark",
+      "description": "AI models have achieved state-of-the-art results in textual reasoning; however, their ability to reason over spatial and relational structures remains a critical bottleneck -- particularly in early-grade maths, which relies heavily on visuals. This paper introduces the visual reasoning benchmark (VRB), a novel dataset designed to evaluate Multimodal Large Language Models (MLLMs) on their ability to solve authentic visual problems from classrooms. This benchmark is built on a set of 701 questions sourced from primary school examinations in Zambia and India, which cover a range of tasks such as reasoning by analogy, pattern completion, and spatial matching. We outline the methodology and development of the benchmark which intentionally uses unedited, minimal-text images to test if models can meet realistic needs of primary education. Our findings reveal a ``jagged frontier'' of capability where models demonstrate better proficiency in static skills such as counting and scaling, but reach a distinct ``spatial ceiling'' when faced with dynamic operations like folding, reflection, and rotation. These weaknesses pose a risk for classroom use on visual reasoning problems, with the potential for incorrect marking, false scaffolding, and reinforcing student misconceptions. Consequently, education-focused benchmarks like the VRB are essential for determining the functional boundaries of multimodal tools used in classrooms.",
+      "product_url": "",
+      "product_type": "llm",
+      "category": "ai-model",
+      "sub_category": "text-generation",
+      "tags": [
+        "research",
+        "nlp"
+      ],
+      "status": "active",
+      "company_name": "Visual Reasoning Benchmark",
+      "company_url": "https://www.bing.com/search?q=Visual+Reasoning+Benchmark+AI",
       "country": "",
       "country_code": "",
       "city": "",

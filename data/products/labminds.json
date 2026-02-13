@@ -81,6 +81,18 @@
         "tier": 1,
         "confidence": 0.95,
         "updated_at": "2026-02-13"
+      },
+      "company.headquarters.country": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "company.headquarters.country_code": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
       }
     }
   },
@@ -106,6 +118,11 @@
       "name": "Ville Lehtonen",
       "title": "Co-founder",
       "is_founder": true
+    },
+    {
+      "name": "Ville Lehtonen",
+      "title": "chief executive officer",
+      "is_founder": false
     }
   ]
 }

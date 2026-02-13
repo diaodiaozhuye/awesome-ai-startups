@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-02-13",
-  "total_products": 202,
+  "total_products": 223,
   "by_category": [
     {
       "label": "ai-app",
-      "count": 122
+      "count": 123
     },
     {
       "label": "ai-model",
-      "count": 49
+      "count": 69
     },
     {
       "label": "ai-dev-tool",
@@ -38,7 +38,7 @@
   "by_product_type": [
     {
       "label": "other",
-      "count": 91
+      "count": 108
     },
     {
       "label": "app",
@@ -46,7 +46,7 @@
     },
     {
       "label": "llm",
-      "count": 34
+      "count": 38
     },
     {
       "label": "framework",
@@ -68,7 +68,7 @@
   "by_sub_category": [
     {
       "label": "text-generation",
-      "count": 34
+      "count": 42
     },
     {
       "label": "voice-assistant",
@@ -79,12 +79,12 @@
       "count": 12
     },
     {
-      "label": "inference-platform",
+      "label": "image-generation",
       "count": 8
     },
     {
-      "label": "image-generation",
-      "count": 6
+      "label": "inference-platform",
+      "count": 8
     },
     {
       "label": "personal-assistant",
@@ -149,11 +149,11 @@
       "count": 5
     },
     {
-      "label": "Norway",
-      "count": 2
+      "label": "Germany",
+      "count": 3
     },
     {
-      "label": "Germany",
+      "label": "Norway",
       "count": 2
     },
     {
@@ -208,7 +208,7 @@
   "by_status": [
     {
       "label": "active",
-      "count": 202
+      "count": 223
     }
   ],
   "funding_leaderboard": [

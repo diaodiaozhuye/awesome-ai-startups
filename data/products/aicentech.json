@@ -75,6 +75,24 @@
         "tier": 1,
         "confidence": 0.95,
         "updated_at": "2026-02-13"
+      },
+      "company.headquarters.city": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "company.headquarters.country": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "company.headquarters.country_code": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
       }
     }
   },

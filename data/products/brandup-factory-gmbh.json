@@ -1,0 +1,117 @@
+{
+  "slug": "brandup-factory-gmbh",
+  "name": "BrandUp Factory GmbH",
+  "product_url": "https://www.brandupfactory.com",
+  "description": "Agency for corporate digitalization and automation, focusing on innovative business solutions.",
+  "product_type": "other",
+  "category": "ai-app",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-13",
+    "last_updated": "2026-02-13",
+    "provenance": {
+      "name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "product_url": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "description": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "product_type": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "category": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "status": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "company.name": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "company.url": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "company.website": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "company.founded_year": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "company.headquarters": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      },
+      "key_people": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-13"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://www.wikidata.org/wiki/Q131675131",
+      "source_name": "wikidata",
+      "scraped_at": "2026-02-13"
+    }
+  ],
+  "company": {
+    "name": "BrandUp Factory GmbH",
+    "url": "https://www.brandupfactory.com",
+    "website": "https://www.brandupfactory.com",
+    "founded_year": 2019,
+    "headquarters": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "country_code": "DE"
+    }
+  },
+  "key_people": [
+    {
+      "name": "Tim Meyer",
+      "title": "entrepreneur",
+      "is_founder": true
+    },
+    {
+      "name": "Ulf Meyer",
+      "title": "chief executive officer",
+      "is_founder": false
+    }
+  ]
+}
