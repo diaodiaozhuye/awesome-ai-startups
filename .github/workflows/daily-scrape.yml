@@ -8,11 +8,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-scrape
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -62,5 +68,16 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: daily data update $(date -u +%Y-%m-%d)"
+            # Pull latest remote changes, regenerate stats if conflict on auto-generated files
+            git pull --rebase origin main || {
+              echo "Rebase conflict detected, resolving..."
+              git rebase --abort
+              git stash
+              git pull origin main
+              git stash pop
+              aiscrape generate-stats
+              git add data/
+              git commit -m "chore: daily data update $(date -u +%Y-%m-%d)"
+            }
             git push
           fi
