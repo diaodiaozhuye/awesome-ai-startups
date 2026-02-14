@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-02-14",
     "provenance": {
       "name": {
         "source": "openrouter",
@@ -68,13 +68,13 @@
         "source": "openrouter",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "modalities": {
         "source": "openrouter",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-12"
+        "updated_at": "2026-02-14"
       },
       "context_window": {
         "source": "openrouter",
@@ -214,6 +214,156 @@
       "url": "https://openrouter.ai/models/openai/gpt-5.2-codex",
       "source_name": "openrouter",
       "scraped_at": "2026-02-12"
+    },
+    {
+      "url": "https://openrouter.ai/models/allenai/molmo-2-8b",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/allenai/olmo-3.1-32b-instruct",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/bytedance-seed/seed-1.6-flash",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/bytedance-seed/seed-1.6",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/minimax/minimax-m2.1",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/z-ai/glm-4.7",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/google/gemini-3-flash-preview",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/mistralai/mistral-small-creative",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/allenai/olmo-3.1-32b-think",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/xiaomi/mimo-v2-flash",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-nano-30b-a3b:free",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/nvidia/nemotron-3-nano-30b-a3b",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/openai/gpt-5.2-chat",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/openai/gpt-5.2-pro",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/openai/gpt-5.2",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/mistralai/devstral-2512",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/relace/relace-search",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/z-ai/glm-4.6v",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/nex-agi/deepseek-v3.1-nex-n1",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/essentialai/rnj-1-instruct",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/openrouter/bodybuilder",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/openai/gpt-5.1-codex-max",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/amazon/nova-2-lite-v1",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/mistralai/ministral-14b-2512",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/mistralai/ministral-8b-2512",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/mistralai/ministral-3b-2512",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/mistralai/mistral-large-2512",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/arcee-ai/trinity-mini:free",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/arcee-ai/trinity-mini",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://openrouter.ai/models/deepseek/deepseek-v3.2-speciale",
+      "source_name": "openrouter",
+      "scraped_at": "2026-02-14"
     }
   ],
   "company": {
@@ -233,7 +383,8 @@
   "modalities": [
     "text",
     "image",
-    "audio"
+    "audio",
+    "video"
   ],
   "context_window": 128000,
   "api_available": true,

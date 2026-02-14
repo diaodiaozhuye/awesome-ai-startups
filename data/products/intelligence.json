@@ -1,0 +1,68 @@
+{
+  "slug": "intelligence",
+  "name": "Intelligence",
+  "product_url": "",
+  "description": "Intelligence is an AI product.",
+  "product_type": "llm",
+  "category": "ai-foundation-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-14",
+    "last_updated": "2026-02-14",
+    "provenance": {
+      "name": {
+        "source": "artificial_analysis",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "description": {
+        "source": "artificial_analysis",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "product_type": {
+        "source": "artificial_analysis",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "category": {
+        "source": "artificial_analysis",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "status": {
+        "source": "artificial_analysis",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "company.name": {
+        "source": "artificial_analysis",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "company.url": {
+        "source": "artificial_analysis",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://artificialanalysis.ai/leaderboards/models",
+      "source_name": "artificial_analysis",
+      "scraped_at": "2026-02-14"
+    }
+  ],
+  "company": {
+    "name": "Intelligence",
+    "url": "https://www.bing.com/search?q=Intelligence+AI"
+  }
+}

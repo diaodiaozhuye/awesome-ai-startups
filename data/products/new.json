@@ -1,0 +1,82 @@
+{
+  "slug": "new",
+  "name": "New",
+  "product_url": "",
+  "description": "Home Search Deals Leaderboard Tasks Mini tools Characters Map",
+  "product_type": "llm",
+  "category": "ai-foundation-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-14",
+    "last_updated": "2026-02-14",
+    "provenance": {
+      "name": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "description": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "product_type": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "category": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "status": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "company.name": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "company.url": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "sub_category": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "tags": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://theresanaiforthat.com/s/text-generators",
+      "source_name": "theresanaiforthat",
+      "scraped_at": "2026-02-14"
+    }
+  ],
+  "company": {
+    "name": "New",
+    "url": "https://www.bing.com/search?q=New+AI"
+  },
+  "sub_category": "text-generation",
+  "tags": []
+}

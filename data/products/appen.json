@@ -1,126 +1,119 @@
 {
-  "slug": "taiwan-ai-labs",
-  "name": "Taiwan AI Labs",
-  "product_url": "https://ailabs.tw/",
-  "description": "Taiwanese Cooperation develops the next-generation AI solutions",
+  "slug": "appen",
+  "name": "Appen",
+  "product_url": "https://www.appen.com",
+  "description": "Australian multinational company",
   "product_type": "other",
   "category": "ai-application",
   "status": "active",
   "meta": {
-    "added_date": "2026-02-13",
+    "added_date": "2026-02-14",
     "last_updated": "2026-02-14",
     "provenance": {
       "name": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "product_url": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "description": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "product_type": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "category": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "status": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "company.name": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "company.url": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "company.website": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
+      },
+      "company.wikipedia_url": {
+        "source": "wikidata",
+        "tier": 1,
+        "confidence": 0.95,
+        "updated_at": "2026-02-14"
       },
       "company.founded_year": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "company.headquarters": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "key_people": {
         "source": "wikidata",
         "tier": 1,
         "confidence": 0.95,
-        "updated_at": "2026-02-13"
-      },
-      "company.headquarters.city": {
-        "source": "wikidata",
-        "tier": 1,
-        "confidence": 0.95,
-        "updated_at": "2026-02-13"
-      },
-      "company.headquarters.country": {
-        "source": "wikidata",
-        "tier": 1,
-        "confidence": 0.95,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       }
     }
   },
   "sources": [
     {
-      "url": "https://www.wikidata.org/wiki/Q104565933",
+      "url": "https://www.wikidata.org/wiki/Q60741122",
       "source_name": "wikidata",
-      "scraped_at": "2026-02-13"
+      "scraped_at": "2026-02-14"
     }
   ],
   "company": {
-    "name": "Taiwan AI Labs",
-    "url": "https://ailabs.tw",
-    "website": "https://ailabs.tw",
-    "founded_year": 2017,
+    "name": "Appen",
+    "url": "https://www.appen.com",
+    "website": "https://www.appen.com",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Appen_(company)",
+    "founded_year": 1996,
     "headquarters": {
-      "city": "Taipei",
-      "country": "Taiwan"
+      "city": "Chatswood",
+      "country": "Australia",
+      "country_code": "AU"
     }
   },
   "key_people": [
     {
-      "name": "Ethan Tu",
+      "name": "Julie Vonwiller",
       "title": "Co-founder",
       "is_founder": true
     }
-  ],
-  "tags": [
-    "consumers"
   ]
 }

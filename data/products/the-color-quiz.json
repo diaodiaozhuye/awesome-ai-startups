@@ -1,0 +1,88 @@
+{
+  "slug": "the-color-quiz",
+  "name": "The Color Quiz",
+  "product_url": "https://media.theresanaiforthat.com/icons/the-color-quiz.svg?height=207",
+  "description": "The Color Quiz Open website",
+  "product_type": "llm",
+  "category": "ai-foundation-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-14",
+    "last_updated": "2026-02-14",
+    "provenance": {
+      "name": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "product_url": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "description": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "product_type": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "category": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "status": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "company.name": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "company.url": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "sub_category": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "tags": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://theresanaiforthat.com/s/text-generators",
+      "source_name": "theresanaiforthat",
+      "scraped_at": "2026-02-14"
+    }
+  ],
+  "company": {
+    "name": "The Color Quiz",
+    "url": "https://www.bing.com/search?q=The+Color+Quiz+AI"
+  },
+  "sub_category": "text-generation",
+  "tags": []
+}

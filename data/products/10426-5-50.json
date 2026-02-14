@@ -1,0 +1,82 @@
+{
+  "slug": "10426-5-50",
+  "name": "10,426\\\\\n\\\\\n5\\\\\n\\\\\n5.0",
+  "product_url": "",
+  "description": "- !Jason AI",
+  "product_type": "llm",
+  "category": "ai-foundation-model",
+  "status": "active",
+  "meta": {
+    "added_date": "2026-02-14",
+    "last_updated": "2026-02-14",
+    "provenance": {
+      "name": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "description": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "product_type": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "category": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "status": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "company.name": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "company.url": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "sub_category": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      },
+      "tags": {
+        "source": "theresanaiforthat",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-02-14"
+      }
+    }
+  },
+  "sources": [
+    {
+      "url": "https://theresanaiforthat.com/s/text-generators",
+      "source_name": "theresanaiforthat",
+      "scraped_at": "2026-02-14"
+    }
+  ],
+  "company": {
+    "name": "10,426\\\\\n\\\\\n5\\\\\n\\\\\n5.0",
+    "url": "https://www.bing.com/search?q=10%2C426%5C%5C%0A%5C%5C%0A5%5C%5C%0A%5C%5C%0A5.0+AI"
+  },
+  "sub_category": "text-generation",
+  "tags": []
+}

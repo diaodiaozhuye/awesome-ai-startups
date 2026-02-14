@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-02-14",
-  "total_products": 242,
+  "total_products": 263,
   "by_category": [
     {
       "label": "ai-application",
-      "count": 124
+      "count": 125
     },
     {
       "label": "ai-foundation-model",
-      "count": 60
+      "count": 80
     },
     {
       "label": "ai-creative-media",
@@ -69,16 +69,16 @@
       "count": 2
     },
     {
+      "label": "Australia",
+      "count": 2
+    },
+    {
       "label": "People's Republic of China",
       "count": 2
     },
     {
       "label": "France",
       "count": 2
-    },
-    {
-      "label": "Australia",
-      "count": 1
     },
     {
       "label": "Italy",
@@ -120,7 +120,7 @@
   "by_status": [
     {
       "label": "active",
-      "count": 242
+      "count": 263
     }
   ],
   "by_tag_dimension": {
@@ -431,7 +431,7 @@
       },
       {
         "tag": "unicorn",
-        "count": 14
+        "count": 17
       },
       {
         "tag": "china",
@@ -509,29 +509,29 @@
   "open_source_count": 50,
   "recently_added": [
     {
-      "slug": "1code",
-      "name": "1Code",
-      "added_date": "2026-02-13"
+      "slug": "10426-5-50",
+      "name": "10,426\\\\\n\\\\\n5\\\\\n\\\\\n5.0",
+      "added_date": "2026-02-14"
     },
     {
-      "slug": "agent-builder-by-thesys",
-      "name": "Agent Builder by Thesys",
-      "added_date": "2026-02-13"
+      "slug": "11505-5-30",
+      "name": "11,505\\\\\n\\\\\n5\\\\\n\\\\\n3.0",
+      "added_date": "2026-02-14"
     },
     {
-      "slug": "ai-chat-al-video-generator",
-      "name": "AI+ Chat & Al Video Generator",
-      "added_date": "2026-02-13"
+      "slug": "787-10",
+      "name": "787\\\\\n\\\\\n10",
+      "added_date": "2026-02-14"
     },
     {
-      "slug": "ai-chatbot-ask-me-anything",
-      "name": "AI Chatbot - Ask Me Anything",
-      "added_date": "2026-02-13"
+      "slug": "ai-qa-monkey",
+      "name": "AI QA Monkey",
+      "added_date": "2026-02-14"
     },
     {
-      "slug": "ai-chatbot-assistant-askeasy",
-      "name": "AI ChatBot Assistant: AskEasy",
-      "added_date": "2026-02-13"
+      "slug": "aicostsai",
+      "name": "AICosts.ai",
+      "added_date": "2026-02-14"
     }
   ]
 }

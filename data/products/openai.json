@@ -21,7 +21,8 @@
     "chatbot",
     "decacorn",
     "nlp",
-    "api-platform"
+    "api-platform",
+    "unicorn"
   ],
   "open_source": false,
   "repository_url": "https://github.com/openai",

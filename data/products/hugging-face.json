@@ -182,11 +182,156 @@
       "url": "https://huggingface.co/amazon/chronos-2",
       "source_name": "huggingface",
       "scraped_at": "2026-02-13"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/omni-research/Tarsier2-Recap-7b",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/alana89/TabSTAR",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/openai/clip-vit-large-patch14",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/FacebookAI/roberta-base",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/openai-community/gpt2",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/OpenMuQ/MuQ-large-msd-iter",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/Kijai/WanVideo_comfy",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/facebook/contriever",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/coqui/XTTS-v2",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/openai/whisper-large-v3",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/openai/gpt-oss-20b",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-large",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/usyd-community/vitpose-plus-base",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/autogluon/chronos-bolt-base",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v3",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-4B",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://huggingface.co/timm/resnet50.a1_in1k",
+      "source_name": "huggingface",
+      "scraped_at": "2026-02-14"
     }
   ],
   "meta": {
     "added_date": "2026-02-11",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-02-14",
     "data_quality_score": 0.0,
     "needs_review": true,
     "provenance": {
@@ -260,7 +405,7 @@
         "source": "huggingface",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-13"
+        "updated_at": "2026-02-14"
       },
       "modalities": {
         "source": "huggingface",
