@@ -58,6 +58,19 @@ _COUNTRY_CODES: dict[str, str] = {
 }
 
 
+# Old category → new category aliases (scrapers still emit legacy values)
+_CATEGORY_ALIASES: dict[str, str] = {
+    "ai-model": "ai-foundation-model",
+    "ai-app": "ai-application",
+    "ai-agent": "ai-application",
+    "ai-dev-tool": "ai-dev-platform",
+    "ai-data": "ai-data-platform",
+    "ai-search": "ai-search-retrieval",
+    "ai-security": "ai-security-governance",
+    "ai-science": "ai-science-research",
+}
+
+
 class Normalizer:
     """Normalize ScrapedProduct fields to standard formats."""
 
@@ -131,6 +144,8 @@ class Normalizer:
         if not category:
             return None
         slug = slugify(category)
+        # Map legacy category aliases to current schema values
+        slug = _CATEGORY_ALIASES.get(slug, slug)
         if slug in self._valid_categories:
             return slug
         return None

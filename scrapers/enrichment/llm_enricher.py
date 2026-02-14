@@ -53,16 +53,17 @@ _VALID_PRODUCT_TYPES = (
     "other",
 )
 _VALID_CATEGORIES = (
-    "ai-model",
-    "ai-app",
-    "ai-dev-tool",
+    "ai-foundation-model",
+    "ai-application",
+    "ai-creative-media",
+    "ai-dev-platform",
     "ai-infrastructure",
+    "ai-data-platform",
+    "ai-search-retrieval",
     "ai-hardware",
-    "ai-data",
-    "ai-agent",
-    "ai-search",
-    "ai-security",
-    "ai-science",
+    "ai-security-governance",
+    "ai-science-research",
+    "ai-enterprise-vertical",
 )
 _VALID_STATUSES = (
     "active",

@@ -23,6 +23,9 @@ from scrapers.utils import get_nested as _get_nested
 
 logger = logging.getLogger(__name__)
 
+# Maximum number of tags per product (must match schema maxItems).
+_MAX_TAGS = 20
+
 # Fields that belong to the hiring namespace.  T4 sources may only write these.
 _HIRING_FIELDS: frozenset[str] = frozenset(
     {
@@ -283,7 +286,7 @@ class TieredMerger:
 
         # -- array fields ---------------------------------------------------
         if scraped.tags:
-            product["tags"] = list(scraped.tags)
+            product["tags"] = list(scraped.tags)[:_MAX_TAGS]
         if scraped.keywords:
             product["keywords"] = list(scraped.keywords)
         if scraped.key_people:
@@ -505,6 +508,9 @@ class TieredMerger:
                 added = True
 
         if added:
+            # Cap tags to schema maxItems limit
+            if field_path == "tags":
+                existing = existing[:_MAX_TAGS]
             _set_nested(product, field_path, existing)
             self._record_provenance(product, field_path, scraped)
         return added

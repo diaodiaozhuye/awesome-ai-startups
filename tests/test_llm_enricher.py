@@ -139,7 +139,8 @@ class TestValidateField:
         assert LLMEnricher._validate_field("product_type", "invalid") is None
 
     def test_valid_category(self) -> None:
-        assert LLMEnricher._validate_field("category", "ai-model") == "ai-model"
+        result = LLMEnricher._validate_field("category", "ai-foundation-model")
+        assert result == "ai-foundation-model"
 
     def test_invalid_category(self) -> None:
         assert LLMEnricher._validate_field("category", "bad") is None
