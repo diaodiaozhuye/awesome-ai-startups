@@ -92,11 +92,11 @@
   "sub_category": "image-generation",
   "tags": [
     "text-to-image",
-    "diffusion-model",
-    "research",
-    "content-creation",
     "creators",
-    "computer-vision"
+    "diffusion-model",
+    "computer-vision",
+    "research",
+    "content-creation"
   ],
   "key_people": [
     {

@@ -10,13 +10,13 @@
   "description_zh": "Waymo 是 Alphabet 旗下的自动驾驶技术公司，开发自动驾驶汽车。",
   "sub_category": "autonomous-vehicle",
   "tags": [
-    "self-driving",
     "closed-source",
     "robotics",
+    "self-driving",
     "computer-vision",
-    "autonomous-vehicles",
     "reinforcement-learning",
-    "us"
+    "us",
+    "autonomous-vehicles"
   ],
   "open_source": false,
   "repository_url": "https://github.com/waymo-research",

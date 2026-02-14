@@ -12,9 +12,9 @@
   "tags": [
     "developers",
     "open-source",
-    "copilot",
     "code-generation",
-    "us"
+    "us",
+    "copilot"
   ],
   "open_source": true,
   "repository_url": "https://github.com/github/copilot-docs",

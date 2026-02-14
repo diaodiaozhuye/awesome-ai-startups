@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Real-time video generation with Diffusion Transformers is bottlenecked by the quadratic cost of 3D self-attention, especially in real-time regimes that are both few-step and autoregressive, where errors compound across time and each denoising step must carry substantially more information. In this setting, we find that prior sparse-attention approximations break down, despite showing strong results for bidirectional, many-step diffusion. Specifically, we observe that video attention is not reliably sparse, but instead combines pronounced periodic structure driven by spatiotemporal position with dynamic, sparse semantic correspondences and dense mixing, exceeding the representational capacity of even oracle top-k attention. Building on this insight, we propose Monarch-RT, a structured attention parameterization for video diffusion models that factorizes attention using Monarch matrices. Through appropriately aligned block structure and our extended tiled Monarch parameterization, we achieve high expressivity while preserving computational efficiency. We further overcome the overhead of parameterization through finetuning, with custom Triton kernels. We first validate the high efficacy of Monarch-RT over existing sparse baselines designed only for bidirectional models. We further observe that Monarch-RT attains up to 95% attention sparsity with no loss in quality when applied to the state-of-the-art model Self-Forcing, making Monarch-RT a pioneering work on highly-capable sparse attention parameterization for real-time video generation. Our optimized implementation outperforms FlashAttention-2, FlashAttention-3, and FlashAttention-4 kernels on Nvidia RTX 5090, H100, and B200 GPUs respectively, providing kernel speedups in the range of 1.4-11.8X. This enables us, for the first time, to achieve true real-time video generation with Self-Forcing at 16 FPS on a single RTX 5090.",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-creative-media",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -91,14 +91,15 @@
   },
   "sub_category": "image-generation",
   "tags": [
-    "research",
-    "machine-learning",
-    "computer-vision",
-    "diffusion-model",
+    "text-to-image",
     "fine-tuning",
     "text-to-video",
-    "real-time",
-    "text-to-image"
+    "creators",
+    "diffusion-model",
+    "computer-vision",
+    "research",
+    "content-creation",
+    "real-time"
   ],
   "key_people": [
     {

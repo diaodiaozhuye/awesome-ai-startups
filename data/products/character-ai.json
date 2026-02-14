@@ -10,13 +10,13 @@
   "description_zh": "Character.AI 是一个用户可以创建和与 AI 角色互动的平台，用于对话和娱乐。",
   "sub_category": "personal-assistant",
   "tags": [
-    "b2c",
-    "unicorn",
     "closed-source",
     "consumers",
+    "b2c",
+    "us",
+    "unicorn",
     "chatbot",
-    "content-creation",
-    "us"
+    "content-creation"
   ],
   "open_source": false,
   "company": {

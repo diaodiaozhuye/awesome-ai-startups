@@ -10,14 +10,14 @@
   "description_zh": "Replit 是一个协作编程平台，具有 AI 驱动的功能，让任何人都能直接在浏览器中构建软件。",
   "sub_category": "coding-assistant",
   "tags": [
-    "b2c",
-    "unicorn",
     "closed-source",
+    "unicorn",
     "developers",
-    "copilot",
+    "b2c",
     "code-generation",
     "saas",
-    "us"
+    "us",
+    "copilot"
   ],
   "open_source": false,
   "repository_url": "https://github.com/replit",

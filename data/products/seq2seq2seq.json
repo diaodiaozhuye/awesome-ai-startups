@@ -91,12 +91,12 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "nlp",
-    "research",
-    "chatbot",
+    "researchers",
     "embedding",
     "reinforcement-learning",
-    "researchers"
+    "research",
+    "chatbot",
+    "nlp"
   ],
   "key_people": [
     {

@@ -10,12 +10,12 @@
   "description_zh": "月之暗面是一家中国 AI 创业公司，构建具有超长上下文窗口的大语言模型。",
   "sub_category": "personal-assistant",
   "tags": [
-    "nlp",
-    "unicorn",
     "closed-source",
-    "china",
     "consumers",
-    "chatbot"
+    "china",
+    "unicorn",
+    "chatbot",
+    "nlp"
   ],
   "open_source": false,
   "company": {

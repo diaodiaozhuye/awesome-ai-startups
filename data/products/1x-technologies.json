@@ -11,9 +11,9 @@
   "sub_category": "robot",
   "tags": [
     "closed-source",
+    "humanoid-robot",
     "robotics",
     "europe",
-    "humanoid-robot",
     "reinforcement-learning"
   ],
   "open_source": false,

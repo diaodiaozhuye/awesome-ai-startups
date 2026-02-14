@@ -10,13 +10,13 @@
   "description_zh": "智谱 AI 是一家源自清华大学的中国 AI 公司，致力于构建大语言模型和认知智能技术。",
   "sub_category": "text-generation",
   "tags": [
-    "nlp",
+    "researchers",
     "transformer",
-    "china",
-    "api-platform",
     "open-source",
+    "china",
     "chatbot",
-    "researchers"
+    "nlp",
+    "api-platform"
   ],
   "open_source": true,
   "repository_url": "https://github.com/THUDM",

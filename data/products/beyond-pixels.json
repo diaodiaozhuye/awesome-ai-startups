@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Multimodal Large Language Models (MLLMs) have shown remarkable progress in visual understanding, yet they suffer from a critical limitation: structural blindness. Even state-of-the-art models fail to capture topology and symbolic logic in engineering schematics, as their pixel-driven paradigm discards the explicit vector-defined relations needed for reasoning. To overcome this, we propose a Vector-to-Graph (V2G) pipeline that converts CAD diagrams into property graphs where nodes represent components and edges encode connectivity, making structural dependencies explicit and machine-auditable. On a diagnostic benchmark of electrical compliance checks, V2G yields large accuracy gains across all error categories, while leading MLLMs remain near chance level. These results highlight the systemic inadequacy of pixel-based methods and demonstrate that structure-aware representations provide a reliable path toward practical deployment of multimodal AI in engineering domains. To facilitate further research, we release our benchmark and implementation at https://github.com/gm-embodied/V2G-Audit.",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-creative-media",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -91,12 +91,14 @@
   },
   "sub_category": "image-generation",
   "tags": [
-    "research",
-    "computer-vision",
-    "multimodal",
-    "embedding",
     "text-to-image",
-    "diffusion-model"
+    "embedding",
+    "creators",
+    "diffusion-model",
+    "computer-vision",
+    "research",
+    "multimodal",
+    "content-creation"
   ],
   "key_people": [
     {

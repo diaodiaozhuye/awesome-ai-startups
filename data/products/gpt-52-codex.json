@@ -115,14 +115,14 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "nlp",
-    "api-service",
-    "cli-tool",
+    "researchers",
     "usage-based",
-    "code-review",
-    "chatbot",
     "multimodal",
-    "researchers"
+    "cli-tool",
+    "chatbot",
+    "nlp",
+    "code-review",
+    "api-service"
   ],
   "modalities": [
     "image",

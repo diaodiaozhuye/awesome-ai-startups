@@ -109,11 +109,11 @@
   },
   "sub_category": "ai-framework",
   "tags": [
-    "cli-tool",
-    "api-platform",
+    "embedding",
     "developers",
     "open-source",
-    "embedding"
+    "cli-tool",
+    "api-platform"
   ],
   "platforms": [
     "api",

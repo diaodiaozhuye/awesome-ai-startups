@@ -115,14 +115,14 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "api-service",
-    "nlp",
+    "researchers",
+    "design-creative",
     "open-source",
+    "api-service",
     "usage-based",
     "code-generation",
-    "design-creative",
     "chatbot",
-    "researchers"
+    "nlp"
   ],
   "modalities": [
     "text"

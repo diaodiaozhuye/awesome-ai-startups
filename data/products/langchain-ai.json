@@ -7,10 +7,10 @@
   "category": "ai-dev-platform",
   "status": "active",
   "tags": [
+    "cli-tool",
     "open-source",
     "api-platform",
-    "developers",
-    "cli-tool"
+    "developers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/langchain-ai",

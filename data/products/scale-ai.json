@@ -10,12 +10,12 @@
   "description_zh": "Scale AI 为大规模构建 AI 应用的企业提供高质量训练数据和 AI 基础设施。",
   "sub_category": "data-pipeline",
   "tags": [
-    "unicorn",
     "closed-source",
-    "b2b",
-    "data-analysis",
     "data-scientists",
-    "us"
+    "data-analysis",
+    "b2b",
+    "us",
+    "unicorn"
   ],
   "open_source": false,
   "repository_url": "https://github.com/scaleapi",

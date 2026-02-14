@@ -10,13 +10,13 @@
   "description_zh": "Midjourney 是一个独立研究实验室，开发根据文字描述生成图像的 AI 程序。",
   "sub_category": "image-generation",
   "tags": [
-    "b2c",
     "text-to-image",
     "closed-source",
-    "diffusion-model",
-    "content-creation",
     "creators",
-    "us"
+    "diffusion-model",
+    "b2c",
+    "us",
+    "content-creation"
   ],
   "open_source": false,
   "company": {

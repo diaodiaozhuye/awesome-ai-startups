@@ -171,11 +171,30 @@ def _load_valid_tags() -> set[str]:
     return valid
 
 
+_NEW_CATEGORIES: set[str] = {
+    "ai-foundation-model",
+    "ai-application",
+    "ai-creative-media",
+    "ai-dev-platform",
+    "ai-infrastructure",
+    "ai-data-platform",
+    "ai-search-retrieval",
+    "ai-hardware",
+    "ai-security-governance",
+    "ai-science-research",
+    "ai-enterprise-vertical",
+}
+
+
 def _map_category(product: dict[str, Any]) -> str:
     """Map old category to new category using sub_category and tags heuristics."""
     old_cat = product.get("category", "")
     sub_cat = product.get("sub_category", "")
     tags = set(product.get("tags", []))
+
+    # Already in new category system — pass through (idempotent)
+    if old_cat in _NEW_CATEGORIES:
+        return old_cat
 
     # Direct 1:1 mappings
     if old_cat in _CATEGORY_MAP:

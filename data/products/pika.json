@@ -10,14 +10,14 @@
   "description_zh": "Pika 是一家 AI 公司，通过生成式 AI 技术让每个人都能轻松创作视频。",
   "sub_category": "image-generation",
   "tags": [
-    "b2c",
     "text-to-image",
     "closed-source",
-    "diffusion-model",
     "text-to-video",
-    "content-creation",
     "creators",
-    "us"
+    "diffusion-model",
+    "b2c",
+    "us",
+    "content-creation"
   ],
   "open_source": false,
   "company": {

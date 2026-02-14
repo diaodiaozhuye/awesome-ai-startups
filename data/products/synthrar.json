@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Defective and inconsistent responses in CT detectors can cause ring and streak artifacts in the reconstructed images, making them unusable for clinical purposes. In recent years, several ring artifact reduction solutions have been proposed in the image domain or in the sinogram domain using supervised deep learning methods. However, these methods require dedicated datasets for training, leading to a high data collection cost. Furthermore, existing approaches focus exclusively on either image-space or sinogram-space correction, neglecting the intrinsic correlations from the forward operation of the CT geometry. Based on the theoretical analysis of non-ideal CT detector responses, the RAR problem is reformulated as an inverse problem by using an unrolled network, which considers non-ideal response together with linear forward-projection with CT geometry. Additionally, the intrinsic correlations of ring artifacts between the sinogram and image domains are leveraged through synthetic data derived from natural images, enabling the trained model to correct artifacts without requiring real-world clinical data. Extensive evaluations on diverse scanning geometries and anatomical regions demonstrate that the model trained on synthetic data consistently outperforms existing state-of-the-art methods.",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-creative-media",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -91,10 +91,12 @@
   },
   "sub_category": "image-generation",
   "tags": [
-    "research",
-    "computer-vision",
     "text-to-image",
-    "diffusion-model"
+    "creators",
+    "diffusion-model",
+    "computer-vision",
+    "research",
+    "content-creation"
   ],
   "key_people": [
     {

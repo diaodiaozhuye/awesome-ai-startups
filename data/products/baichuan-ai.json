@@ -10,12 +10,12 @@
   "description_zh": "百川智能是一家中国 AI 创业公司，开发专注于中文语言和文化理解的大语言模型。",
   "sub_category": "text-generation",
   "tags": [
-    "nlp",
+    "researchers",
     "transformer",
-    "china",
     "open-source",
+    "china",
     "chatbot",
-    "researchers"
+    "nlp"
   ],
   "open_source": true,
   "repository_url": "https://github.com/baichuan-inc",

@@ -92,12 +92,12 @@
   "sub_category": "image-generation",
   "tags": [
     "text-to-image",
-    "diffusion-model",
-    "research",
-    "content-creation",
-    "multimodal",
     "creators",
-    "computer-vision"
+    "diffusion-model",
+    "computer-vision",
+    "research",
+    "multimodal",
+    "content-creation"
   ],
   "key_people": [
     {

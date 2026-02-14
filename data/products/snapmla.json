@@ -91,13 +91,13 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "nlp",
-    "research",
-    "code-generation",
-    "quantization",
-    "chatbot",
+    "researchers",
     "embedding",
-    "researchers"
+    "quantization",
+    "code-generation",
+    "research",
+    "chatbot",
+    "nlp"
   ],
   "key_people": [
     {

@@ -115,11 +115,11 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "api-service",
-    "nlp",
     "on-device",
+    "researchers",
+    "api-service",
     "chatbot",
-    "researchers"
+    "nlp"
   ],
   "modalities": [
     "text"

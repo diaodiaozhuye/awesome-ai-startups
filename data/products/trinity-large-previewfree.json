@@ -115,13 +115,13 @@
   },
   "sub_category": "text-generation",
   "tags": [
+    "researchers",
+    "moe",
+    "quantization",
     "api-service",
-    "nlp",
     "real-time",
     "chatbot",
-    "quantization",
-    "moe",
-    "researchers"
+    "nlp"
   ],
   "modalities": [
     "text"

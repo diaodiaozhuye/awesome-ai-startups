@@ -91,12 +91,12 @@
   },
   "sub_category": "text-generation",
   "tags": [
+    "researchers",
     "legal-assist",
-    "nlp",
+    "rag",
     "research",
     "chatbot",
-    "rag",
-    "researchers"
+    "nlp"
   ],
   "key_people": [
     {

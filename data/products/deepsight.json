@@ -91,13 +91,13 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "nlp",
-    "open-source",
-    "research",
-    "chatbot",
     "researchers",
+    "open-source",
+    "computer-vision",
+    "research",
     "multimodal",
-    "computer-vision"
+    "chatbot",
+    "nlp"
   ],
   "key_people": [
     {

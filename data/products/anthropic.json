@@ -10,15 +10,15 @@
   "description_zh": "Anthropic公司推出的对话式AI智能助手",
   "sub_category": "voice-assistant",
   "tags": [
-    "nlp",
     "closed-source",
     "transformer",
-    "api-platform",
-    "b2b",
-    "decacorn",
     "consumers",
+    "b2b",
+    "us",
     "chatbot",
-    "us"
+    "decacorn",
+    "nlp",
+    "api-platform"
   ],
   "open_source": false,
   "repository_url": "https://github.com/anthropics",

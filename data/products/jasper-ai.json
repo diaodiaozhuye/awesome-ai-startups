@@ -10,15 +10,15 @@
   "description_zh": "Jasper AI 是面向营销团队的企业 AI 平台，用于大规模创建品牌一致的内容。",
   "sub_category": "workflow-automation",
   "tags": [
-    "unicorn",
     "closed-source",
-    "b2b",
-    "consumers",
     "marketing",
+    "consumers",
+    "b2b",
     "enterprises",
     "saas",
-    "content-creation",
-    "us"
+    "us",
+    "unicorn",
+    "content-creation"
   ],
   "open_source": false,
   "company": {

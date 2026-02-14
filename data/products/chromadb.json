@@ -97,12 +97,12 @@
   },
   "sub_category": "inference-platform",
   "tags": [
-    "cli-tool",
-    "api-platform",
     "developers",
     "open-source",
     "desktop-app",
-    "enterprises"
+    "enterprises",
+    "cli-tool",
+    "api-platform"
   ],
   "platforms": [
     "api",

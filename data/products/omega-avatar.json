@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Creating high-fidelity, animatable 3D avatars from a single image remains a formidable challenge. We identified three desirable attributes of avatar generation: 1) the method should be feed-forward, 2) model a 360° full-head, and 3) should be animation-ready. However, current work addresses only two of the three points simultaneously. To address these limitations, we propose OMEGA-Avatar, the first feed-forward framework that simultaneously generates a generalizable, 360°-complete, and animatable 3D Gaussian head from a single image. Starting from a feed-forward and animatable framework, we address the 360° full-head avatar generation problem with two novel components. First, to overcome poor hair modeling in full-head avatar generation, we introduce a semantic-aware mesh deformation module that integrates multi-view normals to optimize a FLAME head with hair while preserving its topology structure. Second, to enable effective feed-forward decoding of full-head features, we propose a multi-view feature splatting module that constructs a shared canonical UV representation from features across multiple views through differentiable bilinear splatting, hierarchical UV mapping, and visibility-aware fusion. This approach preserves both global structural coherence and local high-frequency details across all viewpoints, ensuring 360° consistency without per-instance optimization. Extensive experiments demonstrate that OMEGA-Avatar achieves state-of-the-art performance, significantly outperforming existing baselines in 360° full-head completeness while robustly preserving identity across different viewpoints.",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-creative-media",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -91,10 +91,12 @@
   },
   "sub_category": "image-generation",
   "tags": [
-    "research",
-    "computer-vision",
     "text-to-image",
-    "diffusion-model"
+    "creators",
+    "diffusion-model",
+    "computer-vision",
+    "research",
+    "content-creation"
   ],
   "key_people": [
     {

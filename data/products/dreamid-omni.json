@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Recent advancements in foundation models have revolutionized joint audio-video generation. However, existing approaches typically treat human-centric tasks including reference-based audio-video generation (R2AV), video editing (RV2AV) and audio-driven video animation (RA2V) as isolated objectives. Furthermore, achieving precise, disentangled control over multiple character identities and voice timbres within a single framework remains an open challenge. In this paper, we propose DreamID-Omni, a unified framework for controllable human-centric audio-video generation. Specifically, we design a Symmetric Conditional Diffusion Transformer that integrates heterogeneous conditioning signals via a symmetric conditional injection scheme. To resolve the pervasive identity-timbre binding failures and speaker confusion in multi-person scenarios, we introduce a Dual-Level Disentanglement strategy: Synchronized RoPE at the signal level to ensure rigid attention-space binding, and Structured Captions at the semantic level to establish explicit attribute-subject mappings. Furthermore, we devise a Multi-Task Progressive Training scheme that leverages weakly-constrained generative priors to regularize strongly-constrained tasks, preventing overfitting and harmonizing disparate objectives. Extensive experiments demonstrate that DreamID-Omni achieves comprehensive state-of-the-art performance across video, audio, and audio-visual consistency, even outperforming leading proprietary commercial models. We will release our code to bridge the gap between academic research and commercial-grade applications.",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-creative-media",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -91,13 +91,15 @@
   },
   "sub_category": "image-generation",
   "tags": [
-    "research",
-    "computer-vision",
+    "text-to-image",
     "transformer",
-    "diffusion-model",
     "text-to-video",
-    "video-editing",
-    "text-to-image"
+    "creators",
+    "diffusion-model",
+    "computer-vision",
+    "research",
+    "content-creation",
+    "video-editing"
   ],
   "key_people": [
     {

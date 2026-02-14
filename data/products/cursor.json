@@ -10,13 +10,13 @@
   "description_zh": "Cursor 是一款 AI 原生代码编辑器，旨在让 AI 编程变得轻松，具有智能代码补全和对话功能。",
   "sub_category": "coding-assistant",
   "tags": [
-    "b2c",
-    "unicorn",
     "closed-source",
+    "unicorn",
     "developers",
-    "copilot",
+    "b2c",
     "code-generation",
-    "us"
+    "us",
+    "copilot"
   ],
   "open_source": false,
   "company": {

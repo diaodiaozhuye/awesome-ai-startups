@@ -7,12 +7,12 @@
   "category": "ai-infrastructure",
   "status": "active",
   "tags": [
-    "cli-tool",
-    "api-platform",
     "developers",
     "open-source",
     "desktop-app",
-    "enterprises"
+    "enterprises",
+    "cli-tool",
+    "api-platform"
   ],
   "open_source": true,
   "repository_url": "https://github.com/pytorch",

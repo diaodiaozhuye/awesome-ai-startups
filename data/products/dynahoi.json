@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Most existing hand motion generation benchmarks for hand-object interaction (HOI) focus on static objects, leaving dynamic scenarios with moving targets and time-critical coordination largely untested. To address this gap, we introduce the DynaHOI-Gym, a unified online closed-loop platform with parameterized motion generators and rollout-based metrics for dynamic capture evaluation. Built on DynaHOI-Gym, we release DynaHOI-10M, a large-scale benchmark with 10M frames and 180K hand capture trajectories, whose target motions are organized into 8 major categories and 22 fine-grained subcategories. We also provide a simple observe-before-act baseline (ObAct) that integrates short-term observations with the current frame via spatiotemporal attention to predict actions, achieving an 8.1% improvement in location success rate.",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-creative-media",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -91,10 +91,12 @@
   },
   "sub_category": "image-generation",
   "tags": [
-    "research",
-    "computer-vision",
     "text-to-image",
-    "diffusion-model"
+    "creators",
+    "diffusion-model",
+    "computer-vision",
+    "research",
+    "content-creation"
   ],
   "key_people": [
     {

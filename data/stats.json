@@ -4,23 +4,19 @@
   "by_category": [
     {
       "label": "ai-application",
-      "count": 122
+      "count": 124
     },
     {
       "label": "ai-foundation-model",
       "count": 60
     },
     {
-      "label": "ai-model",
-      "count": 17
+      "label": "ai-creative-media",
+      "count": 26
     },
     {
       "label": "ai-dev-platform",
       "count": 15
-    },
-    {
-      "label": "ai-creative-media",
-      "count": 9
     },
     {
       "label": "ai-infrastructure",
@@ -29,10 +25,6 @@
     {
       "label": "ai-hardware",
       "count": 3
-    },
-    {
-      "label": "ai-app",
-      "count": 2
     },
     {
       "label": "ai-data-platform",
@@ -142,11 +134,11 @@
         "count": 28
       },
       {
-        "tag": "computer-vision",
+        "tag": "diffusion-model",
         "count": 25
       },
       {
-        "tag": "diffusion-model",
+        "tag": "computer-vision",
         "count": 25
       },
       {
@@ -225,7 +217,7 @@
       },
       {
         "tag": "content-creation",
-        "count": 11
+        "count": 28
       },
       {
         "tag": "copilot",
@@ -302,6 +294,14 @@
         "count": 5
       },
       {
+        "tag": "autonomous-vehicles",
+        "count": 4
+      },
+      {
+        "tag": "self-driving",
+        "count": 4
+      },
+      {
         "tag": "humanoid-robot",
         "count": 2
       },
@@ -327,14 +327,6 @@
       },
       {
         "tag": "defense",
-        "count": 1
-      },
-      {
-        "tag": "self-driving",
-        "count": 1
-      },
-      {
-        "tag": "autonomous-vehicles",
         "count": 1
       }
     ],
@@ -371,11 +363,15 @@
     "audience": [
       {
         "tag": "consumers",
-        "count": 125
+        "count": 127
       },
       {
         "tag": "researchers",
         "count": 60
+      },
+      {
+        "tag": "creators",
+        "count": 28
       },
       {
         "tag": "developers",
@@ -384,10 +380,6 @@
       {
         "tag": "enterprises",
         "count": 17
-      },
-      {
-        "tag": "creators",
-        "count": 11
       },
       {
         "tag": "data-scientists",

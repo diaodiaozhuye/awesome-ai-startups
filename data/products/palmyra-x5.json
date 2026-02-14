@@ -115,13 +115,13 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "api-service",
-    "nlp",
+    "researchers",
     "transformer",
+    "api-service",
+    "enterprises",
     "usage-based",
     "chatbot",
-    "enterprises",
-    "researchers"
+    "nlp"
   ],
   "modalities": [
     "text"

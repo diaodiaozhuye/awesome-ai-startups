@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "While diffusion models have shown exceptional capabilities in aesthetic image synthesis, they often struggle with complex spatial understanding and reasoning. Existing approaches resort to Multimodal Large Language Models (MLLMs) to enhance this capability. However, they either incur high computational costs through joint training or suffer from spatial information loss when relying solely on textual prompts. To alleviate these limitations, we propose a Spatial Chain-of-Thought (SCoT) framework, a plug-and-play approach that effectively bridges the reasoning capabilities of MLLMs with the generative power of diffusion models. Specifically, we first enhance the diffusion model's layout awareness by training it on an interleaved text-coordinate instruction format. We then leverage state-of-the-art MLLMs as planners to generate comprehensive layout plans, transferring their spatial planning capabilities directly to the generation process. Extensive experiments demonstrate that our method achieves state-of-the-art performance on image generation benchmarks and significantly outperforms baselines on complex reasoning tasks, while also showing strong efficacy in image editing scenarios.",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-creative-media",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -91,12 +91,14 @@
   },
   "sub_category": "image-generation",
   "tags": [
-    "research",
-    "computer-vision",
-    "diffusion-model",
-    "multimodal",
+    "photo-editing",
     "text-to-image",
-    "photo-editing"
+    "creators",
+    "diffusion-model",
+    "computer-vision",
+    "research",
+    "multimodal",
+    "content-creation"
   ],
   "key_people": [
     {

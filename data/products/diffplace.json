@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Generative models have advanced significantly in realistic image synthesis, with diffusion models excelling in quality and stability. Recent multi-view diffusion models improve 3D-aware street view generation, but they struggle to produce place-aware and background-consistent urban scenes from text, BEV maps, and object bounding boxes. This limits their effectiveness in generating realistic samples for place recognition tasks. To address these challenges, we propose DiffPlace, a novel framework that introduces a place-ID controller to enable place-controllable multi-view image generation. The place-ID controller employs linear projection, perceiver transformer, and contrastive learning to map place-ID embeddings into a fixed CLIP space, allowing the model to synthesize images with consistent background buildings while flexibly modifying foreground objects and weather conditions. Extensive experiments, including quantitative comparisons and augmented training evaluations, demonstrate that DiffPlace outperforms existing methods in both generation quality and training support for visual place recognition. Our results highlight the potential of generative models in enhancing scene-level and place-aware synthesis, providing a valuable approach for improving place recognition in autonomous driving",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-creative-media",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -91,12 +91,16 @@
   },
   "sub_category": "image-generation",
   "tags": [
-    "research",
-    "computer-vision",
+    "text-to-image",
     "transformer",
-    "diffusion-model",
     "embedding",
-    "text-to-image"
+    "creators",
+    "diffusion-model",
+    "computer-vision",
+    "research",
+    "content-creation",
+    "autonomous-vehicles",
+    "self-driving"
   ],
   "key_people": [
     {

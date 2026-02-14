@@ -115,12 +115,12 @@
   },
   "sub_category": "text-generation",
   "tags": [
+    "researchers",
     "api-service",
-    "nlp",
     "usage-based",
-    "chatbot",
     "reinforcement-learning",
-    "researchers"
+    "chatbot",
+    "nlp"
   ],
   "modalities": [
     "text"

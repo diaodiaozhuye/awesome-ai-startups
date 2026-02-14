@@ -115,12 +115,12 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "api-service",
-    "nlp",
-    "open-source",
-    "chatbot",
+    "researchers",
     "moe",
-    "researchers"
+    "open-source",
+    "api-service",
+    "chatbot",
+    "nlp"
   ],
   "modalities": [
     "text"

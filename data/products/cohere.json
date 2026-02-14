@@ -10,16 +10,16 @@
   "description_zh": "Cohere 构建企业级大语言模型和 RAG 解决方案。专注于让 NLP 服务于商业应用。",
   "sub_category": "text-generation",
   "tags": [
-    "nlp",
-    "unicorn",
     "closed-source",
     "transformer",
-    "api-platform",
-    "b2b",
-    "chatbot",
-    "enterprises",
+    "researchers",
     "rag",
-    "researchers"
+    "b2b",
+    "enterprises",
+    "unicorn",
+    "chatbot",
+    "nlp",
+    "api-platform"
   ],
   "open_source": false,
   "repository_url": "https://github.com/cohere-ai",

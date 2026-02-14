@@ -97,13 +97,13 @@
   },
   "sub_category": "inference-platform",
   "tags": [
-    "cli-tool",
-    "api-platform",
+    "embedding",
     "developers",
     "open-source",
     "desktop-app",
     "enterprises",
-    "embedding"
+    "cli-tool",
+    "api-platform"
   ],
   "platforms": [
     "api",

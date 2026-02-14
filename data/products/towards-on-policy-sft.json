@@ -92,14 +92,14 @@
   "sub_category": "image-generation",
   "tags": [
     "text-to-image",
-    "diffusion-model",
     "fine-tuning",
-    "open-source",
-    "research",
-    "content-creation",
-    "reinforcement-learning",
     "creators",
-    "computer-vision"
+    "diffusion-model",
+    "open-source",
+    "computer-vision",
+    "research",
+    "reinforcement-learning",
+    "content-creation"
   ],
   "key_people": [
     {

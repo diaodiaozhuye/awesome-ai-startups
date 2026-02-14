@@ -103,10 +103,10 @@
   },
   "sub_category": "ai-framework",
   "tags": [
+    "cli-tool",
     "open-source",
     "api-platform",
-    "developers",
-    "cli-tool"
+    "developers"
   ],
   "platforms": [
     "api",

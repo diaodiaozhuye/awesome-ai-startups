@@ -115,13 +115,13 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "api-service",
-    "nlp",
-    "cli-tool",
-    "usage-based",
-    "chatbot",
+    "researchers",
     "moe",
-    "researchers"
+    "api-service",
+    "usage-based",
+    "cli-tool",
+    "chatbot",
+    "nlp"
   ],
   "modalities": [
     "text"

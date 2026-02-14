@@ -10,15 +10,15 @@
   "description_zh": "Hugging Face 是用于分享模型、数据集和应用的 AI 社区平台。Transformers 库和模型中心的发源地。",
   "sub_category": "embedding",
   "tags": [
-    "nlp",
-    "api-service",
-    "unicorn",
-    "api-platform",
+    "researchers",
     "developers",
     "open-source",
-    "researchers",
+    "us",
     "multimodal",
-    "us"
+    "unicorn",
+    "nlp",
+    "api-service",
+    "api-platform"
   ],
   "open_source": true,
   "repository_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",

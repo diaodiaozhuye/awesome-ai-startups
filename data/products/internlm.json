@@ -10,14 +10,14 @@
   "description_zh": "书生是由上海人工智能实验室开发的开源大语言模型系列，包括 InternLM、InternLM2 和 InternLM3。",
   "sub_category": "ai-framework",
   "tags": [
-    "nlp",
     "transformer",
-    "cli-tool",
-    "china",
     "developers",
-    "api-platform",
     "open-source",
-    "saas"
+    "china",
+    "saas",
+    "cli-tool",
+    "nlp",
+    "api-platform"
   ],
   "open_source": true,
   "repository_url": "https://github.com/tesseract-ocr",

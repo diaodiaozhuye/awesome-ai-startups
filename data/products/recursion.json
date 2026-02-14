@@ -11,13 +11,13 @@
   "sub_category": "healthcare-medical",
   "tags": [
     "closed-source",
-    "computer-vision",
-    "b2b",
     "consumers",
+    "b2b",
     "enterprises",
+    "computer-vision",
+    "us",
     "drug-discovery",
-    "healthcare",
-    "us"
+    "healthcare"
   ],
   "open_source": false,
   "repository_url": "https://github.com/recursionpharma",

@@ -10,15 +10,15 @@
   "description_zh": "Shield AI 构建 AI 驱动的国防技术，包括自主无人机和智能飞行员系统。",
   "sub_category": "ai-safety",
   "tags": [
-    "drone",
-    "unicorn",
     "closed-source",
-    "defense",
+    "unicorn",
+    "drone",
+    "edge-ai",
     "consumers",
     "enterprises",
     "reinforcement-learning",
-    "edge-ai",
-    "us"
+    "us",
+    "defense"
   ],
   "open_source": false,
   "company": {

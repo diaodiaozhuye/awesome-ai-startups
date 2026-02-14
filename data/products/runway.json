@@ -11,13 +11,13 @@
   "sub_category": "image-generation",
   "tags": [
     "text-to-image",
-    "unicorn",
     "closed-source",
+    "text-to-video",
+    "creators",
     "diffusion-model",
     "us",
-    "content-creation",
-    "creators",
-    "text-to-video"
+    "unicorn",
+    "content-creation"
   ],
   "open_source": false,
   "repository_url": "https://github.com/runwayml",

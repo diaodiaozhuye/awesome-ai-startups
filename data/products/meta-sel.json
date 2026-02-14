@@ -91,14 +91,14 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "nlp",
+    "researchers",
     "fine-tuning",
-    "prompt-engineering",
     "open-source",
     "research",
-    "chatbot",
     "reinforcement-learning",
-    "researchers"
+    "chatbot",
+    "prompt-engineering",
+    "nlp"
   ],
   "key_people": [
     {

@@ -7,11 +7,11 @@
   "category": "ai-dev-platform",
   "status": "active",
   "tags": [
-    "cli-tool",
-    "api-platform",
     "developers",
     "open-source",
-    "saas"
+    "saas",
+    "cli-tool",
+    "api-platform"
   ],
   "open_source": true,
   "repository_url": "https://github.com/tesseract-ocr",

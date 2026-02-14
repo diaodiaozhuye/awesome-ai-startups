@@ -4,7 +4,7 @@
   "product_url": "http://aurora.tech/",
   "description": "Autonomous driving technology research company",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -117,6 +117,9 @@
     }
   ],
   "tags": [
-    "us"
+    "consumers",
+    "us",
+    "autonomous-vehicles",
+    "self-driving"
   ]
 }

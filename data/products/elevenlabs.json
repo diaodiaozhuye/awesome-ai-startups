@@ -10,13 +10,13 @@
   "description_zh": "ElevenLabs 是一家 AI 语音技术公司，提供逼真的文本转语音、声音克隆和音频 AI 工具。",
   "sub_category": "audio-speech",
   "tags": [
-    "text-to-speech",
-    "unicorn",
     "closed-source",
-    "api-platform",
-    "content-creation",
+    "unicorn",
     "creators",
-    "us"
+    "text-to-speech",
+    "us",
+    "content-creation",
+    "api-platform"
   ],
   "open_source": false,
   "repository_url": "https://github.com/elevenlabs",

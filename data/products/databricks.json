@@ -10,13 +10,13 @@
   "description_zh": "Databricks 是基于 Apache Spark 构建的统一分析平台，融合了数据工程、数据科学和机器学习。",
   "sub_category": "data-pipeline",
   "tags": [
+    "data-analysis",
+    "data-scientists",
     "b2b",
     "open-source",
-    "decacorn",
-    "data-analysis",
     "saas",
-    "data-scientists",
-    "us"
+    "us",
+    "decacorn"
   ],
   "open_source": true,
   "repository_url": "https://github.com/databricks",

@@ -11,11 +11,11 @@
   "sub_category": "image-generation",
   "tags": [
     "text-to-image",
+    "creators",
     "diffusion-model",
-    "europe",
     "open-source",
-    "content-creation",
-    "creators"
+    "europe",
+    "content-creation"
   ],
   "open_source": true,
   "repository_url": "https://github.com/Stability-AI",

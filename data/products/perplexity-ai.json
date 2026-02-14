@@ -10,15 +10,15 @@
   "description_zh": "Perplexity AI 是一款 AI 驱动的答案引擎，利用实时网络搜索提供直接且有引用的答案。",
   "sub_category": "web-search",
   "tags": [
-    "b2c",
-    "nlp",
-    "unicorn",
     "closed-source",
     "search-engine",
-    "consumers",
-    "real-time",
     "rag",
-    "us"
+    "consumers",
+    "b2c",
+    "us",
+    "unicorn",
+    "real-time",
+    "nlp"
   ],
   "open_source": false,
   "company": {
