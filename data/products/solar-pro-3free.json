@@ -4,7 +4,7 @@
   "product_url": "https://openrouter.ai/models/upstage/solar-pro-3:free",
   "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized for Korean with English and Japanese support.",
   "product_type": "llm",
-  "category": "ai-model",
+  "category": "ai-foundation-model",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -222,8 +222,13 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "llm",
-    "api-service"
+    "api-service",
+    "nlp",
+    "usage-based",
+    "chatbot",
+    "moe",
+    "multimodal",
+    "researchers"
   ],
   "modalities": [
     "text",

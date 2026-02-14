@@ -92,8 +92,10 @@
   "sub_category": "image-generation",
   "tags": [
     "research",
+    "machine-learning",
     "computer-vision",
-    "machine-learning"
+    "text-to-image",
+    "diffusion-model"
   ],
   "key_people": [
     {

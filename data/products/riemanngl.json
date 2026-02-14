@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Graphs are ubiquitous, and learning on graphs has become a cornerstone in artificial intelligence and data mining communities. Unlike pixel grids in images or sequential structures in language, graphs exhibit a typical non-Euclidean structure with complex interactions among the objects. This paper argues that Riemannian geometry provides a principled and necessary foundation for graph representation learning, and that Riemannian graph learning should be viewed as a unifying paradigm rather than a collection of isolated techniques. While recent studies have explored the integration of graph learning and Riemannian geometry, most existing approaches are limited to a narrow class of manifolds, particularly hyperbolic spaces, and often adopt extrinsic manifold formulations. We contend that the central mission of Riemannian graph learning is to endow graph neural networks with intrinsic manifold structures, which remains underexplored. To advance this perspective, we identify key conceptual and methodological gaps in existing approaches and outline a structured research agenda along three dimensions: manifold type, neural architecture, and learning paradigm. We further discuss open challenges, theoretical foundations, and promising directions that are critical for unlocking the full potential of Riemannian graph learning. This paper aims to provide a coherent viewpoint and to stimulate broader exploration of Riemannian geometry as a foundational framework for future graph learning research.",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-foundation-model",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -85,7 +85,9 @@
   },
   "tags": [
     "research",
-    "machine-learning"
+    "nlp",
+    "graph-neural-network",
+    "researchers"
   ],
   "key_people": [
     {

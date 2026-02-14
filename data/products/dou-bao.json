@@ -4,7 +4,7 @@
   "product_url": "https://ai-bot.cn",
   "description": "ByteDance AI chatbot assistant for conversation, writing, and creative tasks",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,7 @@
   "icon_url": "https://ai-bot.cn/wp-content/uploads/2023/03/ai-bot-logo-black.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai-chatbots"
+    "consumers",
+    "chatbot"
   ]
 }

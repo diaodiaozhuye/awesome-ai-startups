@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Agentic coding requires agents to effectively interact with runtime environments, e.g., command line interfaces (CLI), so as to complete tasks like resolving dependency issues, fixing system problems, etc. But it remains underexplored how such environment-intensive tasks can be obtained at scale to enhance agents' capabilities. To address this, based on an analogy between the Dockerfile and the agentic task, we propose to employ agents to simulate and explore environment histories, guided by execution feedback. By tracing histories of a healthy environment, its state can be inverted to an earlier one with runtime failures, from which a task can be derived by packing the buggy state and the corresponding error messages. With our method, named CLI-Gym, a total of 1,655 environment-intensive tasks are derived, being the largest collection of its kind. Moreover, with curated successful trajectories, our fine-tuned model, named LiberCoder, achieves substantial absolute improvements of +21.1% (to 46.1%) on Terminal-Bench, outperforming various strong baselines. To our knowledge, this is the first public pipeline for scalable derivation of environment-intensive tasks.",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-foundation-model",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -84,7 +84,10 @@
     "url": "https://www.bing.com/search?q=CLI-Gym+AI"
   },
   "tags": [
-    "research"
+    "research",
+    "cli-tool",
+    "researchers",
+    "nlp"
   ],
   "key_people": [
     {

@@ -4,7 +4,7 @@
   "product_url": "https://luca.cn",
   "description": "11月4日，面壁智能多模态大模...",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -99,6 +99,6 @@
   },
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

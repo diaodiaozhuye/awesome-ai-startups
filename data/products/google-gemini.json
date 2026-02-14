@@ -4,7 +4,7 @@
   "product_url": "https://apps.apple.com/us/app/google-gemini/id6477489729?uo=4",
   "description": "Google Gemini app is your personal, proactive and powerful AI Assistant.\n\nWith Gemini on your iPhone or iPad, you can:\n\n- Enjoy fast and unlimited prompting powered by our biggest upgrade yet, Gemini 3 Flash\n- Go Live with Gemini to brainstorm ideas, simplify complex topics, and rehearse for important moments. Share your camera or screen to talk with Gemini about anything you see.\n- Create mockups by blending images, design posters with sharp text, and effortlessly build diagrams with Nano Ba...",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -113,6 +113,7 @@
   "description_zh": "Gemini AI是由Google DeepMind发布的一款多模态人工智能模型",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers",
+    "mobile-app"
   ]
 }

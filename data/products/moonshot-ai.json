@@ -4,16 +4,18 @@
   "product_url": "https://kimi.moonshot.cn",
   "description": "Moonshot AI is a Chinese AI startup building large language models with extremely long context windows.",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "name_zh": "月之暗面",
   "description_zh": "月之暗面是一家中国 AI 创业公司，构建具有超长上下文窗口的大语言模型。",
   "sub_category": "personal-assistant",
   "tags": [
-    "generative-ai",
     "nlp",
-    "chatbot",
-    "china"
+    "unicorn",
+    "closed-source",
+    "china",
+    "consumers",
+    "chatbot"
   ],
   "open_source": false,
   "company": {

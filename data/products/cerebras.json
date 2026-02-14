@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "AI hardware company building the largest chip for deep learning training and inference",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -93,5 +93,8 @@
     "headquarters": {
       "city": "Sunnyvale"
     }
-  }
+  },
+  "tags": [
+    "consumers"
+  ]
 }

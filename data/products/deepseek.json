@@ -4,18 +4,17 @@
   "product_url": "https://deepseek.com",
   "description": "Chinese artificial intelligence company",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "name_zh": "深度求索",
   "description_zh": "DeepSeek是幻方量化旗下的人工智能公司深度求索自主研发的开源大模型和AI智能助手",
   "sub_category": "voice-assistant",
   "tags": [
-    "generative-ai",
     "nlp",
     "transformer",
-    "open-source",
     "china",
-    "ai对话聊天"
+    "open-source",
+    "consumers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/deepseek-ai",

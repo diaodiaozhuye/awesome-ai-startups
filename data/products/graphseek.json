@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Graphs are foundational across domains but remain hard to use without deep expertise. LLMs promise accessible natural language (NL) graph analytics, yet they fail to process industry-scale property graphs effectively and efficiently: such datasets are large, highly heterogeneous, structurally complex, and evolve dynamically. To address this, we devise a novel abstraction for complex multi-query analytics over such graphs. Its key idea is to replace brittle generation of graph queries directly from NL with planning over a Semantic Catalog that describes both the graph schema and the graph operations. Concretely, this induces a clean separation between a Semantic Plane for LLM planning and broader reasoning, and an Execution Plane for deterministic, database-grade query execution over the full dataset and tool implementations. This design yields substantial gains in both token efficiency and task effectiveness even with small-context LLMs. We use this abstraction as the basis of the first LLM-enhanced graph analytics framework called GraphSeek. GraphSeek achieves substantially higher success rates (e.g., 86% over enhanced LangChain) and points toward the next generation of affordable and accessible graph analytics that unify LLM reasoning with database-grade execution over large and complex property graphs.",
   "product_type": "other",
-  "category": "ai-model",
+  "category": "ai-foundation-model",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -92,7 +92,9 @@
   "sub_category": "text-generation",
   "tags": [
     "research",
-    "nlp"
+    "nlp",
+    "chatbot",
+    "researchers"
   ],
   "key_people": [
     {

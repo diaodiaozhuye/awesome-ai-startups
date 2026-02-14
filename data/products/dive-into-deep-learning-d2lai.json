@@ -4,10 +4,11 @@
   "product_url": "https://D2L.ai",
   "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "consumers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/d2l-ai",

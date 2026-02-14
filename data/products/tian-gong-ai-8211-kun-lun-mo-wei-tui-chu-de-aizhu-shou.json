@@ -4,7 +4,7 @@
   "product_url": "https://www.tiangong.cn",
   "description": "天工 AI 由昆仑万维推出，有天工 3.0 大模型。具备文档音视分析、写作等功能，可进行彩页创作。还有宝典广场，能认领或创建宝典。提供AI 搜索，简洁高级，让知识流通，可登录或下载 App 体验。",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,6 @@
   "icon_url": "https://www.ainav.cn/wp-content/uploads/2023/08/957cc-search.tiangong.cn.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

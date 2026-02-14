@@ -4,7 +4,7 @@
   "product_url": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684?uo=4",
   "description": "Meet Claude, your AI problem solver and thinking partner. Claude works with you to write, research, code, and tackle complex problems with depth and precision. It enhances your thinking and expands what you're capable of, right from your phone.\n\nAI WRITING ASSISTANT \n\nTurn rough thinking into polished work. Whether you're crafting social media posts, professional emails, or complex reports, Claude refines tone, structure, and clarity — iterating with you until your voice comes through. Get wr...",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -86,5 +86,11 @@
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/af/af/78afaf80-0cd7-e887-96f9-21396f1c66ad/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
   "platforms": [
     "ios"
+  ],
+  "tags": [
+    "consumers",
+    "writing-assistant",
+    "mobile-app",
+    "social-media"
   ]
 }

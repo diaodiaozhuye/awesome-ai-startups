@@ -2,7 +2,7 @@
 
 export interface ProductDict {
   product_type: string;
-  sub_category: string;
+  tags_by_dimension: string;
   company_name: string;
   founded: string;
   headquarters: string;
@@ -37,6 +37,7 @@ export interface SearchDict {
   results: string;
   no_results: string;
   filters: string;
+  filter_tags: string;
   category: string;
   country: string;
   clear_filters: string;
@@ -59,6 +60,6 @@ export interface Dictionary {
   product: ProductDict;
   search: SearchDict;
   compare: { title: string; select_prompt: string; add_product: string; remove: string; field: string; no_data: string };
-  analytics: { title: string; total_products: string; total_funding: string; open_source: string; funding_chart: string; category_chart: string; timeline_chart: string; geography_chart: string };
+  analytics: { title: string; total_products: string; total_funding: string; open_source: string; funding_chart: string; category_chart: string; tag_chart: string; timeline_chart: string; geography_chart: string };
   footer: { description: string; contribute: string; data_updated: string };
 }

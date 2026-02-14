@@ -4,7 +4,7 @@
   "product_url": "https://www.npmjs.com/package/@anthropic-ai/sdk",
   "description": "The official TypeScript library for the Anthropic API",
   "product_type": "framework",
-  "category": "ai-dev-tool",
+  "category": "ai-dev-platform",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -109,8 +109,11 @@
   },
   "sub_category": "ai-framework",
   "tags": [
-    "javascript",
-    "open-source"
+    "sdk",
+    "api-platform",
+    "developers",
+    "open-source",
+    "saas"
   ],
   "platforms": [
     "api",

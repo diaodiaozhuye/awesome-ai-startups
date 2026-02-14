@@ -4,10 +4,11 @@
   "product_url": "https://www.netdata.cloud",
   "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "consumers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/netdata",

@@ -92,7 +92,11 @@
   "sub_category": "image-generation",
   "tags": [
     "research",
-    "computer-vision"
+    "computer-vision",
+    "diffusion-model",
+    "multimodal",
+    "text-to-image",
+    "photo-editing"
   ],
   "key_people": [
     {

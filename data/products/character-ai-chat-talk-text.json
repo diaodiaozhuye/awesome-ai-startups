@@ -4,7 +4,7 @@
   "product_url": "https://apps.apple.com/us/app/character-ai-chat-talk-text/id1671705818?uo=4",
   "description": "AI chat, reimagined.\n\nCharacter.AI isn’t just another AI chat app—it’s an infinite playground for your imagination, creativity, and exploration.\n\n\nDive into immersive conversations, create your own AI chatbots, and join a vibrant community of creators, just like you.\n\n\n• Text or talk—your next adventure begins here!\nChat, call, text, and create with AI Characters that respond intelligently, remember past conversations, and adapt to your style. Every AI chat feels natural, engaging, and unique...",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -86,5 +86,9 @@
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/e4/7a/09e47a68-1484-33c7-51ae-9ff944039f49/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
   "platforms": [
     "ios"
+  ],
+  "tags": [
+    "consumers",
+    "mobile-app"
   ]
 }

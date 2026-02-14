@@ -4,7 +4,7 @@
   "product_url": "https://kwalia.ai/",
   "description": "AI entertainment company founded in 2025",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-12",
@@ -95,5 +95,9 @@
       "country": "United Kingdom",
       "country_code": "GB"
     }
-  }
+  },
+  "tags": [
+    "europe",
+    "consumers"
+  ]
 }

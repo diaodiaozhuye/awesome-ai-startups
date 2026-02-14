@@ -213,7 +213,7 @@ class TieredMerger:
             "product_url": raw_url,
             "description": scraped.description or f"{scraped.name} is an AI product.",
             "product_type": scraped.product_type or "other",
-            "category": scraped.category or "ai-app",
+            "category": scraped.category or "ai-application",
             "status": scraped.status or "active",
             "meta": {
                 "added_date": today,
@@ -437,9 +437,12 @@ class TieredMerger:
         existing_value = _get_nested(product, field_path)
 
         # T3 data only fills empty fields.
-        if new_tier == SourceTier.T3_AI_GENERATED:
-            if existing_value is not None and existing_value != "":
-                return False
+        if (
+            new_tier == SourceTier.T3_AI_GENERATED
+            and existing_value is not None
+            and existing_value != ""
+        ):
+            return False
 
         if not self._should_overwrite(existing_tier, new_tier):
             return False

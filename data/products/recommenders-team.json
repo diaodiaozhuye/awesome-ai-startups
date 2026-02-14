@@ -4,10 +4,11 @@
   "product_url": "https://github.com/recommenders-team",
   "description": "Recommenders offers examples & best practices for building recommendation systems, provided as Jupyter notebooks. An LF AI & Data Sandbox project.",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "consumers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/recommenders-team",

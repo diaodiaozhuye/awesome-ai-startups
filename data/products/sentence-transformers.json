@@ -4,7 +4,7 @@
   "product_url": "https://pypi.org/project/sentence-transformers/",
   "description": "Embeddings, Retrieval, and Reranking",
   "product_type": "framework",
-  "category": "ai-dev-tool",
+  "category": "ai-dev-platform",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -109,8 +109,11 @@
   },
   "sub_category": "ai-framework",
   "tags": [
-    "python",
-    "open-source"
+    "cli-tool",
+    "api-platform",
+    "developers",
+    "open-source",
+    "embedding"
   ],
   "platforms": [
     "api",

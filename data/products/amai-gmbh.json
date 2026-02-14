@@ -4,10 +4,11 @@
   "product_url": "https://am.ai",
   "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "consumers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/AMAI-GmbH",

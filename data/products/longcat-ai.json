@@ -4,7 +4,7 @@
   "product_url": "https://longcat.chat",
   "description": "美团自研大模型 AI 对话平台 LongCat 的官方网站，提供 LongCat 系列模型的网页端对话体验，支持电脑、手机浏览器访问，注册登录后即可直接使用 AI 能力；",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -99,6 +99,6 @@
   "icon_url": "https://www.ainav.cn/wp-content/uploads/2025/12/1764576495-LongCat-icon.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

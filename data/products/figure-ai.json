@@ -10,9 +10,12 @@
   "description_zh": "Figure AI 正在构建商业化的自主人形机器人，以解决仓储和制造业的劳动力短缺问题。",
   "sub_category": "robot",
   "tags": [
+    "unicorn",
+    "closed-source",
     "humanoid-robot",
-    "reinforcement-learning",
-    "hardware"
+    "robotics",
+    "us",
+    "reinforcement-learning"
   ],
   "open_source": false,
   "company": {

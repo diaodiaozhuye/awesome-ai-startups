@@ -4,7 +4,7 @@
   "product_url": "https://pypi.org/project/anthropic/",
   "description": "The official Python library for the anthropic API",
   "product_type": "framework",
-  "category": "ai-dev-tool",
+  "category": "ai-dev-platform",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -109,7 +109,10 @@
   },
   "sub_category": "ai-framework",
   "tags": [
-    "python",
+    "sdk",
+    "cli-tool",
+    "api-platform",
+    "developers",
     "open-source"
   ],
   "platforms": [

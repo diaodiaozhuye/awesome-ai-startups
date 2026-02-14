@@ -21,7 +21,7 @@
   },
   "product": {
     "product_type": "产品类型",
-    "sub_category": "子分类",
+    "tags_by_dimension": "标签",
     "company_name": "公司",
     "founded": "成立于",
     "headquarters": "总部",
@@ -55,6 +55,7 @@
     "results": "{count} 个结果",
     "no_results": "未找到结果。请尝试其他搜索词。",
     "filters": "筛选",
+    "filter_tags": "按标签筛选",
     "category": "分类",
     "country": "国家",
     "clear_filters": "清除筛选"
@@ -74,6 +75,7 @@
     "open_source": "开源项目",
     "funding_chart": "融资排行",
     "category_chart": "分类分布",
+    "tag_chart": "标签分布",
     "timeline_chart": "成立年份趋势",
     "geography_chart": "国家分布"
   },

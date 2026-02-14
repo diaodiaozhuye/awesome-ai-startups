@@ -4,7 +4,7 @@
   "product_url": "https://www.producthunt.com/r/S43XIOYZUO4TJS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
   "description": "Claude’s most advanced model for agentic tasks",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -138,9 +138,12 @@
     "website": "https://www.producthunt.com/r/S43XIOYZUO4TJS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29"
   },
   "tags": [
-    "generative-ai",
-    "llm",
-    "api-service"
+    "api-service",
+    "nlp",
+    "consumers",
+    "usage-based",
+    "chatbot",
+    "multimodal"
   ],
   "key_people": [
     {

@@ -22,6 +22,35 @@ jobs:
       - name: Validate JSON Schema
         run: aiscrape validate
 
+      - name: Check companies directory removed
+        run: |
+          if [ -d "data/companies" ]; then
+            echo "ERROR: data/companies/ directory still exists"
+            exit 1
+          fi
+
+      - name: Check category values
+        run: |
+          python -c "
+          import json, glob, sys
+          valid = {
+            'ai-foundation-model', 'ai-application', 'ai-creative-media',
+            'ai-dev-platform', 'ai-infrastructure', 'ai-data-platform',
+            'ai-search-retrieval', 'ai-hardware', 'ai-security-governance',
+            'ai-science-research', 'ai-enterprise-vertical'
+          }
+          errors = 0
+          for f in glob.glob('data/products/*.json'):
+            data = json.load(open(f))
+            cat = data.get('category', '')
+            if cat not in valid:
+              print(f'ERROR: {f} has invalid category: {cat}')
+              errors += 1
+          if errors:
+            sys.exit(1)
+          print(f'All products have valid categories (11 values)')
+          "
+
       - name: Python lint
         run: ruff check scrapers/ tests/
 

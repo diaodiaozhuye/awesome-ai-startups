@@ -4,7 +4,7 @@
   "product_url": "https://www.altair.com/",
   "description": "American Multinational Company",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -133,5 +133,9 @@
       "title": "chief executive officer",
       "is_founder": false
     }
+  ],
+  "tags": [
+    "consumers",
+    "us"
   ]
 }

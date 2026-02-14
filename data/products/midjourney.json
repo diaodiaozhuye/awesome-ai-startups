@@ -4,16 +4,19 @@
   "product_url": "https://www.midjourney.com",
   "description": "Midjourney is an independent research lab producing an AI program that creates images from textual descriptions.",
   "product_type": "llm",
-  "category": "ai-model",
+  "category": "ai-creative-media",
   "status": "active",
   "name_zh": "Midjourney",
   "description_zh": "Midjourney 是一个独立研究实验室，开发根据文字描述生成图像的 AI 程序。",
   "sub_category": "image-generation",
   "tags": [
-    "generative-ai",
+    "b2c",
     "text-to-image",
+    "closed-source",
     "diffusion-model",
-    "b2c"
+    "content-creation",
+    "creators",
+    "us"
   ],
   "open_source": false,
   "company": {

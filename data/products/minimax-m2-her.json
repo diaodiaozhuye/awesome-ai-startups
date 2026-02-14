@@ -4,7 +4,7 @@
   "product_url": "https://openrouter.ai/models/minimax/minimax-m2-her",
   "description": "MiniMax M2-her is a dialogue-first large language model built for immersive roleplay, character-driven chat, and expressive multi-turn conversations. Designed to stay consistent in tone and personality, it supports rich message roles (user_system, group, sample_message_user, sample_message_ai) and can learn from example dialogue to better match the style and pacing of your scenario, making it a strong choice for storytelling, companions, and conversational experiences where natural flow and vivid interaction matter most.",
   "product_type": "llm",
-  "category": "ai-model",
+  "category": "ai-foundation-model",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -115,8 +115,11 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "llm",
-    "api-service"
+    "api-service",
+    "nlp",
+    "usage-based",
+    "chatbot",
+    "researchers"
   ],
   "modalities": [
     "text"

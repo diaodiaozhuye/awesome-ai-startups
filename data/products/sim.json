@@ -4,10 +4,11 @@
   "product_url": "https://sim.ai",
   "description": "Sim is a powerful, user-friendly platform that allows developers and agents to build, test, and optimize agentic workflows.",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "consumers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/simstudioai",

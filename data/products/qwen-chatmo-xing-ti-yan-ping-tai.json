@@ -4,7 +4,7 @@
   "product_url": "https://chat.qwen.ai",
   "description": "Qwen Chat是阿里通义推出的Qwen最新模型体验平台",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,6 @@
   "icon_url": "https://www.ainav.cn/wp-content/uploads/2023/09/e7008-qianwen.aliyun.com.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

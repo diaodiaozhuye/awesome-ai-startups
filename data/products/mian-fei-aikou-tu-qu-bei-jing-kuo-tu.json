@@ -4,7 +4,7 @@
   "product_url": "https://ilingban.com/chat/?type=pic&amp;from=xyqd20",
   "description": "一键改写润色爆款文案，总结文档内容，同时集对话、翻译、写作、搜索于一身的神器",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,6 @@
   "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/07/1720085101-灵办logo.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

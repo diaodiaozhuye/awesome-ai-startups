@@ -4,7 +4,7 @@
   "product_url": "https://alloy.app",
   "description": "AI prototyping software company",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -124,5 +124,8 @@
       "title": "chief technology officer",
       "is_founder": true
     }
+  ],
+  "tags": [
+    "consumers"
   ]
 }

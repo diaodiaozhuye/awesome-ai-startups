@@ -4,7 +4,7 @@
   "product_url": "https://01.ai",
   "description": "零一万物-AI2.0大模型技术和应用的全球公司，发布过Yi-6B 和 Yi-34B 大模型",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,6 @@
   "icon_url": "https://www.ainav.cn/wp-content/uploads/2023/11/98eef-01.ai.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

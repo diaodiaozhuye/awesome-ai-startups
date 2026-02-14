@@ -4,7 +4,7 @@
   "product_url": "https://www.roexaudio.com",
   "description": "British audio technology company based in London",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-12",
@@ -108,5 +108,9 @@
       "title": "Co-founder",
       "is_founder": true
     }
+  ],
+  "tags": [
+    "europe",
+    "consumers"
   ]
 }

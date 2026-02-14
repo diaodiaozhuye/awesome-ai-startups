@@ -23,7 +23,7 @@ def _valid_product_data(slug: str = "test-product") -> dict:
         "product_url": "https://test-product.com",
         "description": "A valid test product with a proper description for testing.",
         "product_type": "app",
-        "category": "ai-app",
+        "category": "ai-application",
         "status": "active",
         "company": {
             "name": "Test Co",

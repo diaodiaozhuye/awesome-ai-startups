@@ -38,17 +38,18 @@ class SourceTier(IntEnum):
 
 
 @dataclass(frozen=True)
-class DiscoveredName:
-    """A product name found during the discovery phase.
+class DiscoveredProduct:
+    """A product discovered during the discovery phase.
 
-    Scrapers may implement ``discover()`` to return lightweight name records
-    before performing full scrapes.
+    Scrapers may implement ``discover()`` to return lightweight product records
+    (name + URLs) before performing full scrapes.
     """
 
     name: str
     source: str
     source_url: str = ""
-    discovered_at: str = ""  # ISO-8601 date string
+    product_url: str = ""
+    discovered_at: str = ""  # ISO-8601
 
 
 # ---------------------------------------------------------------------------
@@ -193,7 +194,7 @@ class BaseScraper(ABC):
         """
         ...
 
-    def discover(self, limit: int = 100) -> list[DiscoveredName]:
+    def discover(self, limit: int = 100) -> list[DiscoveredProduct]:
         """Discover product names without performing a full scrape.
 
         The default implementation returns an empty list.  Scrapers that
@@ -203,7 +204,7 @@ class BaseScraper(ABC):
             limit: Maximum number of names to return.
 
         Returns:
-            List of :class:`DiscoveredName` instances.
+            List of :class:`DiscoveredProduct` instances.
         """
         return []
 
@@ -216,8 +217,60 @@ class BaseScraper(ABC):
 
 
 # ---------------------------------------------------------------------------
+# Scraper role classes
+# ---------------------------------------------------------------------------
+
+
+class DiscoveryScraper(BaseScraper):
+    """Scraper that only discovers new products (names + URLs).
+
+    Subclasses must implement ``discover()``; the default ``scrape()``
+    converts discovered products into minimal ``ScrapedProduct`` instances.
+    """
+
+    def scrape(self, limit: int = 100) -> list[ScrapedProduct]:
+        """Default: convert discovered products to ScrapedProduct."""
+        discovered = self.discover(limit)
+        return [
+            ScrapedProduct(
+                name=d.name,
+                source=self.source_name,
+                source_url=d.source_url,
+                product_url=d.product_url or None,
+                source_tier=self.source_tier,
+            )
+            for d in discovered
+        ]
+
+    @abstractmethod
+    def discover(self, limit: int = 100) -> list[DiscoveredProduct]: ...
+
+
+class EnrichmentScraper(BaseScraper):
+    """Scraper that enriches existing products with additional data.
+
+    Subclasses must implement ``enrich()``; ``scrape()`` is not used
+    for enrichment scrapers and returns an empty list by default.
+    """
+
+    def scrape(self, limit: int = 100) -> list[ScrapedProduct]:
+        """Not used for enrichment scrapers."""
+        return []
+
+    @abstractmethod
+    def enrich(self, slug: str, existing: dict) -> ScrapedProduct | None: ...
+
+
+# UnifiedScraper = BaseScraper -- these scrapers use the standard scrape() method.
+UnifiedScraper = BaseScraper
+
+
+# ---------------------------------------------------------------------------
 # Backwards compatibility
 # ---------------------------------------------------------------------------
 
 # Deprecated: use ScrapedProduct
 ScrapedCompany = ScrapedProduct
+
+# Deprecated: use DiscoveredProduct
+DiscoveredName = DiscoveredProduct

@@ -53,9 +53,6 @@ export function ProductDetail({ product, locale, dict, categoryLabel }: ProductD
         {product.product_type && (
           <Badge>{product.product_type}</Badge>
         )}
-        {product.sub_category && (
-          <Badge>{product.sub_category.replace(/-/g, " ")}</Badge>
-        )}
         {product.tags && product.tags.map((tag) => (
           <Badge key={tag}>{tag}</Badge>
         ))}

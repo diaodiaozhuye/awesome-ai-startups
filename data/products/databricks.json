@@ -4,17 +4,19 @@
   "product_url": "https://www.databricks.com/product",
   "description": "Databricks is a unified analytics platform built on Apache Spark that combines data engineering, data science, and machine learning.",
   "product_type": "dev-tool",
-  "category": "ai-data",
+  "category": "ai-data-platform",
   "status": "active",
   "name_zh": "Databricks",
   "description_zh": "Databricks 是基于 Apache Spark 构建的统一分析平台，融合了数据工程、数据科学和机器学习。",
   "sub_category": "data-pipeline",
   "tags": [
-    "data-labeling",
-    "mlops",
     "b2b",
+    "open-source",
+    "decacorn",
+    "data-analysis",
     "saas",
-    "open-source"
+    "data-scientists",
+    "us"
   ],
   "open_source": true,
   "repository_url": "https://github.com/databricks",

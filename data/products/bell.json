@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "American AI-powered infrastructure company",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-12",
@@ -95,5 +95,9 @@
       "title": "chief executive officer",
       "is_founder": false
     }
+  ],
+  "tags": [
+    "consumers",
+    "us"
   ]
 }

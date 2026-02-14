@@ -10,10 +10,11 @@
   "description_zh": "1X Technologies（前身为 Halodi Robotics）创建以人为中心的人形机器人，由 AI 驱动完成真实世界任务。",
   "sub_category": "robot",
   "tags": [
+    "closed-source",
+    "robotics",
+    "europe",
     "humanoid-robot",
-    "reinforcement-learning",
-    "hardware",
-    "europe"
+    "reinforcement-learning"
   ],
   "open_source": false,
   "company": {

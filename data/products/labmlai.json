@@ -4,10 +4,11 @@
   "product_url": "https://labml.ai",
   "description": "Tools to help deep learning researchers",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "consumers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/labmlai",

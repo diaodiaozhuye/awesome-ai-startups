@@ -4,12 +4,14 @@
   "product_url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
   "description": "Tesseract OCR",
   "product_type": "framework",
-  "category": "ai-dev-tool",
+  "category": "ai-dev-platform",
   "status": "active",
   "tags": [
+    "cli-tool",
+    "api-platform",
+    "developers",
     "open-source",
-    "javascript",
-    "python"
+    "saas"
   ],
   "open_source": true,
   "repository_url": "https://github.com/tesseract-ocr",

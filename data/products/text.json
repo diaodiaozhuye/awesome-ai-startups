@@ -101,5 +101,9 @@
       "city": "Wrocław",
       "country": "Poland"
     }
-  }
+  },
+  "tags": [
+    "customer-support",
+    "europe"
+  ]
 }

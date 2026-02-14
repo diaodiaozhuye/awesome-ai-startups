@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "ai powered digital marketing tool",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-12",
@@ -84,5 +84,9 @@
       "title": "Co-founder",
       "is_founder": true
     }
+  ],
+  "tags": [
+    "consumers",
+    "marketing"
   ]
 }

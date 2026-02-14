@@ -4,7 +4,7 @@
   "product_url": "https://www.swiss-ai.org",
   "description": "Swiss general artificial intelligence company",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-12",
@@ -93,5 +93,9 @@
     "headquarters": {
       "country": "Switzerland"
     }
-  }
+  },
+  "tags": [
+    "europe",
+    "consumers"
+  ]
 }

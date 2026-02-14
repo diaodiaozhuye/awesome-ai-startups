@@ -4,17 +4,18 @@
   "product_url": "https://github.com/baichuan-inc/Baichuan2",
   "description": "Baichuan AI is a Chinese AI startup developing large language models focused on Chinese language and culture understanding.",
   "product_type": "llm",
-  "category": "ai-model",
+  "category": "ai-foundation-model",
   "status": "active",
   "name_zh": "百川智能",
   "description_zh": "百川智能是一家中国 AI 创业公司，开发专注于中文语言和文化理解的大语言模型。",
   "sub_category": "text-generation",
   "tags": [
-    "generative-ai",
     "nlp",
     "transformer",
+    "china",
     "open-source",
-    "china"
+    "chatbot",
+    "researchers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/baichuan-inc",

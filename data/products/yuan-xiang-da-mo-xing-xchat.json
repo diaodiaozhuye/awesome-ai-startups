@@ -4,7 +4,7 @@
   "product_url": "https://chat.xverse.cn",
   "description": "XChat是基于元象科技推出的XVERSE通用大模型的人工智能聊天助手",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,6 @@
   "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/08/35f93-chat.xverse.cn.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

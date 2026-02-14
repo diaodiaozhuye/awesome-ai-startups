@@ -4,7 +4,7 @@
   "product_url": "https://wukong.com",
   "description": "小悟空原是字节跳动推出的综合类搜索引擎“悟空搜索”，现已更名并转型为 AI 对话助手",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,6 @@
   "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/01/c6db5-wukong.com.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

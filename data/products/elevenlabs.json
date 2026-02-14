@@ -4,16 +4,19 @@
   "product_url": "https://elevenlabs.io",
   "description": "ElevenLabs is an AI voice technology company providing realistic text-to-speech, voice cloning, and audio AI tools.",
   "product_type": "llm",
-  "category": "ai-model",
+  "category": "ai-creative-media",
   "status": "active",
   "name_zh": "ElevenLabs",
   "description_zh": "ElevenLabs 是一家 AI 语音技术公司，提供逼真的文本转语音、声音克隆和音频 AI 工具。",
   "sub_category": "audio-speech",
   "tags": [
     "text-to-speech",
-    "generative-ai",
+    "unicorn",
+    "closed-source",
     "api-platform",
-    "content-creation"
+    "content-creation",
+    "creators",
+    "us"
   ],
   "open_source": false,
   "repository_url": "https://github.com/elevenlabs",

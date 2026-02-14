@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-02-13",
+  "generated_at": "2026-02-14",
   "total_products": 242,
   "by_category": [
     {
-      "label": "ai-app",
-      "count": 125
+      "label": "ai-application",
+      "count": 122
+    },
+    {
+      "label": "ai-foundation-model",
+      "count": 60
     },
     {
       "label": "ai-model",
-      "count": 86
+      "count": 17
     },
     {
-      "label": "ai-dev-tool",
+      "label": "ai-dev-platform",
       "count": 15
+    },
+    {
+      "label": "ai-creative-media",
+      "count": 9
     },
     {
       "label": "ai-infrastructure",
@@ -23,115 +31,23 @@
       "count": 3
     },
     {
-      "label": "ai-data",
+      "label": "ai-app",
       "count": 2
     },
     {
-      "label": "ai-search",
-      "count": 1
-    },
-    {
-      "label": "ai-security",
-      "count": 1
-    }
-  ],
-  "by_product_type": [
-    {
-      "label": "other",
-      "count": 127
-    },
-    {
-      "label": "app",
-      "count": 47
-    },
-    {
-      "label": "llm",
-      "count": 38
-    },
-    {
-      "label": "framework",
-      "count": 21
-    },
-    {
-      "label": "dev-tool",
-      "count": 5
-    },
-    {
-      "label": "hardware",
-      "count": 3
-    },
-    {
-      "label": "api-service",
-      "count": 1
-    }
-  ],
-  "by_sub_category": [
-    {
-      "label": "text-generation",
-      "count": 42
-    },
-    {
-      "label": "image-generation",
-      "count": 25
-    },
-    {
-      "label": "voice-assistant",
-      "count": 23
-    },
-    {
-      "label": "ai-framework",
-      "count": 12
-    },
-    {
-      "label": "inference-platform",
-      "count": 8
-    },
-    {
-      "label": "personal-assistant",
-      "count": 3
-    },
-    {
-      "label": "coding-assistant",
-      "count": 3
-    },
-    {
-      "label": "robot",
+      "label": "ai-data-platform",
       "count": 2
     },
     {
-      "label": "data-pipeline",
-      "count": 2
-    },
-    {
-      "label": "audio-speech",
+      "label": "ai-search-retrieval",
       "count": 1
     },
     {
-      "label": "embedding",
+      "label": "ai-enterprise-vertical",
       "count": 1
     },
     {
-      "label": "workflow-automation",
-      "count": 1
-    },
-    {
-      "label": "web-search",
-      "count": 1
-    },
-    {
-      "label": "healthcare-medical",
-      "count": 1
-    },
-    {
-      "label": "ai-safety",
-      "count": 1
-    },
-    {
-      "label": "compute-platform",
-      "count": 1
-    },
-    {
-      "label": "autonomous-vehicle",
+      "label": "ai-security-governance",
       "count": 1
     }
   ],
@@ -215,6 +131,326 @@
       "count": 242
     }
   ],
+  "by_tag_dimension": {
+    "technology": [
+      {
+        "tag": "nlp",
+        "count": 72
+      },
+      {
+        "tag": "text-to-image",
+        "count": 28
+      },
+      {
+        "tag": "computer-vision",
+        "count": 25
+      },
+      {
+        "tag": "diffusion-model",
+        "count": 25
+      },
+      {
+        "tag": "multimodal",
+        "count": 18
+      },
+      {
+        "tag": "transformer",
+        "count": 13
+      },
+      {
+        "tag": "embedding",
+        "count": 12
+      },
+      {
+        "tag": "reinforcement-learning",
+        "count": 10
+      },
+      {
+        "tag": "rag",
+        "count": 6
+      },
+      {
+        "tag": "code-generation",
+        "count": 6
+      },
+      {
+        "tag": "fine-tuning",
+        "count": 6
+      },
+      {
+        "tag": "text-to-video",
+        "count": 5
+      },
+      {
+        "tag": "moe",
+        "count": 5
+      },
+      {
+        "tag": "text-to-speech",
+        "count": 3
+      },
+      {
+        "tag": "prompt-engineering",
+        "count": 2
+      },
+      {
+        "tag": "distillation",
+        "count": 2
+      },
+      {
+        "tag": "quantization",
+        "count": 2
+      },
+      {
+        "tag": "federated-learning",
+        "count": 1
+      },
+      {
+        "tag": "neuro-symbolic",
+        "count": 1
+      },
+      {
+        "tag": "graph-neural-network",
+        "count": 1
+      }
+    ],
+    "use_case": [
+      {
+        "tag": "chatbot",
+        "count": 58
+      },
+      {
+        "tag": "research",
+        "count": 57
+      },
+      {
+        "tag": "content-creation",
+        "count": 11
+      },
+      {
+        "tag": "copilot",
+        "count": 4
+      },
+      {
+        "tag": "education-tutoring",
+        "count": 2
+      },
+      {
+        "tag": "writing-assistant",
+        "count": 2
+      },
+      {
+        "tag": "marketing",
+        "count": 2
+      },
+      {
+        "tag": "data-analysis",
+        "count": 2
+      },
+      {
+        "tag": "design-creative",
+        "count": 2
+      },
+      {
+        "tag": "finance-accounting",
+        "count": 2
+      },
+      {
+        "tag": "search-engine",
+        "count": 2
+      },
+      {
+        "tag": "knowledge-base",
+        "count": 2
+      },
+      {
+        "tag": "personal-assistant",
+        "count": 1
+      },
+      {
+        "tag": "social-media",
+        "count": 1
+      },
+      {
+        "tag": "video-editing",
+        "count": 1
+      },
+      {
+        "tag": "translation",
+        "count": 1
+      },
+      {
+        "tag": "code-review",
+        "count": 1
+      },
+      {
+        "tag": "photo-editing",
+        "count": 1
+      },
+      {
+        "tag": "legal-assist",
+        "count": 1
+      },
+      {
+        "tag": "customer-support",
+        "count": 1
+      }
+    ],
+    "domain": [
+      {
+        "tag": "robotics",
+        "count": 5
+      },
+      {
+        "tag": "humanoid-robot",
+        "count": 2
+      },
+      {
+        "tag": "trading",
+        "count": 1
+      },
+      {
+        "tag": "gaming",
+        "count": 1
+      },
+      {
+        "tag": "drug-discovery",
+        "count": 1
+      },
+      {
+        "tag": "healthcare",
+        "count": 1
+      },
+      {
+        "tag": "drone",
+        "count": 1
+      },
+      {
+        "tag": "defense",
+        "count": 1
+      },
+      {
+        "tag": "self-driving",
+        "count": 1
+      },
+      {
+        "tag": "autonomous-vehicles",
+        "count": 1
+      }
+    ],
+    "business_model": [
+      {
+        "tag": "open-source",
+        "count": 62
+      },
+      {
+        "tag": "api-service",
+        "count": 21
+      },
+      {
+        "tag": "closed-source",
+        "count": 20
+      },
+      {
+        "tag": "usage-based",
+        "count": 14
+      },
+      {
+        "tag": "saas",
+        "count": 9
+      },
+      {
+        "tag": "b2c",
+        "count": 7
+      },
+      {
+        "tag": "b2b",
+        "count": 6
+      }
+    ],
+    "audience": [
+      {
+        "tag": "consumers",
+        "count": 125
+      },
+      {
+        "tag": "researchers",
+        "count": 60
+      },
+      {
+        "tag": "developers",
+        "count": 25
+      },
+      {
+        "tag": "enterprises",
+        "count": 17
+      },
+      {
+        "tag": "creators",
+        "count": 11
+      },
+      {
+        "tag": "data-scientists",
+        "count": 2
+      }
+    ],
+    "technical": [
+      {
+        "tag": "api-platform",
+        "count": 27
+      },
+      {
+        "tag": "mobile-app",
+        "count": 20
+      },
+      {
+        "tag": "cli-tool",
+        "count": 19
+      },
+      {
+        "tag": "desktop-app",
+        "count": 8
+      },
+      {
+        "tag": "real-time",
+        "count": 6
+      },
+      {
+        "tag": "sdk",
+        "count": 5
+      },
+      {
+        "tag": "on-device",
+        "count": 1
+      },
+      {
+        "tag": "edge-ai",
+        "count": 1
+      }
+    ],
+    "special": [
+      {
+        "tag": "us",
+        "count": 27
+      },
+      {
+        "tag": "europe",
+        "count": 18
+      },
+      {
+        "tag": "unicorn",
+        "count": 14
+      },
+      {
+        "tag": "china",
+        "count": 6
+      },
+      {
+        "tag": "decacorn",
+        "count": 3
+      }
+    ]
+  },
   "funding_leaderboard": [
     {
       "slug": "openai",

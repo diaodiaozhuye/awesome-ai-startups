@@ -51,7 +51,7 @@ class IntegrityValidator:
 
         # 2. Validate each product's references
         errors: list[IntegrityError] = []
-        for slug, data in products:
+        for _slug, data in products:
             errors.extend(self.validate_product(data, all_slugs))
 
         return errors

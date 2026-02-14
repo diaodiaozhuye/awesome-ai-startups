@@ -4,16 +4,18 @@
   "product_url": "https://scale.com/data-engine",
   "description": "Scale AI provides high-quality training data and AI infrastructure for enterprises building AI applications at scale.",
   "product_type": "dev-tool",
-  "category": "ai-data",
+  "category": "ai-data-platform",
   "status": "active",
   "name_zh": "Scale AI",
   "description_zh": "Scale AI 为大规模构建 AI 应用的企业提供高质量训练数据和 AI 基础设施。",
   "sub_category": "data-pipeline",
   "tags": [
-    "data-labeling",
-    "synthetic-data",
+    "unicorn",
+    "closed-source",
     "b2b",
-    "mlops"
+    "data-analysis",
+    "data-scientists",
+    "us"
   ],
   "open_source": false,
   "repository_url": "https://github.com/scaleapi",

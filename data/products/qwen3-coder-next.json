@@ -4,7 +4,7 @@
   "product_url": "https://openrouter.ai/models/qwen/qwen3-coder-next",
   "description": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows. It uses a sparse MoE design with 80B total parameters and only 3B activated per token, delivering performance comparable to models with 10 to 20x higher active compute, which makes it well suited for cost-sensitive, always-on agent deployment.\n\nThe model is trained with a strong agentic focus and performs reliably on long-horizon coding tasks, complex tool usage, and recovery from execution failures. With a native 256k context window, it integrates cleanly into real-world CLI and IDE environments and adapts well to common agent scaffolds used by modern coding tools. The model operates exclusively in non-thinking mode and does not emit <think> blocks, simplifying integration for production coding agents.",
   "product_type": "llm",
-  "category": "ai-model",
+  "category": "ai-foundation-model",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -115,8 +115,13 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "llm",
-    "api-service"
+    "api-service",
+    "nlp",
+    "cli-tool",
+    "usage-based",
+    "chatbot",
+    "moe",
+    "researchers"
   ],
   "modalities": [
     "text"

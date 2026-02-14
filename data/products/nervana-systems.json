@@ -4,7 +4,7 @@
   "product_url": "http://nervanasys.com",
   "description": "Artificial Intelligence company, next generation platform for machine learning",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -120,5 +120,9 @@
       "country": "United States",
       "country_code": "US"
     }
-  }
+  },
+  "tags": [
+    "consumers",
+    "us"
+  ]
 }

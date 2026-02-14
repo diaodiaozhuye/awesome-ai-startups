@@ -4,7 +4,7 @@
   "product_url": "https://openrouter.ai/models/openrouter/free",
   "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that support features needed for your request such as image understanding, tool calling, structured outputs and more. ",
   "product_type": "llm",
-  "category": "ai-model",
+  "category": "ai-foundation-model",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -115,8 +115,11 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "llm",
-    "api-service"
+    "api-service",
+    "nlp",
+    "chatbot",
+    "multimodal",
+    "researchers"
   ],
   "modalities": [
     "image",

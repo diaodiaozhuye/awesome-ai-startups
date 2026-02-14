@@ -4,7 +4,7 @@
   "product_url": "https://apps.apple.com/us/app/ai-chat-al-video-generator/id6447537694?uo=4",
   "description": "Introducing AI+, the ultimate AI chatbot assistant that has all the best Al models at your fingertips - including Google Gemini, Grok, DeepSeek, Claude and GPT. With AI+, you can quickly access the power of AI on your phone and get instant help with your work, school, or even personal needs.\n\nAt work, AI+ has got you covered - whether you need help with email, copywriting, brainstorming, summarizing text, or writing project proposals.\n\nFor school, AI is your convenient and instant learning as...",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -181,5 +181,12 @@
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/74/32/467432fe-ca00-9144-dcf4-6369506adabb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "platforms": [
     "ios"
+  ],
+  "tags": [
+    "mobile-app",
+    "writing-assistant",
+    "consumers",
+    "chatbot",
+    "text-to-video"
   ]
 }

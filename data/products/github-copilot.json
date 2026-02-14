@@ -4,16 +4,17 @@
   "product_url": "https://github.com/features/copilot",
   "description": "GitHub Copilot is an AI pair programmer developed by GitHub and OpenAI that provides code suggestions directly in the editor.",
   "product_type": "dev-tool",
-  "category": "ai-dev-tool",
+  "category": "ai-dev-platform",
   "status": "active",
   "name_zh": "GitHub Copilot",
   "description_zh": "GitHub Copilot 是由 GitHub 和 OpenAI 开发的 AI 编程助手，在编辑器中直接提供代码建议。",
   "sub_category": "coding-assistant",
   "tags": [
-    "copilot",
-    "developer-tools",
+    "developers",
     "open-source",
-    "code-generation"
+    "copilot",
+    "code-generation",
+    "us"
   ],
   "open_source": true,
   "repository_url": "https://github.com/github/copilot-docs",

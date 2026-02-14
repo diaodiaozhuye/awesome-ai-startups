@@ -4,7 +4,7 @@
   "product_url": "https://www.brandupfactory.com",
   "description": "Agency for corporate digitalization and automation, focusing on innovative business solutions.",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -131,5 +131,9 @@
       "title": "chief executive officer",
       "is_founder": false
     }
+  ],
+  "tags": [
+    "europe",
+    "consumers"
   ]
 }

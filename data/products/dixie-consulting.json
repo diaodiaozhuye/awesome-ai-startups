@@ -4,7 +4,7 @@
   "product_url": "https://www.dixie.consulting",
   "description": "French company founded in 2023, specialising in helping artisans, small businesses, and SMEs transition to artificial intelligence and digital solutions",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -77,5 +77,8 @@
     "name": "Dixie Consulting",
     "url": "https://www.dixie.consulting",
     "website": "https://www.dixie.consulting"
-  }
+  },
+  "tags": [
+    "consumers"
+  ]
 }

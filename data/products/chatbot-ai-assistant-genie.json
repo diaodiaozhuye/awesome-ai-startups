@@ -4,7 +4,7 @@
   "product_url": "https://apps.apple.com/us/app/chatbot-ai-assistant-genie/id1658377526?uo=4",
   "description": "Try the advanced AI Chatbot assistant for free and see how your AI assistant can help you with work, study, and creative projects. Use AI Chat, AI Image Generator, Web Search, and Deep Reasoning to write, create, and research better in seconds. Experience the fastest and smartest multipurpose AI tool.\n\nChatbot AI Assistant for Every Task\n\nChatbot AI app is an advanced AI chatbot powered by the latest advancements in AI, and it serves as both a creative partner and a knowledgeable research ass...",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -86,5 +86,11 @@
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/af/7c/67af7c3d-d9bc-cc93-efc1-3d754c90fcec/AppIcon-Omega-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
   "platforms": [
     "ios"
+  ],
+  "tags": [
+    "consumers",
+    "text-to-image",
+    "mobile-app",
+    "chatbot"
   ]
 }

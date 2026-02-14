@@ -27,10 +27,9 @@ def cli() -> None:
     help=(
         "Source to scrape (comma-separated or 'all'): "
         "wikidata, crunchbase, huggingface, ycombinator, producthunt, "
-        "techcrunch, arxiv, lmsys, openrouter, theresanaiforthat, "
+        "techcrunch, lmsys, openrouter, theresanaiforthat, "
         "toolify, aibot, ainav, google_play, app_store, papers_with_code, "
-        "artificial_analysis, 36kr, pypi, npm, dockerhub, github, "
-        "company_website, indeed, aijobs, zhipin, lagou, liepin"
+        "artificial_analysis, pypi, npm, dockerhub, github"
     ),
 )
 @click.option("--limit", default=50, help="Maximum products to fetch per source")
@@ -382,6 +381,77 @@ def enrich(
         click.echo(f"\n[DRY RUN] {len(candidates)} products analyzed")
     else:
         click.echo(f"\nEnriched {enriched_count} out of {len(candidates)} products")
+
+
+@cli.command()
+@click.option(
+    "--source",
+    default="producthunt,github,toolify",
+    help=(
+        "Discovery sources (comma-separated): "
+        "producthunt, github, toolify, aibot, ainav, ycombinator, techcrunch"
+    ),
+)
+@click.option("--limit", default=200, help="Maximum products to discover per source")
+@click.option("--dry-run", is_flag=True, help="Print discoveries without writing files")
+def discover(source: str, limit: int, dry_run: bool) -> None:
+    """Run discovery scrapers to find new AI products (Phase 1 of pipeline)."""
+    from scrapers.sources import ALL_SCRAPERS
+
+    names = [s.strip() for s in source.split(",")]
+    unknown = [n for n in names if n not in ALL_SCRAPERS]
+    if unknown:
+        click.echo(
+            f"Unknown source(s): {', '.join(unknown)}. "
+            f"Available: {', '.join(ALL_SCRAPERS)}"
+        )
+        sys.exit(1)
+
+    total_discovered = 0
+    for name in names:
+        scraper_cls = ALL_SCRAPERS[name]
+        scraper = scraper_cls()
+        click.echo(f"\n[{scraper.source_name}] Discovering up to {limit} products...")
+        try:
+            discovered = scraper.discover(limit=limit)
+            click.echo(f"[{scraper.source_name}] Discovered {len(discovered)} products")
+            total_discovered += len(discovered)
+
+            if dry_run:
+                for d in discovered[:10]:
+                    click.echo(f"  + {d.name}")
+                if len(discovered) > 10:
+                    click.echo(f"  ... and {len(discovered) - 10} more")
+        except Exception as e:
+            click.echo(f"[{scraper.source_name}] Error: {e}", err=True)
+
+    click.echo(f"\nTotal discovered: {total_discovered}")
+
+
+@cli.command("llm-enrich")
+@click.option("--budget", default=55, help="Max LLM calls for this run")
+@click.option(
+    "--model", default=None, help="Anthropic model (default: claude-haiku-4-5)"
+)
+@click.option("--dry-run", is_flag=True, help="Preview without calling LLM")
+def llm_enrich(budget: int, model: str | None, dry_run: bool) -> None:
+    """Enrich products using LLM classification (requires ANTHROPIC_API_KEY)."""
+    import os
+
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        click.echo("ANTHROPIC_API_KEY not set. Skipping LLM enrichment.")
+        return
+
+    click.echo(f"LLM enrichment with budget={budget} calls")
+    if model:
+        click.echo(f"Using model: {model}")
+
+    if dry_run:
+        click.echo("[DRY RUN] Would enrich products using LLM")
+        return
+
+    click.echo("LLM enrichment system not yet fully implemented.")
+    click.echo("Run 'aiscrape enrich' for existing LLM enrichment.")
 
 
 if __name__ == "__main__":

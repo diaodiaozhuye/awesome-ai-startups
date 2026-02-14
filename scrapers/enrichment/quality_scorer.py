@@ -73,6 +73,4 @@ class QualityScorer:
         # Check for empty strings, empty lists, empty dicts
         if isinstance(current, str) and not current.strip():
             return False
-        if isinstance(current, (list, dict)) and not current:
-            return False
-        return True
+        return not (isinstance(current, (list, dict)) and not current)

@@ -92,7 +92,12 @@
   "sub_category": "image-generation",
   "tags": [
     "research",
-    "computer-vision"
+    "computer-vision",
+    "fine-tuning",
+    "distillation",
+    "open-source",
+    "text-to-image",
+    "diffusion-model"
   ],
   "key_people": [
     {

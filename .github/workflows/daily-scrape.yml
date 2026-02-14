@@ -29,29 +29,47 @@ jobs:
       - name: Install dependencies
         run: pip install -e .
 
-      - name: Run scrapers (sources with no extra keys)
+      - name: Discovery phase
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
-          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          # Run sources individually to avoid cascading failures
-          # Sources that need no API keys or use GITHUB_TOKEN only
-          for source in wikidata huggingface arxiv openrouter lmsys aibot ainav app_store github pypi npm dockerhub; do
-            echo "--- Scraping $source ---"
-            aiscrape scrape --source "$source" --limit 20 || echo "[WARN] $source failed, continuing..."
-          done
-          # Sources that need PRODUCTHUNT_TOKEN
+          aiscrape discover --source github,aibot,ainav --limit 200 || echo "[WARN] discover failed"
           if [ -n "$PRODUCTHUNT_TOKEN" ]; then
-            aiscrape scrape --source producthunt --limit 20 || echo "[WARN] producthunt failed"
+            aiscrape discover --source producthunt --limit 200 || echo "[WARN] producthunt discover failed"
           fi
-          # Sources that need FIRECRAWL_API_KEY
+
+      - name: Unified scrape
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: |
+          for source in huggingface lmsys openrouter; do
+            echo "--- Scraping $source ---"
+            aiscrape scrape --source "$source" --limit 50 || echo "[WARN] $source failed, continuing..."
+          done
           if [ -n "$FIRECRAWL_API_KEY" ]; then
-            for source in crunchbase techcrunch theresanaiforthat toolify papers_with_code artificial_analysis; do
+            for source in theresanaiforthat toolify artificial_analysis papers_with_code; do
               aiscrape scrape --source "$source" --limit 20 || echo "[WARN] $source failed"
             done
           fi
+
+      - name: Enrichment phase
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: |
+          for source in wikidata app_store pypi npm dockerhub; do
+            aiscrape scrape --source "$source" --limit 20 || echo "[WARN] $source failed"
+          done
+          if [ -n "$FIRECRAWL_API_KEY" ]; then
+            aiscrape scrape --source crunchbase --limit 20 || echo "[WARN] crunchbase failed"
+          fi
+
+      - name: LLM enrichment
+        if: env.ANTHROPIC_API_KEY != ''
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: aiscrape llm-enrich --budget 55
 
       - name: Validate all data
         run: aiscrape validate

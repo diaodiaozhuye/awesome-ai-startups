@@ -4,16 +4,21 @@
   "product_url": "https://www.perplexity.ai",
   "description": "Perplexity AI is an AI-powered answer engine that provides direct, cited answers to questions using real-time web search.",
   "product_type": "app",
-  "category": "ai-search",
+  "category": "ai-search-retrieval",
   "status": "active",
   "name_zh": "Perplexity AI",
   "description_zh": "Perplexity AI 是一款 AI 驱动的答案引擎，利用实时网络搜索提供直接且有引用的答案。",
   "sub_category": "web-search",
   "tags": [
-    "search-engine",
+    "b2c",
     "nlp",
+    "unicorn",
+    "closed-source",
+    "search-engine",
+    "consumers",
+    "real-time",
     "rag",
-    "b2c"
+    "us"
   ],
   "open_source": false,
   "company": {

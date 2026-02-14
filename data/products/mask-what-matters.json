@@ -93,7 +93,10 @@
   "tags": [
     "research",
     "nlp",
-    "computer-vision"
+    "computer-vision",
+    "multimodal",
+    "text-to-image",
+    "diffusion-model"
   ],
   "key_people": [
     {

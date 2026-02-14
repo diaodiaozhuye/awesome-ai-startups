@@ -4,11 +4,13 @@
   "product_url": "https://pypi.org/project/langchain/",
   "description": "🦜🔗 The platform for reliable agents.",
   "product_type": "framework",
-  "category": "ai-dev-tool",
+  "category": "ai-dev-platform",
   "status": "active",
   "tags": [
     "open-source",
-    "python"
+    "api-platform",
+    "developers",
+    "cli-tool"
   ],
   "open_source": true,
   "repository_url": "https://github.com/langchain-ai",

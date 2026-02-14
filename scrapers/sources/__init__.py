@@ -1,19 +1,18 @@
-"""Scraper source implementations."""
+"""Scraper source implementations.
+
+Scrapers are organized by role:
+- DiscoveryScraper: Only discovers new products (names + URLs)
+- EnrichmentScraper: Enriches existing products with additional data
+- UnifiedScraper (BaseScraper): Does both discovery and full scraping
+"""
 
 from scrapers.sources.aibot import AiBotScraper
-from scrapers.sources.aijobs import AIJobsScraper
 from scrapers.sources.ainav import AiNavScraper
 from scrapers.sources.app_stores import AppStoreScraper, GooglePlayScraper
 from scrapers.sources.artificial_analysis import ArtificialAnalysisScraper
-from scrapers.sources.arxiv_scraper import ArXivScraper
-from scrapers.sources.company_website import CompanyWebsiteScraper
 from scrapers.sources.crunchbase import CrunchbaseScraper
 from scrapers.sources.github_trending import GitHubTrendingScraper
 from scrapers.sources.huggingface import HuggingFaceScraper
-from scrapers.sources.indeed import IndeedScraper
-from scrapers.sources.kr36 import Kr36Scraper
-from scrapers.sources.lagou import LagouScraper
-from scrapers.sources.liepin import LiepinScraper
 from scrapers.sources.lmsys import LMSYSScraper
 from scrapers.sources.openrouter import OpenRouterScraper
 from scrapers.sources.package_registries import (
@@ -28,67 +27,46 @@ from scrapers.sources.theresanai import TAAScraper
 from scrapers.sources.toolify import ToolifyScraper
 from scrapers.sources.wikidata import WikidataScraper
 from scrapers.sources.ycombinator import YCombinatorScraper
-from scrapers.sources.zhipin import ZhipinScraper
 
 ALL_SCRAPERS = {
-    # T1 Authoritative
+    # T1 Authoritative (EnrichmentScraper role)
     "wikidata": WikidataScraper,
     "crunchbase": CrunchbaseScraper,
-    # T2 Open Web — models & products
-    "huggingface": HuggingFaceScraper,
-    "ycombinator": YCombinatorScraper,
+    # T2 Open Web — Discovery role
     "producthunt": ProductHuntScraper,
-    "techcrunch": TechCrunchScraper,
-    "arxiv": ArXivScraper,
-    "lmsys": LMSYSScraper,
-    "openrouter": OpenRouterScraper,
-    # T2 Open Web — product directories
-    "theresanaiforthat": TAAScraper,
+    "github": GitHubTrendingScraper,
     "toolify": ToolifyScraper,
     "aibot": AiBotScraper,
     "ainav": AiNavScraper,
-    # T2 Open Web — app stores
-    "google_play": GooglePlayScraper,
-    "app_store": AppStoreScraper,
-    # T2 Open Web — benchmarks & evaluation
-    "papers_with_code": PapersWithCodeScraper,
+    "ycombinator": YCombinatorScraper,
+    "techcrunch": TechCrunchScraper,
+    # T2 Open Web — Unified role (discover + enrich)
+    "huggingface": HuggingFaceScraper,
+    "lmsys": LMSYSScraper,
+    "openrouter": OpenRouterScraper,
+    "theresanaiforthat": TAAScraper,
     "artificial_analysis": ArtificialAnalysisScraper,
-    # T2 Open Web — media & news
-    "36kr": Kr36Scraper,
-    # T2 Open Web — GitHub
-    "github": GitHubTrendingScraper,
-    # T2 Open Web — enrichment (package registries)
+    "papers_with_code": PapersWithCodeScraper,
+    # T2 Open Web — Enrichment role (package registries)
     "pypi": PyPIScraper,
     "npm": NpmScraper,
     "dockerhub": DockerHubScraper,
-    # T2 Open Web — company websites
-    "company_website": CompanyWebsiteScraper,
-    # T4 Job site scrapers
-    "indeed": IndeedScraper,
-    "aijobs": AIJobsScraper,
-    "zhipin": ZhipinScraper,
-    "lagou": LagouScraper,
-    "liepin": LiepinScraper,
+    # T2 Open Web — Enrichment role (app stores)
+    "google_play": GooglePlayScraper,
+    "app_store": AppStoreScraper,
 }
 
 __all__ = [
     "ALL_SCRAPERS",
     "AiBotScraper",
-    "AIJobsScraper",
     "AiNavScraper",
     "AppStoreScraper",
     "ArtificialAnalysisScraper",
-    "ArXivScraper",
-    "CompanyWebsiteScraper",
     "CrunchbaseScraper",
     "DockerHubScraper",
     "GitHubTrendingScraper",
     "GooglePlayScraper",
     "HuggingFaceScraper",
-    "IndeedScraper",
-    "Kr36Scraper",
-    "LagouScraper",
-    "LiepinScraper",
     "LMSYSScraper",
     "NpmScraper",
     "OpenRouterScraper",
@@ -100,5 +78,4 @@ __all__ = [
     "ToolifyScraper",
     "WikidataScraper",
     "YCombinatorScraper",
-    "ZhipinScraper",
 ]

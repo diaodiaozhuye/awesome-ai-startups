@@ -1,160 +1,70 @@
 {
   "categories": [
     {
-      "id": "ai-model",
-      "name": "AI Model",
-      "name_zh": "AI 模型",
-      "icon": "brain",
-      "sub_categories": [
-        {"id": "text-generation", "name": "Text Generation", "name_zh": "文本生成"},
-        {"id": "image-generation", "name": "Image Generation", "name_zh": "图像生成"},
-        {"id": "video-generation", "name": "Video Generation", "name_zh": "视频生成"},
-        {"id": "audio-speech", "name": "Audio & Speech", "name_zh": "语音"},
-        {"id": "code-generation", "name": "Code Generation", "name_zh": "代码生成"},
-        {"id": "multimodal", "name": "Multimodal", "name_zh": "多模态"},
-        {"id": "embedding", "name": "Embedding", "name_zh": "嵌入模型"},
-        {"id": "3d-generation", "name": "3D Generation", "name_zh": "3D 生成"},
-        {"id": "music-generation", "name": "Music Generation", "name_zh": "音乐生成"}
-      ]
+      "id": "ai-foundation-model",
+      "name": "AI Foundation Model",
+      "name_zh": "AI 基础模型",
+      "icon": "brain"
     },
     {
-      "id": "ai-app",
+      "id": "ai-application",
       "name": "AI Application",
       "name_zh": "AI 应用",
-      "icon": "app-window",
-      "sub_categories": [
-        {"id": "writing-copywriting", "name": "Writing & Copywriting", "name_zh": "写作与文案"},
-        {"id": "translation", "name": "Translation", "name_zh": "翻译"},
-        {"id": "customer-service", "name": "Customer Service", "name_zh": "客服"},
-        {"id": "meeting-notes", "name": "Meeting Notes", "name_zh": "会议记录"},
-        {"id": "design-creative", "name": "Design & Creative", "name_zh": "设计创意"},
-        {"id": "photo-editing", "name": "Photo Editing", "name_zh": "图片编辑"},
-        {"id": "video-editing", "name": "Video Editing", "name_zh": "视频编辑"},
-        {"id": "presentation", "name": "Presentation", "name_zh": "演示文稿"},
-        {"id": "email", "name": "Email", "name_zh": "邮件"},
-        {"id": "sales-crm", "name": "Sales & CRM", "name_zh": "销售与CRM"},
-        {"id": "marketing", "name": "Marketing", "name_zh": "营销"},
-        {"id": "hr-recruiting", "name": "HR & Recruiting", "name_zh": "人力资源与招聘"},
-        {"id": "legal", "name": "Legal", "name_zh": "法律"},
-        {"id": "finance-accounting", "name": "Finance & Accounting", "name_zh": "财务会计"},
-        {"id": "healthcare-medical", "name": "Healthcare & Medical", "name_zh": "医疗健康"},
-        {"id": "education-tutoring", "name": "Education & Tutoring", "name_zh": "教育辅导"},
-        {"id": "research", "name": "Research", "name_zh": "研究"},
-        {"id": "data-analysis", "name": "Data Analysis", "name_zh": "数据分析"},
-        {"id": "workflow-automation", "name": "Workflow Automation", "name_zh": "工作流自动化"},
-        {"id": "voice-assistant", "name": "Voice Assistant", "name_zh": "语音助手"},
-        {"id": "social-media", "name": "Social Media", "name_zh": "社交媒体"},
-        {"id": "project-management", "name": "Project Management", "name_zh": "项目管理"},
-        {"id": "knowledge-base", "name": "Knowledge Base", "name_zh": "知识库"},
-        {"id": "content-moderation", "name": "Content Moderation", "name_zh": "内容审核"},
-        {"id": "personal-assistant", "name": "Personal Assistant", "name_zh": "个人助手"}
-      ]
+      "icon": "app-window"
     },
     {
-      "id": "ai-dev-tool",
-      "name": "AI Developer Tool",
-      "name_zh": "AI 开发工具",
-      "icon": "code",
-      "sub_categories": [
-        {"id": "coding-assistant", "name": "Coding Assistant", "name_zh": "编程助手"},
-        {"id": "ai-framework", "name": "AI Framework", "name_zh": "AI 框架"},
-        {"id": "testing-qa", "name": "Testing & QA", "name_zh": "测试与质量保证"},
-        {"id": "api-gateway", "name": "API Gateway", "name_zh": "API 网关"},
-        {"id": "evaluation", "name": "Evaluation", "name_zh": "模型评估"},
-        {"id": "fine-tuning", "name": "Fine-tuning", "name_zh": "微调"},
-        {"id": "prompt-engineering", "name": "Prompt Engineering", "name_zh": "提示工程"},
-        {"id": "ai-deployment", "name": "AI Deployment", "name_zh": "AI 部署"}
-      ]
+      "id": "ai-creative-media",
+      "name": "AI Creative & Media",
+      "name_zh": "AI 创意与媒体",
+      "icon": "palette"
+    },
+    {
+      "id": "ai-dev-platform",
+      "name": "AI Dev Platform",
+      "name_zh": "AI 开发平台",
+      "icon": "code"
     },
     {
       "id": "ai-infrastructure",
       "name": "AI Infrastructure",
       "name_zh": "AI 基础设施",
-      "icon": "server",
-      "sub_categories": [
-        {"id": "inference-platform", "name": "Inference Platform", "name_zh": "推理平台"},
-        {"id": "vector-database", "name": "Vector Database", "name_zh": "向量数据库"},
-        {"id": "mlops", "name": "MLOps", "name_zh": "MLOps"},
-        {"id": "data-labeling", "name": "Data Labeling", "name_zh": "数据标注"},
-        {"id": "model-monitoring", "name": "Model Monitoring", "name_zh": "模型监控"},
-        {"id": "compute-platform", "name": "Compute Platform", "name_zh": "算力平台"},
-        {"id": "feature-store", "name": "Feature Store", "name_zh": "特征存储"}
-      ]
+      "icon": "server"
+    },
+    {
+      "id": "ai-data-platform",
+      "name": "AI Data Platform",
+      "name_zh": "AI 数据平台",
+      "icon": "database"
+    },
+    {
+      "id": "ai-search-retrieval",
+      "name": "AI Search & Retrieval",
+      "name_zh": "AI 搜索与检索",
+      "icon": "search"
     },
     {
       "id": "ai-hardware",
-      "name": "AI Hardware",
-      "name_zh": "AI 硬件",
-      "icon": "cpu",
-      "sub_categories": [
-        {"id": "gpu-chip", "name": "GPU & Chip", "name_zh": "GPU 与芯片"},
-        {"id": "inference-accelerator", "name": "Inference Accelerator", "name_zh": "推理加速器"},
-        {"id": "edge-device", "name": "Edge Device", "name_zh": "边缘设备"},
-        {"id": "robot", "name": "Robot", "name_zh": "机器人"},
-        {"id": "autonomous-vehicle", "name": "Autonomous Vehicle", "name_zh": "自动驾驶"},
-        {"id": "sensor", "name": "Sensor", "name_zh": "传感器"}
-      ]
+      "name": "AI Hardware & Robotics",
+      "name_zh": "AI 硬件与机器人",
+      "icon": "cpu"
     },
     {
-      "id": "ai-data",
-      "name": "AI Data",
-      "name_zh": "AI 数据",
-      "icon": "database",
-      "sub_categories": [
-        {"id": "dataset", "name": "Dataset", "name_zh": "数据集"},
-        {"id": "synthetic-data", "name": "Synthetic Data", "name_zh": "合成数据"},
-        {"id": "data-pipeline", "name": "Data Pipeline", "name_zh": "数据管道"},
-        {"id": "data-annotation", "name": "Data Annotation", "name_zh": "数据标注"}
-      ]
+      "id": "ai-security-governance",
+      "name": "AI Security & Governance",
+      "name_zh": "AI 安全与治理",
+      "icon": "shield"
     },
     {
-      "id": "ai-agent",
-      "name": "AI Agent",
-      "name_zh": "AI 智能体",
-      "icon": "bot",
-      "sub_categories": [
-        {"id": "browser-agent", "name": "Browser Agent", "name_zh": "浏览器智能体"},
-        {"id": "coding-agent", "name": "Coding Agent", "name_zh": "编程智能体"},
-        {"id": "research-agent", "name": "Research Agent", "name_zh": "研究智能体"},
-        {"id": "personal-assistant", "name": "Personal Assistant", "name_zh": "个人助手"},
-        {"id": "enterprise-agent", "name": "Enterprise Agent", "name_zh": "企业智能体"},
-        {"id": "multi-agent-platform", "name": "Multi-Agent Platform", "name_zh": "多智能体平台"}
-      ]
-    },
-    {
-      "id": "ai-search",
-      "name": "AI Search",
-      "name_zh": "AI 搜索",
-      "icon": "search",
-      "sub_categories": [
-        {"id": "web-search", "name": "Web Search", "name_zh": "网页搜索"},
-        {"id": "enterprise-search", "name": "Enterprise Search", "name_zh": "企业搜索"},
-        {"id": "semantic-search", "name": "Semantic Search", "name_zh": "语义搜索"}
-      ]
-    },
-    {
-      "id": "ai-security",
-      "name": "AI Security",
-      "name_zh": "AI 安全",
-      "icon": "shield",
-      "sub_categories": [
-        {"id": "ai-safety", "name": "AI Safety", "name_zh": "AI 安全对齐"},
-        {"id": "content-safety", "name": "Content Safety", "name_zh": "内容安全"},
-        {"id": "adversarial-defense", "name": "Adversarial Defense", "name_zh": "对抗防御"},
-        {"id": "ai-governance", "name": "AI Governance", "name_zh": "AI 治理"}
-      ]
-    },
-    {
-      "id": "ai-science",
+      "id": "ai-science-research",
       "name": "AI for Science",
-      "name_zh": "AI 科学",
-      "icon": "flask-conical",
-      "sub_categories": [
-        {"id": "drug-discovery", "name": "Drug Discovery", "name_zh": "药物发现"},
-        {"id": "materials-science", "name": "Materials Science", "name_zh": "材料科学"},
-        {"id": "protein-folding", "name": "Protein Folding", "name_zh": "蛋白质折叠"},
-        {"id": "climate-energy", "name": "Climate & Energy", "name_zh": "气候与能源"}
-      ]
+      "name_zh": "AI 科学研究",
+      "icon": "flask-conical"
+    },
+    {
+      "id": "ai-enterprise-vertical",
+      "name": "AI Enterprise Vertical",
+      "name_zh": "AI 行业垂直",
+      "icon": "building"
     }
   ]
 }

@@ -92,7 +92,12 @@
   "sub_category": "image-generation",
   "tags": [
     "research",
-    "computer-vision"
+    "computer-vision",
+    "transformer",
+    "diffusion-model",
+    "text-to-video",
+    "video-editing",
+    "text-to-image"
   ],
   "key_people": [
     {

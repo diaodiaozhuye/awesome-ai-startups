@@ -4,7 +4,7 @@
   "product_url": "https://ai-bot.cn/sites/12946.html",
   "description": "腾讯推出的免费AI智能助手",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -111,7 +111,7 @@
   "icon_url": "https://ai-bot.cn/wp-content/uploads/2024/05/tencent-yuanbao-icon.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai-chatbots",
-    "ai对话聊天"
+    "consumers",
+    "chatbot"
   ]
 }

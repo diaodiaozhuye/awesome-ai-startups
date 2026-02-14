@@ -4,16 +4,19 @@
   "product_url": "https://cursor.com",
   "description": "Cursor is an AI-native code editor built to make programming with AI effortless, featuring intelligent code completion and chat.",
   "product_type": "dev-tool",
-  "category": "ai-dev-tool",
+  "category": "ai-dev-platform",
   "status": "active",
   "name_zh": "Cursor",
   "description_zh": "Cursor 是一款 AI 原生代码编辑器，旨在让 AI 编程变得轻松，具有智能代码补全和对话功能。",
   "sub_category": "coding-assistant",
   "tags": [
-    "code-generation",
+    "b2c",
+    "unicorn",
+    "closed-source",
+    "developers",
     "copilot",
-    "developer-tools",
-    "b2c"
+    "code-generation",
+    "us"
   ],
   "open_source": false,
   "company": {

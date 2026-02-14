@@ -7,7 +7,7 @@ from collections import Counter
 from datetime import date
 from typing import Any
 
-from scrapers.config import PRODUCTS_DIR, STATS_FILE
+from scrapers.config import PRODUCTS_DIR, STATS_FILE, TAGS_FILE
 
 
 class StatsGenerator:
@@ -15,7 +15,7 @@ class StatsGenerator:
 
     Produces:
     - Total product count
-    - Distribution by category, product type, sub-category, country, status
+    - Distribution by category, country, status, tag dimension
     - Funding leaderboard
     - Recently added products
     """
@@ -31,14 +31,21 @@ class StatsGenerator:
             except (json.JSONDecodeError, OSError):
                 continue
 
+        # Load tags data for dimensional stats
+        tags_data = {}
+        if TAGS_FILE.exists():
+            import contextlib
+
+            with contextlib.suppress(json.JSONDecodeError, OSError):
+                tags_data = json.loads(TAGS_FILE.read_text(encoding="utf-8"))
+
         stats: dict[str, Any] = {
             "generated_at": date.today().isoformat(),
             "total_products": len(all_products),
             "by_category": self._count_by_field(all_products, "category"),
-            "by_product_type": self._count_by_field(all_products, "product_type"),
-            "by_sub_category": self._count_by_field(all_products, "sub_category"),
             "by_country": self._count_by_country(all_products),
             "by_status": self._count_by_field(all_products, "status"),
+            "by_tag_dimension": self._count_by_tag_dimension(all_products, tags_data),
             "funding_leaderboard": self._funding_leaderboard(all_products, top_n=10),
             "total_funding_usd": self._total_funding(all_products),
             "open_source_count": sum(1 for p in all_products if p.get("open_source")),
@@ -62,6 +69,27 @@ class StatsGenerator:
             if value is not None:
                 counter[str(value)] += 1
         return [{"label": k, "count": v} for k, v in counter.most_common()]
+
+    @staticmethod
+    def _count_by_tag_dimension(
+        products: list[dict[str, Any]], tags_data: dict[str, Any]
+    ) -> dict[str, list[dict[str, Any]]]:
+        """Count products by tag within each dimension."""
+        dimensions = tags_data.get("dimensions", {})
+        result: dict[str, list[dict[str, Any]]] = {}
+
+        for dim_key, dim_info in dimensions.items():
+            dim_tag_ids = {t["id"] for t in dim_info.get("tags", [])}
+            counter: Counter[str] = Counter()
+            for p in products:
+                for tag in p.get("tags", []):
+                    if tag in dim_tag_ids:
+                        counter[tag] += 1
+            result[dim_key] = [
+                {"tag": tag, "count": count} for tag, count in counter.most_common()
+            ]
+
+        return result
 
     @staticmethod
     def _count_by_country(products: list[dict[str, Any]]) -> list[dict[str, Any]]:

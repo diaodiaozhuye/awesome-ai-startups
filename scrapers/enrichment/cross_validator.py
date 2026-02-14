@@ -21,7 +21,7 @@ except ImportError:
         """Fallback: positional character match ratio."""
         if not a or not b:
             return 0.0
-        common = sum(1 for ca, cb in zip(a, b) if ca == cb)
+        common = sum(1 for ca, cb in zip(a, b, strict=False) if ca == cb)
         return (2.0 * common) / (len(a) + len(b))
 
 

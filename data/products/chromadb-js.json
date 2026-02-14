@@ -4,7 +4,7 @@
   "product_url": "https://www.npmjs.com/package/chromadb",
   "description": "A JavaScript interface for chroma",
   "product_type": "framework",
-  "category": "ai-dev-tool",
+  "category": "ai-dev-platform",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -103,8 +103,10 @@
   },
   "sub_category": "ai-framework",
   "tags": [
-    "javascript",
-    "open-source"
+    "open-source",
+    "saas",
+    "api-platform",
+    "developers"
   ],
   "platforms": [
     "api",

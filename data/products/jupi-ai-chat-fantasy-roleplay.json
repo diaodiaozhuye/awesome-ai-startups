@@ -4,7 +4,7 @@
   "product_url": "https://apps.apple.com/us/app/jupi-ai-chat-fantasy-roleplay/id1668337467?uo=4",
   "description": "Are you ready for the ultimate AI roleplay experience?\n\nJupi is an app that lets you create your own fantasy AI characters to chat and roleplay with. Customize your character's looks, voice, persona and style according to your liking. Later on, either share it with other users in the app or keep it private to yourself and chat without limits. \n\nImagine anyone and digitally bring him or her to life. You can create celebrities, historical figures, anime, fantasy or game characters, or even a vi...",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -86,5 +86,9 @@
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/12/a5/c112a561-7ccf-a46a-e7e7-ea1fd464d467/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
   "platforms": [
     "ios"
+  ],
+  "tags": [
+    "consumers",
+    "mobile-app"
   ]
 }

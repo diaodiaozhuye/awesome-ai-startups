@@ -4,7 +4,7 @@
   "product_url": "https://apps.apple.com/us/app/ai-chatbot-assistant-askeasy/id6447290444?uo=4",
   "description": "AskEasy* is your personal AI assistant, who helps with daily tasks, making your life easier, more fun, and efficient. \nIt swiftly finds answers to any query, writes texts, generates images, assists with daily tasks, and can even recommend a book to read or a movie to watch! Simply input your request, and watch as accurate responses magically appear on your screen.\nKey Features:\n【AI IMAGE GENERATOR】\nTransform words into stunning visuals. Enter a description, and let AI generate captivating ima...",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -86,5 +86,11 @@
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/8b/29/ec8b2987-07ac-8150-828b-44dd246192d4/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220-0.png/512x512bb.jpg",
   "platforms": [
     "ios"
+  ],
+  "tags": [
+    "consumers",
+    "text-to-image",
+    "mobile-app",
+    "chatbot"
   ]
 }

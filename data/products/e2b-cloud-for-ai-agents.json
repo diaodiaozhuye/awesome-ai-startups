@@ -4,10 +4,12 @@
   "product_url": "https://e2b.dev/docs",
   "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "consumers",
+    "enterprises"
   ],
   "open_source": true,
   "repository_url": "https://github.com/e2b-dev",

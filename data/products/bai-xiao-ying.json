@@ -4,7 +4,7 @@
   "product_url": "https://ying.baichuan-ai.com",
   "description": "百川智能发布最新一代基座大模型Baichuan 4，并推出成立之后的首款AI助手“百小应”。",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,6 @@
   "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/05/bdc7a-ying.baichuan-ai.com.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

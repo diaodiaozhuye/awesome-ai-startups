@@ -17,7 +17,7 @@ except ImportError:
         """Fallback: simple ratio based on common prefix length."""
         if not a or not b:
             return 0.0
-        common = sum(1 for ca, cb in zip(a, b) if ca == cb)
+        common = sum(1 for ca, cb in zip(a, b, strict=False) if ca == cb)
         return (2.0 * common) / (len(a) + len(b))
 
 

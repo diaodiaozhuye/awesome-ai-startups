@@ -4,7 +4,7 @@
   "product_url": "http://drive.ai/",
   "description": "subsidiary of Apple Inc.",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,5 +106,8 @@
     "headquarters": {
       "city": "Mountain View"
     }
-  }
+  },
+  "tags": [
+    "consumers"
+  ]
 }

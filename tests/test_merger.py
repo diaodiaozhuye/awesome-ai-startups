@@ -428,21 +428,27 @@ class TestSlugValidation:
     """Slug validation prevents path traversal."""
 
     def test_rejects_path_traversal(self, merger: TieredMerger, tmp_path: Any) -> None:
-        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
-            with pytest.raises(ValueError, match="Invalid slug"):
-                merger.merge_or_create("../../etc/passwd", _make_product())
+        with (
+            patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path),
+            pytest.raises(ValueError, match="Invalid slug"),
+        ):
+            merger.merge_or_create("../../etc/passwd", _make_product())
 
     def test_rejects_backslash_traversal(
         self, merger: TieredMerger, tmp_path: Any
     ) -> None:
-        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
-            with pytest.raises(ValueError, match="Invalid slug"):
-                merger.merge_or_create("..\\..\\windows\\system32", _make_product())
+        with (
+            patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path),
+            pytest.raises(ValueError, match="Invalid slug"),
+        ):
+            merger.merge_or_create("..\\..\\windows\\system32", _make_product())
 
     def test_rejects_empty_slug(self, merger: TieredMerger, tmp_path: Any) -> None:
-        with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):
-            with pytest.raises(ValueError, match="Invalid slug"):
-                merger.merge_or_create("", _make_product())
+        with (
+            patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path),
+            pytest.raises(ValueError, match="Invalid slug"),
+        ):
+            merger.merge_or_create("", _make_product())
 
     def test_accepts_valid_slug(self, merger: TieredMerger, tmp_path: Any) -> None:
         with patch("scrapers.enrichment.merger.PRODUCTS_DIR", tmp_path):

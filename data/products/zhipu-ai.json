@@ -4,17 +4,19 @@
   "product_url": "https://open.bigmodel.cn",
   "description": "Zhipu AI is a Chinese AI company building large language models and cognitive intelligence technology, spun out of Tsinghua University.",
   "product_type": "llm",
-  "category": "ai-model",
+  "category": "ai-foundation-model",
   "status": "active",
   "name_zh": "智谱 AI",
   "description_zh": "智谱 AI 是一家源自清华大学的中国 AI 公司，致力于构建大语言模型和认知智能技术。",
   "sub_category": "text-generation",
   "tags": [
-    "generative-ai",
     "nlp",
     "transformer",
+    "china",
     "api-platform",
-    "china"
+    "open-source",
+    "chatbot",
+    "researchers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/THUDM",

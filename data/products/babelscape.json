@@ -4,7 +4,7 @@
   "product_url": "https://babelscape.com",
   "description": "artificial intelligence company focused on multilingual natural language understanding",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -119,5 +119,10 @@
       "title": "full professor",
       "is_founder": true
     }
+  ],
+  "tags": [
+    "europe",
+    "nlp",
+    "consumers"
   ]
 }

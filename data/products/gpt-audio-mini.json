@@ -4,7 +4,7 @@
   "product_url": "https://openrouter.ai/models/openai/gpt-audio-mini",
   "description": "A cost-efficient version of GPT Audio. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Input is priced at $0.60 per million tokens and output is priced at $2.40 per million tokens.",
   "product_type": "llm",
-  "category": "ai-model",
+  "category": "ai-foundation-model",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -115,8 +115,12 @@
   },
   "sub_category": "text-generation",
   "tags": [
-    "llm",
-    "api-service"
+    "api-service",
+    "nlp",
+    "usage-based",
+    "chatbot",
+    "multimodal",
+    "researchers"
   ],
   "modalities": [
     "audio",

@@ -10,7 +10,6 @@ const fuseOptions: IFuseOptions<ProductIndexEntry> = {
     { name: "description_zh", weight: 0.8 },
     { name: "category", weight: 1 },
     { name: "product_type", weight: 0.8 },
-    { name: "sub_category", weight: 0.7 },
     { name: "tags", weight: 0.8 },
     { name: "country", weight: 0.5 },
     { name: "city", weight: 0.5 },

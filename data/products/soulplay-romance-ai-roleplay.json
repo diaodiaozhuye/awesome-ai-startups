@@ -4,7 +4,7 @@
   "product_url": "https://apps.apple.com/us/app/soulplay-romance-ai-roleplay/id6501972568?uo=4",
   "description": "Step into a creative world of imagination and storytelling with Soulplay. Whether you're into fantasy adventures, school life drama, or sci-fi missions, Soulplay lets you explore a wide variety of interactive scenarios through rich conversations with AI-powered characters.\n\nImmersive Roleplay: Choose from hundreds of characters and story settings, from epic heroes to quirky classmates. Whether you're in the mood for a fun chat or deep storytelling, there's something for everyone.\n\nCreate Your...",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -86,5 +86,9 @@
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/77/17/3b771793-2e43-420d-23de-6afbf6c6a0ef/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
   "platforms": [
     "ios"
+  ],
+  "tags": [
+    "consumers",
+    "mobile-app"
   ]
 }

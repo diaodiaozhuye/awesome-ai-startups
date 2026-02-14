@@ -36,9 +36,9 @@ export function ProductCard({ product, locale, categoryLabel }: ProductCardProps
 
         <div className="mt-4 flex flex-wrap gap-2">
           <Badge variant="primary">{categoryLabel || product.category.replace(/-/g, " ")}</Badge>
-          {product.product_type && (
-            <Badge>{product.product_type}</Badge>
-          )}
+          {product.tags && product.tags.slice(0, 3).map((tag) => (
+            <Badge key={tag}>{tag.replace(/-/g, " ")}</Badge>
+          ))}
           {product.last_round && <FundingBadge round={product.last_round} />}
         </div>
 

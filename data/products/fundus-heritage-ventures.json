@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "Private equity platform of a century-old European family office, focused on systems resilience, institutional continuity, and behavioral AI.",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-12",
@@ -81,5 +81,8 @@
       "city": "Monte Carlo",
       "country": "Monaco"
     }
-  }
+  },
+  "tags": [
+    "consumers"
+  ]
 }

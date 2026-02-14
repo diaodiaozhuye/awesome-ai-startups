@@ -10,16 +10,20 @@
       "product_url": "https://apps.apple.com/us/app/chatgpt/id6448311069?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/ff/6c/71ff6c58-6537-dea4-40b3-17704932c02f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "generative-ai",
         "nlp",
+        "text-to-image",
+        "mobile-app",
+        "closed-source",
         "transformer",
-        "multimodal",
         "api-platform",
+        "decacorn",
+        "consumers",
+        "real-time",
         "chatbot",
-        "ai-chatbots"
+        "multimodal",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -42,17 +46,17 @@
       "product_url": "https://ai-bot.cn/sites/460.html",
       "icon_url": "https://ai-bot.cn/wp-content/uploads/2023/03/anthropic-icon.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "generative-ai",
         "nlp",
+        "closed-source",
         "transformer",
         "api-platform",
-        "chatbot",
         "b2b",
-        "ai-chatbots",
-        "ai对话聊天"
+        "decacorn",
+        "consumers",
+        "chatbot",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -75,12 +79,14 @@
       "product_url": "https://waymo.com/waymo-one",
       "product_type": "hardware",
       "category": "ai-hardware",
-      "sub_category": "autonomous-vehicle",
       "tags": [
         "self-driving",
+        "closed-source",
+        "robotics",
         "computer-vision",
+        "autonomous-vehicles",
         "reinforcement-learning",
-        "hardware"
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -102,14 +108,15 @@
       "description_zh": "Databricks 是基于 Apache Spark 构建的统一分析平台，融合了数据工程、数据科学和机器学习。",
       "product_url": "https://www.databricks.com/product",
       "product_type": "dev-tool",
-      "category": "ai-data",
-      "sub_category": "data-pipeline",
+      "category": "ai-data-platform",
       "tags": [
-        "data-labeling",
-        "mlops",
         "b2b",
+        "open-source",
+        "decacorn",
+        "data-analysis",
         "saas",
-        "open-source"
+        "data-scientists",
+        "us"
       ],
       "open_source": true,
       "status": "active",
@@ -131,15 +138,16 @@
       "description_zh": "Mistral AI 是一家法国 AI 公司，构建开放和便携的生成式 AI 模型。以高效开源模型闻名。",
       "product_url": "https://mistral.ai",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "generative-ai",
         "nlp",
+        "unicorn",
+        "europe",
         "transformer",
-        "open-source",
         "api-platform",
-        "europe"
+        "open-source",
+        "chatbot",
+        "researchers"
       ],
       "open_source": true,
       "status": "active",
@@ -161,12 +169,15 @@
       "description_zh": "Inflection AI 构建个人 AI 助手，专注于自然、有同理心的对话。Pi 的创造者。",
       "product_url": "https://pi.ai",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "personal-assistant",
+      "category": "ai-application",
       "tags": [
-        "chatbot",
+        "b2c",
         "nlp",
-        "b2c"
+        "closed-source",
+        "consumers",
+        "chatbot",
+        "creators",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -188,12 +199,16 @@
       "description_zh": "Recursion 是一家临床阶段的生物科技公司，利用 AI 和自动化大规模发现新药物。",
       "product_url": "https://www.recursion.com/technology",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "healthcare-medical",
+      "category": "ai-enterprise-vertical",
       "tags": [
-        "drug-discovery",
+        "closed-source",
         "computer-vision",
-        "b2b"
+        "b2b",
+        "consumers",
+        "enterprises",
+        "drug-discovery",
+        "healthcare",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -215,13 +230,14 @@
       "description_zh": "月之暗面是一家中国 AI 创业公司，构建具有超长上下文窗口的大语言模型。",
       "product_url": "https://kimi.moonshot.cn",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "personal-assistant",
+      "category": "ai-application",
       "tags": [
-        "generative-ai",
         "nlp",
-        "chatbot",
-        "china"
+        "unicorn",
+        "closed-source",
+        "china",
+        "consumers",
+        "chatbot"
       ],
       "open_source": false,
       "status": "active",
@@ -243,15 +259,18 @@
       "description_zh": "Cohere 构建企业级大语言模型和 RAG 解决方案。专注于让 NLP 服务于商业应用。",
       "product_url": "https://cohere.com/command",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "generative-ai",
         "nlp",
+        "unicorn",
+        "closed-source",
         "transformer",
         "api-platform",
         "b2b",
-        "rag"
+        "chatbot",
+        "enterprises",
+        "rag",
+        "researchers"
       ],
       "open_source": false,
       "status": "active",
@@ -273,13 +292,17 @@
       "description_zh": "Shield AI 构建 AI 驱动的国防技术，包括自主无人机和智能飞行员系统。",
       "product_url": "https://shield.ai/hivemind",
       "product_type": "app",
-      "category": "ai-security",
-      "sub_category": "ai-safety",
+      "category": "ai-security-governance",
       "tags": [
         "drone",
+        "unicorn",
+        "closed-source",
         "defense",
+        "consumers",
+        "enterprises",
         "reinforcement-learning",
-        "edge-ai"
+        "edge-ai",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -302,11 +325,13 @@
       "product_url": "https://www.figure.ai",
       "product_type": "hardware",
       "category": "ai-hardware",
-      "sub_category": "robot",
       "tags": [
+        "unicorn",
+        "closed-source",
         "humanoid-robot",
-        "reinforcement-learning",
-        "hardware"
+        "robotics",
+        "us",
+        "reinforcement-learning"
       ],
       "open_source": false,
       "status": "active",
@@ -328,13 +353,14 @@
       "description_zh": "Scale AI 为大规模构建 AI 应用的企业提供高质量训练数据和 AI 基础设施。",
       "product_url": "https://scale.com/data-engine",
       "product_type": "dev-tool",
-      "category": "ai-data",
-      "sub_category": "data-pipeline",
+      "category": "ai-data-platform",
       "tags": [
-        "data-labeling",
-        "synthetic-data",
+        "unicorn",
+        "closed-source",
         "b2b",
-        "mlops"
+        "data-analysis",
+        "data-scientists",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -356,14 +382,14 @@
       "description_zh": "百川智能是一家中国 AI 创业公司，开发专注于中文语言和文化理解的大语言模型。",
       "product_url": "https://github.com/baichuan-inc/Baichuan2",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "generative-ai",
         "nlp",
         "transformer",
+        "china",
         "open-source",
-        "china"
+        "chatbot",
+        "researchers"
       ],
       "open_source": true,
       "status": "active",
@@ -385,13 +411,15 @@
       "description_zh": "Cursor 是一款 AI 原生代码编辑器，旨在让 AI 编程变得轻松，具有智能代码补全和对话功能。",
       "product_url": "https://cursor.com",
       "product_type": "dev-tool",
-      "category": "ai-dev-tool",
-      "sub_category": "coding-assistant",
+      "category": "ai-dev-platform",
       "tags": [
-        "code-generation",
+        "b2c",
+        "unicorn",
+        "closed-source",
+        "developers",
         "copilot",
-        "developer-tools",
-        "b2c"
+        "code-generation",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -413,14 +441,15 @@
       "description_zh": "智谱 AI 是一家源自清华大学的中国 AI 公司，致力于构建大语言模型和认知智能技术。",
       "product_url": "https://open.bigmodel.cn",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "generative-ai",
         "nlp",
         "transformer",
+        "china",
         "api-platform",
-        "china"
+        "open-source",
+        "chatbot",
+        "researchers"
       ],
       "open_source": true,
       "status": "active",
@@ -442,23 +471,17 @@
       "description_zh": "Hugging Face 是用于分享模型、数据集和应用的 AI 社区平台。Transformers 库和模型中心的发源地。",
       "product_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
       "product_type": "framework",
-      "category": "ai-model",
-      "sub_category": "embedding",
+      "category": "ai-foundation-model",
       "tags": [
-        "open-source",
-        "developer-tools",
-        "model-serving",
-        "mlops",
+        "nlp",
+        "api-service",
+        "unicorn",
         "api-platform",
-        "sentence-similarity",
-        "fill-mask",
-        "image-classification",
-        "image-text-to-text",
-        "audio-classification",
-        "zero-shot-image-classification",
-        "voice-activity-detection",
-        "automatic-speech-recognition",
-        "time-series-forecasting"
+        "developers",
+        "open-source",
+        "researchers",
+        "multimodal",
+        "us"
       ],
       "open_source": true,
       "status": "active",
@@ -480,13 +503,14 @@
       "description_zh": "Stability AI 是 Stable Diffusion 背后的公司，该开源文本转图像模型使 AI 图像生成大众化。",
       "product_url": "https://stability.ai/stable-diffusion",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "image-generation",
+      "category": "ai-creative-media",
       "tags": [
-        "generative-ai",
         "text-to-image",
         "diffusion-model",
-        "open-source"
+        "europe",
+        "open-source",
+        "content-creation",
+        "creators"
       ],
       "open_source": true,
       "status": "active",
@@ -508,13 +532,17 @@
       "description_zh": "Perplexity AI 是一款 AI 驱动的答案引擎，利用实时网络搜索提供直接且有引用的答案。",
       "product_url": "https://www.perplexity.ai",
       "product_type": "app",
-      "category": "ai-search",
-      "sub_category": "web-search",
+      "category": "ai-search-retrieval",
       "tags": [
-        "search-engine",
+        "b2c",
         "nlp",
+        "unicorn",
+        "closed-source",
+        "search-engine",
+        "consumers",
+        "real-time",
         "rag",
-        "b2c"
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -536,13 +564,16 @@
       "description_zh": "Runway 是一家应用 AI 研究公司，构建下一代由机器学习驱动的创意工具。",
       "product_url": "https://runwayml.com",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "image-generation",
+      "category": "ai-creative-media",
       "tags": [
-        "generative-ai",
-        "text-to-video",
         "text-to-image",
-        "content-creation"
+        "unicorn",
+        "closed-source",
+        "diffusion-model",
+        "us",
+        "content-creation",
+        "creators",
+        "text-to-video"
       ],
       "open_source": false,
       "status": "active",
@@ -564,13 +595,16 @@
       "description_zh": "Replit 是一个协作编程平台，具有 AI 驱动的功能，让任何人都能直接在浏览器中构建软件。",
       "product_url": "https://replit.com",
       "product_type": "dev-tool",
-      "category": "ai-dev-tool",
-      "sub_category": "coding-assistant",
+      "category": "ai-dev-platform",
       "tags": [
-        "code-generation",
-        "developer-tools",
         "b2c",
-        "saas"
+        "unicorn",
+        "closed-source",
+        "developers",
+        "copilot",
+        "code-generation",
+        "saas",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -592,13 +626,15 @@
       "description_zh": "Character.AI 是一个用户可以创建和与 AI 角色互动的平台，用于对话和娱乐。",
       "product_url": "https://character.ai",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "personal-assistant",
+      "category": "ai-application",
       "tags": [
-        "chatbot",
-        "generative-ai",
         "b2c",
-        "content-creation"
+        "unicorn",
+        "closed-source",
+        "consumers",
+        "chatbot",
+        "content-creation",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -620,13 +656,16 @@
       "description_zh": "Pika 是一家 AI 公司，通过生成式 AI 技术让每个人都能轻松创作视频。",
       "product_url": "https://pika.art",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "image-generation",
+      "category": "ai-creative-media",
       "tags": [
-        "generative-ai",
+        "b2c",
+        "text-to-image",
+        "closed-source",
+        "diffusion-model",
         "text-to-video",
         "content-creation",
-        "b2c"
+        "creators",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -648,13 +687,17 @@
       "description_zh": "Jasper AI 是面向营销团队的企业 AI 平台，用于大规模创建品牌一致的内容。",
       "product_url": "https://www.jasper.ai",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "workflow-automation",
+      "category": "ai-application",
       "tags": [
-        "content-creation",
-        "marketing",
+        "unicorn",
+        "closed-source",
         "b2b",
-        "saas"
+        "consumers",
+        "marketing",
+        "enterprises",
+        "saas",
+        "content-creation",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -677,12 +720,12 @@
       "product_url": "https://www.1x.tech/neo",
       "product_type": "hardware",
       "category": "ai-hardware",
-      "sub_category": "robot",
       "tags": [
+        "closed-source",
+        "robotics",
+        "europe",
         "humanoid-robot",
-        "reinforcement-learning",
-        "hardware",
-        "europe"
+        "reinforcement-learning"
       ],
       "open_source": false,
       "status": "active",
@@ -704,13 +747,15 @@
       "description_zh": "ElevenLabs 是一家 AI 语音技术公司，提供逼真的文本转语音、声音克隆和音频 AI 工具。",
       "product_url": "https://elevenlabs.io",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "audio-speech",
+      "category": "ai-creative-media",
       "tags": [
         "text-to-speech",
-        "generative-ai",
+        "unicorn",
+        "closed-source",
         "api-platform",
-        "content-creation"
+        "content-creation",
+        "creators",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -730,9 +775,10 @@
       "description": "Open source Cursor-like UI for Claude Code",
       "product_url": "https://www.producthunt.com/r/YGTESR73YSIAM7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "open-source",
+        "consumers"
       ],
       "status": "active",
       "company_name": "1Code",
@@ -751,7 +797,12 @@
       "description": "German educational company focused on AI training (founded 2023)",
       "product_url": "https://leeon.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers",
+        "education-tutoring"
+      ],
       "status": "active",
       "company_name": "A-Leecon GmbH",
       "company_url": "https://leeon.com",
@@ -770,7 +821,13 @@
       "product_url": "https://apps.apple.com/us/app/ai-chatbot-assistant-askeasy/id6447290444?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/8b/29/ec8b2987-07ac-8150-828b-44dd246192d4/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-85-220-0.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "text-to-image",
+        "mobile-app",
+        "chatbot"
+      ],
       "status": "active",
       "company_name": "Zilingial Limited",
       "company_url": "https://www.bing.com/search?q=Zilingial+Limited+AI",
@@ -789,7 +846,13 @@
       "product_url": "https://apps.apple.com/us/app/ai-chatbot-ask-me-anything/id1668805457?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/b5/73/dfb5738d-dac5-f42a-fbfc-0aef623d19b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "nlp",
+        "mobile-app",
+        "chatbot"
+      ],
       "status": "active",
       "company_name": "EVOLLY.APP",
       "company_url": "https://www.bing.com/search?q=EVOLLY.APP+AI",
@@ -808,7 +871,13 @@
       "product_url": "https://apps.apple.com/us/app/ai-chatbot-nova/id1669007652?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/3f/0c/ca3f0c1d-b7b3-033e-6075-94b9996099c0/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "mobile-app",
+        "consumers",
+        "personal-assistant",
+        "chatbot"
+      ],
       "status": "active",
       "company_name": "SCALEUP YAZILIM HIZMETLERI",
       "company_url": "https://www.bing.com/search?q=SCALEUP+YAZILIM+HIZMETLERI+AI",
@@ -826,7 +895,11 @@
       "description": "ai powered digital marketing tool",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "marketing"
+      ],
       "status": "active",
       "company_name": "AI MarketGenie",
       "company_url": "https://www.bing.com/search?q=AI+MarketGenie+AI",
@@ -845,7 +918,14 @@
       "product_url": "https://apps.apple.com/us/app/ai-chat-al-video-generator/id6447537694?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/74/32/467432fe-ca00-9144-dcf4-6369506adabb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "mobile-app",
+        "writing-assistant",
+        "consumers",
+        "chatbot",
+        "text-to-video"
+      ],
       "status": "active",
       "company_name": "Curious Creators Co.",
       "company_url": "https://www.bing.com/search?q=Curious+Creators+Co.+AI",
@@ -863,7 +943,10 @@
       "description": "accelerator program for AI-enabled startups",
       "product_url": "https://fr.ai-at-centech.com/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "AI@Centech",
       "company_url": "https://fr.ai-at-centech.com",
@@ -881,9 +964,10 @@
       "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
       "product_url": "https://am.ai",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -903,9 +987,9 @@
       "description": "Build AI agents that respond with UI instead of text",
       "product_url": "https://www.producthunt.com/r/YUPWALOJ2E7QGI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Agent Builder by Thesys",
@@ -924,7 +1008,10 @@
       "description": "AI prototyping software company",
       "product_url": "https://alloy.app",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Alloy",
       "company_url": "https://alloy.app",
@@ -942,7 +1029,11 @@
       "description": "American Multinational Company",
       "product_url": "https://www.altair.com/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "us"
+      ],
       "status": "active",
       "company_name": "Altair Engineering",
       "company_url": "https://www.altair.com",
@@ -960,11 +1051,13 @@
       "description": "The official TypeScript library for the Anthropic API",
       "product_url": "https://www.npmjs.com/package/@anthropic-ai/sdk",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
-        "javascript",
-        "open-source"
+        "sdk",
+        "api-platform",
+        "developers",
+        "open-source",
+        "saas"
       ],
       "open_source": true,
       "status": "active",
@@ -984,10 +1077,12 @@
       "description": "The official Python library for the anthropic API",
       "product_url": "https://pypi.org/project/anthropic/",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
-        "python",
+        "sdk",
+        "cli-tool",
+        "api-platform",
+        "developers",
         "open-source"
       ],
       "open_source": true,
@@ -1008,7 +1103,10 @@
       "description": "Artificial Intelligence Center is an AI product.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Artificial Intelligence Center",
       "company_url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Center",
@@ -1027,10 +1125,12 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "transformer",
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "AssetFormer",
@@ -1049,7 +1149,11 @@
       "description": "American data operations technology company",
       "product_url": "https://www.astronomer.io/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "us"
+      ],
       "status": "active",
       "company_name": "Astronomer",
       "company_url": "https://www.astronomer.io",
@@ -1067,9 +1171,9 @@
       "description": "Turn your ideas into products that sell  ",
       "product_url": "https://www.producthunt.com/r/JPDY4ECBKWVO5J?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Atoms",
@@ -1088,9 +1192,13 @@
       "description": "Retrieval augmented generation (RAG) has been widely adopted to help Large Language Models (LLMs) to process tasks involving long documents. However, existing retrieval models are not designed for long document retrieval and fail to address several key challenges of long document retrieval, including context-awareness, causal dependence, and scope of retrieval. In this paper, we proposed AttentionRetriever, a novel long document retrieval model that leverages attention mechanism and entity-based retrieval to build context-aware embeddings for long document and determine the scope of retrieval. With extensive experiments, we found AttentionRetriever is able to outperform existing retrieval models on long document retrieval datasets by a large margin while remaining as efficient as dense retrieval models.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "nlp",
+        "research",
+        "rag",
+        "embedding",
+        "researchers"
       ],
       "status": "active",
       "company_name": "AttentionRetriever",
@@ -1110,6 +1218,9 @@
       "product_url": "http://aurora.tech/",
       "product_type": "other",
       "category": "ai-app",
+      "tags": [
+        "us"
+      ],
       "status": "active",
       "company_name": "Aurora Innovation",
       "company_url": "http://aurora.tech",
@@ -1127,9 +1238,10 @@
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "product_url": "agpt.co",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -1150,7 +1262,11 @@
       "product_url": "https://apps.apple.com/us/app/bala-ai-chat-with-soulful-ai/id6470903137?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/59/a1/7b59a142-c4e3-3742-e7cc-76879c855cd5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "mobile-app"
+      ],
       "status": "active",
       "company_name": "Pallar Media Limited",
       "company_url": "https://www.bing.com/search?q=Pallar+Media+Limited+AI",
@@ -1168,7 +1284,12 @@
       "description": "artificial intelligence company focused on multilingual natural language understanding",
       "product_url": "https://babelscape.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "nlp",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Babelscape",
       "company_url": "https://babelscape.com",
@@ -1186,7 +1307,11 @@
       "description": "American AI-powered infrastructure company",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "us"
+      ],
       "status": "active",
       "company_name": "Bell, Inc.",
       "company_url": "https://www.bing.com/search?q=Bell%2C+Inc.+AI",
@@ -1204,11 +1329,14 @@
       "description": "Large Language Models (LLMs) exhibit impressive capabilities yet suffer from sensitivity to slight input context variations, hampering reliability. Conventional metrics like accuracy and perplexity fail to assess local prediction robustness, as normalized output probabilities can obscure the underlying resilience of an LLM's internal state to perturbations. We introduce the Token Constraint Bound ($δ_{\\mathrm{TCB}}$), a novel metric that quantifies the maximum internal state perturbation an LLM can withstand before its dominant next-token prediction significantly changes. Intrinsically linked to output embedding space geometry, $δ_{\\mathrm{TCB}}$ provides insights into the stability of the model's internal predictive commitment. Our experiments show $δ_{\\mathrm{TCB}}$ correlates with effective prompt engineering and uncovers critical prediction instabilities missed by perplexity during in-context learning and text generation. $δ_{\\mathrm{TCB}}$ offers a principled, complementary approach to analyze and potentially improve the contextual stability of LLM predictions.",
       "product_url": "",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
+        "prompt-engineering",
         "research",
-        "nlp"
+        "chatbot",
+        "embedding",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Beyond Confidence",
@@ -1228,10 +1356,13 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "multimodal",
+        "embedding",
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "Beyond Pixels",
@@ -1250,10 +1381,14 @@
       "description": "Preference optimization for diffusion and flow-matching models relies on reward functions that are both discriminatively robust and computationally efficient. Vision-Language Models (VLMs) have emerged as the primary reward provider, leveraging their rich multimodal priors to guide alignment. However, their computation and memory cost can be substantial, and optimizing a latent diffusion generator through a pixel-space reward introduces a domain mismatch that complicates alignment. In this paper, we propose DiNa-LRM, a diffusion-native latent reward model that formulates preference learning directly on noisy diffusion states. Our method introduces a noise-calibrated Thurstone likelihood with diffusion-noise-dependent uncertainty. DiNa-LRM leverages a pretrained latent diffusion backbone with a timestep-conditioned reward head, and supports inference-time noise ensembling, providing a diffusion-native mechanism for test-time scaling and robust rewarding. Across image alignment benchmarks, DiNa-LRM substantially outperforms existing diffusion-based reward baselines and achieves performance competitive with state-of-the-art VLMs at a fraction of the computational cost. In preference optimization, we demonstrate that DiNa-LRM improves preference optimization dynamics, enabling faster and more resource-efficient model alignment.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "image-generation",
+      "category": "ai-creative-media",
       "tags": [
+        "text-to-image",
+        "diffusion-model",
         "research",
+        "content-creation",
+        "multimodal",
+        "creators",
         "computer-vision"
       ],
       "status": "active",
@@ -1273,9 +1408,9 @@
       "description": "You can now vibe code agentic AI apps",
       "product_url": "https://www.producthunt.com/r/IHQ54WYAC3Z5Z2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Blink Agent Builder",
@@ -1294,7 +1429,11 @@
       "description": "software company acquired by Amazon",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "us"
+      ],
       "status": "active",
       "company_name": "Body Labs",
       "company_url": "https://en.wikipedia.org/wiki/Body_Labs",
@@ -1313,7 +1452,11 @@
       "product_url": "https://apps.apple.com/us/app/botify-ai-create-chat-bot/id1566710178?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/2f/6e/422f6e6e-3a77-5df0-a71f-7e0d3bfabf38/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "mobile-app"
+      ],
       "status": "active",
       "company_name": "Ex-human, Inc",
       "company_url": "https://www.bing.com/search?q=Ex-human%2C+Inc+AI",
@@ -1331,7 +1474,11 @@
       "description": "Agency for corporate digitalization and automation, focusing on innovative business solutions.",
       "product_url": "https://www.brandupfactory.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "BrandUp Factory GmbH",
       "company_url": "https://www.brandupfactory.com",
@@ -1350,7 +1497,11 @@
       "product_url": "https://apps.apple.com/us/app/chai-social-ai-platform-chat/id1544750895?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/6a/90/8b6a9085-9f7a-ef9d-6e92-819280d4086b/AppIcon-dark-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "mobile-app"
+      ],
       "status": "active",
       "company_name": "Chai Research Corp.",
       "company_url": "https://www.bing.com/search?q=Chai+Research+Corp.+AI",
@@ -1368,9 +1519,12 @@
       "description": "Agentic coding requires agents to effectively interact with runtime environments, e.g., command line interfaces (CLI), so as to complete tasks like resolving dependency issues, fixing system problems, etc. But it remains underexplored how such environment-intensive tasks can be obtained at scale to enhance agents' capabilities. To address this, based on an analogy between the Dockerfile and the agentic task, we propose to employ agents to simulate and explore environment histories, guided by execution feedback. By tracing histories of a healthy environment, its state can be inverted to an earlier one with runtime failures, from which a task can be derived by packing the buggy state and the corresponding error messages. With our method, named CLI-Gym, a total of 1,655 environment-intensive tasks are derived, being the largest collection of its kind. Moreover, with curated successful trajectories, our fine-tuned model, named LiberCoder, achieves substantial absolute improvements of +21.1% (to 46.1%) on Terminal-Bench, outperforming various strong baselines. To our knowledge, this is the first public pipeline for scalable derivation of environment-intensive tasks.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "research",
+        "cli-tool",
+        "researchers",
+        "nlp"
       ],
       "status": "active",
       "company_name": "CLI-Gym",
@@ -1389,11 +1543,15 @@
       "description": "A narrated e-book combines synchronized audio with digital text, highlighting the currently spoken word or sentence during playback. This format supports early literacy and assists individuals with reading challenges, while also allowing general readers to seamlessly switch between reading and listening. With the emergence of natural-sounding neural Text-to-Speech (TTS) technology, several commercial services have been developed to leverage these technology for converting standard text e-books into high-quality narrated e-books. However, no open-source solutions currently exist to perform this task. In this paper, we present Calliope, an open-source framework designed to fill this gap. Our method leverages state-of-the-art open-source TTS to convert a text e-book into a narrated e-book in the EPUB 3 Media Overlay format. The method offers several innovative steps: audio timestamps are captured directly during TTS, ensuring exact synchronization between narration and text highlighting; the publisher's original typography, styling, and embedded media are strictly preserved; and the entire pipeline operates offline. This offline capability eliminates recurring API costs, mitigates privacy concerns, and avoids copyright compliance issues associated with cloud-based services. The framework currently supports the state-of-the-art open-source TTS systems XTTS-v2 and Chatterbox. A potential alternative approach involves first generating narration via TTS and subsequently synchronizing it with the text using forced alignment. However, while our method ensures exact synchronization, our experiments show that forced alignment introduces drift between the audio and text highlighting significant enough to degrade the reading experience. Source code and usage instructions are available at https://github.com/hugohammer/TTS-Narrated-Ebook-Creator.git.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
+        "text-to-speech",
+        "open-source",
         "research",
-        "nlp"
+        "chatbot",
+        "creators",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Calliope",
@@ -1412,7 +1570,10 @@
       "description": "AI hardware company building the largest chip for deep learning training and inference",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Cerebras",
       "company_url": "https://en.wikipedia.org/wiki/Cerebras",
@@ -1431,7 +1592,11 @@
       "product_url": "https://apps.apple.com/us/app/character-ai-chat-talk-text/id1671705818?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/e4/7a/09e47a68-1484-33c7-51ae-9ff944039f49/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "mobile-app"
+      ],
       "status": "active",
       "company_name": "Character.AI",
       "company_url": "https://www.bing.com/search?q=Character.AI+AI",
@@ -1449,9 +1614,9 @@
       "description": "Turn data into professional charts with insights in seconds",
       "product_url": "https://www.producthunt.com/r/WNQF46TLOBPSCD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "ChartGen AI",
@@ -1471,7 +1636,12 @@
       "product_url": "https://apps.apple.com/us/app/chat-ai-ask-anything/id1660877567?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/49/b6/2d49b636-076d-734d-a78c-b52f5c2c3c0d/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "mobile-app",
+        "chatbot"
+      ],
       "status": "active",
       "company_name": "ElevenThirteen LLC",
       "company_url": "https://www.bing.com/search?q=ElevenThirteen+LLC+AI",
@@ -1490,7 +1660,13 @@
       "product_url": "https://apps.apple.com/us/app/chatbot-ai-assistant-genie/id1658377526?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/af/7c/67af7c3d-d9bc-cc93-efc1-3d754c90fcec/AppIcon-Omega-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "text-to-image",
+        "mobile-app",
+        "chatbot"
+      ],
       "status": "active",
       "company_name": "APPNATION YAZILIM HIZMETLERI TICARET ANONIM SIRKETI",
       "company_url": "https://www.bing.com/search?q=APPNATION+YAZILIM+HIZMETLERI+TICARET+ANONIM+SIRKETI+AI",
@@ -1508,9 +1684,13 @@
       "description": "As AI usage becomes more prevalent in social contexts, understanding agent-user interaction is critical to designing systems that improve both individual and group outcomes. We present an online behavioral experiment (N = 243) in which participants play three multi-turn bargaining games in groups of three. Each game, presented in randomized order, grants \\textit{access to} a single LLM assistance modality: proactive recommendations from an \\textit{Advisor}, reactive feedback from a \\textit{Coach}, or autonomous execution by a \\textit{Delegate}; all modalities are powered by an underlying LLM that achieves superhuman performance in an all-agent environment. On each turn, participants privately decide whether to act manually or use the AI modality available in that game. Despite preferring the \\textit{Advisor} modality, participants achieve the highest mean individual gains with the \\textit{Delegate}, demonstrating a preference-performance misalignment. Moreover, delegation generates positive externalities; even non-adopting users in \\textit{access-to-delegate} treatment groups benefit by receiving higher-quality offers. Mechanism analysis reveals that the \\textit{Delegate} agent acts as a market maker, injecting rational, Pareto-improving proposals that restructure the trading environment. Our research reveals a gap between agent capabilities and realized group welfare. While autonomous agents can exhibit super-human strategic performance, their impact on realized welfare gains can be constrained by interfaces, user perceptions, and adoption barriers. Assistance modalities should be designed as mechanisms with endogenous participation; adoption-compatible interaction rules are a prerequisite to improving human welfare with automated assistance.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "nlp",
+        "trading",
+        "research",
+        "gaming",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Choose Your Agent",
@@ -1530,11 +1710,13 @@
       "product_url": "https://hub.docker.com/r/chromadb/chroma",
       "product_type": "framework",
       "category": "ai-infrastructure",
-      "sub_category": "inference-platform",
       "tags": [
-        "docker",
+        "cli-tool",
+        "api-platform",
+        "developers",
         "open-source",
-        "infrastructure"
+        "desktop-app",
+        "enterprises"
       ],
       "open_source": true,
       "status": "active",
@@ -1554,11 +1736,12 @@
       "description": "A JavaScript interface for chroma",
       "product_url": "https://www.npmjs.com/package/chromadb",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
-        "javascript",
-        "open-source"
+        "open-source",
+        "saas",
+        "api-platform",
+        "developers"
       ],
       "open_source": true,
       "status": "active",
@@ -1578,11 +1761,12 @@
       "description": "City councils play a crucial role in local governance, directly influencing citizens' daily lives through decisions made during municipal meetings. These deliberations are formally documented in meeting minutes, which serve as official records of discussions, decisions, and voting outcomes. Despite their importance, municipal meeting records have received little attention in Information Retrieval (IR) and Natural Language Processing (NLP), largely due to the lack of annotated datasets, which ultimately limit the development of computational models. To address this gap, we introduce CitiLink-Minutes, a multilayer dataset of 120 European Portuguese municipal meeting minutes from six municipalities. Unlike prior annotated datasets of parliamentary or video records, CitiLink-Minutes provides multilayer annotations and structured linkage of official written minutes. The dataset contains over one million tokens, with all personal identifiers de-identified. Each minute was manually annotated by two trained annotators and curated by an experienced linguist across three complementary dimensions: (1) metadata, (2) subjects of discussion, and (3) voting outcomes, totaling over 38,000 individual annotations. Released under FAIR principles and accompanied by baseline results on metadata extraction, topic classification, and vote labeling, CitiLink-Minutes demonstrates its potential for downstream NLP and IR tasks, while promoting transparent access to municipal decisions.",
       "product_url": "",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
         "research",
-        "nlp"
+        "nlp",
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "CitiLink-Minutes",
@@ -1601,12 +1785,14 @@
       "description": "Claude’s most advanced model for agentic tasks",
       "product_url": "https://www.producthunt.com/r/S43XIOYZUO4TJS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
-      "sub_category": "text-generation",
+      "category": "ai-application",
       "tags": [
-        "generative-ai",
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "consumers",
+        "usage-based",
+        "chatbot",
+        "multimodal"
       ],
       "status": "active",
       "company_name": "Claude Opus 4.6",
@@ -1626,7 +1812,13 @@
       "product_url": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/af/af/78afaf80-0cd7-e887-96f9-21396f1c66ad/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "writing-assistant",
+        "mobile-app",
+        "social-media"
+      ],
       "status": "active",
       "company_name": "Anthropic PBC",
       "company_url": "https://www.bing.com/search?q=Anthropic+PBC+AI",
@@ -1645,10 +1837,13 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "rag",
+        "code-generation",
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "Code2Worlds",
@@ -1667,7 +1862,10 @@
       "description": "Russian software corporation",
       "product_url": "http://cognitive.ru/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Cognitive Technologies",
       "company_url": "http://cognitive.ru",
@@ -1685,9 +1883,13 @@
       "description": "Developing world models that understand complex physical interactions is essential for advancing robotic planning and simulation.However, existing methods often struggle to accurately model the environment under conditions of data scarcity and complex contact-rich dynamic motion.To address these challenges, we propose ContactGaussian-WM, a differentiable physics-grounded rigid-body world model capable of learning intricate physical laws directly from sparse and contact-rich video sequences.Our framework consists of two core components: (1) a unified Gaussian representation for both visual appearance and collision geometry, and (2) an end-to-end differentiable learning framework that differentiates through a closed-form physics engine to infer physical properties from sparse visual observations.Extensive simulations and real-world evaluations demonstrate that ContactGaussian-WM outperforms state-of-the-art methods in learning complex scenarios, exhibiting robust generalization capabilities.Furthermore, we showcase the practical utility of our framework in downstream applications, including data synthesis and real-time MPC.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
         "research",
+        "real-time",
+        "researchers",
+        "robotics",
         "computer-vision"
       ],
       "status": "active",
@@ -1707,9 +1909,9 @@
       "description": "Turn Claude into your digital coworker",
       "product_url": "https://www.producthunt.com/r/N6NGJCGOTQURKX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Cowork",
@@ -1728,9 +1930,9 @@
       "description": "Build and deploy apps from any AI coding tool, in one place",
       "product_url": "https://www.producthunt.com/r/2J6ZEMSMJLCGOA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "CreateOS",
@@ -1749,7 +1951,10 @@
       "description": "Company focused on IT, AI, Mind research",
       "product_url": "https://disruptivne.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "DISRUPTIVNE",
       "company_url": "https://disruptivne.com",
@@ -1767,11 +1972,14 @@
       "description": "In the current landscape of Large Language Models (LLMs), the curation of large-scale, high-quality training data is a primary driver of model performance. A key lever is the \\emph{data recipe}, which comprises a data processing pipeline to transform raw sources into training corpora. Despite the growing use of LLMs to automate individual data processing steps, such as data synthesis and filtering, the overall design of data recipes remains largely manual and labor-intensive, requiring substantial human expertise and iteration. To bridge this gap, we formulate \\emph{end-to-end data recipe generation} for LLM adaptation. Given a target benchmark and a pool of available data sources, a model is required to output a complete data recipe that adapts a base LLM to the target task. We present DataChef-32B, which performs online reinforcement learning using a proxy reward that predicts downstream performance for candidate recipes. Across six held-out tasks, DataChef-32B produces practical recipes that reach comparable downstream performance to those curated by human experts. Notably, the recipe from DataChef-32B adapts Qwen3-1.7B-Base to the math domain, achieving 66.7 on AIME'25 and surpassing Qwen3-1.7B. This work sheds new light on automating LLM training and developing self-evolving AI systems.",
       "product_url": "",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
         "research",
-        "nlp"
+        "chatbot",
+        "design-creative",
+        "reinforcement-learning",
+        "researchers"
       ],
       "status": "active",
       "company_name": "DataChef",
@@ -1793,15 +2001,13 @@
       "product_url": "https://deepseek.com",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/05/5fdae-www.deepseek.com.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "generative-ai",
         "nlp",
         "transformer",
-        "open-source",
         "china",
-        "ai对话聊天"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -1821,11 +2027,14 @@
       "description": "As the development of Large Models (LMs) progresses rapidly, their safety is also a priority. In current Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) safety workflow, evaluation, diagnosis, and alignment are often handled by separate tools. Specifically, safety evaluation can only locate external behavioral risks but cannot figure out internal root causes. Meanwhile, safety diagnosis often drifts from concrete risk scenarios and remains at the explainable level. In this way, safety alignment lack dedicated explanations of changes in internal mechanisms, potentially degrading general capabilities. To systematically address these issues, we propose an open-source project, namely DeepSight, to practice a new safety evaluation-diagnosis integrated paradigm. DeepSight is low-cost, reproducible, efficient, and highly scalable large-scale model safety evaluation project consisting of a evaluation toolkit DeepSafe and a diagnosis toolkit DeepScan. By unifying task and data protocols, we build a connection between the two stages and transform safety evaluation from black-box to white-box insight. Besides, DeepSight is the first open source toolkit that support the frontier AI risk evaluation and joint safety evaluation and diagnosis.",
       "product_url": "",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "research",
         "nlp",
+        "open-source",
+        "research",
+        "chatbot",
+        "researchers",
+        "multimodal",
         "computer-vision"
       ],
       "status": "active",
@@ -1846,10 +2055,13 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "transformer",
+        "diffusion-model",
+        "embedding",
+        "text-to-image"
       ],
       "status": "active",
       "company_name": "DiffPlace",
@@ -1868,9 +2080,10 @@
       "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
       "product_url": "https://D2L.ai",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -1890,7 +2103,10 @@
       "description": "French company founded in 2023, specialising in helping artisans, small businesses, and SMEs transition to artificial intelligence and digital solutions",
       "product_url": "https://www.dixie.consulting",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Dixie Consulting",
       "company_url": "https://www.dixie.consulting",
@@ -1909,10 +2125,14 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "transformer",
+        "diffusion-model",
+        "text-to-video",
+        "video-editing",
+        "text-to-image"
       ],
       "status": "active",
       "company_name": "DreamID-Omni",
@@ -1932,10 +2152,11 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "DynaHOI",
@@ -1954,9 +2175,11 @@
       "description": "Open-source, secure environment with real-world tools for enterprise-grade agents.",
       "product_url": "https://e2b.dev/docs",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers",
+        "enterprises"
       ],
       "open_source": true,
       "status": "active",
@@ -1976,11 +2199,13 @@
       "description": "Enterprise documents, such as forms and reports, embed critical information for downstream applications like data archiving, automated workflows, and analytics. Although generalist Vision Language Models (VLMs) perform well on established document understanding benchmarks, their ability to conduct holistic, fine-grained structured extraction across diverse document types and flexible schemas is not well studied. Existing Key Entity Extraction (KEE), Relation Extraction (RE), and Visual Question Answering (VQA) datasets are limited by narrow entity ontologies, simple queries, or homogeneous document types, often overlooking the need for adaptable and structured extraction. To address these gaps, we introduce ExStrucTiny, a new benchmark dataset for structured Information Extraction (IE) from document images, unifying aspects of KEE, RE, and VQA. Built through a novel pipeline combining manual and synthetic human-validated samples, ExStrucTiny covers more varied document types and extraction scenarios. We analyze open and closed VLMs on this benchmark, highlighting challenges such as schema adaptation, query under-specification, and answer localization. We hope our work provides a bedrock for improving generalist models for structured IE in documents.",
       "product_url": "",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
         "research",
-        "nlp"
+        "chatbot",
+        "enterprises",
+        "researchers"
       ],
       "status": "active",
       "company_name": "ExStrucTiny",
@@ -1999,9 +2224,11 @@
       "description": "Software company specializing in developer tools and tailored solutions for AI and Natural Language Processing",
       "product_url": "https://explosion.ai",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers",
+        "nlp"
       ],
       "open_source": true,
       "status": "active",
@@ -2021,10 +2248,14 @@
       "description": "Unstructured documents like PDFs contain valuable structured information, but downstream systems require this data in reliable, standardized formats. LLMs are increasingly deployed to automate this extraction, making accuracy and reliability paramount. However, progress is bottlenecked by two gaps. First, no end-to-end benchmark evaluates PDF-to-JSON extraction under enterprise-scale schema breadth. Second, no principled methodology captures the semantics of nested extraction, where fields demand different notions of correctness (exact match for identifiers, tolerance for quantities, semantic equivalence for names), arrays require alignment, and omission must be distinguished from hallucination. We address both gaps with ExtractBench, an open-source benchmark and evaluation framework for PDF-to-JSON structured extraction. The benchmark pairs 35 PDF documents with JSON Schemas and human-annotated gold labels across economically valuable domains, yielding 12,867 evaluatable fields spanning schema complexities from tens to hundreds of fields. The evaluation framework treats the schema as an executable specification: each field declares its scoring metric. Baseline evaluations reveal that frontier models (GPT-5/5.2, Gemini-3 Flash/Pro, Claude 4.5 Opus/Sonnet) remain unreliable on realistic schemas. Performance degrades sharply with schema breadth, culminating in 0% valid output on a 369-field financial reporting schema across all tested models. We release ExtractBench at https://github.com/ContextualAI/extract-bench.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
+        "open-source",
         "research",
-        "machine-learning"
+        "enterprises",
+        "finance-accounting",
+        "researchers"
       ],
       "status": "active",
       "company_name": "ExtractBench",
@@ -2043,9 +2274,12 @@
       "description": "Agents powered by large language models (LLMs) are increasingly adopted in the software industry, contributing code as collaborators or even autonomous developers. As their presence grows, it becomes important to assess the current boundaries of their coding abilities. Existing agentic coding benchmarks, however, cover a limited task scope, e.g., bug fixing within a single pull request (PR), and often rely on non-executable evaluations or lack an automated approach for continually updating the evaluation coverage. To address such issues, we propose FeatureBench, a benchmark designed to evaluate agentic coding performance in end-to-end, feature-oriented software development. FeatureBench incorporates an execution-based evaluation protocol and a scalable test-driven method that automatically derives tasks from code repositories with minimal human effort. By tracing from unit tests along a dependency graph, our approach can identify feature-level coding tasks spanning multiple commits and PRs scattered across the development timeline, while ensuring the proper functioning of other features after the separation. Using this framework, we curated 200 challenging evaluation tasks and 3825 executable environments from 24 open-source repositories in the first version of our benchmark. Empirical evaluation reveals that the state-of-the-art agentic model, such as Claude 4.5 Opus, which achieves a 74.4% resolved rate on SWE-bench, succeeds on only 11.0% of tasks, opening new opportunities for advancing agentic coding. Moreover, benefiting from our automated task collection toolkit, FeatureBench can be easily scaled and updated over time to mitigate data leakage. The inherent verifiability of constructed environments also makes our method potentially valuable for agent training.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "open-source",
+        "research",
+        "nlp",
+        "researchers"
       ],
       "status": "active",
       "company_name": "FeatureBench",
@@ -2064,10 +2298,12 @@
       "description": "Federated Learning (FL) enables multiple parties to collaboratively train machine learning models without sharing raw data. However, before training, data must be preprocessed to address missing values, inconsistent formats, and heterogeneous feature scales. This preprocessing stage is critical for model performance but is largely overlooked in FL research. In practical FL systems, privacy constraints prohibit centralizing raw data, while communication efficiency introduces further challenges for distributed preprocessing. We introduce FedPS, a unified framework for federated data preprocessing based on aggregated statistics. FedPS leverages data-sketching techniques to efficiently summarize local datasets while preserving essential statistical information. Building on these summaries, we design federated algorithms for feature scaling, encoding, discretization, and missing-value imputation, and extend preprocessing-related models such as k-Means, k-Nearest Neighbors, and Bayesian Linear Regression to both horizontal and vertical FL settings. FedPS provides flexible, communication-efficient, and consistent preprocessing pipelines for practical FL deployments.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
         "research",
-        "machine-learning"
+        "nlp",
+        "researchers",
+        "federated-learning"
       ],
       "status": "active",
       "company_name": "FedPS",
@@ -2086,7 +2322,12 @@
       "description": "generative artificial intelligence platform for financial services, analysis and research",
       "product_url": "https://financegpt.cloud",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "finance-accounting",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "FinanceGPT",
       "company_url": "https://financegpt.cloud",
@@ -2104,7 +2345,11 @@
       "description": "software company",
       "product_url": "https://flipcx.com/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "us"
+      ],
       "status": "active",
       "company_name": "Flip CX",
       "company_url": "https://flipcx.com",
@@ -2122,9 +2367,10 @@
       "description": "Build AI Agents, Visually",
       "product_url": "https://flowiseai.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -2144,9 +2390,13 @@
       "description": "As LLM-based agents increasingly operate in high-stakes domains with real-world consequences, ensuring their behavioral safety becomes paramount. The dominant oversight paradigm, LLM-as-a-Judge, faces a fundamental dilemma: how can probabilistic systems reliably supervise other probabilistic systems without inheriting their failure modes? We argue that formal verification offers a principled escape from this dilemma, yet its adoption has been hindered by a critical bottleneck: the translation from natural language requirements to formal specifications. This paper bridges this gap by proposing , a neuro-symbolic framework that employs a bidirectional Formal-of-Thought architecture: LLMs serve as specification compilers that top-down decompose high-level human intent into atomic, verifiable constraints, then bottom-up prove compliance using Dafny specifications and Z3 Satisfiability modulo theories solving, which produces mathematical guarantees rather than probabilistic scores. We validate across three benchmarks spanning behavioral safety, multi-domain constraint adherence, and agentic upward deception detection. Experiments on 7 agent models demonstrate that achieves an average improvement of 16.6% over LLM-as-a-Judge baselines, enables weak-to-strong generalization where a 7B judge achieves over 90% accuracy detecting deception from 72B agents, and provides near-linear safety improvement through iterative refinement.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "nlp",
+        "translation",
+        "research",
+        "neuro-symbolic",
+        "researchers"
       ],
       "status": "active",
       "company_name": "FormalJudge",
@@ -2165,7 +2415,10 @@
       "description": "Private equity platform of a century-old European family office, focused on systems resilience, institutional continuity, and behavioral AI.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Fundus Heritage Ventures",
       "company_url": "https://www.bing.com/search?q=Fundus+Heritage+Ventures+AI",
@@ -2183,11 +2436,13 @@
       "description": "Despite rapid progress on coding agents, progress on their multimodal counterparts has lagged behind. A key challenge is the scarcity of evaluation testbeds that combine the complexity of software development with the need for deep multimodal understanding. Game development provides such a testbed as agents must navigate large, dense codebases while manipulating intrinsically multimodal assets such as shaders, sprites, and animations within a visual game scene. We present GameDevBench, the first benchmark for evaluating agents on game development tasks. GameDevBench consists of 132 tasks derived from web and video tutorials. Tasks require significant multimodal understanding and are complex -- the average solution requires over three times the amount of lines of code and file changes compared to prior software development benchmarks. Agents still struggle with game development, with the best agent solving only 54.5% of tasks. We find a strong correlation between perceived task difficulty and multimodal complexity, with success rates dropping from 46.9% on gameplay-oriented tasks to 31.6% on 2D graphics tasks. To improve multimodal capability, we introduce two simple image and video-based feedback mechanisms for agents. Despite their simplicity, these methods consistently improve performance, with the largest change being an increase in Claude Sonnet 4.5's performance from 33.3% to 47.7%. We release GameDevBench publicly to support further research into agentic game development.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
         "research",
-        "nlp"
+        "chatbot",
+        "multimodal",
+        "researchers"
       ],
       "status": "active",
       "company_name": "GameDevBench",
@@ -2208,13 +2463,13 @@
       "description_zh": "GitHub Copilot 是由 GitHub 和 OpenAI 开发的 AI 编程助手，在编辑器中直接提供代码建议。",
       "product_url": "https://github.com/features/copilot",
       "product_type": "dev-tool",
-      "category": "ai-dev-tool",
-      "sub_category": "coding-assistant",
+      "category": "ai-dev-platform",
       "tags": [
-        "copilot",
-        "developer-tools",
+        "developers",
         "open-source",
-        "code-generation"
+        "copilot",
+        "code-generation",
+        "us"
       ],
       "open_source": true,
       "status": "active",
@@ -2236,10 +2491,10 @@
       "product_url": "https://apps.apple.com/us/app/google-gemini/id6477489729?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/26/f6/a426f619-5326-a203-f605-3ff613810f93/AppIcon-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220-0.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers",
+        "mobile-app"
       ],
       "status": "active",
       "company_name": "Google",
@@ -2258,11 +2513,12 @@
       "description": "Python library for easily interacting with trained machine learning models",
       "product_url": "https://pypi.org/project/gradio/",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
-        "python",
-        "open-source"
+        "open-source",
+        "api-platform",
+        "developers",
+        "cli-tool"
       ],
       "open_source": true,
       "status": "active",
@@ -2282,11 +2538,12 @@
       "description": "Graphs are foundational across domains but remain hard to use without deep expertise. LLMs promise accessible natural language (NL) graph analytics, yet they fail to process industry-scale property graphs effectively and efficiently: such datasets are large, highly heterogeneous, structurally complex, and evolve dynamically. To address this, we devise a novel abstraction for complex multi-query analytics over such graphs. Its key idea is to replace brittle generation of graph queries directly from NL with planning over a Semantic Catalog that describes both the graph schema and the graph operations. Concretely, this induces a clean separation between a Semantic Plane for LLM planning and broader reasoning, and an Execution Plane for deterministic, database-grade query execution over the full dataset and tool implementations. This design yields substantial gains in both token efficiency and task effectiveness even with small-context LLMs. We use this abstraction as the basis of the first LLM-enhanced graph analytics framework called GraphSeek. GraphSeek achieves substantially higher success rates (e.g., 86% over enhanced LangChain) and points toward the next generation of affordable and accessible graph analytics that unify LLM reasoning with database-grade execution over large and complex property graphs.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
         "research",
-        "nlp"
+        "nlp",
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "GraphSeek",
@@ -2307,10 +2564,10 @@
       "product_url": "https://apps.apple.com/us/app/grok/id6670324846?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/b2/4c/10b24cf9-dc86-c590-1e55-c644595f55de/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers",
+        "mobile-app"
       ],
       "status": "active",
       "company_name": "xAI",
@@ -2329,12 +2586,14 @@
       "description": "Guava fruits often suffer from many diseases. This can harm fruit quality and fruit crop yield. Early identification is important for minimizing damage and ensuring fruit health. This study focuses on 3 different categories for classifying diseases. These are Anthracnose, Fruit flies, and Healthy fruit. The data set used in this study is collected from Mendeley Data. This dataset contains 473 original images of Guava. These images vary in size and format. The original dataset was resized to 256x256 pixels with RGB color mode for better consistency. After this, the Data augmentation process is applied to improve the dataset by generating variations of the original images. The augmented dataset consists of 3784 images using advanced preprocessing techniques. Two deep learning models were implemented to classify the images. The InceptionV3 model is well known for its advanced framework. These apply multiple convolutional filters for obtaining different features effectively. On the other hand, the ResNet50 model helps to train deeper networks by using residual learning. The InceptionV3 model achieved the impressive accuracy of 98.15%, and ResNet50got 94.46% accuracy. Data mixing methods such as CutMix and MixUp were applied to enhance the model's robustness. The confusion matrix was used to evaluate the overall model performance of both InceptionV3 and Resnet50. Additionally, SHAP analysis is used to improve interpretability, which helps to find the significant parts of the image for the model prediction. This study purposes to highlight how advanced models enhan",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "image-generation",
+      "category": "ai-creative-media",
       "tags": [
+        "text-to-image",
+        "diffusion-model",
         "research",
-        "computer-vision",
-        "machine-learning"
+        "content-creation",
+        "creators",
+        "computer-vision"
       ],
       "status": "active",
       "company_name": "Healthy Harvests",
@@ -2353,7 +2612,10 @@
       "description": "AI technology company",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Holywater",
       "company_url": "https://en.wikipedia.org/wiki/Holywater_(company)",
@@ -2371,9 +2633,9 @@
       "description": "The AI Agent that doesn't charge 1$ per support ticket",
       "product_url": "https://www.producthunt.com/r/BEBEHPXVCC3KWP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Hugo",
@@ -2395,12 +2657,11 @@
       "product_url": "https://hunyuan.tencent.com",
       "product_type": "api-service",
       "category": "ai-infrastructure",
-      "sub_category": "compute-platform",
       "tags": [
         "open-source",
-        "cloud",
-        "generative-ai",
-        "china"
+        "china",
+        "developers",
+        "enterprises"
       ],
       "open_source": true,
       "status": "active",
@@ -2420,10 +2681,12 @@
       "description": "We propose activation-based data attribution, a method that traces behavioral changes in post-trained language models to responsible training datapoints. By computing activation-difference vectors for both test prompts and preference pairs and ranking by cosine similarity, we identify datapoints that cause specific behaviors and validate these attributions causally by retraining with modified data. Clustering behavior-datapoint similarity matrices also enables unsupervised discovery of emergent behaviors. Applying this to OLMo 2's production DPO training, we surfaced distractor-triggered compliance: a harmful behavior where the model complies with dangerous requests when benign formatting instructions are appended. Filtering top-ranked datapoints reduces this behavior by 63% while switching their labels achieves 78%. Our method outperforms gradient-based attribution and LLM-judge baselines while being over 10 times cheaper than both. This in-the-wild model organism - emerging from contaminated preference data rather than deliberate injection - provides a realistic benchmark for safety techniques.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
         "research",
-        "machine-learning"
+        "nlp",
+        "embedding",
+        "researchers"
       ],
       "status": "active",
       "company_name": "In-the-Wild Model Organisms",
@@ -2442,9 +2705,9 @@
       "description": "Figma for Claude Code",
       "product_url": "https://www.producthunt.com/r/NGGCIBG5JC5YUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Inspector",
@@ -2465,16 +2728,16 @@
       "description_zh": "书生是由上海人工智能实验室开发的开源大语言模型系列，包括 InternLM、InternLM2 和 InternLM3。",
       "product_url": "https://github.com/huggingface/transformers",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
-        "open-source",
-        "generative-ai",
         "nlp",
         "transformer",
+        "cli-tool",
         "china",
-        "python",
-        "javascript"
+        "developers",
+        "api-platform",
+        "open-source",
+        "saas"
       ],
       "open_source": true,
       "status": "active",
@@ -2494,9 +2757,10 @@
       "description": "Invoke AI is building the next generation of tools for artists and creative teams.",
       "product_url": "http://invoke.ai",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -2517,11 +2781,12 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
+        "machine-learning",
         "computer-vision",
-        "machine-learning"
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "Iskra",
@@ -2540,7 +2805,11 @@
       "description": "Iterait is an AI product.",
       "product_url": "https://www.iterait.com/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Iterait",
       "company_url": "https://www.iterait.com",
@@ -2559,7 +2828,11 @@
       "product_url": "https://apps.apple.com/us/app/jupi-ai-chat-fantasy-roleplay/id1668337467?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/12/a5/c112a561-7ccf-a46a-e7e7-ea1fd464d467/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "mobile-app"
+      ],
       "status": "active",
       "company_name": "Bots and Bolts",
       "company_url": "https://www.bing.com/search?q=Bots+and+Bolts+AI",
@@ -2577,9 +2850,10 @@
       "description": "Powering the API world. No AI without APIs.",
       "product_url": "https://konghq.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -2599,7 +2873,11 @@
       "description": "AI entertainment company founded in 2025",
       "product_url": "https://kwalia.ai/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Kwalia",
       "company_url": "https://kwalia.ai",
@@ -2617,7 +2895,12 @@
       "description": "Global robotics corporation",
       "product_url": "https://www.labminds.com/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "robotics",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "LabMinds",
       "company_url": "https://www.labminds.com",
@@ -2635,9 +2918,10 @@
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
       "product_url": "https://www.langflow.org",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -2657,9 +2941,11 @@
       "description": "Legal reasoning requires not only correct outcomes but also procedurally compliant reasoning processes. However, existing methods lack mechanisms to verify intermediate reasoning steps, allowing errors such as inapplicable statute citations to propagate undetected through the reasoning chain. To address this, we propose LawThinker, an autonomous legal research agent that adopts an Explore-Verify-Memorize strategy for dynamic judicial environments. The core idea is to enforce verification as an atomic operation after every knowledge exploration step. A DeepVerifier module examines each retrieval result along three dimensions of knowledge accuracy, fact-law relevance, and procedural compliance, with a memory module for cross-round knowledge reuse in long-horizon tasks. Experiments on the dynamic benchmark J1-EVAL show that LawThinker achieves a 24% improvement over direct reasoning and an 11% gain over workflow-based methods, with particularly strong improvements on process-oriented metrics. Evaluations on three static benchmarks further confirm its generalization capability. The code is available at https://github.com/yxy-919/LawThinker-agent .",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "research",
+        "nlp",
+        "researchers"
       ],
       "status": "active",
       "company_name": "LawThinker",
@@ -2678,9 +2964,9 @@
       "description": "Turn your repetitive workflows into AI-powered playbooks",
       "product_url": "https://www.producthunt.com/r/OFFETNDGKWLTHT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Leapility",
@@ -2700,10 +2986,11 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "diffusion-model",
+        "text-to-image"
       ],
       "status": "active",
       "company_name": "Light4D",
@@ -2722,11 +3009,13 @@
       "description": "Despite its huge number of variants, standard Low-Rank Adaptation (LoRA) is still a dominant technique for parameter-efficient fine-tuning (PEFT). Nonetheless, it faces persistent challenges, including the pre-selection of an optimal rank and rank-specific hyper-parameters, as well as the deployment complexity of heterogeneous-rank modules and more sophisticated LoRA derivatives. In this work, we introduce LoRA-Squeeze, a simple and efficient methodology that aims to improve standard LoRA learning by changing LoRA module ranks either post-hoc or dynamically during training}. Our approach posits that it is better to first learn an expressive, higher-rank solution and then compress it, rather than learning a constrained, low-rank solution directly. The method involves fine-tuning with a deliberately high(er) source rank, reconstructing or efficiently approximating the reconstruction of the full weight update matrix, and then using Randomized Singular Value Decomposition (RSVD) to create a new, compressed LoRA module at a lower target rank. Extensive experiments across 13 text and 10 vision-language tasks show that post-hoc compression often produces lower-rank adapters that outperform those trained directly at the target rank, especially if a small number of fine-tuning steps at the target rank is allowed. Moreover, a gradual, in-tuning rank annealing variant of LoRA-Squeeze consistently achieves the best LoRA size-performance trade-off.",
       "product_url": "",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
+        "fine-tuning",
         "research",
-        "nlp"
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "LoRA-Squeeze",
@@ -2746,11 +3035,13 @@
       "product_url": "https://hub.docker.com/r/localai/localai",
       "product_type": "framework",
       "category": "ai-infrastructure",
-      "sub_category": "inference-platform",
       "tags": [
-        "docker",
+        "cli-tool",
+        "api-platform",
+        "developers",
         "open-source",
-        "infrastructure"
+        "desktop-app",
+        "enterprises"
       ],
       "open_source": true,
       "status": "active",
@@ -2770,11 +3061,12 @@
       "description": "Long-term conversational memory is a core capability for LLM-based dialogue systems, yet existing benchmarks and evaluation protocols primarily focus on surface-level factual recall. In realistic interactions, appropriate responses often depend on implicit constraints such as user state, goals, or values that are not explicitly queried later. To evaluate this setting, we introduce \\textbf{LoCoMo-Plus}, a benchmark for assessing cognitive memory under cue--trigger semantic disconnect, where models must retain and apply latent constraints across long conversational contexts. We further show that conventional string-matching metrics and explicit task-type prompting are misaligned with such scenarios, and propose a unified evaluation framework based on constraint consistency. Experiments across diverse backbone models, retrieval-based methods, and memory systems demonstrate that cognitive memory remains challenging and reveals failures not captured by existing benchmarks. Our code and evaluation framework are publicly available at: https://github.com/xjtuleeyf/Locomo-Plus.",
       "product_url": "",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
         "research",
-        "nlp"
+        "nlp",
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Locomo-Plus",
@@ -2795,10 +3087,9 @@
       "product_url": "https://longcat.chat",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2025/12/1764576495-LongCat-icon.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "LongCat AI",
@@ -2819,10 +3110,9 @@
       "description_zh": "11月4日，面壁智能多模态大模...",
       "product_url": "https://luca.cn",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Luca2.0多模态智能对话助手",
@@ -2841,11 +3131,12 @@
       "description": "Multilingual benchmarks rarely test reasoning over culturally grounded premises: translated datasets keep English-centric scenarios, while culture-first datasets often lack control over the reasoning required. We propose Macaron, a template-first benchmark that factorizes reasoning type and cultural aspect across question languages. Using 100 language-agnostic templates that cover 7 reasoning types, 22 cultural aspects, native annotators create scenario-aligned English and local-language multiple-choice questions and systematically derived True/False questions. Macaron contains 11,862 instances spanning 20 countries/cultural contexts, 10 scripts, and 20 languages (including low-resource ones like Amharic, Yoruba, Zulu, Kyrgyz, and some Arabic dialects). In zero-shot evaluation of 21 multilingual LLMs, reasoning-mode models achieve the strongest performance and near-parity between English and local languages, while open-weight models degrade substantially in local languages and often approach chance on T/F tasks. Culture-grounded mathematical and counting templates are consistently the hardest. The data can be accessed here https://huggingface.co/datasets/AlaaAhmed2444/Macaron.",
       "product_url": "",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
         "research",
-        "nlp"
+        "nlp",
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Macaron",
@@ -2865,11 +3156,13 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
         "nlp",
-        "computer-vision"
+        "computer-vision",
+        "multimodal",
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "Mask What Matters",
@@ -2888,9 +3181,9 @@
       "description": "Build AI agents with a modern TypeScript stack",
       "product_url": "https://www.producthunt.com/r/CHXMX52QIYNWN3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Mastra 1.0",
@@ -2909,9 +3202,10 @@
       "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
       "product_url": "https://opensource.fb.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -2931,12 +3225,16 @@
       "description": "Demonstration selection is a practical bottleneck in in-context learning (ICL): under a tight prompt budget, accuracy can change substantially depending on which few-shot examples are included, yet selection must remain cheap enough to run per query over large candidate pools. We propose Meta-Sel, a lightweight supervised meta-learning approach for intent classification that learns a fast, interpretable scoring function for (candidate, query) pairs from labeled training data. Meta-Sel constructs a meta-dataset by sampling pairs from the training split and using class agreement as supervision, then trains a calibrated logistic regressor on two inexpensive meta-features: TF--IDF cosine similarity and a length-compatibility ratio. At inference time, the selector performs a single vectorized scoring pass over the full candidate pool and returns the top-k demonstrations, requiring no model fine-tuning, no online exploration, and no additional LLM calls. This yields deterministic rankings and makes the selection mechanism straightforward to audit via interpretable feature weights. Beyond proposing Meta-Sel, we provide a broad empirical study of demonstration selection, benchmarking 12 methods -- spanning prompt engineering baselines, heuristic selection, reinforcement learning, and influence-based approaches -- across four intent datasets and five open-source LLMs. Across this benchmark, Meta-Sel consistently ranks among the top-performing methods, is particularly effective for smaller models where selection quality can partially compensate for limited model capacity, and maintains competitive selection-time overhead.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "research",
         "nlp",
-        "machine-learning"
+        "fine-tuning",
+        "prompt-engineering",
+        "open-source",
+        "research",
+        "chatbot",
+        "reinforcement-learning",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Meta-Sel",
@@ -2955,9 +3253,10 @@
       "description": "Open source projects and samples from Microsoft",
       "product_url": "https://opensource.microsoft.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -2978,7 +3277,13 @@
       "product_url": "https://apps.apple.com/us/app/microsoft-copilot-ai-assistant/id6472538445?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/23/d7/ab23d77f-517b-1bad-859f-f80e1fe33eb6/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "copilot",
+        "consumers",
+        "mobile-app",
+        "chatbot"
+      ],
       "status": "active",
       "company_name": "Microsoft Corporation",
       "company_url": "https://www.bing.com/search?q=Microsoft+Corporation+AI",
@@ -2998,13 +3303,15 @@
       "description_zh": "Midjourney 是一个独立研究实验室，开发根据文字描述生成图像的 AI 程序。",
       "product_url": "https://www.midjourney.com",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "image-generation",
+      "category": "ai-creative-media",
       "tags": [
-        "generative-ai",
+        "b2c",
         "text-to-image",
+        "closed-source",
         "diffusion-model",
-        "b2c"
+        "content-creation",
+        "creators",
+        "us"
       ],
       "open_source": false,
       "status": "active",
@@ -3025,11 +3332,14 @@
       "product_url": "https://hub.docker.com/r/milvusdb/milvus",
       "product_type": "framework",
       "category": "ai-infrastructure",
-      "sub_category": "inference-platform",
       "tags": [
-        "docker",
+        "cli-tool",
+        "api-platform",
+        "developers",
         "open-source",
-        "infrastructure"
+        "desktop-app",
+        "enterprises",
+        "embedding"
       ],
       "open_source": true,
       "status": "active",
@@ -3052,10 +3362,9 @@
       "product_url": "https://chat.minimaxi.com",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2025/06/1749801414-a8aeeba889701183f484b62151b7c1af_favicon_v.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "MiniMax AI智能助手",
@@ -3074,9 +3383,11 @@
       "description": "Model checking in TLA+ provides strong correctness guarantees, yet practitioners continue to face significant challenges in interpreting counterexamples, understanding large state-transition graphs, and repairing faulty models. These difficulties stem from the limited explainability of raw model-checker output and the substantial manual effort required to trace violations back to source specifications. Although the TLA+ Toolbox includes a state diagram viewer, it offers only a static, fully expanded graph without folding, color highlighting, or semantic explanations, which limits its scalability and interpretability. We present ModelWisdom, an interactive environment that uses visualization and large language models to make TLA+ model checking more interpretable and actionable. ModelWisdom offers: (i) Model Visualization, with colorized violation highlighting, click-through links from transitions to TLA+ code, and mapping between violating states and broken properties; (ii) Graph Optimization, including tree-based structuring and node/edge folding to manage large models; (iii) Model Digest, which summarizes and explains subgraphs via large language models (LLMs) and performs preprocessing and partial explanations; and (iv) Model Repair, which extracts error information and supports iterative debugging. Together, these capabilities turn raw model-checker output into an interactive, explainable workflow, improving understanding and reducing debugging effort for nontrivial TLA+ specifications. The website to ModelWisdom is available: https://model-wisdom.pages.dev. A demonstrative video can be found at https://www.youtube.com/watch?v=plyZo30VShA.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "research",
+        "nlp",
+        "researchers"
       ],
       "status": "active",
       "company_name": "ModelWisdom",
@@ -3096,11 +3407,15 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
+        "machine-learning",
         "computer-vision",
-        "machine-learning"
+        "diffusion-model",
+        "fine-tuning",
+        "text-to-video",
+        "real-time",
+        "text-to-image"
       ],
       "status": "active",
       "company_name": "MonarchRT",
@@ -3119,7 +3434,10 @@
       "description": "IT company",
       "product_url": "https://www.mucemere.com/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Mucemere",
       "company_url": "https://www.mucemere.com",
@@ -3137,7 +3455,11 @@
       "description": "Artificial Intelligence company, next generation platform for machine learning",
       "product_url": "http://nervanasys.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "us"
+      ],
       "status": "active",
       "company_name": "Nervana Systems",
       "company_url": "http://nervanasys.com",
@@ -3155,9 +3477,9 @@
       "description": "Connect your business to AI conversations in minutes",
       "product_url": "https://www.producthunt.com/r/OK6WMXUV37WSIV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Noodle Seed",
@@ -3176,7 +3498,11 @@
       "description": "Nynodata is an AI product.",
       "product_url": "https://nynodata.no",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Nynodata",
       "company_url": "https://nynodata.no",
@@ -3195,10 +3521,11 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "OMEGA-Avatar",
@@ -3218,11 +3545,13 @@
       "product_url": "https://hub.docker.com/r/ollama/ollama",
       "product_type": "framework",
       "category": "ai-infrastructure",
-      "sub_category": "inference-platform",
       "tags": [
-        "docker",
+        "cli-tool",
+        "api-platform",
+        "developers",
         "open-source",
-        "infrastructure"
+        "desktop-app",
+        "enterprises"
       ],
       "open_source": true,
       "status": "active",
@@ -3242,12 +3571,12 @@
       "description": "Data mixing -- determining the ratios of data from different domains -- is a first-order concern for training language models (LMs). While existing mixing methods show promise, they fall short when applied during real-world LM development. We present Olmix, a framework that addresses two such challenges. First, the configuration space for developing a mixing method is not well understood -- design choices across existing methods lack justification or consensus and overlook practical issues like data constraints. We conduct a comprehensive empirical study of this space, identifying which design choices lead to a strong mixing method. Second, in practice, the domain set evolves throughout LM development as datasets are added, removed, partitioned, and revised -- a problem setting largely unaddressed by existing works, which assume fixed domains. We study how to efficiently recompute the mixture after the domain set is updated, leveraging information from past mixtures. We introduce mixture reuse, a mechanism that reuses existing ratios and recomputes ratios only for domains affected by the update. Over a sequence of five domain-set updates mirroring real-world LM development, mixture reuse matches the performance of fully recomputing the mix after each update with 74% less compute and improves over training without mixing by 11.6% on downstream tasks.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
         "research",
         "nlp",
-        "machine-learning"
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Olmix",
@@ -3266,11 +3595,13 @@
       "description": "The official TypeScript library for the OpenAI API",
       "product_url": "https://www.npmjs.com/package/openai",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
-        "javascript",
-        "open-source"
+        "sdk",
+        "api-platform",
+        "developers",
+        "open-source",
+        "saas"
       ],
       "open_source": true,
       "status": "active",
@@ -3290,10 +3621,12 @@
       "description": "The official Python library for the openai API",
       "product_url": "https://pypi.org/project/openai/",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
-        "python",
+        "sdk",
+        "cli-tool",
+        "api-platform",
+        "developers",
         "open-source"
       ],
       "open_source": true,
@@ -3314,9 +3647,9 @@
       "description": "The AI that actually does things",
       "product_url": "https://www.producthunt.com/r/L54FGYTAA3FXZT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "OpenClaw",
@@ -3335,9 +3668,10 @@
       "description": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.",
       "product_url": "opencompass.org.cn",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -3357,9 +3691,10 @@
       "description": "🙌 OpenHands: AI-Driven Development",
       "product_url": "https://openhands.dev",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -3379,9 +3714,10 @@
       "description": "This project encompasses a series of continuous explorations by Ant Group in the field of bidirectional enhancement between symbolic knowledge and LLMs",
       "product_url": "https://openspg.github.io",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -3401,7 +3737,11 @@
       "description": "European AI research lab of Conversational Multimodal AI",
       "product_url": "https://orga-ai.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "multimodal"
+      ],
       "status": "active",
       "company_name": "Orga AI",
       "company_url": "https://orga-ai.com",
@@ -3419,11 +3759,12 @@
       "description": "Pinecone client (DEPRECATED)",
       "product_url": "https://www.pinecone.io",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
-        "python",
-        "open-source"
+        "open-source",
+        "api-platform",
+        "developers",
+        "cli-tool"
       ],
       "open_source": true,
       "status": "active",
@@ -3444,7 +3785,11 @@
       "product_url": "https://apps.apple.com/us/app/polybuzz-chat-with-characters/id6449190344?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/c6/44/4dc6444a-7e8a-12bd-c20d-5f3f40645b60/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "mobile-app"
+      ],
       "status": "active",
       "company_name": "CLOUD WHALE INTERACTIVE TECHNOLOGY LLC.",
       "company_url": "https://www.bing.com/search?q=CLOUD+WHALE+INTERACTIVE+TECHNOLOGY+LLC.+AI",
@@ -3463,10 +3808,14 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "fine-tuning",
+        "distillation",
+        "open-source",
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "PosterOmni",
@@ -3486,11 +3835,15 @@
       "product_url": "https://hub.docker.com/r/qdrant/qdrant",
       "product_type": "framework",
       "category": "ai-infrastructure",
-      "sub_category": "inference-platform",
       "tags": [
-        "docker",
+        "cli-tool",
+        "developers",
+        "search-engine",
+        "api-platform",
         "open-source",
-        "infrastructure"
+        "desktop-app",
+        "enterprises",
+        "embedding"
       ],
       "open_source": true,
       "status": "active",
@@ -3513,10 +3866,9 @@
       "product_url": "https://chat.qwen.ai",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2023/09/e7008-qianwen.aliyun.com.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Qwen Chat模型体验平台",
@@ -3535,7 +3887,10 @@
       "description": "technology company",
       "product_url": "https://www.rabbit.tech/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Rabbit Inc.",
       "company_url": "https://www.rabbit.tech",
@@ -3553,9 +3908,10 @@
       "description": "Recommenders offers examples & best practices for building recommendation systems, provided as Jupyter notebooks. An LF AI & Data Sandbox project.",
       "product_url": "https://github.com/recommenders-team",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -3575,7 +3931,10 @@
       "description": "Ukrainian software company",
       "product_url": "https://www.respeecher.com/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Respeecher",
       "company_url": "https://www.respeecher.com",
@@ -3593,10 +3952,12 @@
       "description": "Graphs are ubiquitous, and learning on graphs has become a cornerstone in artificial intelligence and data mining communities. Unlike pixel grids in images or sequential structures in language, graphs exhibit a typical non-Euclidean structure with complex interactions among the objects. This paper argues that Riemannian geometry provides a principled and necessary foundation for graph representation learning, and that Riemannian graph learning should be viewed as a unifying paradigm rather than a collection of isolated techniques. While recent studies have explored the integration of graph learning and Riemannian geometry, most existing approaches are limited to a narrow class of manifolds, particularly hyperbolic spaces, and often adopt extrinsic manifold formulations. We contend that the central mission of Riemannian graph learning is to endow graph neural networks with intrinsic manifold structures, which remains underexplored. To advance this perspective, we identify key conceptual and methodological gaps in existing approaches and outline a structured research agenda along three dimensions: manifold type, neural architecture, and learning paradigm. We further discuss open challenges, theoretical foundations, and promising directions that are critical for unlocking the full potential of Riemannian graph learning. This paper aims to provide a coherent viewpoint and to stimulate broader exploration of Riemannian geometry as a foundational framework for future graph learning research.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
         "research",
-        "machine-learning"
+        "nlp",
+        "graph-neural-network",
+        "researchers"
       ],
       "status": "active",
       "company_name": "RiemannGL",
@@ -3615,7 +3976,11 @@
       "description": "British audio technology company based in London",
       "product_url": "https://www.roexaudio.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "RoEx",
       "company_url": "https://www.roexaudio.com",
@@ -3634,7 +3999,12 @@
       "product_url": "https://apps.apple.com/us/app/roleplai-ai-character-chat/id1671444242?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/83/e3/8c83e36e-8022-84a2-4706-55aba7c50675/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "mobile-app",
+        "chatbot"
+      ],
       "status": "active",
       "company_name": "ANDREW WEDD",
       "company_url": "https://www.bing.com/search?q=ANDREW+WEDD+AI",
@@ -3652,9 +4022,11 @@
       "description": "Search-Augmented Generative Engines (SAGE) have emerged as a new paradigm for information access, bridging web-scale retrieval with generative capabilities to deliver synthesized answers. This shift has fundamentally reshaped how web content gains exposure online, giving rise to Search-Augmented Generative Engine Optimization (SAGEO), the practice of optimizing web documents to improve their visibility in AI-generated responses. Despite growing interest, no evaluation environment currently supports comprehensive investigation of SAGEO. Specifically, existing benchmarks lack end-to-end visibility evaluation of optimization strategies, operating on pre-determined candidate documents that abstract away retrieval and reranking preceding generation. Moreover, existing benchmarks discard structural information (e.g., schema markup) present in real web documents, overlooking the rich signals that search systems actively leverage in practice. Motivated by these gaps, we introduce SAGEO Arena, a realistic and reproducible environment for stage-level SAGEO analysis. Our objective is to jointly target search-oriented optimization (SEO) and generation-centric optimization (GEO). To achieve this, we integrate a full generative search pipeline over a large-scale corpus of web documents with rich structural information. Our findings reveal that existing approaches remain largely impractical under realistic conditions and often degrade performance in retrieval and reranking. We also find that structural information helps mitigate these limitations, and that effective SAGEO requires tailoring optimization to each pipeline stage. Overall, our benchmark paves the way for realistic SAGEO evaluation and optimization beyond simplified settings.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "research",
+        "nlp",
+        "researchers"
       ],
       "status": "active",
       "company_name": "SAGEO Arena",
@@ -3673,9 +4045,13 @@
       "description": "Vision-language segmentation models such as SAM3 enable flexible, prompt-driven visual grounding, but inherit large, general-purpose text encoders originally designed for open-ended language understanding. In practice, segmentation prompts are short, structured, and semantically constrained, leading to substantial over-provisioning in text encoder capacity and persistent computational and memory overhead. In this paper, we perform a large-scale anatomical analysis of text prompting in vision-language segmentation, covering 404,796 real prompts across multiple benchmarks. Our analysis reveals severe redundancy: most context windows are underutilized, vocabulary usage is highly sparse, and text embeddings lie on low-dimensional manifold despite high-dimensional representations. Motivated by these findings, we propose SAM3-LiteText, a lightweight text encoding framework that replaces the original SAM3 text encoder with a compact MobileCLIP student that is optimized by knowledge distillation. Extensive experiments on image and video segmentation benchmarks show that SAM3-LiteText reduces text encoder parameters by up to 88%, substantially reducing static memory footprint, while maintaining segmentation performance comparable to the original model. Code: https://github.com/SimonZeng7108/efficientsam3/tree/sam3_litetext.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "nlp",
+        "distillation",
+        "research",
+        "embedding",
+        "researchers"
       ],
       "status": "active",
       "company_name": "SAM3-LiteText",
@@ -3695,7 +4071,11 @@
       "product_url": "https://apps.apple.com/us/app/sakura-chat-with-ai-bots/id6467520779?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/9f/1a/3f9f1a6d-c2bd-1dea-8bdb-98ebc61fd918/AppIcon-0-0-1x_U007epad-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "mobile-app"
+      ],
       "status": "active",
       "company_name": "Sakura AI, LLC",
       "company_url": "https://www.bing.com/search?q=Sakura+AI%2C+LLC+AI",
@@ -3713,9 +4093,11 @@
       "description": "Large language models (LLMs) have demonstrated exceptional reasoning capabilities, and co-evolving paradigms have shown promising results in domains such as code and math. However, in scientific reasoning tasks, these models remain fragile due to unreliable solution evaluation and limited diversity in verification strategies. In this work, we propose Sci-CoE, a two-stage scientific co-evolving framework that enables models to self-evolve as both solver and verifier through a transition from sparse supervision to unsupervised learning. In the first stage, the model uses a small set of annotated data to establish fundamental correctness judgment anchors for the Verifier. In the second stage, we introduce a geometric reward mechanism that jointly considers consensus, reliability, and diversity, driving large-scale self-iteration on unlabeled data. Experiments on several general scientific benchmarks demonstrate that Sci-CoE enhances complex reasoning capabilities and exhibits strong scalability, facilitating the construction of more robust and diverse evaluation systems. Codes are available at https://github.com/InternScience/Sci-CoE.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "research",
+        "nlp",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Sci-CoE",
@@ -3734,9 +4116,10 @@
       "description": "Python scraper based on AI",
       "product_url": "https://scrapegraphai.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -3756,11 +4139,13 @@
       "description": "Embeddings, Retrieval, and Reranking",
       "product_url": "https://pypi.org/project/sentence-transformers/",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
-        "python",
-        "open-source"
+        "cli-tool",
+        "api-platform",
+        "developers",
+        "open-source",
+        "embedding"
       ],
       "open_source": true,
       "status": "active",
@@ -3780,11 +4165,14 @@
       "description": "Efficient lossless compression is essential for minimizing storage costs and transmission overhead while preserving data integrity. Traditional compression techniques, such as dictionary-based and statistical methods, often struggle to optimally exploit the structure and redundancy in complex data formats. Recent advancements in deep learning have opened new avenues for compression; however, many existing approaches depend on dense vector representations that obscure the underlying token structure. To address these limitations, we propose a novel lossless compression method that leverages Reinforcement Learning applied to a T5 language model architecture. This approach enables the compression of data into sequences of tokens rather than traditional vector representations. Unlike auto-encoders, which typically encode information into continuous latent spaces, our method preserves the token-based structure, aligning more closely with the original data format. This preservation allows for higher compression ratios while maintaining semantic integrity. By training the model using an off-policy Reinforcement Learning algorithm, we optimize sequence length to minimize redundancy and enhance compression efficiency. Our method introduces an efficient and adaptive data compression system built upon advanced Reinforcement Learning techniques, functioning independently of external grammatical or world knowledge. This approach shows significant improvements in compression ratios compared to conventional methods. By leveraging the latent information within language models, our system effectively compresses data without requiring explicit content understanding, paving the way for more robust and practical compression solutions across various applications.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
         "research",
-        "nlp"
+        "chatbot",
+        "embedding",
+        "reinforcement-learning",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Seq2Seq2Seq",
@@ -3803,9 +4191,10 @@
       "description": "Sim is a powerful, user-friendly platform that allows developers and agents to build, test, and optimize agentic workflows.",
       "product_url": "https://sim.ai",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -3825,12 +4214,15 @@
       "description": "While FP8 attention has shown substantial promise in innovations like FlashAttention-3, its integration into the decoding phase of the DeepSeek Multi-head Latent Attention (MLA) architecture presents notable challenges. These challenges include numerical heterogeneity arising from the decoupling of positional embeddings, misalignment of quantization scales in FP8 PV GEMM, and the need for optimized system-level support. In this paper, we introduce SnapMLA, an FP8 MLA decoding framework optimized to improve long-context efficiency through the following hardware-aware algorithm-kernel co-optimization techniques: (i) RoPE-Aware Per-Token KV Quantization, where the RoPE part is maintained in high precision, motivated by our comprehensive analysis of the heterogeneous quantization sensitivity inherent to the MLA KV cache. Furthermore, per-token granularity is employed to align with the autoregressive decoding process and maintain quantization accuracy. (ii) Quantized PV Computation Pipeline Reconstruction, which resolves the misalignment of quantization scale in FP8 PV computation stemming from the shared KV structure of the MLA KV cache. (iii) End-to-End Dataflow Optimization, where we establish an efficient data read-and-write workflow using specialized kernels, ensuring efficient data flow and performance gains. Extensive experiments on state-of-the-art MLA LLMs show that SnapMLA achieves up to a 1.91x improvement in throughput, with negligible risk of performance degradation in challenging long-context tasks, including mathematical reasoning and code generation benchmarks. Code is available at https://github.com/meituan-longcat/SGLang-FluentLLM.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "research",
         "nlp",
-        "machine-learning"
+        "research",
+        "code-generation",
+        "quantization",
+        "chatbot",
+        "embedding",
+        "researchers"
       ],
       "status": "active",
       "company_name": "SnapMLA",
@@ -3850,7 +4242,11 @@
       "product_url": "https://apps.apple.com/us/app/soulplay-romance-ai-roleplay/id6501972568?uo=4",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/77/17/3b771793-2e43-420d-23de-6afbf6c6a0ef/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers",
+        "mobile-app"
+      ],
       "status": "active",
       "company_name": "Studio Dopa LLC",
       "company_url": "https://www.bing.com/search?q=Studio+Dopa+LLC+AI",
@@ -3869,10 +4265,13 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "diffusion-model",
+        "multimodal",
+        "text-to-image",
+        "photo-editing"
       ],
       "status": "active",
       "company_name": "Spatial Chain-of-Thought",
@@ -3891,12 +4290,14 @@
       "description": "Large language models (LLMs) demonstrate strong general reasoning and language understanding, yet their performance degrades in domains governed by strict formal rules, precise terminology, and legally binding structure. Tax law exemplifies these challenges, as correct answers require exact statutory citation, structured legal argumentation, and numerical accuracy under rigid grading schemes. We algorithmically generate SteuerEx, the first open benchmark derived from authentic German university tax law examinations. SteuerEx comprises 115 expert-validated examination questions spanning six core tax law domains and multiple academic levels, and employs a statement-level, partial-credit evaluation framework that closely mirrors real examination practice. We further present SteuerLLM, a domain-adapted LLM for German tax law trained on a large-scale synthetic dataset generated from authentic examination material using a controlled retrieval-augmented pipeline. SteuerLLM (28B parameters) consistently outperforms general-purpose instruction-tuned models of comparable size and, in several cases, substantially larger systems, demonstrating that domain-specific data and architectural adaptation are more decisive than parameter scale for performance on realistic legal reasoning tasks. All benchmark data, training datasets, model weights, and evaluation code are released openly to support reproducible research in domain-specific legal artificial intelligence. A web-based demo of SteuerLLM is available at https://steuerllm.i5.ai.fau.de.",
       "product_url": "",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "research",
+        "legal-assist",
         "nlp",
-        "machine-learning"
+        "research",
+        "chatbot",
+        "rag",
+        "researchers"
       ],
       "status": "active",
       "company_name": "SteuerLLM",
@@ -3915,11 +4316,13 @@
       "description": "Large Reasoning Models (LRMs) have demonstrated remarkable performance on complex reasoning tasks by employing test-time scaling. However, they often generate over-long chains-of-thought that, driven by substantial reflections such as repetitive self-questioning and circular reasoning, lead to high token consumption, substantial computational overhead, and increased latency without improving accuracy, particularly in smaller models. Our observation reveals that increasing problem complexity induces more excessive and unnecessary reflection, which in turn reduces accuracy and increases token overhead. To address this challenge, we propose Adaptive Reflection and Length Coordinated Penalty (ARLCP), a novel reinforcement learning framework designed to dynamically balance reasoning efficiency and solution accuracy. ARLCP introduces two key innovations: (1) a reflection penalty that adaptively curtails unnecessary reflective steps while preserving essential reasoning, and (2) a length penalty calibrated to the estimated complexity of the problem. By coordinating these penalties, ARLCP encourages the model to generate more concise and effective reasoning paths. We evaluate our method on five mathematical reasoning benchmarks using DeepSeek-R1-Distill-Qwen-1.5B and DeepSeek-R1-Distill-Qwen-7B models. Experimental results show that ARLCP achieves a superior efficiency-accuracy trade-off compared to existing approaches. For the 1.5B model, it reduces the average response length by 53.1% while simultaneously improving accuracy by 5.8%. For the 7B model, it achieves a 35.0% reduction in length with a 2.7% accuracy gain. The code is released at https://github.com/ZeweiYu1/ARLCP .",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
         "research",
-        "nlp"
+        "chatbot",
+        "reinforcement-learning",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Stop Unnecessary Reflection",
@@ -3938,9 +4341,9 @@
       "description": "All-in-one growth OS for serious 𝕏 creators",
       "product_url": "https://www.producthunt.com/r/LYACBIJ2QPFIA7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "SuperX",
@@ -3959,7 +4362,11 @@
       "description": "Swiss general artificial intelligence company",
       "product_url": "https://www.swiss-ai.org",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Swiss AI",
       "company_url": "https://www.swiss-ai.org",
@@ -3977,10 +4384,12 @@
       "description": "Knowledge Graph Completion (KGC) fundamentally hinges on the coherent fusion of pre-trained entity semantics with heterogeneous topological structures to facilitate robust relational reasoning. However, existing paradigms encounter a critical \"structural resolution mismatch,\" failing to reconcile divergent representational demands across varying graph densities, which precipitates structural noise interference in dense clusters and catastrophic representation collapse in sparse regions. We present SynergyKGC, an adaptive framework that advances traditional neighbor aggregation to an active Cross-Modal Synergy Expert via relation-aware cross-attention and semantic-intent-driven gating. By coupling a density-dependent Identity Anchoring strategy with a Double-tower Coherent Consistency architecture, SynergyKGC effectively reconciles topological heterogeneity while ensuring representational stability across training and inference phases. Systematic evaluations on two public benchmarks validate the superiority of our method in significantly boosting KGC hit rates, providing empirical evidence for a generalized principle of resilient information integration in non-homogeneous structured data.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
         "research",
-        "machine-learning"
+        "nlp",
+        "knowledge-base",
+        "researchers"
       ],
       "status": "active",
       "company_name": "SynergyKGC",
@@ -4000,10 +4409,11 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "SynthRAR",
@@ -4023,10 +4433,11 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "TG-Field",
@@ -4045,7 +4456,11 @@
       "description": "Consulting company specialized in digital transformation, artificial intelligence and IT systems modernization",
       "product_url": "https://transfolabs.online",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "TRANSFO LABS",
       "company_url": "https://transfolabs.online",
@@ -4063,7 +4478,11 @@
       "description": "Europe's leading AI student initiative at the Technical University Munich",
       "product_url": "https://www.tum-ai.com/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "TUM.ai",
       "company_url": "https://www.tum-ai.com",
@@ -4081,7 +4500,10 @@
       "description": "Taiwanese Cooperation develops the next-generation AI solutions",
       "product_url": "https://ailabs.tw/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Taiwan AI Labs",
       "company_url": "https://ailabs.tw",
@@ -4100,10 +4522,13 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "transformer",
+        "diffusion-model",
+        "embedding",
+        "text-to-image"
       ],
       "status": "active",
       "company_name": "TexSpot",
@@ -4123,6 +4548,10 @@
       "product_url": "https://www.text.com/",
       "product_type": "other",
       "category": "ai-app",
+      "tags": [
+        "customer-support",
+        "europe"
+      ],
       "status": "active",
       "company_name": "Text",
       "company_url": "https://www.text.com",
@@ -4140,9 +4569,11 @@
       "description": "In the world of Harry Potter, when Dumbledore's mind is overburdened, he extracts memories into a Pensieve to be revisited later. In the world of AI, while we possess the Pensieve-mature databases and retrieval systems, our models inexplicably lack the \"wand\" to operate it. They remain like a Dumbledore without agency, passively accepting a manually engineered context as their entire memory. This work finally places the wand in the model's hand. We introduce StateLM, a new class of foundation models endowed with an internal reasoning loop to manage their own state. We equip our model with a suite of memory tools, such as context pruning, document indexing, and note-taking, and train it to actively manage these tools. By learning to dynamically engineering its own context, our model breaks free from the architectural prison of a fixed window. Experiments across various model sizes demonstrate StateLM's effectiveness across diverse scenarios. On long-document QA tasks, StateLMs consistently outperform standard LLMs across all model scales; on the chat memory task, they achieve absolute accuracy improvements of 10% to 20% over standard LLMs. On the deep research task BrowseComp-Plus, the performance gap becomes even more pronounced: StateLM achieves up to 52% accuracy, whereas standard LLM counterparts struggle around 5%. Ultimately, our approach shifts LLMs from passive predictors to state-aware agents where reasoning becomes a stateful and manageable process.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "research",
+        "nlp",
+        "researchers"
       ],
       "status": "active",
       "company_name": "The Pensieve Paradigm",
@@ -4161,12 +4592,13 @@
       "description": "Tesseract OCR",
       "product_url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
+        "cli-tool",
+        "api-platform",
+        "developers",
         "open-source",
-        "javascript",
-        "python"
+        "saas"
       ],
       "open_source": true,
       "status": "active",
@@ -4186,7 +4618,11 @@
       "description": "Uk Cybersecurity Startup",
       "product_url": "https://sawigroup.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "The Sawi Group",
       "company_url": "https://sawigroup.com",
@@ -4204,9 +4640,9 @@
       "description": "Midjourney for YouTube Thumbnails—your face, every time",
       "product_url": "https://www.producthunt.com/r/R767MAKYMFJ6FR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Thumbfa.st",
@@ -4225,9 +4661,9 @@
       "description": "The private club for ppl who automate, self-host, and use AI",
       "product_url": "https://www.producthunt.com/r/R7FWAS75UUOIR4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Tinkerer Club",
@@ -4246,12 +4682,17 @@
       "description": "Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL's use of on-policy data. We propose a framework to bridge this chasm by enabling On-Policy SFT. We first present \\textbf{\\textit{Distribution Discriminant Theory (DDT)}}, which explains and quantifies the alignment between data and the model-induced distribution. Leveraging DDT, we introduce two complementary techniques: (i) \\textbf{\\textit{In-Distribution Finetuning (IDFT)}}, a loss-level method to enhance generalization ability of SFT, and (ii) \\textbf{\\textit{Hinted Decoding}}, a data-level technique that can re-align the training corpus to the model's distribution. Extensive experiments demonstrate that our framework achieves generalization performance on par with prominent offline RL algorithms, including DPO and SimPO, while maintaining the efficiency of an SFT pipeline. The proposed framework thus offers a practical alternative in domains where RL is infeasible. We open-source the code here: https://github.com/zhangmiaosen2000/Towards-On-Policy-SFT",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "image-generation",
+      "category": "ai-creative-media",
       "tags": [
+        "text-to-image",
+        "diffusion-model",
+        "fine-tuning",
+        "open-source",
         "research",
-        "computer-vision",
-        "machine-learning"
+        "content-creation",
+        "reinforcement-learning",
+        "creators",
+        "computer-vision"
       ],
       "status": "active",
       "company_name": "Towards On-Policy SFT",
@@ -4270,12 +4711,16 @@
       "description": "Unified models can handle both multimodal understanding and generation within a single architecture, yet they typically operate in a single pass without iteratively refining their outputs. Many multimodal tasks, especially those involving complex spatial compositions, multiple interacting objects, or evolving instructions, require decomposing instructions, verifying intermediate results, and making iterative corrections. While test-time scaling (TTS) has demonstrated that allocating additional inference compute for iterative reasoning substantially improves language model performance, extending this paradigm to unified multimodal models remains an open challenge. We introduce UniT, a framework for multimodal chain-of-thought test-time scaling that enables a single unified model to reason, verify, and refine across multiple rounds. UniT combines agentic data synthesis, unified model training, and flexible test-time inference to elicit cognitive behaviors including verification, subgoal decomposition, and content memory. Our key findings are: (1) unified models trained on short reasoning trajectories generalize to longer inference chains at test time; (2) sequential chain-of-thought reasoning provides a more scalable and compute-efficient TTS strategy than parallel sampling; (3) training on generation and editing trajectories improves out-of-distribution visual reasoning. These results establish multimodal test-time scaling as an effective paradigm for advancing both generation and understanding in unified models.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
-      "sub_category": "image-generation",
+      "category": "ai-creative-media",
       "tags": [
+        "text-to-speech",
+        "text-to-image",
+        "diffusion-model",
         "research",
-        "computer-vision",
-        "machine-learning"
+        "content-creation",
+        "multimodal",
+        "creators",
+        "computer-vision"
       ],
       "status": "active",
       "company_name": "UniT",
@@ -4294,9 +4739,12 @@
       "description": "Existing work on value alignment typically characterizes value relations statically, ignoring how interventions - such as prompting, fine-tuning, or preference optimization - reshape the broader value system. We introduce the Value Alignment Tax (VAT), a framework that measures how alignment-induced changes propagate across interconnected values relative to achieved on-target gain. VAT captures the dynamics of value expression under alignment pressure. Using a controlled scenario-action dataset grounded in Schwartz value theory, we collect paired pre-post normative judgments and analyze alignment effects across models, values, and alignment strategies. Our results show that alignment often produces uneven, structured co-movement among values. These effects are invisible under conventional target-only evaluation, revealing systemic, process-level alignment risks and offering new insights into the dynamics of value alignment in LLMs.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-model",
+      "category": "ai-foundation-model",
       "tags": [
-        "research"
+        "research",
+        "nlp",
+        "fine-tuning",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Value Alignment Tax",
@@ -4315,9 +4763,10 @@
       "description": "Develop. Preview. Ship. Creators of Next.js.",
       "product_url": "https://vercel.com",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -4337,11 +4786,13 @@
       "description": "AI SDK by Vercel - The AI Toolkit for TypeScript and JavaScript",
       "product_url": "https://ai-sdk.dev/docs",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
-        "javascript",
-        "open-source"
+        "sdk",
+        "api-platform",
+        "developers",
+        "open-source",
+        "saas"
       ],
       "open_source": true,
       "status": "active",
@@ -4361,11 +4812,14 @@
       "description": "AI models have achieved state-of-the-art results in textual reasoning; however, their ability to reason over spatial and relational structures remains a critical bottleneck -- particularly in early-grade maths, which relies heavily on visuals. This paper introduces the visual reasoning benchmark (VRB), a novel dataset designed to evaluate Multimodal Large Language Models (MLLMs) on their ability to solve authentic visual problems from classrooms. This benchmark is built on a set of 701 questions sourced from primary school examinations in Zambia and India, which cover a range of tasks such as reasoning by analogy, pattern completion, and spatial matching. We outline the methodology and development of the benchmark which intentionally uses unedited, minimal-text images to test if models can meet realistic needs of primary education. Our findings reveal a ``jagged frontier'' of capability where models demonstrate better proficiency in static skills such as counting and scaling, but reach a distinct ``spatial ceiling'' when faced with dynamic operations like folding, reflection, and rotation. These weaknesses pose a risk for classroom use on visual reasoning problems, with the potential for incorrect marking, false scaffolding, and reinforcing student misconceptions. Consequently, education-focused benchmarks like the VRB are essential for determining the functional boundaries of multimodal tools used in classrooms.",
       "product_url": "",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
+        "nlp",
         "research",
-        "nlp"
+        "chatbot",
+        "education-tutoring",
+        "multimodal",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Visual Reasoning Benchmark",
@@ -4384,7 +4838,11 @@
       "description": "British autonomous driving technology startup",
       "product_url": "https://wayve.ai/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "europe",
+        "consumers"
+      ],
       "status": "active",
       "company_name": "Wayve",
       "company_url": "https://wayve.ai",
@@ -4403,10 +4861,11 @@
       "product_url": "",
       "product_type": "other",
       "category": "ai-model",
-      "sub_category": "image-generation",
       "tags": [
         "research",
-        "computer-vision"
+        "computer-vision",
+        "text-to-image",
+        "diffusion-model"
       ],
       "status": "active",
       "company_name": "WorldTree",
@@ -4428,10 +4887,9 @@
       "product_url": "https://z.ai",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2025/04/1744841769-0d96685ac340ffd574a4f368c5168d0b_z-ai-logo.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "Z.ai 智谱推出的AI模型体验平台",
@@ -4450,11 +4908,13 @@
       "description": "This is a cloaked model provided to the community to gather feedback. A reasoning model designed for speed. It is built for coding assistants, real-time conversational applications, and agentic workflows.\n\nDefault reasoning effort is set to medium for fast responses. For agentic coding use cases, we recommend changing effort to high. \n\nNote: All prompts and completions for this model are logged by the provider and may be used to improve the model.",
       "product_url": "https://openrouter.ai/models/openrouter/aurora-alpha",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "real-time",
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "aurora-alpha",
@@ -4473,7 +4933,10 @@
       "description": "subsidiary of Apple Inc.",
       "product_url": "http://drive.ai/",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "drive.ai",
       "company_url": "http://drive.ai",
@@ -4491,11 +4954,13 @@
       "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that support features needed for your request such as image understanding, tool calling, structured outputs and more. ",
       "product_url": "https://openrouter.ai/models/openrouter/free",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "chatbot",
+        "multimodal",
+        "researchers"
       ],
       "status": "active",
       "company_name": "free",
@@ -4514,11 +4979,14 @@
       "description": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning, and tool collaboration, and has achieved leading performance among open-source models of the same size on several current public benchmark leaderboards.",
       "product_url": "https://openrouter.ai/models/z-ai/glm-4.7-flash",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "open-source",
+        "usage-based",
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "glm-4.7-flash",
@@ -4537,11 +5005,16 @@
       "description": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programming tasks, rivaling leading closed-source models. With advanced agentic planning, deep backend reasoning, and iterative self-correction, GLM-5 moves beyond code generation to full-system construction and autonomous execution.",
       "product_url": "https://openrouter.ai/models/z-ai/glm-5",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "open-source",
+        "usage-based",
+        "code-generation",
+        "design-creative",
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "glm-5",
@@ -4560,11 +5033,16 @@
       "description": "GPT-5.2-Codex is an upgraded version of GPT-5.1-Codex optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks. The model supports building projects from scratch, feature development, debugging, large-scale refactoring, and code review. Compared to GPT-5.1-Codex, 5.2-Codex is more steerable, adheres closely to developer instructions, and produces cleaner, higher-quality code outputs. Reasoning effort can be adjusted with the `reasoning.effort` parameter. Read the [docs here](https://openrouter.ai/docs/use-cases/reasoning-tokens#reasoning-effort-level)\n\nCodex integrates into developer environments including the CLI, IDE extensions, GitHub, and cloud tasks. It adapts reasoning effort dynamically—providing fast responses for small tasks while sustaining extended multi-hour runs for large projects. The model is trained to perform structured code reviews, catching critical flaws by reasoning over dependencies and validating behavior against tests. It also supports multimodal inputs such as images or screenshots for UI development and integrates tool use for search, dependency installation, and environment setup. Codex is intended specifically for agentic coding applications.",
       "product_url": "https://openrouter.ai/models/openai/gpt-5.2-codex",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "nlp",
+        "api-service",
+        "cli-tool",
+        "usage-based",
+        "code-review",
+        "chatbot",
+        "multimodal",
+        "researchers"
       ],
       "status": "active",
       "company_name": "OpenAI",
@@ -4583,11 +5061,14 @@
       "description": "The gpt-audio model is OpenAI's first generally available audio model. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Audio is priced at $32 per million input tokens and $64 per million output tokens.",
       "product_url": "https://openrouter.ai/models/openai/gpt-audio",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "usage-based",
+        "chatbot",
+        "multimodal",
+        "researchers"
       ],
       "status": "active",
       "company_name": "OpenAI",
@@ -4606,11 +5087,14 @@
       "description": "A cost-efficient version of GPT Audio. The new snapshot features an upgraded decoder for more natural sounding voices and maintains better voice consistency. Input is priced at $0.60 per million tokens and output is priced at $2.40 per million tokens.",
       "product_url": "https://openrouter.ai/models/openai/gpt-audio-mini",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "usage-based",
+        "chatbot",
+        "multimodal",
+        "researchers"
       ],
       "status": "active",
       "company_name": "OpenAI",
@@ -4629,9 +5113,9 @@
       "description": "The agent-native computer, for the rest of us",
       "product_url": "https://www.producthunt.com/r/MTX6DXFN5O5UPO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "happycapy",
@@ -4650,11 +5134,14 @@
       "description": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed visual and text tokens, it delivers strong performance in general reasoning, visual coding, and agentic tool-calling.",
       "product_url": "https://openrouter.ai/models/moonshotai/kimi-k2.5",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "usage-based",
+        "chatbot",
+        "multimodal",
+        "researchers"
       ],
       "status": "active",
       "company_name": "kimi-k2.5",
@@ -4673,9 +5160,10 @@
       "description": "Tools to help deep learning researchers",
       "product_url": "https://labml.ai",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -4695,11 +5183,12 @@
       "description": "🦜🔗 The platform for reliable agents.",
       "product_url": "https://pypi.org/project/langchain/",
       "product_type": "framework",
-      "category": "ai-dev-tool",
-      "sub_category": "ai-framework",
+      "category": "ai-dev-platform",
       "tags": [
         "open-source",
-        "python"
+        "api-platform",
+        "developers",
+        "cli-tool"
       ],
       "open_source": true,
       "status": "active",
@@ -4719,11 +5208,13 @@
       "description": "LFM2.5-1.2B-Instruct is a compact, high-performance instruction-tuned model built for fast on-device AI. It delivers strong chat quality in a 1.2B parameter footprint, with efficient edge inference and broad runtime support.",
       "product_url": "https://openrouter.ai/models/liquid/lfm-2.5-1.2b-instruct:free",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "on-device",
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "lfm-2.5-1.2b-instruct:free",
@@ -4742,11 +5233,13 @@
       "description": "LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extraction, and RAG—while still running comfortably on edge devices. It supports long context (up to 32K tokens) and is designed to provide higher-quality “thinking” responses in a small 1.2B model.",
       "product_url": "https://openrouter.ai/models/liquid/lfm-2.5-1.2b-thinking:free",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "chatbot",
+        "rag",
+        "researchers"
       ],
       "status": "active",
       "company_name": "lfm-2.5-1.2b-thinking:free",
@@ -4765,11 +5258,13 @@
       "description": "MiniMax M2-her is a dialogue-first large language model built for immersive roleplay, character-driven chat, and expressive multi-turn conversations. Designed to stay consistent in tone and personality, it supports rich message roles (user_system, group, sample_message_user, sample_message_ai) and can learn from example dialogue to better match the style and pacing of your scenario, making it a strong choice for storytelling, companions, and conversational experiences where natural flow and vivid interaction matter most.",
       "product_url": "https://openrouter.ai/models/minimax/minimax-m2-her",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "usage-based",
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "minimax-m2-her",
@@ -4788,11 +5283,13 @@
       "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1 to extend into general office work, reaching fluency in generating and operating Word, Excel, and Powerpoint files, context switching between diverse software environments, and working across different agent and human teams. Scoring 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than previous generations, having been trained to optimize its actions and output through planning.",
       "product_url": "https://openrouter.ai/models/minimax/minimax-m2.5",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "usage-based",
+        "chatbot",
+        "researchers"
       ],
       "status": "active",
       "company_name": "minimax-m2.5",
@@ -4811,9 +5308,9 @@
       "description": "A Social Network for AI Agents",
       "product_url": "https://www.producthunt.com/r/I75CSSFFKX5CEY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers"
       ],
       "status": "active",
       "company_name": "moltbook",
@@ -4832,9 +5329,10 @@
       "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
       "product_url": "https://www.netdata.cloud",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -4854,11 +5352,15 @@
       "description": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise. It delivers industry-leading speed and efficiency on context windows up to 1 million tokens, powered by a novel transformer architecture and hybrid attention mechanisms. This enables faster inference and expanded memory for processing large volumes of enterprise data, critical for scaling AI agents.",
       "product_url": "https://openrouter.ai/models/writer/palmyra-x5",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "transformer",
+        "usage-based",
+        "chatbot",
+        "enterprises",
+        "researchers"
       ],
       "status": "active",
       "company_name": "palmyra-x5",
@@ -4878,12 +5380,13 @@
       "product_url": "https://hub.docker.com/r/pytorch/pytorch",
       "product_type": "framework",
       "category": "ai-infrastructure",
-      "sub_category": "inference-platform",
       "tags": [
+        "cli-tool",
+        "api-platform",
+        "developers",
         "open-source",
-        "docker",
-        "infrastructure",
-        "python"
+        "desktop-app",
+        "enterprises"
       ],
       "open_source": true,
       "status": "active",
@@ -4903,11 +5406,15 @@
       "description": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows. It uses a sparse MoE design with 80B total parameters and only 3B activated per token, delivering performance comparable to models with 10 to 20x higher active compute, which makes it well suited for cost-sensitive, always-on agent deployment.\n\nThe model is trained with a strong agentic focus and performs reliably on long-horizon coding tasks, complex tool usage, and recovery from execution failures. With a native 256k context window, it integrates cleanly into real-world CLI and IDE environments and adapts well to common agent scaffolds used by modern coding tools. The model operates exclusively in non-thinking mode and does not emit <think> blocks, simplifying integration for production coding agents.",
       "product_url": "https://openrouter.ai/models/qwen/qwen3-coder-next",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "cli-tool",
+        "usage-based",
+        "chatbot",
+        "moe",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Alibaba Cloud",
@@ -4926,11 +5433,14 @@
       "description": "Qwen3-Max-Thinking is the flagship reasoning model in the Qwen3 series, designed for high-stakes cognitive tasks that require deep, multi-step reasoning. By significantly scaling model capacity and reinforcement learning compute, it delivers major gains in factual accuracy, complex reasoning, instruction following, alignment with human preferences, and agentic behavior.",
       "product_url": "https://openrouter.ai/models/qwen/qwen3-max-thinking",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "usage-based",
+        "chatbot",
+        "reinforcement-learning",
+        "researchers"
       ],
       "status": "active",
       "company_name": "Alibaba Cloud",
@@ -4949,9 +5459,10 @@
       "description": "Captures your work to build a searchable knowledge base",
       "product_url": "https://www.producthunt.com/r/JIA6D32JI237NZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Ai+%28ID%3A+274747%29",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "generative-ai"
+        "consumers",
+        "knowledge-base"
       ],
       "status": "active",
       "company_name": "remio 2.0",
@@ -4970,11 +5481,15 @@
       "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized for Korean with English and Japanese support.",
       "product_url": "https://openrouter.ai/models/upstage/solar-pro-3:free",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "usage-based",
+        "chatbot",
+        "moe",
+        "multimodal",
+        "researchers"
       ],
       "status": "active",
       "company_name": "solar-pro-3:free",
@@ -4993,11 +5508,15 @@
       "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts.",
       "product_url": "https://openrouter.ai/models/stepfun/step-3.5-flash",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "open-source",
+        "usage-based",
+        "chatbot",
+        "moe",
+        "researchers"
       ],
       "status": "active",
       "company_name": "step-3.5-flash",
@@ -5016,11 +5535,14 @@
       "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token. It is a reasoning model that is incredibly speed efficient even at long contexts.",
       "product_url": "https://openrouter.ai/models/stepfun/step-3.5-flash:free",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "open-source",
+        "chatbot",
+        "moe",
+        "researchers"
       ],
       "status": "active",
       "company_name": "step-3.5-flash:free",
@@ -5040,12 +5562,13 @@
       "product_url": "https://hub.docker.com/r/tensorflow/tensorflow",
       "product_type": "framework",
       "category": "ai-infrastructure",
-      "sub_category": "inference-platform",
       "tags": [
+        "cli-tool",
+        "api-platform",
+        "developers",
         "open-source",
-        "docker",
-        "infrastructure",
-        "python"
+        "desktop-app",
+        "enterprises"
       ],
       "open_source": true,
       "status": "active",
@@ -5065,11 +5588,15 @@
       "description": "Trinity-Large-Preview is a frontier-scale open-weight language model from Arcee, built as a 400B-parameter sparse Mixture-of-Experts with 13B active parameters per token using 4-of-256 expert routing. \n\nIt excels in creative writing, storytelling, role-play, chat scenarios, and real-time voice assistance, better than your average reasoning model usually can. But we’re also introducing some of our newer agentic performance. It was trained to navigate well in agent harnesses like OpenCode, Cline, and Kilo Code, and to handle complex toolchains and long, constraint-filled prompts. \n\nThe architecture natively supports very long context windows up to 512k tokens, with the Preview API currently served at 128k context using 8-bit quantization for practical deployment. Trinity-Large-Preview reflects Arcee’s efficiency-first design philosophy, offering a production-oriented frontier model with open weights and permissive licensing suitable for real-world applications and experimentation.",
       "product_url": "https://openrouter.ai/models/arcee-ai/trinity-large-preview:free",
       "product_type": "llm",
-      "category": "ai-model",
-      "sub_category": "text-generation",
+      "category": "ai-foundation-model",
       "tags": [
-        "llm",
-        "api-service"
+        "api-service",
+        "nlp",
+        "real-time",
+        "chatbot",
+        "quantization",
+        "moe",
+        "researchers"
       ],
       "status": "active",
       "company_name": "trinity-large-preview:free",
@@ -5089,11 +5616,13 @@
       "product_url": "https://hub.docker.com/r/vllm/vllm-openai",
       "product_type": "framework",
       "category": "ai-infrastructure",
-      "sub_category": "inference-platform",
       "tags": [
-        "docker",
+        "cli-tool",
+        "api-platform",
+        "developers",
         "open-source",
-        "infrastructure"
+        "desktop-app",
+        "enterprises"
       ],
       "open_source": true,
       "status": "active",
@@ -5113,9 +5642,10 @@
       "description": "Turn ideas into AI, Lightning fast. Creators of PyTorch Lightning, Lightning AI Studio, TorchMetrics, Fabric, Lit-GPT, Lit-LLaMA",
       "product_url": "https://lightning.ai",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
       "tags": [
-        "open-source"
+        "open-source",
+        "consumers"
       ],
       "open_source": true,
       "status": "active",
@@ -5138,10 +5668,9 @@
       "product_url": "https://chat.xverse.cn",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/08/35f93-chat.xverse.cn.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "元象大模型XChat",
@@ -5163,10 +5692,9 @@
       "product_url": "https://ilingban.com/chat/?type=pic&amp;from=xyqd20",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/07/1720085101-灵办logo.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "免费AI抠图去背景扩图",
@@ -5188,10 +5716,9 @@
       "product_url": "https://www.tiangong.cn",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2023/08/957cc-search.tiangong.cn.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "天工AI &#8211; 昆仑万维推出的AI助手",
@@ -5213,10 +5740,9 @@
       "product_url": "https://wukong.com",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/01/c6db5-wukong.com.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "小悟空",
@@ -5235,7 +5761,10 @@
       "description": "广州极天信息技术有限公司 is an AI product.",
       "product_url": "",
       "product_type": "other",
-      "category": "ai-app",
+      "category": "ai-application",
+      "tags": [
+        "consumers"
+      ],
       "status": "active",
       "company_name": "广州极天信息技术有限公司",
       "company_url": "https://www.bing.com/search?q=%E5%B9%BF%E5%B7%9E%E6%9E%81%E5%A4%A9%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8+AI",
@@ -5256,10 +5785,9 @@
       "product_url": "https://ai.dangbei.com",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2025/10/1760368723-faviconV2.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "当贝AI",
@@ -5281,10 +5809,9 @@
       "product_url": "https://ying.baichuan-ai.com",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/05/bdc7a-ying.baichuan-ai.com.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "百小应",
@@ -5306,10 +5833,9 @@
       "product_url": "https://bot.n.cn",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2025/05/1746178789-t11098f6bcdb3c1c166a74ad70c.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "纳米AI助手",
@@ -5331,11 +5857,10 @@
       "product_url": "https://ai-bot.cn/sites/12946.html",
       "icon_url": "https://ai-bot.cn/wp-content/uploads/2024/05/tencent-yuanbao-icon.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai-chatbots",
-        "ai对话聊天"
+        "consumers",
+        "chatbot"
       ],
       "status": "active",
       "company_name": "腾讯元宝",
@@ -5357,10 +5882,10 @@
       "product_url": "https://ai-bot.cn/sites/1909.html",
       "icon_url": "https://ai-bot.cn/wp-content/uploads/2024/01/xunfei-xinghuo-logo.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai-chatbots"
+        "consumers",
+        "chatbot"
       ],
       "status": "active",
       "company_name": "讯飞星火",
@@ -5382,10 +5907,10 @@
       "product_url": "https://ai-bot.cn",
       "icon_url": "https://ai-bot.cn/wp-content/uploads/2023/03/ai-bot-logo-black.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai-chatbots"
+        "consumers",
+        "chatbot"
       ],
       "status": "active",
       "company_name": "豆包",
@@ -5407,10 +5932,9 @@
       "product_url": "https://yuewen.cn/chats/new?utm_source=aitools&amp;utm_content=ainav",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2024/06/8db7b-yuewen.cn.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "跃问AI",
@@ -5432,10 +5956,9 @@
       "product_url": "https://www.wenxiaobai.com/?forceLogin=true&amp;source=ainav&amp;ad_source=ainav",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2025/05/1747800260-c49ca29e5862cf41a758f0098a87e72.jpg",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "问小白-DeepSeek-R1满血版",
@@ -5457,10 +5980,9 @@
       "product_url": "https://01.ai",
       "icon_url": "https://www.ainav.cn/wp-content/uploads/2023/11/98eef-01.ai.png",
       "product_type": "app",
-      "category": "ai-app",
-      "sub_category": "voice-assistant",
+      "category": "ai-application",
       "tags": [
-        "ai对话聊天"
+        "consumers"
       ],
       "status": "active",
       "company_name": "零一万物",

@@ -254,7 +254,7 @@ def _normalize_employee_range(raw: str) -> str | None:
     if "-" in raw:
         parts = raw.split("-")
         try:
-            low = int(parts[0])
+            int(parts[0])
             high = int(parts[1].rstrip("+"))
         except ValueError:
             return raw

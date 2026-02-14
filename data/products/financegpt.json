@@ -4,7 +4,7 @@
   "product_url": "https://financegpt.cloud",
   "description": "generative artificial intelligence platform for financial services, analysis and research",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -108,5 +108,10 @@
       "title": "chief executive officer",
       "is_founder": false
     }
+  ],
+  "tags": [
+    "europe",
+    "finance-accounting",
+    "consumers"
   ]
 }

@@ -4,7 +4,7 @@
   "product_url": "https://ai-bot.cn/sites/1909.html",
   "description": "AI智能助手，免费PPT生成、深度研究",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,7 @@
   "icon_url": "https://ai-bot.cn/wp-content/uploads/2024/01/xunfei-xinghuo-logo.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai-chatbots"
+    "consumers",
+    "chatbot"
   ]
 }

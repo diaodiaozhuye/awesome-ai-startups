@@ -4,7 +4,7 @@
   "product_url": "https://www.iterait.com/",
   "description": "Iterait is an AI product.",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,5 +106,9 @@
       "city": "Prague",
       "country": "Czech Republic"
     }
-  }
+  },
+  "tags": [
+    "europe",
+    "consumers"
+  ]
 }

@@ -1,25 +1,161 @@
 {
-  "tags": [
-    "generative-ai", "nlp", "computer-vision", "reinforcement-learning",
-    "transformer", "diffusion-model", "multimodal", "open-source",
-    "api-platform", "developer-tools", "sdk", "cli-tool",
-    "saas", "mobile-app", "desktop-app", "browser-extension",
-    "b2b", "b2c", "enterprise", "startup",
-    "hardware", "edge-ai", "on-device", "cloud-native",
-    "fine-tuning", "rag", "agents", "prompt-engineering",
-    "text-to-image", "text-to-video", "text-to-speech", "speech-to-text",
-    "text-to-3d", "text-to-music", "image-to-video",
-    "code-generation", "copilot", "chatbot", "search-engine",
-    "self-driving", "humanoid-robot", "drone", "defense",
-    "drug-discovery", "medical-imaging", "clinical-trials", "protein-folding",
-    "fraud-detection", "trading", "risk-assessment",
-    "content-creation", "marketing", "customer-support",
-    "data-labeling", "synthetic-data", "vector-database",
-    "model-serving", "mlops", "gpu-cloud", "inference",
-    "real-time", "low-latency", "high-throughput",
-    "safety", "alignment", "governance", "privacy",
-    "freemium", "open-weights", "closed-source",
-    "china", "us", "europe", "japan", "korea",
-    "unicorn", "decacorn", "yc-backed", "series-a"
-  ]
+  "version": "2.0",
+  "dimensions": {
+    "technology": {
+      "name": "Technology",
+      "name_zh": "技术栈",
+      "tags": [
+        {"id": "transformer", "name": "Transformer", "name_zh": "Transformer 架构"},
+        {"id": "diffusion-model", "name": "Diffusion Model", "name_zh": "扩散模型"},
+        {"id": "rag", "name": "RAG", "name_zh": "检索增强生成"},
+        {"id": "multimodal", "name": "Multimodal", "name_zh": "多模态"},
+        {"id": "nlp", "name": "NLP", "name_zh": "自然语言处理"},
+        {"id": "computer-vision", "name": "Computer Vision", "name_zh": "计算机视觉"},
+        {"id": "reinforcement-learning", "name": "Reinforcement Learning", "name_zh": "强化学习"},
+        {"id": "fine-tuning", "name": "Fine-tuning", "name_zh": "模型微调"},
+        {"id": "embedding", "name": "Embedding", "name_zh": "向量嵌入"},
+        {"id": "speech-to-text", "name": "Speech to Text", "name_zh": "语音转文字"},
+        {"id": "text-to-image", "name": "Text to Image", "name_zh": "文生图"},
+        {"id": "text-to-video", "name": "Text to Video", "name_zh": "文生视频"},
+        {"id": "text-to-speech", "name": "Text to Speech", "name_zh": "文字转语音"},
+        {"id": "text-to-3d", "name": "Text to 3D", "name_zh": "文生3D"},
+        {"id": "text-to-music", "name": "Text to Music", "name_zh": "文生音乐"},
+        {"id": "code-generation", "name": "Code Generation", "name_zh": "代码生成"},
+        {"id": "prompt-engineering", "name": "Prompt Engineering", "name_zh": "提示工程"},
+        {"id": "image-to-video", "name": "Image to Video", "name_zh": "图生视频"},
+        {"id": "graph-neural-network", "name": "Graph Neural Network", "name_zh": "图神经网络"},
+        {"id": "neuro-symbolic", "name": "Neuro-Symbolic", "name_zh": "神经符号"},
+        {"id": "moe", "name": "Mixture of Experts", "name_zh": "混合专家"},
+        {"id": "quantization", "name": "Quantization", "name_zh": "量化"},
+        {"id": "distillation", "name": "Distillation", "name_zh": "蒸馏"},
+        {"id": "federated-learning", "name": "Federated Learning", "name_zh": "联邦学习"}
+      ]
+    },
+    "use_case": {
+      "name": "Use Case",
+      "name_zh": "应用场景",
+      "tags": [
+        {"id": "chatbot", "name": "Chatbot", "name_zh": "聊天机器人"},
+        {"id": "copilot", "name": "Copilot", "name_zh": "编程助手"},
+        {"id": "writing-assistant", "name": "Writing Assistant", "name_zh": "写作助手"},
+        {"id": "data-analysis", "name": "Data Analysis", "name_zh": "数据分析"},
+        {"id": "content-creation", "name": "Content Creation", "name_zh": "内容创作"},
+        {"id": "customer-support", "name": "Customer Support", "name_zh": "客户服务"},
+        {"id": "search-engine", "name": "Search Engine", "name_zh": "搜索引擎"},
+        {"id": "workflow-automation", "name": "Workflow Automation", "name_zh": "工作流自动化"},
+        {"id": "marketing", "name": "Marketing", "name_zh": "营销"},
+        {"id": "translation", "name": "Translation", "name_zh": "翻译"},
+        {"id": "meeting-notes", "name": "Meeting Notes", "name_zh": "会议纪要"},
+        {"id": "design-creative", "name": "Design & Creative", "name_zh": "设计创意"},
+        {"id": "photo-editing", "name": "Photo Editing", "name_zh": "图片编辑"},
+        {"id": "video-editing", "name": "Video Editing", "name_zh": "视频编辑"},
+        {"id": "voice-assistant", "name": "Voice Assistant", "name_zh": "语音助手"},
+        {"id": "personal-assistant", "name": "Personal Assistant", "name_zh": "个人助手"},
+        {"id": "knowledge-base", "name": "Knowledge Base", "name_zh": "知识库"},
+        {"id": "research", "name": "Research", "name_zh": "研究"},
+        {"id": "testing-qa", "name": "Testing & QA", "name_zh": "测试与质量保证"},
+        {"id": "code-review", "name": "Code Review", "name_zh": "代码审查"},
+        {"id": "presentation", "name": "Presentation", "name_zh": "演示文稿"},
+        {"id": "email", "name": "Email", "name_zh": "邮件"},
+        {"id": "sales-crm", "name": "Sales & CRM", "name_zh": "销售与CRM"},
+        {"id": "hr-recruiting", "name": "HR & Recruiting", "name_zh": "人力资源与招聘"},
+        {"id": "project-management", "name": "Project Management", "name_zh": "项目管理"},
+        {"id": "content-moderation", "name": "Content Moderation", "name_zh": "内容审核"},
+        {"id": "social-media", "name": "Social Media", "name_zh": "社交媒体"},
+        {"id": "legal-assist", "name": "Legal Assist", "name_zh": "法律辅助"},
+        {"id": "finance-accounting", "name": "Finance & Accounting", "name_zh": "财务会计"},
+        {"id": "education-tutoring", "name": "Education & Tutoring", "name_zh": "教育辅导"}
+      ]
+    },
+    "domain": {
+      "name": "Domain",
+      "name_zh": "行业领域",
+      "tags": [
+        {"id": "healthcare", "name": "Healthcare", "name_zh": "医疗健康"},
+        {"id": "drug-discovery", "name": "Drug Discovery", "name_zh": "药物发现"},
+        {"id": "medical-imaging", "name": "Medical Imaging", "name_zh": "医学影像"},
+        {"id": "protein-folding", "name": "Protein Folding", "name_zh": "蛋白质折叠"},
+        {"id": "finance", "name": "Finance", "name_zh": "金融"},
+        {"id": "trading", "name": "Trading", "name_zh": "交易"},
+        {"id": "risk-assessment", "name": "Risk Assessment", "name_zh": "风险评估"},
+        {"id": "fraud-detection", "name": "Fraud Detection", "name_zh": "欺诈检测"},
+        {"id": "legal", "name": "Legal", "name_zh": "法律"},
+        {"id": "education", "name": "Education", "name_zh": "教育"},
+        {"id": "gaming", "name": "Gaming", "name_zh": "游戏"},
+        {"id": "defense", "name": "Defense", "name_zh": "国防"},
+        {"id": "climate-energy", "name": "Climate & Energy", "name_zh": "气候与能源"},
+        {"id": "materials-science", "name": "Materials Science", "name_zh": "材料科学"},
+        {"id": "clinical-trials", "name": "Clinical Trials", "name_zh": "临床试验"},
+        {"id": "autonomous-vehicles", "name": "Autonomous Vehicles", "name_zh": "自动驾驶"},
+        {"id": "robotics", "name": "Robotics", "name_zh": "机器人"},
+        {"id": "self-driving", "name": "Self-Driving", "name_zh": "无人驾驶"},
+        {"id": "humanoid-robot", "name": "Humanoid Robot", "name_zh": "人形机器人"},
+        {"id": "drone", "name": "Drone", "name_zh": "无人机"}
+      ]
+    },
+    "business_model": {
+      "name": "Business Model",
+      "name_zh": "商业模式",
+      "tags": [
+        {"id": "open-source", "name": "Open Source", "name_zh": "开源"},
+        {"id": "api-service", "name": "API Service", "name_zh": "API 服务"},
+        {"id": "saas", "name": "SaaS", "name_zh": "SaaS 云服务"},
+        {"id": "freemium", "name": "Freemium", "name_zh": "免费增值"},
+        {"id": "usage-based", "name": "Usage Based", "name_zh": "按量计费"},
+        {"id": "enterprise", "name": "Enterprise", "name_zh": "企业版"},
+        {"id": "self-hosted", "name": "Self-Hosted", "name_zh": "私有部署"},
+        {"id": "cloud-native", "name": "Cloud Native", "name_zh": "云原生"},
+        {"id": "closed-source", "name": "Closed Source", "name_zh": "闭源"},
+        {"id": "b2b", "name": "B2B", "name_zh": "面向企业"},
+        {"id": "b2c", "name": "B2C", "name_zh": "面向消费者"}
+      ]
+    },
+    "audience": {
+      "name": "Audience",
+      "name_zh": "目标受众",
+      "tags": [
+        {"id": "developers", "name": "Developers", "name_zh": "开发者"},
+        {"id": "data-scientists", "name": "Data Scientists", "name_zh": "数据科学家"},
+        {"id": "enterprises", "name": "Enterprises", "name_zh": "企业用户"},
+        {"id": "consumers", "name": "Consumers", "name_zh": "普通用户"},
+        {"id": "researchers", "name": "Researchers", "name_zh": "研究人员"},
+        {"id": "creators", "name": "Creators", "name_zh": "创作者"},
+        {"id": "marketers", "name": "Marketers", "name_zh": "营销人员"},
+        {"id": "students", "name": "Students", "name_zh": "学生"}
+      ]
+    },
+    "technical": {
+      "name": "Technical",
+      "name_zh": "技术特性",
+      "tags": [
+        {"id": "real-time", "name": "Real-time", "name_zh": "实时"},
+        {"id": "low-latency", "name": "Low Latency", "name_zh": "低延迟"},
+        {"id": "high-throughput", "name": "High Throughput", "name_zh": "高吞吐"},
+        {"id": "on-device", "name": "On-Device", "name_zh": "端侧运行"},
+        {"id": "edge-ai", "name": "Edge AI", "name_zh": "边缘AI"},
+        {"id": "mobile-app", "name": "Mobile App", "name_zh": "移动应用"},
+        {"id": "desktop-app", "name": "Desktop App", "name_zh": "桌面应用"},
+        {"id": "browser-extension", "name": "Browser Extension", "name_zh": "浏览器扩展"},
+        {"id": "api-platform", "name": "API Platform", "name_zh": "API 平台"},
+        {"id": "sdk", "name": "SDK", "name_zh": "开发套件"},
+        {"id": "cli-tool", "name": "CLI Tool", "name_zh": "命令行工具"}
+      ]
+    },
+    "special": {
+      "name": "Special",
+      "name_zh": "特殊标识",
+      "tags": [
+        {"id": "unicorn", "name": "Unicorn", "name_zh": "独角兽"},
+        {"id": "decacorn", "name": "Decacorn", "name_zh": "超级独角兽"},
+        {"id": "yc-backed", "name": "YC-Backed", "name_zh": "YC 孵化"},
+        {"id": "china", "name": "China", "name_zh": "中国"},
+        {"id": "us", "name": "United States", "name_zh": "美国"},
+        {"id": "europe", "name": "Europe", "name_zh": "欧洲"},
+        {"id": "japan", "name": "Japan", "name_zh": "日本"},
+        {"id": "korea", "name": "Korea", "name_zh": "韩国"},
+        {"id": "trending", "name": "Trending", "name_zh": "热门"},
+        {"id": "newly-launched", "name": "Newly Launched", "name_zh": "新上线"}
+      ]
+    }
+  }
 }

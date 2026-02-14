@@ -4,7 +4,7 @@
   "product_url": "https://www.astronomer.io/",
   "description": "American data operations technology company",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-12",
@@ -113,5 +113,9 @@
       "title": "chief executive officer",
       "is_founder": false
     }
+  ],
+  "tags": [
+    "consumers",
+    "us"
   ]
 }

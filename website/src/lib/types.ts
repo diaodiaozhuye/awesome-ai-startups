@@ -86,7 +86,6 @@ export interface ProductIndexEntry {
   icon_url?: string;
   product_type: string;
   category: string;
-  sub_category?: string;
   tags?: string[];
   keywords?: string[];
   open_source?: boolean;
@@ -119,14 +118,18 @@ export interface FundingLeaderEntry {
   valuation_usd: number;
 }
 
+export interface TagDimensionStat {
+  tag: string;
+  count: number;
+}
+
 export interface Stats {
   generated_at: string;
   total_products: number;
   by_category: StatEntry[];
-  by_product_type: StatEntry[];
-  by_sub_category: StatEntry[];
   by_country: StatEntry[];
   by_status: StatEntry[];
+  by_tag_dimension: Record<string, TagDimensionStat[]>;
   funding_leaderboard: FundingLeaderEntry[];
   total_funding_usd: number;
   open_source_count: number;
@@ -138,6 +141,23 @@ export interface Category {
   name: string;
   name_zh: string;
   icon: string;
+}
+
+export interface Tag {
+  id: string;
+  name: string;
+  name_zh: string;
+}
+
+export interface TagDimension {
+  name: string;
+  name_zh: string;
+  tags: Tag[];
+}
+
+export interface TagsData {
+  version: string;
+  dimensions: Record<string, TagDimension>;
 }
 
 export type Locale = "en" | "zh";

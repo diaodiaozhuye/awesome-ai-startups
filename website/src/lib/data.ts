@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import type { ProductDetail, ProductIndex, Stats, Category } from "./types";
+import type { ProductDetail, ProductIndex, Stats, Category, TagsData } from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "..", "data");
 const PRODUCTS_DIR = path.join(DATA_DIR, "products");
@@ -38,4 +38,10 @@ export function getCategories(): Category[] {
   const raw = fs.readFileSync(catPath, "utf-8");
   const data = JSON.parse(raw);
   return data.categories as Category[];
+}
+
+export function getTags(): TagsData {
+  const tagsPath = path.join(DATA_DIR, "tags.json");
+  const raw = fs.readFileSync(tagsPath, "utf-8");
+  return JSON.parse(raw) as TagsData;
 }

@@ -4,7 +4,7 @@
   "product_url": "https://z.ai",
   "description": "全新AI模型体验平台，包括对话、推理和沉思等模型功能。",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,6 @@
   "icon_url": "https://www.ainav.cn/wp-content/uploads/2025/04/1744841769-0d96685ac340ffd574a4f368c5168d0b_z-ai-logo.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

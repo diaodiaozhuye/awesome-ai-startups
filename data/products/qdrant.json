@@ -97,9 +97,14 @@
   },
   "sub_category": "inference-platform",
   "tags": [
-    "docker",
+    "cli-tool",
+    "developers",
+    "search-engine",
+    "api-platform",
     "open-source",
-    "infrastructure"
+    "desktop-app",
+    "enterprises",
+    "embedding"
   ],
   "platforms": [
     "api",

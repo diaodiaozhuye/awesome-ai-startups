@@ -4,16 +4,21 @@
   "product_url": "https://www.jasper.ai",
   "description": "Jasper AI is an enterprise AI platform for marketing teams to create on-brand content at scale.",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "name_zh": "Jasper AI",
   "description_zh": "Jasper AI 是面向营销团队的企业 AI 平台，用于大规模创建品牌一致的内容。",
   "sub_category": "workflow-automation",
   "tags": [
-    "content-creation",
-    "marketing",
+    "unicorn",
+    "closed-source",
     "b2b",
-    "saas"
+    "consumers",
+    "marketing",
+    "enterprises",
+    "saas",
+    "content-creation",
+    "us"
   ],
   "open_source": false,
   "company": {

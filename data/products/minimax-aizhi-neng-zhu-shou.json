@@ -4,7 +4,7 @@
   "product_url": "https://chat.minimaxi.com",
   "description": "MiniMax 旗下的AI智能聊天助手",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -106,6 +106,6 @@
   "icon_url": "https://www.ainav.cn/wp-content/uploads/2025/06/1749801414-a8aeeba889701183f484b62151b7c1af_favicon_v.png",
   "sub_category": "voice-assistant",
   "tags": [
-    "ai对话聊天"
+    "consumers"
   ]
 }

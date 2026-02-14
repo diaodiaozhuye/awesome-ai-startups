@@ -4,15 +4,20 @@
   "product_url": "https://www.recursion.com/technology",
   "description": "Recursion is a clinical-stage biotech company using AI and automation to discover new medicines at scale.",
   "product_type": "app",
-  "category": "ai-app",
+  "category": "ai-enterprise-vertical",
   "status": "active",
   "name_zh": "Recursion",
   "description_zh": "Recursion 是一家临床阶段的生物科技公司，利用 AI 和自动化大规模发现新药物。",
   "sub_category": "healthcare-medical",
   "tags": [
-    "drug-discovery",
+    "closed-source",
     "computer-vision",
-    "b2b"
+    "b2b",
+    "consumers",
+    "enterprises",
+    "drug-discovery",
+    "healthcare",
+    "us"
   ],
   "open_source": false,
   "repository_url": "https://github.com/recursionpharma",

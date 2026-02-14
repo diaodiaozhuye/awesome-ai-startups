@@ -4,7 +4,7 @@
   "product_url": "https://orga-ai.com",
   "description": "European AI research lab of Conversational Multimodal AI",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-12",
@@ -93,5 +93,9 @@
     "headquarters": {
       "city": "Valencia"
     }
-  }
+  },
+  "tags": [
+    "consumers",
+    "multimodal"
+  ]
 }

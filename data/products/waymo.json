@@ -11,9 +11,12 @@
   "sub_category": "autonomous-vehicle",
   "tags": [
     "self-driving",
+    "closed-source",
+    "robotics",
     "computer-vision",
+    "autonomous-vehicles",
     "reinforcement-learning",
-    "hardware"
+    "us"
   ],
   "open_source": false,
   "repository_url": "https://github.com/waymo-research",

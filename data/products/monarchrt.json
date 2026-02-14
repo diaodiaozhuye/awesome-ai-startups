@@ -92,8 +92,13 @@
   "sub_category": "image-generation",
   "tags": [
     "research",
+    "machine-learning",
     "computer-vision",
-    "machine-learning"
+    "diffusion-model",
+    "fine-tuning",
+    "text-to-video",
+    "real-time",
+    "text-to-image"
   ],
   "key_people": [
     {

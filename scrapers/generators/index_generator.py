@@ -26,7 +26,6 @@ class IndexGenerator:
         "icon_url",
         "product_type",
         "category",
-        "sub_category",
         "tags",
         "keywords",
         "open_source",

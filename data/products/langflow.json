@@ -4,10 +4,11 @@
   "product_url": "https://www.langflow.org",
   "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "tags": [
-    "open-source"
+    "open-source",
+    "consumers"
   ],
   "open_source": true,
   "repository_url": "https://github.com/langflow-ai",

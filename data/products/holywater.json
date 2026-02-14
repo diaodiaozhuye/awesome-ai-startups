@@ -4,7 +4,7 @@
   "product_url": "",
   "description": "AI technology company",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-12",
@@ -71,5 +71,8 @@
     "name": "Holywater",
     "url": "https://en.wikipedia.org/wiki/Holywater_(company)",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Holywater_(company)"
-  }
+  },
+  "tags": [
+    "consumers"
+  ]
 }

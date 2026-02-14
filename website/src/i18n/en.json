@@ -21,7 +21,7 @@
   },
   "product": {
     "product_type": "Product Type",
-    "sub_category": "Sub-category",
+    "tags_by_dimension": "Tags",
     "company_name": "Company",
     "founded": "Founded",
     "headquarters": "Headquarters",
@@ -55,6 +55,7 @@
     "results": "{count} results",
     "no_results": "No results found. Try a different search term.",
     "filters": "Filters",
+    "filter_tags": "Filter by Tags",
     "category": "Category",
     "country": "Country",
     "clear_filters": "Clear Filters"
@@ -74,6 +75,7 @@
     "open_source": "Open Source",
     "funding_chart": "Top Funded Products",
     "category_chart": "Products by Category",
+    "tag_chart": "Tag Distribution",
     "timeline_chart": "Founded Year Timeline",
     "geography_chart": "Products by Country"
   },

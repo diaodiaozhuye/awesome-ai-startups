@@ -4,7 +4,7 @@
   "product_url": "https://ailabs.tw/",
   "description": "Taiwanese Cooperation develops the next-generation AI solutions",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
@@ -119,5 +119,8 @@
       "title": "Co-founder",
       "is_founder": true
     }
+  ],
+  "tags": [
+    "consumers"
   ]
 }

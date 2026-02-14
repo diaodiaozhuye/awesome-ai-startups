@@ -4,7 +4,7 @@
   "product_url": "https://flipcx.com/",
   "description": "software company",
   "product_type": "other",
-  "category": "ai-app",
+  "category": "ai-application",
   "status": "active",
   "meta": {
     "added_date": "2026-02-12",
@@ -95,5 +95,9 @@
       "country": "United States",
       "country_code": "US"
     }
-  }
+  },
+  "tags": [
+    "consumers",
+    "us"
+  ]
 }
