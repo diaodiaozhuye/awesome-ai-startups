@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
-    "last_updated": "2026-02-14",
+    "last_updated": "2026-02-15",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -177,6 +177,11 @@
       "url": "https://apps.apple.com/us/app/flipped-chat-with-ai-character/id6445969623?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-02-14"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/replika-ai-friend/id1158555867?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-02-15"
     }
   ],
   "company": {

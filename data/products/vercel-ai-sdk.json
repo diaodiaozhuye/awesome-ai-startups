@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-13",
-    "last_updated": "2026-02-14",
+    "last_updated": "2026-02-15",
     "provenance": {
       "name": {
         "source": "npm",
@@ -68,7 +68,7 @@
         "source": "npm",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-14"
+        "updated_at": "2026-02-15"
       },
       "platforms": {
         "source": "npm",

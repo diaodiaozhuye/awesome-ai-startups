@@ -46,7 +46,7 @@
   ],
   "meta": {
     "added_date": "2026-02-12",
-    "last_updated": "2026-02-14",
+    "last_updated": "2026-02-15",
     "data_quality_score": 0.0,
     "needs_review": true,
     "provenance": {
@@ -114,7 +114,7 @@
         "source": "pypi",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-14"
+        "updated_at": "2026-02-15"
       },
       "platforms": {
         "source": "dockerhub",
