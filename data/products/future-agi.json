@@ -2,13 +2,13 @@
   "slug": "future-agi",
   "name": "Future AGI",
   "product_url": "https://futureagi.com",
-  "description": "AI evaluation and optimization platform for automated quality assessment and performance enhancement.",
-  "product_type": "llm",
-  "category": "ai-foundation-model",
+  "description": "Open-source platform to evaluate, trace, guardrail, and optimize LLM and AI agent applications, with 70+ eval metrics, LLM-as-judge, and agent simulation. Self-hostable.",
+  "product_type": "dev-tool",
+  "category": "ai-dev-platform",
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-06-17",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -23,22 +23,22 @@
         "updated_at": "2026-02-16"
       },
       "description": {
-        "source": "toolify",
-        "tier": 2,
-        "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
       },
       "product_type": {
-        "source": "toolify",
-        "tier": 2,
-        "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
       },
       "category": {
-        "source": "toolify",
-        "tier": 2,
-        "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
       },
       "status": {
         "source": "toolify",
@@ -64,6 +64,12 @@
         "confidence": 0.75,
         "updated_at": "2026-02-16"
       },
+      "company.social.github": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
+      },
       "icon_url": {
         "source": "toolify",
         "tier": 2,
@@ -71,16 +77,16 @@
         "updated_at": "2026-02-16"
       },
       "sub_category": {
-        "source": "toolify",
-        "tier": 2,
-        "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
       },
       "tags": {
-        "source": "toolify",
-        "tier": 2,
-        "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
       },
       "keywords": {
         "source": "toolify",
@@ -107,10 +113,10 @@
         "updated_at": "2026-02-20"
       },
       "use_cases": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
       },
       "name_zh": {
         "source": "llm-batch-combined",
@@ -119,10 +125,10 @@
         "updated_at": "2026-02-20"
       },
       "description_zh": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
       },
       "company.name_zh": {
         "source": "llm-batch-combined",
@@ -131,10 +137,10 @@
         "updated_at": "2026-02-20"
       },
       "company.description": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
       },
       "company.employee_count_range": {
         "source": "llm-batch-combined",
@@ -143,10 +149,10 @@
         "updated_at": "2026-02-20"
       },
       "open_source": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
       },
       "api_available": {
         "source": "llm-batch-combined",
@@ -167,10 +173,10 @@
         "updated_at": "2026-02-20"
       },
       "modalities": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-17"
       },
       "hiring.tech_stack": {
         "source": "llm-batch-combined",
@@ -185,6 +191,11 @@
       "url": "https://www.toolify.ai/tool/future-agi",
       "source_name": "toolify",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://github.com/future-agi/future-agi",
+      "source_name": "manual",
+      "scraped_at": "2026-06-17"
     }
   ],
   "company": {
@@ -192,35 +203,39 @@
     "url": "https://futureagi.com",
     "website": "https://futureagi.com",
     "name_zh": "Future AGI",
-    "description": "AI evaluation and optimization platform for automated quality assessment and performance enhancement.",
-    "employee_count_range": "11-50"
+    "description": "Future AGI builds an open-source platform for evaluating, tracing, guardrailing, and optimizing LLM and AI agent applications.",
+    "employee_count_range": "11-50",
+    "social": {
+      "github": "https://github.com/future-agi/future-agi"
+    }
   },
   "icon_url": "https://cdn-images.toolify.ai/website-logos/20250411/1744350572_63545021_22600.webp",
-  "sub_category": "ai models",
+  "sub_category": "ai evaluation & observability",
   "tags": [
-    "AI Models",
-    "Large Language Models (LLMs)",
     "AI Developer Tools",
-    "AI Testing",
-    "AI Agent"
+    "AI Evaluation",
+    "AI Observability",
+    "LLM Guardrails",
+    "AI Agent",
+    "AI Testing"
   ],
   "keywords": [
     "AI evaluation",
     "AI optimization",
-    "AI platform",
-    "Synthetic data",
-    "Agentic workflows",
+    "LLM observability",
+    "agent simulation",
+    "LLM-as-judge",
+    "guardrails",
+    "tracing",
     "AI monitoring",
-    "AI security",
     "AI safety",
     "LLM evaluation",
     "AI metrics",
-    "Model accuracy",
-    "AI infrastructure"
+    "agentic workflows"
   ],
   "pricing": {
-    "model": "enterprise",
-    "has_free_tier": false
+    "model": "freemium",
+    "has_free_tier": true
   },
   "platforms": [
     "web",
@@ -233,15 +248,16 @@
     "ai-teams"
   ],
   "use_cases": [
-    "task-automation",
-    "autonomous-agents",
     "ai-evaluation",
+    "llm-observability",
+    "agent-simulation",
+    "guardrails",
     "quality-assurance",
     "performance-optimization"
   ],
   "name_zh": "Future AGI",
-  "description_zh": "AI评估和优化平台，用于自动化质量评估和性能增强。",
-  "open_source": false,
+  "description_zh": "开源平台，用于评估、追踪、防护和优化 LLM 与 AI 智能体应用，提供 70+ 评估指标、LLM-as-judge 及智能体模拟，支持自托管。",
+  "open_source": true,
   "api_available": true,
   "hiring": {
     "is_hiring": true,
@@ -256,6 +272,8 @@
   },
   "modalities": [
     "text",
-    "code"
+    "code",
+    "image",
+    "audio"
   ]
 }
