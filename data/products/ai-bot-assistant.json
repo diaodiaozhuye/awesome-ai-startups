@@ -5,10 +5,10 @@
   "description": "AI-powered chat solution for automating conversations and enhancing customer support.",
   "product_type": "app",
   "category": "ai-chatbot-agent",
-  "status": "active",
+  "status": "deprecated",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-08-31T16:00:51Z",
+    "last_updated": "2026-09-01T13:39:09Z",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -179,9 +179,9 @@
         "updated_at": "2026-02-20"
       }
     },
-    "url_consecutive_failures": 2,
+    "url_consecutive_failures": 3,
     "url_status": 0,
-    "url_last_checked": "2026-08-31T16:00:51Z"
+    "url_last_checked": "2026-09-01T13:15:30Z"
   },
   "sources": [
     {
