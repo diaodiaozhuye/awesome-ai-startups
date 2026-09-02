@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-09-02",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -77,10 +77,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "toolify",
+        "source": "google_play",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-09-02"
       },
       "keywords": {
         "source": "toolify",
@@ -95,10 +95,10 @@
         "updated_at": "2026-02-16"
       },
       "platforms": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "google_play",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-09-02"
       },
       "target_audience": {
         "source": "llm-batch-combined",
@@ -161,10 +161,10 @@
         "updated_at": "2026-02-20"
       },
       "hiring.careers_url": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "google_play",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-09-02"
       },
       "modalities": {
         "source": "llm-batch-combined",
@@ -183,6 +183,18 @@
         "tier": 3,
         "confidence": 0.5,
         "updated_at": "2026-02-20"
+      },
+      "pricing.model": {
+        "source": "google_play",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-09-02"
+      },
+      "pricing.has_free_tier": {
+        "source": "google_play",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-09-02"
       }
     }
   },
@@ -191,6 +203,11 @@
       "url": "https://www.toolify.ai/tool/git-assistant",
       "source_name": "toolify",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.kagi.assistant",
+      "source_name": "google_play",
+      "scraped_at": "2026-09-02"
     }
   ],
   "company": {
@@ -207,7 +224,8 @@
     "AI Code Assistant",
     "Prompt Engineering",
     "AI Github",
-    "AI Developer Tools"
+    "AI Developer Tools",
+    "Productivity"
   ],
   "keywords": [
     "Git",
@@ -220,12 +238,13 @@
     "Iterative coding"
   ],
   "pricing": {
-    "model": "freemium",
+    "model": "free",
     "has_free_tier": true
   },
   "platforms": [
     "web",
-    "api"
+    "api",
+    "android"
   ],
   "target_audience": [
     "developers",
@@ -265,5 +284,10 @@
     "github-copilot",
     "codeium",
     "tabnine"
-  ]
+  ],
+  "app_store": {
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.kagi.assistant",
+    "rating": 4.4,
+    "downloads": "1,000+"
+  }
 }

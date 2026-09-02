@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-01",
+    "last_updated": "2026-09-02",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -80,7 +80,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-04-10"
+        "updated_at": "2026-09-02"
       },
       "supported_languages": {
         "source": "app_store",
@@ -225,6 +225,11 @@
       "url": "https://apps.apple.com/us/app/instanttranslator-ai-translate/id6636468891?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-04-10"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/offline-ai-writing-assistant/id6757650144?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-09-02"
     }
   ],
   "company": {
@@ -238,7 +243,8 @@
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/03/6d/e0036d28-e163-709b-a9aa-89bb4af177c4/icon_composer_removal-0-1x_U007epad-0-1-0-P3-85-220-0.png/512x512bb.jpg",
   "tags": [
     "Graphics & Design",
-    "Reference"
+    "Reference",
+    "Productivity"
   ],
   "supported_languages": [
     "AR",

@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-01",
+    "last_updated": "2026-09-02",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -294,7 +294,7 @@
   "release_date": "2025-06-19",
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id6745492622",
-    "rating": 4.6,
+    "rating": 4.5,
     "google_play_url": "https://play.google.com/store/apps/details?id=com.wachanga.superchat",
     "downloads": "5,000,000+"
   },
