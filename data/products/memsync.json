@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-09-03",
     "provenance": {
       "name": {
         "source": "theresanaiforthat",
@@ -71,10 +71,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "theresanaiforthat",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-09-03"
       },
       "use_cases": {
         "source": "llm-batch-combined",
@@ -89,10 +89,10 @@
         "updated_at": "2026-02-17"
       },
       "platforms": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-09-03"
       },
       "target_audience": {
         "source": "llm-batch-combined",
@@ -155,10 +155,10 @@
         "updated_at": "2026-02-20"
       },
       "hiring.careers_url": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-09-03"
       },
       "modalities": {
         "source": "llm-batch-combined",
@@ -177,6 +177,30 @@
         "tier": 3,
         "confidence": 0.5,
         "updated_at": "2026-02-20"
+      },
+      "pricing.model": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-09-03"
+      },
+      "pricing.has_free_tier": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-09-03"
+      },
+      "release_date": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-09-03"
+      },
+      "supported_languages": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-09-03"
       }
     }
   },
@@ -185,6 +209,11 @@
       "url": "https://theresanaiforthat.com/ai/memsync/",
       "source_name": "theresanaiforthat",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/google-gemini/id6477489729?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-09-03"
     }
   ],
   "company": {
@@ -198,7 +227,8 @@
   "icon_url": "https://media.theresanaiforthat.com/icons/memsync.png?height=207",
   "tags": [
     "Prompt optimization",
-    "prompt optimization"
+    "prompt optimization",
+    "Productivity"
   ],
   "use_cases": [
     "Prompt optimization",
@@ -219,7 +249,8 @@
   "platforms": [
     "web",
     "api",
-    "self-hosted"
+    "self-hosted",
+    "ios"
   ],
   "target_audience": [
     "developers",
@@ -248,5 +279,85 @@
   ],
   "competitors": [
     "pinecone"
-  ]
+  ],
+  "pricing": {
+    "model": "free",
+    "has_free_tier": true
+  },
+  "release_date": "2024-11-13",
+  "supported_languages": [
+    "AF",
+    "SQ",
+    "AM",
+    "AR",
+    "HY",
+    "AS",
+    "AZ",
+    "EU",
+    "BE",
+    "BN",
+    "BS",
+    "BG",
+    "KM",
+    "CA",
+    "HR",
+    "CS",
+    "DA",
+    "NL",
+    "EN",
+    "ET",
+    "FI",
+    "FR",
+    "GL",
+    "KA",
+    "DE",
+    "EL",
+    "GU",
+    "HE",
+    "HI",
+    "HU",
+    "IS",
+    "ID",
+    "IT",
+    "JA",
+    "KN",
+    "KK",
+    "KO",
+    "LO",
+    "LV",
+    "LT",
+    "MK",
+    "MS",
+    "ML",
+    "MR",
+    "MN",
+    "NE",
+    "NB",
+    "OR",
+    "PL",
+    "PT",
+    "PA",
+    "RO",
+    "RU",
+    "SR",
+    "ZH",
+    "SK",
+    "SL",
+    "ES",
+    "SW",
+    "SV",
+    "TA",
+    "TE",
+    "TH",
+    "TR",
+    "UK",
+    "UR",
+    "UZ",
+    "VI",
+    "ZU"
+  ],
+  "app_store": {
+    "apple_store_url": "https://apps.apple.com/app/id6477489729",
+    "rating": 4.7
+  }
 }

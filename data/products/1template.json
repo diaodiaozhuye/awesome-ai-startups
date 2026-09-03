@@ -5,10 +5,10 @@
   "description": "Create professional resumes instantly with AI",
   "product_type": "app",
   "category": "ai-hr-recruiting",
-  "status": "active",
+  "status": "deprecated",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-02T12:32:38Z",
+    "last_updated": "2026-09-03T13:13:22Z",
     "provenance": {
       "name": {
         "source": "theresanaiforthat",
@@ -185,9 +185,9 @@
         "updated_at": "2026-02-20"
       }
     },
-    "url_consecutive_failures": 2,
+    "url_consecutive_failures": 3,
     "url_status": 404,
-    "url_last_checked": "2026-09-02T12:32:38Z"
+    "url_last_checked": "2026-09-03T12:36:11Z"
   },
   "sources": [
     {

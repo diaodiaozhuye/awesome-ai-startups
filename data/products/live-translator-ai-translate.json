@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-08-23",
+    "last_updated": "2026-09-03",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -319,7 +319,7 @@
   "release_date": "2025-02-07",
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id6636468891",
-    "rating": 4.5,
+    "rating": 4.4,
     "google_play_url": "https://play.google.com/store/apps/details?id=com.live.translator.ai",
     "downloads": "1,000,000+"
   },
