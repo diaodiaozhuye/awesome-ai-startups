@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-03",
+    "last_updated": "2026-09-04",
     "provenance": {
       "name": {
         "source": "aibot",
@@ -353,6 +353,6 @@
   ],
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id6759581694",
-    "rating": 3.9
+    "rating": 4.1
   }
 }

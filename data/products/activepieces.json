@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-03T12:40:48Z",
+    "last_updated": "2026-09-04T12:34:03Z",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -197,9 +197,9 @@
         "updated_at": "2026-02-20"
       }
     },
-    "url_consecutive_failures": 1,
-    "url_status": 0,
-    "url_last_checked": "2026-09-03T12:40:48Z"
+    "url_consecutive_failures": 0,
+    "url_status": 200,
+    "url_last_checked": "2026-09-04T12:34:03Z"
   },
   "sources": [
     {

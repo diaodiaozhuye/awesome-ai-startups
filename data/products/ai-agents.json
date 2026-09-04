@@ -5,10 +5,10 @@
   "description": "AI Agents that automate business processes and tasks.",
   "product_type": "app",
   "category": "ai-marketing-commerce",
-  "status": "active",
+  "status": "deprecated",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-03T12:45:11Z",
+    "last_updated": "2026-09-04T13:03:57Z",
     "provenance": {
       "name": {
         "source": "theresanaiforthat",
@@ -191,9 +191,9 @@
         "updated_at": "2026-02-20"
       }
     },
-    "url_consecutive_failures": 2,
+    "url_consecutive_failures": 3,
     "url_status": 0,
-    "url_last_checked": "2026-09-03T12:45:11Z"
+    "url_last_checked": "2026-09-04T12:38:08Z"
   },
   "sources": [
     {
