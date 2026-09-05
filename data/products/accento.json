@@ -8,7 +8,7 @@
   "status": "deprecated",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-04T12:32:55Z",
+    "last_updated": "2026-09-05T11:41:19Z",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -179,9 +179,9 @@
         "updated_at": "2026-02-20"
       }
     },
-    "url_consecutive_failures": 80,
+    "url_consecutive_failures": 81,
     "url_status": 0,
-    "url_last_checked": "2026-09-04T12:32:55Z"
+    "url_last_checked": "2026-09-05T11:41:19Z"
   },
   "sources": [
     {
