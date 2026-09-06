@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-05",
+    "last_updated": "2026-09-06",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -298,8 +298,8 @@
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id1668787639",
     "rating": 4.8,
-    "google_play_url": "https://play.google.com/store/apps/details?id=com.codeway.wonder",
-    "downloads": "10,000,000+"
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.tesseractmobile.aiart",
+    "downloads": "100,000+"
   },
   "keywords": [
     "Wonder - AI Art Generator",
