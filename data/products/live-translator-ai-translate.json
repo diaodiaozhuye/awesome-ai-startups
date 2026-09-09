@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-08",
+    "last_updated": "2026-09-09",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -71,10 +71,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "google_play",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-08-23"
+        "updated_at": "2026-09-09"
       },
       "supported_languages": {
         "source": "app_store",
@@ -236,6 +236,11 @@
       "url": "https://play.google.com/store/apps/details?id=com.live.translator.ai",
       "source_name": "google_play",
       "scraped_at": "2026-08-23"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/offline-ai-writing-assistant/id6757650144?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-09-09"
     }
   ],
   "company": {
@@ -250,7 +255,8 @@
   "tags": [
     "Reference",
     "Graphics & Design",
-    "Tools"
+    "Tools",
+    "Productivity"
   ],
   "supported_languages": [
     "AR",
