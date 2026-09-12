@@ -1,0 +1,39 @@
+{
+  "slug": "workforce-wave",
+  "name": "Workforce Wave",
+  "product_url": "https://www.workforcewave.com/",
+  "description": "AI voice receptionist for small and mid-sized businesses that answers calls 24/7, books appointments, and captures after-hours leads.",
+  "product_type": "app",
+  "category": "ai-customer-service",
+  "status": "active",
+  "company": {
+    "name": "Workforce Wave",
+    "url": "https://www.workforcewave.com/",
+    "website": "https://www.workforcewave.com/",
+    "headquarters": {
+      "city": "Mount Pleasant",
+      "state": "SC",
+      "country": "United States",
+      "country_code": "US"
+    }
+  },
+  "tags": [
+    "AI Receptionist",
+    "AI Voice Agent",
+    "Appointment Booking",
+    "Lead Capture",
+    "Call Answering"
+  ],
+  "target_audience": [
+    "small-businesses",
+    "home-service-businesses"
+  ],
+  "use_cases": [
+    "ai-phone-answering",
+    "appointment-booking",
+    "after-hours-lead-capture"
+  ],
+  "modalities": [
+    "voice"
+  ]
+}
