@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-13",
+    "last_updated": "2026-09-15",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -237,6 +237,11 @@
       "url": "https://play.google.com/store/apps/details?id=chatgpt.ai.chatbot.open.chat.gpt.bot.writer.assistant",
       "source_name": "google_play",
       "scraped_at": "2026-03-28"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/chatbox-ai-chat-with-chatbot/id6447763703?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-09-15"
     }
   ],
   "company": {
