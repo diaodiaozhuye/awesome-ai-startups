@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-06-01",
+    "last_updated": "2026-09-16",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -214,6 +214,11 @@
       "url": "https://apps.apple.com/us/app/replika-ai-friend/id1158555867?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-03-12"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/replika-ai-companion-chat/id1158555867?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-09-16"
     }
   ],
   "company": {
