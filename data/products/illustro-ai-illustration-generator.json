@@ -2,13 +2,13 @@
   "slug": "illustro-ai-illustration-generator",
   "name": "Illustro – AI Illustration Generator",
   "product_url": "https://illustro.app",
-  "description": "AI illustration generator and AI illustration editor for modern vectorial illustrations.",
+  "description": "AI illustration generator and editor with style-specific tools for flat, line art, children's book, and 3D artwork. Includes SVG recoloring, photo-to-illustration conversion, and illustration animation.",
   "product_type": "app",
   "category": "ai-image-design",
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-06-06",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -182,6 +182,11 @@
   },
   "sources": [
     {
+      "url": "https://illustro.app",
+      "source_name": "official",
+      "scraped_at": "2026-06-06"
+    },
+    {
       "url": "https://www.toolify.ai/tool/illustro-ai-illustration-generator",
       "source_name": "toolify",
       "scraped_at": "2026-02-16"
@@ -192,7 +197,7 @@
     "url": "https://illustro.app",
     "website": "https://illustro.app",
     "name_zh": "Illustro",
-    "description": "AI illustration generator and editor specializing in modern vectorial artwork.",
+    "description": "AI illustration generator and editor for flat, line art, children's book, and 3D styles with vector editing and animation.",
     "employee_count_range": "1-10"
   },
   "icon_url": "https://cdn-images.toolify.ai/website-logos/20250807/1754529920_71485124_27613.webp",
@@ -202,7 +207,12 @@
     "AI Image Generator",
     "Text to Image",
     "AI Drawing",
-    "AI Character"
+    "AI Character",
+    "SVG Editor",
+    "Line Art",
+    "Children's Book Illustration",
+    "3D Illustration",
+    "Animation"
   ],
   "keywords": [
     "AI Illustrations",
@@ -219,7 +229,12 @@
     "Illustration Maker",
     "Illustration Generator",
     "SVG Illustration",
-    "Flat Illustration"
+    "Flat Illustration",
+    "Line Art Illustration",
+    "Children's Book Illustration",
+    "3D Illustration",
+    "Photo to Illustration",
+    "Illustration Animation"
   ],
   "platforms": [
     "web"
@@ -236,27 +251,30 @@
     "image-editing",
     "graphic-design",
     "illustration-creation",
-    "vector-design"
+    "vector-design",
+    "illustration-animation",
+    "childrens-book-illustration"
   ],
   "name_zh": "Illustro – AI插画生成器",
-  "description_zh": "AI插画生成和编辑工具，专注于现代矢量插画。",
+  "description_zh": "AI插画生成和编辑工具，支持扁平、线稿、童书和3D风格，并提供矢量编辑与动画功能。",
   "open_source": false,
   "api_available": false,
   "hiring": {
-    "is_hiring": true,
+    "is_hiring": false,
     "careers_url": "",
     "tech_stack": [
       "React",
-      "Stable Diffusion",
-      "SVG.js"
+      "Next.js",
+      "SVG"
     ],
-    "last_checked": "2026-02-20"
+    "last_checked": "2026-06-06"
   },
   "modalities": [
     "image",
     "text"
   ],
   "competitors": [
-    "illustraai"
+    "ilus-ai",
+    "illustroke"
   ]
 }
