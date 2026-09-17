@@ -8,7 +8,7 @@
   "status": "deprecated",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-16T13:19:30Z",
+    "last_updated": "2026-09-17T13:15:31Z",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -221,9 +221,9 @@
         "updated_at": "2026-02-20"
       }
     },
-    "url_consecutive_failures": 193,
+    "url_consecutive_failures": 194,
     "url_status": 0,
-    "url_last_checked": "2026-09-16T13:19:30Z"
+    "url_last_checked": "2026-09-17T13:15:31Z"
   },
   "sources": [
     {

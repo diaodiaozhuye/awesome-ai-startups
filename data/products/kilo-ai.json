@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-08-24",
+    "last_updated": "2026-09-17",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -301,6 +301,6 @@
   ],
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id6745335307",
-    "rating": 5.0
+    "rating": 2.6
   }
 }
