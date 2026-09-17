@@ -1,0 +1,164 @@
+{
+  "slug": "auferet",
+  "name": "Auferet",
+  "product_url": "https://auferet.com",
+  "description": "Auferet is an AI game master for solo text adventures and tabletop-style RPGs, with long-term story memory and support for your own uploaded lore.",
+  "product_type": "app",
+  "category": "ai-social-entertainment",
+  "sub_category": "ai-roleplay",
+  "status": "active",
+  "icon_url": "https://auferet.com/favicon.ico",
+  "tags": [
+    "ai-game-master",
+    "text-adventure",
+    "tabletop-rpg",
+    "interactive-fiction",
+    "story-memory"
+  ],
+  "keywords": [
+    "ai dungeon master",
+    "solo rpg",
+    "ai rpg",
+    "text adventure",
+    "ai storytelling",
+    "gemini"
+  ],
+  "pricing": "freemium",
+  "platforms": [
+    "web",
+    "android"
+  ],
+  "target_audience": [
+    "solo rpg players",
+    "tabletop gamers",
+    "interactive fiction fans"
+  ],
+  "use_cases": [
+    "solo text adventures",
+    "ai-run tabletop campaigns",
+    "collaborative storytelling with persistent memory"
+  ],
+  "open_source": false,
+  "api_available": false,
+  "modalities": [
+    "text"
+  ],
+  "competitors": [
+    "ai-dungeon",
+    "novelai"
+  ],
+  "meta": {
+    "added_date": "2026-06-23",
+    "last_updated": "2026-06-23",
+    "provenance": {
+      "name": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "product_url": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "description": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "product_type": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "category": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "status": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "sub_category": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "tags": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "keywords": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "pricing": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "platforms": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "target_audience": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "use_cases": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "open_source": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "api_available": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "modalities": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "competitors": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      },
+      "icon_url": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-06-23"
+      }
+    }
+  }
+}
