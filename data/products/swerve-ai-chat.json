@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-15",
+    "last_updated": "2026-09-18",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -215,6 +215,11 @@
       "url": "https://apps.apple.com/us/app/swerve-ai-chat/id6754301136?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/swerve-ai-chat-stories/id6754301136?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-09-18"
     }
   ],
   "company": {

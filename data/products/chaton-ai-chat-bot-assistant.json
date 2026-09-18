@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-17",
+    "last_updated": "2026-09-18",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -297,8 +297,8 @@
   },
   "release_date": "2023-01-13",
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id1661308505",
-    "rating": 4.7,
+    "apple_store_url": "https://apps.apple.com/app/id1642969698",
+    "rating": 4.3,
     "google_play_url": "https://play.google.com/store/apps/details?id=chatgpt.ai.chatbot.open.chat.gpt.bot.writer.assistant",
     "downloads": "5,000,000+"
   },
