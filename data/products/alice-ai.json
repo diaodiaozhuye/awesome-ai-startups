@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-20",
+    "last_updated": "2026-09-21",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -272,7 +272,7 @@
   ],
   "app_store": {
     "google_play_url": "https://play.google.com/store/apps/details?id=com.yandex.aliceapp",
-    "rating": 4.2,
+    "rating": 4.3,
     "downloads": "10,000,000+"
   }
 }

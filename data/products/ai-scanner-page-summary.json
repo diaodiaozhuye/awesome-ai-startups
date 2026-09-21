@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-20",
+    "last_updated": "2026-09-21",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -296,8 +296,8 @@
   },
   "release_date": "2024-02-01",
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id6708225010",
-    "rating": 5.0
+    "apple_store_url": "https://apps.apple.com/app/id6446395373",
+    "rating": 4.5
   },
   "keywords": [
     "AI Scanner - Page Summary",
