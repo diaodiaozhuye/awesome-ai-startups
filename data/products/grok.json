@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-04",
+    "last_updated": "2026-09-23",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -252,6 +252,11 @@
       "url": "https://apps.apple.com/us/app/grok-ai/id6670324846?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-07-09"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=ai.x.grok",
+      "source_name": "google_play",
+      "scraped_at": "2026-09-23"
     }
   ],
   "company": {
@@ -324,7 +329,9 @@
   "release_date": "2025-01-08",
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id6670324846",
-    "rating": 4.9
+    "rating": 4.9,
+    "google_play_url": "https://play.google.com/store/apps/details?id=ai.x.grok",
+    "downloads": "100,000,000+"
   },
   "description_zh": "Grok 是马斯克旗下的xAI公司最新推出的人工智能助手，一个与 ChatGPT 类似的聊天机器人，关键的区别之处在于 Grok 可以实时访问 ?（原Twitter）数据，可以为用户提供最新且独特的信息。",
   "sub_category": "chatbot",
