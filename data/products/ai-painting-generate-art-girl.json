@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-23",
+    "last_updated": "2026-09-24",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -74,7 +74,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-09-24"
       },
       "supported_languages": {
         "source": "app_store",
@@ -227,6 +227,11 @@
       "url": "https://apps.apple.com/us/app/ai-painting-generate-art-girl/id6446395373?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/snap-animal-card-match/id1307540021?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-09-24"
     }
   ],
   "company": {
@@ -239,7 +244,8 @@
   },
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/36/73/cb3673cd-a387-ba08-74a0-a42b262caac2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
   "tags": [
-    "Graphics & Design"
+    "Graphics & Design",
+    "Games"
   ],
   "supported_languages": [
     "AR",
@@ -266,8 +272,8 @@
   },
   "release_date": "2023-04-12",
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id6446395373",
-    "rating": 4.5
+    "apple_store_url": "https://apps.apple.com/app/id1307540021",
+    "rating": 5.0
   },
   "keywords": [
     "AI Painting: Generate Art Girl",

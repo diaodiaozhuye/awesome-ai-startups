@@ -8,7 +8,7 @@
   "status": "deprecated",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-23T13:29:51Z",
+    "last_updated": "2026-09-24T13:18:21Z",
     "provenance": {
       "name": {
         "source": "theresanaiforthat",
@@ -173,9 +173,9 @@
         "updated_at": "2026-02-20"
       }
     },
-    "url_consecutive_failures": 50,
+    "url_consecutive_failures": 51,
     "url_status": 404,
-    "url_last_checked": "2026-09-23T13:29:51Z"
+    "url_last_checked": "2026-09-24T13:18:21Z"
   },
   "sources": [
     {

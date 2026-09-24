@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-23",
+    "last_updated": "2026-09-24",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -298,9 +298,9 @@
   "release_date": "2023-01-13",
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id1642969698",
-    "rating": 4.5,
-    "google_play_url": "https://play.google.com/store/apps/details?id=ai.chat.gpt.bot",
-    "downloads": "10,000,000+"
+    "rating": 4.3,
+    "google_play_url": "https://play.google.com/store/apps/details?id=chatgpt.ai.chatbot.open.chat.gpt.bot.writer.assistant",
+    "downloads": "5,000,000+"
   },
   "keywords": [
     "ChatOn AI - Chat Bot Assistant",
