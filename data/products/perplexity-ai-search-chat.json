@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-26",
+    "last_updated": "2026-09-27",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -343,7 +343,7 @@
   "release_date": "2023-03-27",
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id6748622471",
-    "rating": 4.8
+    "rating": 4.7
   },
   "description_zh": "Perplexity则是将传统搜索的内容索引技术，与大型语言模型的推理能力和文本转换能力结合起来。相比基于关键词的传统搜索引擎，Perplexity的优势就在于“自然语言”，也就是用户直接输入一句话，而不用再绞尽脑汁地思考关键词。如果提示合适，AI就能理解用户想要的东西，进而从无数链接中抽出相关的网页，减少关键字查询、筛选、链接点击和页面浏览的过程。",
   "sub_category": "ai-search",

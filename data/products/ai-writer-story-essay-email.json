@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-06-24",
+    "last_updated": "2026-09-27",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -221,6 +221,11 @@
       "url": "https://apps.apple.com/us/app/ai-writer-story-essay-email/id6752021834?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.ai.essay.email.writer.story.generator",
+      "source_name": "google_play",
+      "scraped_at": "2026-09-27"
     }
   ],
   "company": {
@@ -314,7 +319,9 @@
   "release_date": "2025-10-01",
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id6752021834",
-    "rating": 4.7
+    "rating": 4.7,
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.ai.essay.email.writer.story.generator",
+    "downloads": "1,000+"
   },
   "keywords": [
     "AI Writer: Story Essay Email",
