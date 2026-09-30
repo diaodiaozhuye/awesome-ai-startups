@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-29",
+    "last_updated": "2026-09-30",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -309,8 +309,8 @@
     "writesonic"
   ],
   "app_store": {
-    "google_play_url": "https://play.google.com/store/apps/details?id=io.zyur.textelevate",
+    "google_play_url": "https://play.google.com/store/apps/details?id=com.aiutilities",
     "rating": 4.4,
-    "downloads": "5,000+"
+    "downloads": "100+"
   }
 }

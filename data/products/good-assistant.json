@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-29",
+    "last_updated": "2026-09-30",
     "provenance": {
       "name": {
         "source": "theresanaiforthat",
@@ -265,7 +265,7 @@
   },
   "app_store": {
     "google_play_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.googleassistant",
-    "rating": 3.9,
+    "rating": 3.8,
     "downloads": "5,000,000,000+"
   }
 }
