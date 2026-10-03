@@ -1,0 +1,19 @@
+{
+  "slug": "agent-qa",
+  "name": "Agent QA",
+  "product_url": "https://vostride.com/docs/agent-qa",
+  "description": "The self-improving QA agent for natural-language web and mobile tests, with memory from past runs and self-healing execution.",
+  "product_type": "dev-tool",
+  "category": "ai-dev-platform",
+  "status": "active",
+  "sources": [
+    {
+      "url": "https://github.com/vostride/agent-qa",
+      "source_name": "github",
+      "scraped_at": "2026-09-24"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-09-24"
+  }
+}
