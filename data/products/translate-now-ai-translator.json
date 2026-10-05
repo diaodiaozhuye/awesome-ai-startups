@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-04",
+    "last_updated": "2026-10-05",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -280,8 +280,8 @@
   },
   "release_date": "2018-03-23",
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id1348028646",
-    "rating": 4.7
+    "apple_store_url": "https://apps.apple.com/app/id6743772082",
+    "rating": 5.0
   },
   "keywords": [
     "Translate Now - AI Translator",
