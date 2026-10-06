@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-05",
+    "last_updated": "2026-10-06",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -71,10 +71,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "toolify",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-06"
       },
       "supported_languages": {
         "source": "app_store",
@@ -249,7 +249,8 @@
     "AI Chat Generator",
     "Large Language Models (LLMs)",
     "AI Character",
-    "AI Jobs"
+    "AI Jobs",
+    "Lifestyle"
   ],
   "supported_languages": [
     "EN"
