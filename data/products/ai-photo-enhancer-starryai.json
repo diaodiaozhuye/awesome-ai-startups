@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-07",
+    "last_updated": "2026-10-08",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -242,6 +242,11 @@
       "url": "https://apps.apple.com/us/app/starryai-ai-photo-generator/id1580512844?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-04-02"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/starryai-ai-image-generator/id1580512844?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-08"
     }
   ],
   "company": {

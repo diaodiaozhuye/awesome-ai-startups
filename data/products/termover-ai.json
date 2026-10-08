@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-07",
+    "last_updated": "2026-10-08",
     "provenance": {
       "name": {
         "source": "theresanaiforthat",
@@ -74,7 +74,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-10-07"
+        "updated_at": "2026-10-08"
       },
       "use_cases": {
         "source": "llm-batch-combined",
@@ -25367,6 +25367,11 @@
       "url": "https://apps.apple.com/us/app/dmv-practice-test-all-states/id1630459204?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-07-24"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/ai-voice-changer-editor-app/id6739467839?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-08"
     }
   ],
   "company": {
@@ -37057,7 +37062,7 @@
     "ZU"
   ],
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id6477489729",
-    "rating": 4.7
+    "apple_store_url": "https://apps.apple.com/app/id6739467839",
+    "rating": 4.4
   }
 }

@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-10-08",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -77,10 +77,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "toolify",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-08"
       },
       "keywords": {
         "source": "toolify",
@@ -113,10 +113,10 @@
         "updated_at": "2026-02-17"
       },
       "platforms": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-08"
       },
       "target_audience": {
         "source": "llm-batch-combined",
@@ -173,10 +173,10 @@
         "updated_at": "2026-02-20"
       },
       "hiring.careers_url": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-08"
       },
       "modalities": {
         "source": "llm-batch-combined",
@@ -189,6 +189,18 @@
         "tier": 3,
         "confidence": 0.5,
         "updated_at": "2026-02-20"
+      },
+      "release_date": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-08"
+      },
+      "supported_languages": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-08"
       }
     }
   },
@@ -197,6 +209,11 @@
       "url": "https://www.toolify.ai/tool/antipiracy",
       "source_name": "toolify",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/image-makers-private-creator/id6791094452?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-08"
     }
   ],
   "company": {
@@ -213,7 +230,8 @@
     "AI Content Detector",
     "AI Legal Assistant",
     "AI Social Media",
-    "AI API"
+    "AI API",
+    "Photo & Video"
   ],
   "keywords": [
     "Anti-piracy",
@@ -236,7 +254,8 @@
   "api_available": true,
   "platforms": [
     "api",
-    "web"
+    "web",
+    "ios"
   ],
   "target_audience": [
     "security-professionals",
@@ -268,5 +287,25 @@
   "modalities": [
     "text",
     "image"
-  ]
+  ],
+  "release_date": "2026-07-28",
+  "supported_languages": [
+    "AR",
+    "DA",
+    "NL",
+    "EN",
+    "FI",
+    "FR",
+    "DE",
+    "IT",
+    "JA",
+    "KO",
+    "NB",
+    "ES",
+    "SV"
+  ],
+  "app_store": {
+    "apple_store_url": "https://apps.apple.com/app/id6791094452",
+    "rating": 4.7
+  }
 }

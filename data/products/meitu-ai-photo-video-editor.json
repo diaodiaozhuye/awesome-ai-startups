@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-07-15",
+    "last_updated": "2026-10-08",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -270,7 +270,7 @@
   "release_date": "2011-02-15",
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id416048305",
-    "rating": 4.5,
+    "rating": 4.8,
     "google_play_url": "https://play.google.com/store/apps/details?id=com.mt.mtxx.mtxx",
     "downloads": "100,000,000+"
   },
