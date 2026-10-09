@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-08",
+    "last_updated": "2026-10-09",
     "provenance": {
       "name": {
         "source": "theresanaiforthat",
@@ -74,7 +74,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-10-08"
+        "updated_at": "2026-10-09"
       },
       "use_cases": {
         "source": "llm-batch-combined",
@@ -25372,6 +25372,11 @@
       "url": "https://apps.apple.com/us/app/ai-voice-changer-editor-app/id6739467839?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-10-08"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/chatengine-ai-image-generator/id6754240438?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-09"
     }
   ],
   "company": {
@@ -37062,7 +37067,7 @@
     "ZU"
   ],
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id6739467839",
-    "rating": 4.4
+    "apple_store_url": "https://apps.apple.com/app/id6754240438",
+    "rating": 4.7
   }
 }

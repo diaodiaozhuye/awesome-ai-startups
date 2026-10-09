@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-10-09",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -77,10 +77,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "toolify",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-09"
       },
       "keywords": {
         "source": "toolify",
@@ -95,10 +95,10 @@
         "updated_at": "2026-02-16"
       },
       "platforms": {
-        "source": "rule-based-enrichment",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-17"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-09"
       },
       "target_audience": {
         "source": "llm-batch-combined",
@@ -161,10 +161,10 @@
         "updated_at": "2026-02-20"
       },
       "hiring.careers_url": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-09"
       },
       "modalities": {
         "source": "llm-batch-combined",
@@ -183,6 +183,30 @@
         "tier": 3,
         "confidence": 0.5,
         "updated_at": "2026-02-20"
+      },
+      "pricing.model": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-09"
+      },
+      "pricing.has_free_tier": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-09"
+      },
+      "release_date": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-09"
+      },
+      "supported_languages": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-09"
       }
     }
   },
@@ -191,6 +215,11 @@
       "url": "https://www.toolify.ai/tool/vatic-ai-video-generator",
       "source_name": "toolify",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/ai-vura-ai-video-generator/id6759185831?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-09"
     }
   ],
   "company": {
@@ -205,7 +234,8 @@
   "sub_category": "ai video generator",
   "tags": [
     "AI Video Generator",
-    "Text to Video"
+    "Text to Video",
+    "Photo & Video"
   ],
   "keywords": [
     "AI video generator",
@@ -219,7 +249,8 @@
     "has_free_tier": true
   },
   "platforms": [
-    "web"
+    "web",
+    "ios"
   ],
   "target_audience": [
     "content-creators",
@@ -256,5 +287,20 @@
     "runway",
     "synthesia",
     "descript"
-  ]
+  ],
+  "release_date": "2026-03-20",
+  "supported_languages": [
+    "EN",
+    "FR",
+    "DE",
+    "IT",
+    "JA",
+    "KO",
+    "RU",
+    "ES"
+  ],
+  "app_store": {
+    "apple_store_url": "https://apps.apple.com/app/id6759185831",
+    "rating": 3.0
+  }
 }

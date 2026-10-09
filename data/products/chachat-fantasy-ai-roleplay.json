@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-05-04",
+    "last_updated": "2026-10-09",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -232,6 +232,11 @@
       "url": "https://apps.apple.com/us/app/chachat-talking-ai-characters/id6444773124?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-05-04"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/chachat-talking-ai-character/id6444773124?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-09"
     }
   ],
   "company": {
