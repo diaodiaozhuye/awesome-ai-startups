@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-18",
+    "last_updated": "2026-10-10",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -77,10 +77,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "toolify",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-10"
       },
       "keywords": {
         "source": "toolify",
@@ -95,10 +95,10 @@
         "updated_at": "2026-02-16"
       },
       "platforms": {
-        "source": "rule-based-enrichment",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-17"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-10"
       },
       "target_audience": {
         "source": "rule-based-seo",
@@ -111,6 +111,36 @@
         "tier": 3,
         "confidence": 0.5,
         "updated_at": "2026-02-18"
+      },
+      "pricing.model": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-10"
+      },
+      "pricing.has_free_tier": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-10"
+      },
+      "hiring.careers_url": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-10"
+      },
+      "release_date": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-10"
+      },
+      "supported_languages": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-10"
       }
     }
   },
@@ -119,6 +149,11 @@
       "url": "https://www.toolify.ai/tool/liro-ai-ai-image-generator",
       "source_name": "toolify",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/pixzura-ai-image-generator/id6790705234?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-10"
     }
   ],
   "company": {
@@ -133,7 +168,8 @@
     "AI Art Generator",
     "Text to Image",
     "AI Realistic Image Generator",
-    "NSFW"
+    "NSFW",
+    "Photo & Video"
   ],
   "keywords": [
     "AI Image Generator",
@@ -145,11 +181,12 @@
     "AI Image Maker"
   ],
   "pricing": {
-    "model": "paid",
-    "has_free_tier": false
+    "model": "free",
+    "has_free_tier": true
   },
   "platforms": [
-    "web"
+    "web",
+    "ios"
   ],
   "target_audience": [
     "designers",
@@ -160,5 +197,16 @@
     "image-generation",
     "image-editing",
     "graphic-design"
-  ]
+  ],
+  "hiring": {
+    "careers_url": ""
+  },
+  "release_date": "2026-09-22",
+  "supported_languages": [
+    "EN"
+  ],
+  "app_store": {
+    "apple_store_url": "https://apps.apple.com/app/id6790705234",
+    "rating": 0.0
+  }
 }

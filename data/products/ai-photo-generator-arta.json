@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-09",
+    "last_updated": "2026-10-10",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -274,8 +274,8 @@
   },
   "release_date": "2022-09-11",
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id1661308505",
-    "rating": 4.7
+    "apple_store_url": "https://apps.apple.com/app/id1642969698",
+    "rating": 4.3
   },
   "keywords": [
     "AI Photo Generator: ARTA",

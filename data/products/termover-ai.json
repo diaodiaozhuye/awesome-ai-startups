@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-09",
+    "last_updated": "2026-10-10",
     "provenance": {
       "name": {
         "source": "theresanaiforthat",
@@ -74,7 +74,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-10-09"
+        "updated_at": "2026-10-10"
       },
       "use_cases": {
         "source": "llm-batch-combined",
@@ -37067,7 +37067,7 @@
     "ZU"
   ],
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id6754240438",
+    "apple_store_url": "https://apps.apple.com/app/id6477489729",
     "rating": 4.7
   }
 }
