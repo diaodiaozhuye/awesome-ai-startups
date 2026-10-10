@@ -1,0 +1,51 @@
+{
+  "slug": "tale",
+  "name": "Tale",
+  "product_url": "https://tale.dev",
+  "description": "Self-hosted workspace for project tasks, shared knowledge and AI agents. Teams give agents task briefs and project context, explicitly start work, and review reports and files. The MIT-licensed Community edition is free to self-host; infrastructure and model costs are separate. Optional Enterprise operation and support are available.",
+  "product_type": "app",
+  "category": "ai-productivity",
+  "tags": [
+    "project-management",
+    "ai-agents",
+    "self-hosted",
+    "knowledge-management"
+  ],
+  "open_source": true,
+  "license": "MIT",
+  "repository_url": "https://github.com/tale-project/tale",
+  "platforms": [
+    "Web"
+  ],
+  "deployment_options": [
+    "Self-hosted"
+  ],
+  "pricing": {
+    "model": "open-source",
+    "url": "https://tale.dev/pricing"
+  },
+  "status": "active",
+  "sources": [
+    {
+      "url": "https://github.com/tale-project/tale",
+      "source_name": "Official source repository"
+    },
+    {
+      "url": "https://docs.tale.dev/platform/projects/project-agents",
+      "source_name": "Official project agent documentation"
+    },
+    {
+      "url": "https://docs.tale.dev/platform/projects/task-automation",
+      "source_name": "Official task automation documentation"
+    },
+    {
+      "url": "https://tale.dev/pricing",
+      "source_name": "Official pricing"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-10-08",
+    "last_updated": "2026-10-08",
+    "needs_review": true
+  }
+}
