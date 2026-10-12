@@ -8,7 +8,7 @@
   "status": "deprecated",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-11",
+    "last_updated": "2026-10-12",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -191,9 +191,9 @@
         "updated_at": "2026-09-30"
       }
     },
-    "url_consecutive_failures": 42,
+    "url_consecutive_failures": 43,
     "url_status": 0,
-    "url_last_checked": "2026-10-11T14:49:12Z"
+    "url_last_checked": "2026-10-12T17:33:05Z"
   },
   "sources": [
     {
@@ -283,6 +283,6 @@
   ],
   "app_store": {
     "google_play_url": "https://play.google.com/store/apps/details?id=com.mrhusse.aiassistant",
-    "downloads": "10+"
+    "downloads": "100+"
   }
 }
