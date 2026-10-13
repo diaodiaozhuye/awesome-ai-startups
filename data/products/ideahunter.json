@@ -1,0 +1,106 @@
+{
+  "slug": "ideahunter",
+  "name": "IdeaHunter",
+  "product_url": "https://ideahunter.today",
+  "icon_url": "https://ideahunter.today/favicon.svg",
+  "description": "IdeaHunter helps solo founders find demand-backed app and micro-SaaS ideas using public signals, buyer pain, market evidence, MVP scope, and monetization paths.",
+  "product_type": "app",
+  "category": "ai-search-retrieval",
+  "sub_category": "startup-idea-research",
+  "tags": [
+    "startup ideas",
+    "market research",
+    "idea validation",
+    "micro-SaaS",
+    "founder tools"
+  ],
+  "keywords": [
+    "AI startup idea research",
+    "micro-SaaS ideas",
+    "idea validation",
+    "market evidence",
+    "founder research tool"
+  ],
+  "company": {
+    "name": "IdeaHunter",
+    "url": "https://ideahunter.today",
+    "website": "https://ideahunter.today",
+    "logo_url": "https://ideahunter.today/favicon.svg",
+    "description": "AI research product for finding demand-backed startup and micro-SaaS ideas."
+  },
+  "platforms": [
+    "web"
+  ],
+  "platform_availability": {
+    "web": true
+  },
+  "ai_native": {
+    "is_native": true,
+    "note": "IdeaHunter uses AI-assisted research workflows to connect public demand signals, buyer pain, market evidence, MVP scope, and monetization paths."
+  },
+  "pricing": {
+    "model": "freemium",
+    "has_free_tier": true,
+    "url": "https://ideahunter.today/pricing"
+  },
+  "target_audience": [
+    "solo founders",
+    "indie hackers",
+    "micro-SaaS builders",
+    "startup researchers"
+  ],
+  "use_cases": [
+    "Find startup ideas backed by public demand signals",
+    "Validate buyer pain and market evidence before building",
+    "Scope MVPs and monetization paths for micro-SaaS ideas"
+  ],
+  "status": "active",
+  "sources": [
+    {
+      "url": "https://ideahunter.today",
+      "source_name": "official website",
+      "scraped_at": "2026-08-15"
+    },
+    {
+      "url": "https://ideahunter.today/methodology",
+      "source_name": "official methodology",
+      "scraped_at": "2026-08-15"
+    },
+    {
+      "url": "https://ideahunter.today/llms.txt",
+      "source_name": "official llms.txt",
+      "scraped_at": "2026-08-15"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-08-15",
+    "last_updated": "2026-08-15",
+    "needs_review": true,
+    "provenance": {
+      "name": {
+        "source": "official website",
+        "tier": 1,
+        "confidence": 1,
+        "updated_at": "2026-08-15"
+      },
+      "product_url": {
+        "source": "official website",
+        "tier": 1,
+        "confidence": 1,
+        "updated_at": "2026-08-15"
+      },
+      "description": {
+        "source": "official website",
+        "tier": 1,
+        "confidence": 0.9,
+        "updated_at": "2026-08-15"
+      },
+      "pricing": {
+        "source": "official pricing page",
+        "tier": 1,
+        "confidence": 0.9,
+        "updated_at": "2026-08-15"
+      }
+    }
+  }
+}
