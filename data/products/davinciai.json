@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-10-14",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -77,10 +77,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "toolify",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-14"
       },
       "keywords": {
         "source": "toolify",
@@ -95,10 +95,10 @@
         "updated_at": "2026-02-16"
       },
       "platforms": {
-        "source": "rule-based-enrichment",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-17"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-14"
       },
       "target_audience": {
         "source": "llm-batch-combined",
@@ -161,10 +161,10 @@
         "updated_at": "2026-02-20"
       },
       "hiring.careers_url": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-14"
       },
       "modalities": {
         "source": "llm-batch-combined",
@@ -183,6 +183,30 @@
         "tier": 3,
         "confidence": 0.5,
         "updated_at": "2026-02-20"
+      },
+      "pricing.model": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-14"
+      },
+      "pricing.has_free_tier": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-14"
+      },
+      "release_date": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-14"
+      },
+      "supported_languages": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-14"
       }
     }
   },
@@ -191,6 +215,11 @@
       "url": "https://www.toolify.ai/tool/davinci-ai",
       "source_name": "toolify",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/davinci-image-generator-ai/id1630366866?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-14"
     }
   ],
   "company": {
@@ -208,7 +237,8 @@
     "AI Image Generator",
     "Text to Image",
     "AI Models",
-    "AI Photography"
+    "AI Photography",
+    "Photo & Video"
   ],
   "keywords": [
     "AI art generator",
@@ -223,11 +253,12 @@
     "Image generation"
   ],
   "pricing": {
-    "model": "freemium",
+    "model": "free",
     "has_free_tier": true
   },
   "platforms": [
-    "web"
+    "web",
+    "ios"
   ],
   "target_audience": [
     "designers",
@@ -264,5 +295,17 @@
   ],
   "competitors": [
     "midjourney"
-  ]
+  ],
+  "release_date": "2022-09-06",
+  "supported_languages": [
+    "EN",
+    "JA",
+    "KO",
+    "PT",
+    "ES"
+  ],
+  "app_store": {
+    "apple_store_url": "https://apps.apple.com/app/id1630366866",
+    "rating": 4.5
+  }
 }
