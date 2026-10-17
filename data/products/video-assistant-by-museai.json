@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-10-17",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -77,10 +77,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "toolify",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-17"
       },
       "keywords": {
         "source": "toolify",
@@ -101,10 +101,10 @@
         "updated_at": "2026-02-17"
       },
       "platforms": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-17"
       },
       "target_audience": {
         "source": "llm-batch-combined",
@@ -161,10 +161,10 @@
         "updated_at": "2026-02-20"
       },
       "hiring.careers_url": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-17"
       },
       "modalities": {
         "source": "llm-batch-combined",
@@ -177,6 +177,30 @@
         "tier": 3,
         "confidence": 0.5,
         "updated_at": "2026-02-20"
+      },
+      "pricing.model": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-17"
+      },
+      "pricing.has_free_tier": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-17"
+      },
+      "release_date": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-17"
+      },
+      "supported_languages": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-17"
       }
     }
   },
@@ -185,6 +209,11 @@
       "url": "https://www.toolify.ai/tool/video-assistant-by-muse-ai",
       "source_name": "toolify",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/muse-from-meta/id6760173601?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-17"
     }
   ],
   "company": {
@@ -202,7 +231,8 @@
     "AI API",
     "AI Transcription",
     "AI Video Recording",
-    "AI Speech-to-Text"
+    "AI Speech-to-Text",
+    "Productivity"
   ],
   "keywords": [
     "Video hosting",
@@ -218,13 +248,14 @@
     "Team collaboration"
   ],
   "pricing": {
-    "model": "freemium",
+    "model": "free",
     "has_free_tier": true
   },
   "api_available": true,
   "platforms": [
     "api",
-    "web"
+    "web",
+    "ios"
   ],
   "target_audience": [
     "content-creators",
@@ -260,5 +291,50 @@
   },
   "modalities": [
     "video"
-  ]
+  ],
+  "release_date": "2026-09-08",
+  "supported_languages": [
+    "AR",
+    "BN",
+    "BG",
+    "HR",
+    "CS",
+    "DA",
+    "NL",
+    "EN",
+    "FI",
+    "FR",
+    "DE",
+    "EL",
+    "GU",
+    "HE",
+    "HI",
+    "HU",
+    "ID",
+    "IT",
+    "JA",
+    "KN",
+    "KO",
+    "MS",
+    "MR",
+    "NB",
+    "PL",
+    "PT",
+    "RO",
+    "ZH",
+    "SK",
+    "ES",
+    "SV",
+    "TL",
+    "TA",
+    "TE",
+    "TH",
+    "TR",
+    "UR",
+    "VI"
+  ],
+  "app_store": {
+    "apple_store_url": "https://apps.apple.com/app/id6760173601",
+    "rating": 4.9
+  }
 }
