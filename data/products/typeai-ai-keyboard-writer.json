@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-04",
+    "last_updated": "2026-10-20",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -68,7 +68,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-03-02"
+        "updated_at": "2026-10-20"
       },
       "supported_languages": {
         "source": "app_store",
@@ -231,6 +231,11 @@
       "url": "https://apps.apple.com/us/app/wonder-ai-art-generator/id1621278575?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-03-02"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/pixelup-ai-photo-enhancer-app/id1589599169?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-20"
     }
   ],
   "company": {
@@ -244,7 +249,8 @@
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/30/75/873075f1-4d55-747b-9dc8-2c4ab4389aa3/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
   "tags": [
     "Productivity",
-    "Graphics & Design"
+    "Graphics & Design",
+    "Photo & Video"
   ],
   "supported_languages": [
     "EN",
@@ -273,8 +279,8 @@
   },
   "release_date": "2023-05-30",
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id1668787639",
-    "rating": 4.8
+    "apple_store_url": "https://apps.apple.com/app/id1589599169",
+    "rating": 4.4
   },
   "keywords": [
     "TypeAI: AI Keyboard & Writer",

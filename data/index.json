@@ -9869,7 +9869,7 @@
       "product_type": "app",
       "category": "ai-chatbot-agent",
       "open_source": false,
-      "status": "active",
+      "status": "deprecated",
       "company_name": "AI ChatDocs",
       "company_url": "https://aichatdocs.com",
       "country": null,
@@ -25623,7 +25623,8 @@
         "AI News",
         "AI Character",
         "AI Social Media Post Generator",
-        "AI Joke"
+        "AI Joke",
+        "Photo & Video"
       ],
       "keywords": [
         "AI",
@@ -31864,7 +31865,7 @@
       "product_type": "app",
       "category": "ai-audio-music",
       "open_source": false,
-      "status": "active",
+      "status": "deprecated",
       "company_name": "AI audio transcription",
       "company_url": "https://transcribethis.io",
       "country": null,
@@ -415144,7 +415145,8 @@
       "employee_count_range": "1-10",
       "tags": [
         "Data visualization",
-        "data visualization"
+        "data visualization",
+        "Productivity"
       ],
       "keywords": [
         "Magic Vizion",
@@ -738734,7 +738736,8 @@
       "employee_count_range": "1-10",
       "tags": [
         "Productivity",
-        "Graphics & Design"
+        "Graphics & Design",
+        "Photo & Video"
       ],
       "keywords": [
         "TypeAI: AI Keyboard & Writer",

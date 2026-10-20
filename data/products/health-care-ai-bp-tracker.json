@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-07-23",
+    "last_updated": "2026-10-20",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -80,7 +80,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-07-15"
+        "updated_at": "2026-10-20"
       },
       "platforms": {
         "source": "llm-batch-combined",
@@ -295,7 +295,16 @@
     "KY",
     "LT",
     "RM",
-    "SL"
+    "SL",
+    "AK",
+    "BE",
+    "BG",
+    "KA",
+    "JV",
+    "LV",
+    "SR",
+    "SI",
+    "WO"
   ],
   "platforms": [
     "ios",

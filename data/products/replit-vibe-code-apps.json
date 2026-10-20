@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-07-16",
+    "last_updated": "2026-10-20",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -80,7 +80,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-20"
       },
       "platforms": {
         "source": "llm-batch-combined",
@@ -251,7 +251,14 @@
     "AI Code Assistant"
   ],
   "supported_languages": [
-    "EN"
+    "EN",
+    "FR",
+    "DE",
+    "JA",
+    "KO",
+    "PT",
+    "ES",
+    "TR"
   ],
   "platforms": [
     "ios",
