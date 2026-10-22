@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-08-06",
+    "last_updated": "2026-10-22",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -227,6 +227,11 @@
       "url": "https://apps.apple.com/us/app/ai-video-photo-generator/id6448706191?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/ai-video-photo-image-generator/id6448706191?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-22"
     }
   ],
   "company": {
