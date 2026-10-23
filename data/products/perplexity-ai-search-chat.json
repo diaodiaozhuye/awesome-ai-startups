@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-23",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -252,6 +252,11 @@
       "url": "https://apps.apple.com/us/app/comet-ai-browser-assistant/id6748622471?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-03-30"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/perplexity-ai-agent-search/id1668000334?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-23"
     }
   ],
   "company": {

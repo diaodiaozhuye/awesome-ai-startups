@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-23",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -74,7 +74,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-09-24"
+        "updated_at": "2026-10-23"
       },
       "supported_languages": {
         "source": "app_store",
@@ -232,6 +232,11 @@
       "url": "https://apps.apple.com/us/app/snap-animal-card-match/id1307540021?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-09-24"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/goon-ai-character-ai-chat/id6808542323?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-23"
     }
   ],
   "company": {
@@ -245,7 +250,8 @@
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/36/73/cb3673cd-a387-ba08-74a0-a42b262caac2/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg",
   "tags": [
     "Graphics & Design",
-    "Games"
+    "Games",
+    "Entertainment"
   ],
   "supported_languages": [
     "AR",

@@ -7902,7 +7902,7 @@
       "product_type": "app",
       "category": "ai-image-design",
       "open_source": false,
-      "status": "active",
+      "status": "deprecated",
       "company_name": "AI Banana - Nano Banana Image Generator",
       "company_url": "https://aibanana.net",
       "country": null,
@@ -21933,7 +21933,8 @@
       "employee_count_range": "1-10",
       "tags": [
         "Graphics & Design",
-        "Games"
+        "Games",
+        "Entertainment"
       ],
       "keywords": [
         "AI Painting: Generate Art Girl",
