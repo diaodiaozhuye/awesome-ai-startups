@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24",
+  "generated_at": "2026-10-25",
   "total_products": 22525,
   "by_category": [
     {
@@ -120,11 +120,11 @@
   "by_status": [
     {
       "label": "active",
-      "count": 22296
+      "count": 22295
     },
     {
       "label": "deprecated",
-      "count": 229
+      "count": 230
     }
   ],
   "by_tag_dimension": {
