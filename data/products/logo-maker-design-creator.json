@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-10-26",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -74,7 +74,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-26"
       },
       "supported_languages": {
         "source": "app_store",
@@ -185,10 +185,10 @@
         "updated_at": "2026-02-20"
       },
       "hiring.careers_url": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-26"
       },
       "modalities": {
         "source": "llm-batch-combined",
@@ -207,6 +207,18 @@
         "tier": 3,
         "confidence": 0.5,
         "updated_at": "2026-02-20"
+      },
+      "pricing.model": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-26"
+      },
+      "pricing.has_free_tier": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-26"
       }
     }
   },
@@ -215,6 +227,11 @@
       "url": "https://apps.apple.com/us/app/logo-maker-design-creator/id1643499679?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/ai-essay-writer-penpilot/id6449220570?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-26"
     }
   ],
   "company": {
@@ -227,7 +244,8 @@
   },
   "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/8e/b6/ef8eb659-1337-423c-fe94-f5d327ccc402/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
   "tags": [
-    "Graphics & Design"
+    "Graphics & Design",
+    "Productivity"
   ],
   "supported_languages": [
     "AF",
@@ -286,8 +304,8 @@
   },
   "release_date": "2022-09-14",
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id1643499679",
-    "rating": 4.6
+    "apple_store_url": "https://apps.apple.com/app/id6449220570",
+    "rating": 4.9
   },
   "keywords": [
     "Logo Maker - Design Creator *",

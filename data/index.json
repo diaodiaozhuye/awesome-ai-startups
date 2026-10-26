@@ -4136,7 +4136,7 @@
       "product_type": "app",
       "category": "ai-writing-content",
       "open_source": false,
-      "status": "active",
+      "status": "deprecated",
       "company_name": "8arms",
       "company_url": "https://www.8arms.ai",
       "country": null,
@@ -49682,7 +49682,7 @@
       "product_type": "app",
       "category": "ai-writing-content",
       "open_source": false,
-      "status": "active",
+      "status": "deprecated",
       "company_name": "Agentic",
       "company_url": "https://beagentic.com",
       "country": null,
@@ -402450,7 +402450,8 @@
       "valuation_usd": null,
       "employee_count_range": "1-10",
       "tags": [
-        "Graphics & Design"
+        "Graphics & Design",
+        "Productivity"
       ],
       "keywords": [
         "Logo Maker - Design Creator *",
