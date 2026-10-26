@@ -1,0 +1,59 @@
+{
+  "slug": "ideoy",
+  "name": "Ideoy",
+  "product_url": "https://ideoy.ai",
+  "description": "AI meme and viral video templates from one photo or selfie. Remake trending short-form video formats for TikTok, Reels, and Shorts.",
+  "product_type": "app",
+  "category": "ai-video-animation",
+  "status": "active",
+  "sub_category": "image-to-video",
+  "tags": [
+    "meme",
+    "short-form",
+    "image-to-video",
+    "templates",
+    "freemium"
+  ],
+  "meta": {
+    "added_date": "2026-10-26",
+    "last_updated": "2026-10-26",
+    "provenance": {
+      "name": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-10-26"
+      },
+      "product_url": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-10-26"
+      },
+      "description": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-10-26"
+      },
+      "product_type": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-10-26"
+      },
+      "category": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-10-26"
+      },
+      "status": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-10-26"
+      }
+    }
+  }
+}
