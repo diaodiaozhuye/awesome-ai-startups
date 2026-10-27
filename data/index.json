@@ -10301,7 +10301,7 @@
       "product_type": "app",
       "category": "ai-chatbot-agent",
       "open_source": true,
-      "status": "active",
+      "status": "deprecated",
       "company_name": "AI Chatroom",
       "company_url": "https://chat.bulita.net",
       "country": null,

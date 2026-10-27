@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-20",
+    "last_updated": "2026-10-27",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -232,6 +232,11 @@
       "url": "https://apps.apple.com/us/app/rochat-ai-character-chat/id6458981497?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/plai-ai-character-chat/id1671444242?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-27"
     }
   ],
   "company": {
