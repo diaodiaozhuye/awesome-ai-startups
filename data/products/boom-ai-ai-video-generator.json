@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-03-27",
+    "last_updated": "2026-10-28",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -74,7 +74,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-27"
+        "updated_at": "2026-10-28"
       },
       "supported_languages": {
         "source": "app_store",
@@ -237,6 +237,11 @@
       "url": "https://apps.apple.com/us/app/ai-painting-generate-art-girl/id6446395373?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-02-27"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/goon-ai-character-ai-chat/id6808542323?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-28"
     }
   ],
   "company": {
@@ -251,7 +256,8 @@
   "tags": [
     "Photo & Video",
     "Music",
-    "Graphics & Design"
+    "Graphics & Design",
+    "Entertainment"
   ],
   "supported_languages": [
     "EN",
