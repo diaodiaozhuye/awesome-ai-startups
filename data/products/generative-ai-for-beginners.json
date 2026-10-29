@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-10-29",
     "provenance": {
       "name": {
         "source": "aibot",
@@ -71,10 +71,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "aibot",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-29"
       },
       "keywords": {
         "source": "rule-based-enrichment",
@@ -83,10 +83,10 @@
         "updated_at": "2026-02-17"
       },
       "platforms": {
-        "source": "rule-based-enrichment",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-17"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-29"
       },
       "target_audience": {
         "source": "llm-batch-combined",
@@ -149,10 +149,10 @@
         "updated_at": "2026-02-20"
       },
       "hiring.careers_url": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-29"
       },
       "modalities": {
         "source": "llm-batch-combined",
@@ -171,6 +171,36 @@
         "tier": 3,
         "confidence": 0.5,
         "updated_at": "2026-02-20"
+      },
+      "company.website": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-29"
+      },
+      "pricing.model": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-29"
+      },
+      "pricing.has_free_tier": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-29"
+      },
+      "release_date": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-29"
+      },
+      "supported_languages": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-29"
       }
     }
   },
@@ -179,6 +209,11 @@
       "url": "https://ai-bot.cn/favorites/websites-to-learn-ai/",
       "source_name": "aibot",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/chariva-ai-chat-characters/id6791857460?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-29"
     }
   ],
   "description_zh": "微软推出的面向初学者的免费生成式人工智能课程",
@@ -187,11 +222,13 @@
     "url": "https://microsoft.github.io",
     "name_zh": "Microsoft",
     "description": "Microsoft's free generative AI curriculum for beginners covering foundational concepts.",
-    "employee_count_range": "51-200"
+    "employee_count_range": "51-200",
+    "website": "https://qvkios.github.io"
   },
   "icon_url": "https://ai-bot.cn/wp-content/uploads/2023/11/genai-for-beginners-icon.png",
   "tags": [
-    "websites-to-learn-ai"
+    "websites-to-learn-ai",
+    "Utilities"
   ],
   "keywords": [
     "Generative AI for Beginners",
@@ -201,7 +238,8 @@
     "other"
   ],
   "platforms": [
-    "web"
+    "web",
+    "ios"
   ],
   "target_audience": [
     "developers",
@@ -225,7 +263,7 @@
   "api_available": false,
   "hiring": {
     "is_hiring": false,
-    "careers_url": "https://careers.microsoft.com",
+    "careers_url": "",
     "tech_stack": [
       "Markdown",
       "GitHub",
@@ -239,5 +277,55 @@
   ],
   "competitors": [
     "coursera-grow-your-career"
-  ]
+  ],
+  "pricing": {
+    "model": "free",
+    "has_free_tier": true
+  },
+  "release_date": "2026-08-16",
+  "supported_languages": [
+    "AR",
+    "BG",
+    "CS",
+    "DA",
+    "NL",
+    "EN",
+    "FI",
+    "FR",
+    "DE",
+    "EL",
+    "GU",
+    "HE",
+    "HI",
+    "HU",
+    "ID",
+    "IT",
+    "JA",
+    "KN",
+    "KO",
+    "MS",
+    "ML",
+    "MR",
+    "FA",
+    "PL",
+    "PT",
+    "PA",
+    "RO",
+    "RU",
+    "SR",
+    "ZH",
+    "ES",
+    "SV",
+    "TA",
+    "TE",
+    "TH",
+    "TR",
+    "UK",
+    "UR",
+    "VI"
+  ],
+  "app_store": {
+    "apple_store_url": "https://apps.apple.com/app/id6791857460",
+    "rating": 3.8
+  }
 }

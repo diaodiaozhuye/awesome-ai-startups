@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-10-29",
     "provenance": {
       "name": {
         "source": "aibot",
@@ -71,10 +71,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "toolify",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-29"
       },
       "company.website": {
         "source": "app_store",
@@ -104,7 +104,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-10-29"
       },
       "platforms": {
         "source": "llm-batch-combined",
@@ -179,10 +179,10 @@
         "updated_at": "2026-02-20"
       },
       "hiring.careers_url": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-10-29"
       },
       "modalities": {
         "source": "llm-batch-combined",
@@ -269,6 +269,11 @@
       "url": "https://www.toolify.ai/tool/gpt-for-sheets",
       "source_name": "toolify",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/google-gemini/id6477489729?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-29"
     }
   ],
   "description_zh": "谷歌推出的AI视频创作工具",
@@ -364,15 +369,29 @@
     "UK",
     "UR",
     "VI",
-    "ZU"
+    "ZU",
+    "SQ",
+    "AM",
+    "HY",
+    "AS",
+    "AZ",
+    "BE",
+    "BS",
+    "KM",
+    "KA",
+    "LO",
+    "MK",
+    "MN",
+    "NE",
+    "UZ"
   ],
   "platforms": [
     "ios",
     "web"
   ],
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id1163852619",
-    "rating": 4.6
+    "apple_store_url": "https://apps.apple.com/app/id6477489729",
+    "rating": 4.7
   },
   "sub_category": "ai task management",
   "keywords": [
@@ -466,7 +485,7 @@
   "api_available": false,
   "hiring": {
     "is_hiring": true,
-    "careers_url": "https://careers.google.com",
+    "careers_url": "",
     "tech_stack": [
       "Python",
       "FFmpeg",

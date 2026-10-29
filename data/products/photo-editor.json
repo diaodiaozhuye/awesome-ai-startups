@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-28",
+    "last_updated": "2026-10-29",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -227,6 +227,11 @@
       "url": "https://apps.apple.com/us/app/photo-edit%D0%BEr/id530957470?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/photo-editor-glidepetal-ai/id530957470?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-29"
     }
   ],
   "company": {
