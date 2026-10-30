@@ -1876,7 +1876,7 @@
       "product_type": "app",
       "category": "ai-productivity",
       "open_source": false,
-      "status": "active",
+      "status": "deprecated",
       "company_name": "1st things 1st",
       "company_url": "https://www.1st-things-1st.com",
       "country": null,
@@ -1998,7 +1998,7 @@
       "product_type": "app",
       "category": "ai-productivity",
       "open_source": false,
-      "status": "active",
+      "status": "deprecated",
       "company_name": "2-b.ai",
       "company_url": "https://2-b.ai",
       "country": null,
@@ -10074,7 +10074,7 @@
       "name_zh": "AI Chatbot - Nova",
       "description": "Nova is a revolutionary AI chatbot and personal assistant, built on the latest GPT-5.2, GPT5, GPT-4o, Google Gemini 3 Pro, Claude, and DeepSeek technologies.\n\nNova Chatbot uses advanced AI developed on the technology such as GPT-5.2 and GPT-5 that understands your questions and generates human-like responses, making you feel like you are chatting with a knowledgeable friend. Nova Chatbot & AI Assistant can even recommend a book to read or a movie to watch!\n\nNova AI Chatbot is the #1 cross-com...",
       "description_zh": "\u9769\u547d\u6027AI\u804a\u5929\u673a\u5668\u4eba\uff0c\u57fa\u4e8eGPT-5.2\u3001GPT-5\u3001GPT-4o\u3001Google Gemini 3 Pro\u3001Claude\u548cDeepSeek\u3002",
-      "product_url": "https://apps.apple.com/us/app/ai-chatbot-nova/id1669007652?uo=4",
+      "product_url": "https://chatnova.com",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/43/cc/e343cc14-d26d-4ed1-b041-7a249a33af72/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "product_type": "app",
       "category": "ai-video-animation",
@@ -25662,7 +25662,8 @@
       "tags": [
         "Utilities",
         "Graphics & Design",
-        "Productivity"
+        "Productivity",
+        "Entertainment"
       ],
       "keywords": [
         "AI Scanner - Page Summary",

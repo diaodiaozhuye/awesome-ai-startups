@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-10-29",
+    "last_updated": "2026-10-30",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -74,7 +74,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-09-20"
+        "updated_at": "2026-10-30"
       },
       "supported_languages": {
         "source": "app_store",
@@ -231,6 +231,11 @@
       "url": "https://apps.apple.com/us/app/ai-language-translator/id6708225010?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-09-20"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/goon-ai-character-ai-chat/id6808542323?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-10-30"
     }
   ],
   "company": {
@@ -245,7 +250,8 @@
   "tags": [
     "Utilities",
     "Graphics & Design",
-    "Productivity"
+    "Productivity",
+    "Entertainment"
   ],
   "supported_languages": [
     "AR",
