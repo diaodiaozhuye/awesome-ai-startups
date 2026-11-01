@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-11-01T15:17:20Z",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -248,7 +248,7 @@
   "open_source": false,
   "api_available": true,
   "hiring": {
-    "is_hiring": true,
+    "is_hiring": false,
     "careers_url": "https://www.cloudgov.ai/careers",
     "tech_stack": [
       "Python",
