@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-11-03",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -274,7 +274,7 @@
   "release_date": "2023-06-07",
   "app_store": {
     "apple_store_url": "https://apps.apple.com/app/id6446647507",
-    "rating": 4.4
+    "rating": 4.3
   },
   "keywords": [
     "AI Video Generator + Creator",

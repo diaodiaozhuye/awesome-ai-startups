@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-05-28",
+    "last_updated": "2026-11-03",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -80,7 +80,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-03-28"
+        "updated_at": "2026-11-03"
       },
       "platforms": {
         "source": "llm-batch-combined",
@@ -289,7 +289,8 @@
     "UK",
     "VI",
     "BN",
-    "FA"
+    "FA",
+    "KU"
   ],
   "platforms": [
     "ios",
