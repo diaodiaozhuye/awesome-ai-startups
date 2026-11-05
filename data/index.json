@@ -1605,7 +1605,7 @@
       "product_type": "app",
       "category": "ai-audio-music",
       "open_source": false,
-      "status": "active",
+      "status": "deprecated",
       "company_name": "1Sewn",
       "company_url": "https://www.1sewn.com",
       "country": null,
@@ -1724,7 +1724,7 @@
       "product_type": "app",
       "category": "ai-image-design",
       "open_source": false,
-      "status": "active",
+      "status": "deprecated",
       "company_name": "1UI",
       "company_url": "https://www.1ui.dev",
       "country": null,
@@ -444234,7 +444234,8 @@
         "AI Image Generator",
         "AI Design Generator",
         "AI Design Assistant",
-        "AI Text Generator"
+        "AI Text Generator",
+        "Productivity"
       ],
       "keywords": [
         "AI",
