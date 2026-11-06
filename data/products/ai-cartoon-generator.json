@@ -5,10 +5,10 @@
   "description": "AI Cartoon Generator turns text or photos into cartoons quickly and easily.",
   "product_type": "app",
   "category": "ai-image-design",
-  "status": "active",
+  "status": "deprecated",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-11-05T16:19:22Z",
+    "last_updated": "2026-11-06T16:16:56Z",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -185,9 +185,9 @@
         "updated_at": "2026-02-20"
       }
     },
-    "url_consecutive_failures": 2,
+    "url_consecutive_failures": 3,
     "url_status": 402,
-    "url_last_checked": "2026-11-05T16:19:22Z"
+    "url_last_checked": "2026-11-06T15:52:24Z"
   },
   "sources": [
     {
