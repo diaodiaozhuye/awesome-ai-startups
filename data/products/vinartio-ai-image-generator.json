@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-02-20",
+    "last_updated": "2026-11-08",
     "provenance": {
       "name": {
         "source": "toolify",
@@ -77,10 +77,10 @@
         "updated_at": "2026-02-16"
       },
       "tags": {
-        "source": "toolify",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-16"
+        "updated_at": "2026-11-08"
       },
       "keywords": {
         "source": "toolify",
@@ -101,10 +101,10 @@
         "updated_at": "2026-02-17"
       },
       "platforms": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-11-08"
       },
       "target_audience": {
         "source": "llm-batch-combined",
@@ -161,10 +161,10 @@
         "updated_at": "2026-02-20"
       },
       "hiring.careers_url": {
-        "source": "llm-batch-combined",
-        "tier": 3,
-        "confidence": 0.5,
-        "updated_at": "2026-02-20"
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-11-08"
       },
       "modalities": {
         "source": "llm-batch-combined",
@@ -177,6 +177,30 @@
         "tier": 3,
         "confidence": 0.5,
         "updated_at": "2026-02-20"
+      },
+      "pricing.model": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-11-08"
+      },
+      "pricing.has_free_tier": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-11-08"
+      },
+      "release_date": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-11-08"
+      },
+      "supported_languages": {
+        "source": "app_store",
+        "tier": 2,
+        "confidence": 0.75,
+        "updated_at": "2026-11-08"
       }
     }
   },
@@ -185,6 +209,11 @@
       "url": "https://www.toolify.ai/tool/vinart-io-ai-image-generator",
       "source_name": "toolify",
       "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/visuai-ai-image-generator/id6743428756?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-11-08"
     }
   ],
   "company": {
@@ -201,7 +230,8 @@
     "AI Art Generator",
     "Text to Image",
     "AI Image Generator",
-    "AI API"
+    "AI API",
+    "Photo & Video"
   ],
   "keywords": [
     "AI image generator",
@@ -215,13 +245,14 @@
     "Design tool"
   ],
   "pricing": {
-    "model": "freemium",
+    "model": "free",
     "has_free_tier": true
   },
   "api_available": true,
   "platforms": [
     "api",
-    "web"
+    "web",
+    "ios"
   ],
   "target_audience": [
     "designers",
@@ -250,5 +281,48 @@
   ],
   "competitors": [
     "midjourney"
-  ]
+  ],
+  "release_date": "2025-05-31",
+  "supported_languages": [
+    "AR",
+    "BG",
+    "HR",
+    "CS",
+    "DA",
+    "NL",
+    "EN",
+    "ET",
+    "FI",
+    "FR",
+    "DE",
+    "EL",
+    "HE",
+    "HI",
+    "HU",
+    "ID",
+    "IT",
+    "JA",
+    "KO",
+    "LV",
+    "LT",
+    "MS",
+    "NB",
+    "FA",
+    "PL",
+    "PT",
+    "RO",
+    "RU",
+    "ZH",
+    "SK",
+    "ES",
+    "SV",
+    "TH",
+    "TR",
+    "UK",
+    "VI"
+  ],
+  "app_store": {
+    "apple_store_url": "https://apps.apple.com/app/id6743428756",
+    "rating": 4.7
+  }
 }
