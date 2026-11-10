@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-11-08",
+    "last_updated": "2026-11-10",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -283,8 +283,8 @@
   },
   "release_date": "2024-11-18",
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id6446395373",
-    "rating": 4.5
+    "apple_store_url": "https://apps.apple.com/app/id6808542323",
+    "rating": 1.5
   },
   "keywords": [
     "Boom AI: AI Video Generator",
