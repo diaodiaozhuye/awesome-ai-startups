@@ -1,0 +1,16 @@
+{
+  "slug": "emptyroom-ai",
+  "name": "EmptyRoom AI",
+  "product_url": "https://emptyroomai.com/",
+  "description": "AI virtual staging for real estate listing photos. Upload a photo of an empty or occupied room and get a furnished version in a chosen style, with the room architecture kept intact. Listing photos import from Zillow, Realtor.com, Redfin, and Trulia. Pay per room (4.00 USD per staged room) with free unlimited restages of rooms already paid for. Built for listing agents, brokerages, property managers, and home sellers.",
+  "product_type": "app",
+  "category": "ai-image-design",
+  "sub_category": "Virtual staging",
+  "tags": [
+    "virtual-staging",
+    "real-estate",
+    "interior-design",
+    "photo-editing"
+  ],
+  "status": "active"
+}
