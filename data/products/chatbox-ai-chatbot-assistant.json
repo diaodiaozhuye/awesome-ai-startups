@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-11-11",
+    "last_updated": "2026-11-12",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -242,6 +242,11 @@
       "url": "https://apps.apple.com/us/app/chatbox-ai-chat-with-chatbot/id6447763703?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-09-15"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/chatbox-ai-agent-chatbot/id6447763703?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-11-12"
     }
   ],
   "company": {
