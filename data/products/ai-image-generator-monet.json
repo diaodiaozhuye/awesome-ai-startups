@@ -1,14 +1,14 @@
 {
   "slug": "ai-image-generator-monet",
   "name": "AI Image Generator - Monet",
-  "product_url": "https://play.google.com/store/apps/details?id=ai.aiart.aiartgenerator.creart",
+  "product_url": "https://polaroid.eyuva.xyz",
   "description": "Monet is your go-to AI Image Generator, designed to transform your words into breathtaking art! This powerful AI Image Generator lets you unleash your creativity, offering a seamless journey from text to extraordinary art with Monet, the leading edge in AI-driven art creation. Choose from an impressive array of over 10 styles, including lifelike renditions, artistic paintings, vivid anime, classic black and white, and many others, allowing Monet to guide you in crafting stunning and distincti...",
   "product_type": "app",
   "category": "ai-image-design",
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-11-15",
+    "last_updated": "2026-11-16",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -74,7 +74,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-08-15"
+        "updated_at": "2026-11-16"
       },
       "platforms": {
         "source": "llm-batch-combined",
@@ -203,10 +203,10 @@
         "updated_at": "2026-02-20"
       },
       "product_url": {
-        "source": "google_play",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-25"
+        "updated_at": "2026-11-16"
       },
       "pricing.model": {
         "source": "google_play",
@@ -247,6 +247,11 @@
       "url": "https://apps.apple.com/us/app/ai-image-generator-yume/id6502190809?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-08-15"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/ai-image-generator-pixo/id6753970336?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-11-16"
     }
   ],
   "company": {
@@ -280,7 +285,17 @@
     "ES",
     "TR",
     "CS",
-    "EL"
+    "EL",
+    "HR",
+    "DA",
+    "FI",
+    "HU",
+    "NB",
+    "PL",
+    "RO",
+    "SK",
+    "SV",
+    "UK"
   ],
   "platforms": [
     "ios",
@@ -292,8 +307,8 @@
   },
   "release_date": "2022-10-09",
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id1642052142",
-    "rating": 4.6,
+    "apple_store_url": "https://apps.apple.com/app/id6753970336",
+    "rating": 4.9,
     "google_play_url": "https://play.google.com/store/apps/details?id=ai.aiart.aiartgenerator.creart",
     "downloads": "1,000,000+"
   },
