@@ -8,7 +8,7 @@
   "status": "deprecated",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-11-19T17:06:27Z",
+    "last_updated": "2026-11-20T16:46:26Z",
     "provenance": {
       "name": {
         "source": "aibot",
@@ -203,9 +203,9 @@
         "updated_at": "2026-06-11"
       }
     },
-    "url_consecutive_failures": 255,
+    "url_consecutive_failures": 256,
     "url_status": 403,
-    "url_last_checked": "2026-11-19T17:06:27Z"
+    "url_last_checked": "2026-11-20T16:46:26Z"
   },
   "sources": [
     {
