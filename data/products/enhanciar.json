@@ -1,0 +1,58 @@
+{
+  "slug": "enhanciar",
+  "name": "Enhanciar",
+  "product_url": "https://enhanciar.in",
+  "description": "A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve.",
+  "product_type": "app",
+  "category": "ai-search-retrieval",
+  "status": "active",
+  "tags": [
+    "knowledge-base",
+    "company-brain",
+    "enterprise-search",
+    "mcp",
+    "paid"
+  ],
+  "meta": {
+    "added_date": "2026-11-06",
+    "last_updated": "2026-11-06",
+    "provenance": {
+      "name": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-11-06"
+      },
+      "product_url": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-11-06"
+      },
+      "description": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-11-06"
+      },
+      "product_type": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-11-06"
+      },
+      "category": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-11-06"
+      },
+      "status": {
+        "source": "manual",
+        "tier": 1,
+        "confidence": 1.0,
+        "updated_at": "2026-11-06"
+      }
+    }
+  }
+}
