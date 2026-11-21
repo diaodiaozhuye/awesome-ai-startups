@@ -1,14 +1,14 @@
 {
   "slug": "ai-photo-editor-remove-object",
   "name": "AI Photo Editor, Remove Object",
-  "product_url": "https://play.google.com/store/apps/details?id=ai.photo.editor.eraser.app",
+  "product_url": "https://coolsummerdev.com/contact-us/",
   "description": "All-in-one photo editor and design app that helps you create polished, pro-quality images with ease.\n\nNo design skills? No problem. AI Photo Editor - BgMaster creates pro-quality product photos in seconds. Remove or change backgrounds, erase unwanted objects, and add custom text or graphics in just a few taps. Whether you’re selling on Etsy, Amazon, or Shopify, AI Photo Editor - BgMaster helps your images stand out and drive more sales.Perfect for e-commerce sellers and creators who want poli...",
   "product_type": "app",
   "category": "ai-video-animation",
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-11-04",
+    "last_updated": "2026-11-21",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -209,10 +209,10 @@
         "updated_at": "2026-02-25"
       },
       "product_url": {
-        "source": "google_play",
+        "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-02-28"
+        "updated_at": "2026-11-21"
       }
     }
   },
@@ -292,7 +292,7 @@
   },
   "release_date": "2024-05-01",
   "app_store": {
-    "apple_store_url": "https://apps.apple.com/app/id6447604690",
+    "apple_store_url": "https://apps.apple.com/app/id6499191999",
     "rating": 4.6,
     "google_play_url": "https://play.google.com/store/apps/details?id=ai.photo.editor.eraser.app",
     "downloads": "1,000,000+"
