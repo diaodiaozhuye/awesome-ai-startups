@@ -8,7 +8,7 @@
   "status": "active",
   "meta": {
     "added_date": "2026-02-16",
-    "last_updated": "2026-11-24",
+    "last_updated": "2026-11-25",
     "provenance": {
       "name": {
         "source": "app_store",
@@ -74,7 +74,7 @@
         "source": "app_store",
         "tier": 2,
         "confidence": 0.75,
-        "updated_at": "2026-10-09"
+        "updated_at": "2026-11-25"
       },
       "supported_languages": {
         "source": "app_store",
@@ -262,6 +262,11 @@
       "url": "https://apps.apple.com/us/app/pixelup-ai-photo-enhancer-app/id1589599169?uo=4",
       "source_name": "app_store",
       "scraped_at": "2026-10-21"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/face-dance-ai-photo-animator/id1589749730?uo=4",
+      "source_name": "app_store",
+      "scraped_at": "2026-11-25"
     }
   ],
   "company": {
@@ -277,7 +282,8 @@
     "Graphics & Design",
     "Productivity",
     "Art & Design",
-    "Photo & Video"
+    "Photo & Video",
+    "Entertainment"
   ],
   "supported_languages": [
     "AR",
