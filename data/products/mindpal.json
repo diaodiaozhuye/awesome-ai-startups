@@ -1,0 +1,99 @@
+{
+  "slug": "mindpal",
+  "name": "MindPal",
+  "name_zh": "MindPal",
+  "product_url": "https://mindpal.space",
+  "icon_url": "https://mindpal.space/logo/logo.png",
+  "description": "MindPal is where coaches, consultants, agencies and educators turn their expertise into AI tools, chatbots and workflows for their clients, team and audience.",
+  "description_zh": "MindPal 让教练、顾问、代理机构和教育者把自己的专业知识变成 AI 工具、聊天机器人和工作流，供客户、团队和受众使用。",
+  "product_type": "app",
+  "category": "ai-chatbot-agent",
+  "sub_category": "ai agent",
+  "tags": [
+    "AI Agent",
+    "AI Chatbot",
+    "AI Workflow",
+    "AI Productivity Tools"
+  ],
+  "keywords": [
+    "AI agents",
+    "Multi-agent workflows",
+    "AI chatbots",
+    "No-code",
+    "White-label",
+    "Knowledge base",
+    "AI tools for coaches",
+    "AI tools for consultants"
+  ],
+  "company": {
+    "name": "MindPal",
+    "name_zh": "MindPal",
+    "url": "https://mindpal.space",
+    "website": "https://mindpal.space",
+    "logo_url": "https://mindpal.space/logo/logo.png",
+    "description": "Platform where expert-based businesses turn their expertise into AI tools for their clients.",
+    "employee_count_range": "1-10"
+  },
+  "modalities": [
+    "text",
+    "multimodal"
+  ],
+  "platforms": [
+    "web",
+    "api"
+  ],
+  "api_available": true,
+  "api_docs_url": "https://docs.mindpal.space/workflow/trigger/api",
+  "open_source": false,
+  "pricing": {
+    "model": "freemium",
+    "has_free_tier": true,
+    "url": "https://mindpal.space/pricing"
+  },
+  "target_audience": [
+    "coaches",
+    "consultants",
+    "agencies",
+    "educators",
+    "businesses",
+    "non-technical-users"
+  ],
+  "use_cases": [
+    "agent-building",
+    "workflow-automation",
+    "conversational-ai",
+    "ai-chat",
+    "task-automation"
+  ],
+  "competitors": [
+    "n8n",
+    "make"
+  ],
+  "status": "active",
+  "sources": [
+    {
+      "url": "https://mindpal.space",
+      "source_name": "official",
+      "scraped_at": "2026-11-28"
+    },
+    {
+      "url": "https://mindpal.space/pricing",
+      "source_name": "official",
+      "scraped_at": "2026-11-28"
+    },
+    {
+      "url": "https://www.toolify.ai/tool/mindpal-for-youtube",
+      "source_name": "toolify",
+      "scraped_at": "2026-02-16"
+    },
+    {
+      "url": "https://www.toolify.ai/tool/set-forget-by-mindpal",
+      "source_name": "toolify",
+      "scraped_at": "2026-02-16"
+    }
+  ],
+  "meta": {
+    "added_date": "2026-02-16",
+    "last_updated": "2026-11-28"
+  }
+}
